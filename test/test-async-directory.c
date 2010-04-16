@@ -24,6 +24,8 @@
 #include <config.h>
 
 #include <glib.h>
+#include <glib/gprintf.h>
+
 #include <libmatevfs/mate-vfs-async-ops.h>
 #include <libmatevfs/mate-vfs-init.h>
 #include <stdio.h>
