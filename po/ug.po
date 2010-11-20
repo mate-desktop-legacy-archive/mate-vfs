@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mate-vfs\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2010-10-29 00:35+0000\n"
+"POT-Creation-Date: 2010-11-13 23:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -25,7 +25,7 @@ msgstr ""
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
-msgstr ""
+msgstr "%s:%u نىڭ تەركىبىدە NUL ھەرپلىرى بار."
 
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
@@ -40,7 +40,7 @@ msgstr ""
 #: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
 msgid "%s:%u has unknown options %s."
-msgstr ""
+msgstr "%s:%u نىڭدا ناتونۇش تاللانما %s مەۋجۇت."
 
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
@@ -60,11 +60,11 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
-msgstr ""
+msgstr "AFFS دىسكا"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
-msgstr ""
+msgstr "AFS تور دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
@@ -77,7 +77,7 @@ msgstr ""
 #: ../libmatevfs/mate-vfs-filesystem-type.c:43
 #: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
-msgstr ""
+msgstr "CD-ROM قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
@@ -131,7 +131,7 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
-msgstr ""
+msgstr "CDROM دىسكا"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
@@ -348,7 +348,7 @@ msgstr "ペンドライブ"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
-msgstr ""
+msgstr "%s %s مۇزىكا قويغۇ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:437
 #, c-format
@@ -398,7 +398,7 @@ msgstr "DVD-RAM دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:538
 msgid "Blank DVD-R Disc"
-msgstr ""
+msgstr "قۇرۇق DVD-R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:540
 msgid "DVD-R Disc"
@@ -449,7 +449,7 @@ msgstr ""
 #: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
-msgstr ""
+msgstr "ئوچۇق GIOChannel ئۈچۈن pipe قۇرغىلى بولمىدى: %s"
 
 #: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
@@ -799,51 +799,51 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
-msgstr ""
+msgstr "CD-ROM/DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:574
 msgid "CD-ROM/DVD-RAM"
-msgstr ""
+msgstr "CD-ROM/DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:575
 msgid "CD-ROM/DVD-R"
-msgstr ""
+msgstr "CD-ROM/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
 msgid "CD-ROM/DVD-RW"
-msgstr ""
+msgstr "CD-ROM/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
 msgid "CD-R/DVD-ROM"
-msgstr ""
+msgstr "CD-R/DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
 msgid "CD-R/DVD-RAM"
-msgstr ""
+msgstr "CD-R/DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
 msgid "CD-R/DVD-R"
-msgstr ""
+msgstr "CD-R/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
 msgid "CD-R/DVD-RW"
-msgstr ""
+msgstr "CD-R/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
 msgid "CD-RW/DVD-ROM"
-msgstr ""
+msgstr "CD-RW/DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
 msgid "CD-RW/DVD-RAM"
-msgstr ""
+msgstr "CD-RW/DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
 msgid "CD-RW/DVD-R"
-msgstr ""
+msgstr "CD-RW/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:584
 msgid "CD-RW/DVD-RW"
-msgstr ""
+msgstr "CD-RW/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
 msgid "Disk"
@@ -859,7 +859,7 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
-msgstr ""
+msgstr "CF"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
 msgid "SD/MMC"
