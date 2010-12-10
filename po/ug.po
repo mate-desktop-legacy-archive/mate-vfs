@@ -4,14 +4,15 @@
 # Gheyret Kenji<gheyret@yahoo.com>,2010.
 # Sahran <sahran.ug@gmail.com>, 2010.
 # Zeper <zeper@msn.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2010-11-13 23:05+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Gheyret Kenji<gheyret@yahoo.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
+"vfs&component=general\n"
+"POT-Creation-Date: 2010-12-04 12:03+0000\n"
+"PO-Revision-Date: 2010-12-10 00:01+0600\n"
+"Last-Translator: Sahran <sahran@live.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,59 +21,59 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
-msgstr ""
+msgstr "ISO 9660 دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
-msgstr "%s:%u نىڭ تەركىبىدە NUL ھەرپلىرى بار."
+msgstr "%s:%u دا بوش(NUL) ھەرپى بار."
 
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
-msgstr ""
+msgstr "%s:%u ئۇسۇل ئاتىنى ئۆز ئىچىگە ئالمىغان."
 
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
-msgstr ""
+msgstr "%s:%u دا تاللانما ئاخىرلىشىش بەلگىسى يوق."
 
 #: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
 msgid "%s:%u has unknown options %s."
-msgstr "%s:%u نىڭدا ناتونۇش تاللانما %s مەۋجۇت."
+msgstr "%s:%u دا نامەلۇم تاللانما %s بار."
 
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
 msgid "%s:%u contains no module name."
-msgstr ""
+msgstr "%s:%u مودېل ئاتىنى ئۆز ئىچىگە ئالمىغان."
 
 #: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
 msgid "Configuration file `%s' was not found: %s"
-msgstr ""
+msgstr "`%s' سەپلىمە ھۆججەت تېپىلمىدى: %s"
 
 #. stop parsing if we failed
 #: ../libmatevfs/mate-vfs-configuration.c:382
 #, c-format
 msgid "%s:%d aborted parsing."
-msgstr ""
+msgstr "%s:%d نى بىر تەرەپ قىلىش توختىتىلدى."
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
-msgstr "AFFS دىسكا"
+msgstr "AFFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
-msgstr "AFS تور دىسكىسى"
+msgstr "AFFS تور دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
-msgstr ""
+msgstr "ئۆزلۈكىدىن بايقىلىدىغان دىسكا"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
 msgid "Btrfs Linux Volume"
-msgstr ""
+msgstr "Btrfs Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:43
 #: ../libmatevfs/mate-vfs-filesystem-type.c:45
@@ -81,71 +82,71 @@ msgstr "CD-ROM قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
-msgstr ""
+msgstr "CD رەقەملىك ئۈن"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
-msgstr ""
+msgstr "قاتتىق دېتال ئۈسكىنە دىسكا"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
-msgstr ""
+msgstr "EncFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
 msgid "eCryptfs Volume"
-msgstr ""
+msgstr "eCryptfs دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:49
 #: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
-msgstr ""
+msgstr "Ext2 Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
-msgstr ""
+msgstr "Ext3 Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
 msgid "Ext4 Linux Volume"
-msgstr ""
+msgstr "Ext4 Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:54
 #: ../libmatevfs/mate-vfs-filesystem-type.c:68
 #: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
-msgstr ""
+msgstr "MSDOS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:55
 #: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
-msgstr ""
+msgstr "BSD دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
-msgstr ""
+msgstr "FUSE دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:57
 #: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
-msgstr ""
+msgstr "MacOS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
-msgstr "CDROM دىسكا"
+msgstr "CDROM دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
-msgstr ""
+msgstr "Hsfs CDROM دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
-msgstr ""
+msgstr "JFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:62
 #: ../libmatevfs/mate-vfs-filesystem-type.c:71
 #: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
-msgstr ""
+msgstr "Windows NT دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:63
 #: ../libmatevfs/mate-vfs-filesystem-type.c:65
@@ -153,91 +154,91 @@ msgstr ""
 #: ../libmatevfs/mate-vfs-filesystem-type.c:76
 #: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
-msgstr ""
+msgstr "سىستېما دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
-msgstr ""
+msgstr "ئەسلەك دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
-msgstr ""
+msgstr "Minix دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
-msgstr ""
+msgstr "NFS تور دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
 msgid "NILFS Linux Volume"
-msgstr ""
+msgstr "NILFS Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
-msgstr ""
+msgstr "Netware دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
-msgstr ""
+msgstr "Reiser4 Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
-msgstr ""
+msgstr "ReiserFS Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
-msgstr ""
+msgstr "Windows ھەمبەھىر دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
-msgstr ""
+msgstr "SuperMount دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
-msgstr ""
+msgstr "DVD دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
-msgstr ""
+msgstr "Solaris/BSD دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
-msgstr ""
+msgstr "Udfs Solaris دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
-msgstr ""
+msgstr "Pcfs Solaris دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
-msgstr ""
+msgstr "Sun SAM-QFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
-msgstr ""
+msgstr "ۋاقىتلىق دىسكا"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
-msgstr ""
+msgstr "كۈچەيتىلگەن DOS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
-msgstr ""
+msgstr "Windows VFAT دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
-msgstr ""
+msgstr "Xenix دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
-msgstr ""
+msgstr "XFS Linux دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
-msgstr ""
+msgstr "XIAFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
-msgstr ""
+msgstr "CIFS دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
@@ -247,7 +248,7 @@ msgstr "نامەلۇم"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:582
 #, c-format
 msgid "%s Volume"
-msgstr "%s دىسكا"
+msgstr "%s دىسكىسى"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:372
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:565
@@ -317,15 +318,15 @@ msgstr "يۇمشاق دىسكا قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:409
 msgid "Compact Flash Drive"
-msgstr "コンパクトフラッシュドライブ"
+msgstr "Compact Flash قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
-msgstr "メモリースティックドライブ"
+msgstr "Memory Stick(MS) قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:413
 msgid "Smart Media Drive"
-msgstr "スマートメディアドライブ"
+msgstr "Smart Media(SM) قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:415
 msgid "SD/MMC Drive"
@@ -343,7 +344,7 @@ msgstr "Jaz قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
-msgstr "ペンドライブ"
+msgstr "Pen قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
@@ -357,12 +358,12 @@ msgstr "%s %s رەقەملىك كامېرا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:467
 msgid "Drive"
-msgstr "ドライブ"
+msgstr "قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:472
 #, c-format
 msgid "External %s"
-msgstr ""
+msgstr "سىرتقى %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:508
 msgid "CD-ROM Disc"
@@ -370,7 +371,7 @@ msgstr "CD-ROM دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:513
 msgid "Blank CD-R Disc"
-msgstr "بوش CD-R دىسكا"
+msgstr "قۇرۇق CD-R دىسكا "
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:515
 msgid "CD-R Disc"
@@ -378,7 +379,7 @@ msgstr "CD-R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:520
 msgid "Blank CD-RW Disc"
-msgstr "بوش CD-RW دىسكا"
+msgstr "قۇرۇق CD-RW دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:522
 msgid "CD-RW Disc"
@@ -390,7 +391,7 @@ msgstr "DVD-ROM دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
-msgstr "بوش DVD-RAM دىسكا"
+msgstr "قۇرۇق DVD-RAM دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
@@ -402,11 +403,11 @@ msgstr "قۇرۇق DVD-R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:540
 msgid "DVD-R Disc"
-msgstr ""
+msgstr "DVD-R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:545
 msgid "Blank DVD-RW Disc"
-msgstr "بوش DVD-RW دىسكا"
+msgstr "قۇرۇق DVD-RW دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:547
 msgid "DVD-RW Disc"
@@ -414,7 +415,7 @@ msgstr "DVD-RW دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:553
 msgid "Blank DVD+R Disc"
-msgstr "بوش DVD+R دىسكا"
+msgstr "قۇرۇق DVD+R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:555
 msgid "DVD+R Disc"
@@ -422,7 +423,7 @@ msgstr "DVD+R دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:560
 msgid "Blank DVD+RW Disc"
-msgstr "بوش DVD+RW دىسكا"
+msgstr "قۇرۇق DVD+RW دىسكا"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:562
 msgid "DVD+RW Disc"
@@ -435,16 +436,16 @@ msgstr "ئۈن دىسكا"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:580
 #, c-format
 msgid "%s Removable Volume"
-msgstr "%s يۆتكىلىشچان دىسكا"
+msgstr "%s يۆتكىلىشچان ئەن"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:591
 msgid "Volume"
-msgstr "قىممەت"
+msgstr "دىسكا"
 
 #: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
-msgstr ""
+msgstr "نامەلۇم مەشغۇلات تىپى %u"
 
 #: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
@@ -454,11 +455,11 @@ msgstr "ئوچۇق GIOChannel ئۈچۈن pipe قۇرغىلى بولمىدى: %s"
 #: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
-msgstr ""
+msgstr "نامەلۇم خىزمەت تۈرى %u"
 
 #: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
-msgstr ""
+msgstr "مەشغۇلات توختىدى"
 
 #: ../libmatevfs/mate-vfs-mime-handlers.c:103
 #: ../libmatevfs/mate-vfs-mime-handlers.c:231
@@ -492,15 +493,17 @@ msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
 msgstr ""
+"تەۋسىيە قىلىنمايدىغان مەشغۇلات. ئىشلەتكۈچىنىڭ MIME ساندانىنى تەھرىرلەشنى "
+"قوللىمايدۇ."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
-msgstr ""
+msgstr "تەھلىل قىلالمىدى: %s"
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
-msgstr ""
+msgstr "تېخىمۇ كۆپ تەھلىل خاتالىقىغا پەرۋا قىلمايدۇ."
 
 #. MATE_VFS_OK
 #: ../libmatevfs/mate-vfs-result.c:47
@@ -515,7 +518,7 @@ msgstr "ھۆججەت تېپىلمىدى"
 #. MATE_VFS_ERROR_GENERIC
 #: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
-msgstr "ئادەتتىكى خاتالىق"
+msgstr "ئادەتتىكى خاتالىق "
 
 #. MATE_VFS_ERROR_INTERNAL
 #: ../libmatevfs/mate-vfs-result.c:50
@@ -525,7 +528,7 @@ msgstr "ئىچكى خاتالىق"
 #. MATE_VFS_ERROR_BAD_PARAMETERS
 #: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
-msgstr ""
+msgstr "ئىناۋەتسىز پارامېتىر"
 
 #. MATE_VFS_ERROR_NOT_SUPPORTED
 #: ../libmatevfs/mate-vfs-result.c:52
@@ -540,22 +543,22 @@ msgstr "I/O خاتالىقى"
 #. MATE_VFS_ERROR_CORRUPTED_DATA
 #: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
-msgstr ""
+msgstr "سانلىق مەلۇمات بۇزۇلغان"
 
 #. MATE_VFS_ERROR_WRONG_FORMAT
 #: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
-msgstr ""
+msgstr "ئىناۋەتسىز فورمات"
 
 #. MATE_VFS_ERROR_BAD_FILE
 #: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
-msgstr ""
+msgstr "خاتا ھۆججەت تۇتقۇسى"
 
 #. MATE_VFS_ERROR_TOO_BIG
 #: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
-msgstr ""
+msgstr "ھۆججەت بەك چوڭ"
 
 #. MATE_VFS_ERROR_NO_SPACE
 #: ../libmatevfs/mate-vfs-result.c:58
@@ -565,7 +568,7 @@ msgstr "ئۈسكۈنىدە يېتەرلىك بوشلۇق يوق"
 #. MATE_VFS_ERROR_READ_ONLY
 #: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
-msgstr ""
+msgstr "ئوقۇشقىلا بولىدىغان ھۆججەت سىستېمىسى"
 
 #. MATE_VFS_ERROR_INVALID_URI
 #: ../libmatevfs/mate-vfs-result.c:60
@@ -575,12 +578,12 @@ msgstr "ئىناۋەتسىز URI"
 #. MATE_VFS_ERROR_NOT_OPEN
 #: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
-msgstr ""
+msgstr "ھۆججەت ئېچىلمىغان"
 
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
 #: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
-msgstr ""
+msgstr "ئېچىش ھالىتى ئىناۋەتسىز"
 
 #. MATE_VFS_ERROR_ACCESS_DENIED
 #: ../libmatevfs/mate-vfs-result.c:63
@@ -590,12 +593,12 @@ msgstr "زىيارەت رەت قىلىندى"
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
 #: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
-msgstr ""
+msgstr "ئېچىلغان ھۆججەت بەك كۆپ"
 
 #. MATE_VFS_ERROR_EOF
 #: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
-msgstr ""
+msgstr "ھۆججەت ئاخىرى"
 
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:66
@@ -605,12 +608,12 @@ msgstr "مۇندەرىجە ئەمەس"
 #. MATE_VFS_ERROR_IN_PROGRESS
 #: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
-msgstr ""
+msgstr "مەشغۇلات ئىشلىنىۋاتىدۇ"
 
 #. MATE_VFS_ERROR_INTERRUPTED
 #: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
-msgstr ""
+msgstr "مەشغۇلات ئۈزۈلدى"
 
 #. MATE_VFS_ERROR_FILE_EXISTS
 #: ../libmatevfs/mate-vfs-result.c:69
@@ -620,37 +623,37 @@ msgstr "ھۆججەت مەۋجۇت"
 #. MATE_VFS_ERROR_LOOP
 #: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
-msgstr ""
+msgstr "دەۋرىي ئۇلانمىغا يولۇقتى"
 
 #. MATE_VFS_ERROR_NOT_PERMITTED
 #: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
-msgstr ""
+msgstr "يول قويۇلمايدىغان مەشغۇلات"
 
 #. MATE_VFS_ERROR_IS_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
-msgstr ""
+msgstr "بىر مۇندەرىجە"
 
 #. MATE_VFS_ERROR_NO_MEMORY
 #: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
-msgstr "يېتەرلىك ئەسلەك يوق"
+msgstr "يېتەرلىك  ئەسلەك يوق"
 
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
-msgstr ""
+msgstr "ماشىنا تېپىلمىدى"
 
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
 #: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
-msgstr ""
+msgstr "ماشىنا ئاتى ئىناۋەتسىز"
 
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
 #: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
-msgstr ""
+msgstr "ماشىنىنىڭ ئادرېسى يوق"
 
 #. MATE_VFS_ERROR_LOGIN_FAILED
 #: ../libmatevfs/mate-vfs-result.c:77
@@ -660,32 +663,32 @@ msgstr "تىزىمغا كىرەلمىدى"
 #. MATE_VFS_ERROR_CANCELLED
 #: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
-msgstr "مەشغۇلات بىكار قىلىندى"
+msgstr "مەشغۇلات ئەمەلدىن قالدۇرۇلدى"
 
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
 #: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
-msgstr ""
+msgstr "مۇندەرىجە ئالدىراش"
 
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
 #: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
-msgstr "مۇندەرىجە بوش ئەمەس"
+msgstr "مۇندەرىجە قۇرۇق ئەمەس"
 
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
 #: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
-msgstr ""
+msgstr "ئۇلانمىلار بەك كۆپ"
 
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
-msgstr ""
+msgstr "ئوقۇشقىلا بولىدىغان ھۆججەت سىستېمىسى"
 
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
-msgstr ""
+msgstr "ئوخشاش ھۆججەت سىستېمىسىدا ئەمەس"
 
 #. MATE_VFS_ERROR_NAME_TOO_LONG
 #: ../libmatevfs/mate-vfs-result.c:84
@@ -695,12 +698,12 @@ msgstr "ئات بەك ئۇزۇن"
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
 #: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
-msgstr ""
+msgstr "مۇلازىمەتنى ئىشلەتكىلى بولمايدۇ"
 
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
 #: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
-msgstr ""
+msgstr "تاشلىۋېتىلگەن مۇلازىمەت سانلىق مەلۇمات ئىلتىماسى"
 
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
 #: ../libmatevfs/mate-vfs-result.c:87
@@ -710,47 +713,47 @@ msgstr "كېلىشىم خاتالىقى"
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
 #: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
-msgstr ""
+msgstr "ئاساسىي توركۆرگۈنى تاپالمىدى"
 
 #. MATE_VFS_ERROR_NO_DEFAULT
 #: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
-msgstr ""
+msgstr "باغلانغان كۆڭۈلدىكى مەشغۇلات يوق"
 
 #. MATE_VFS_ERROR_NO_HANDLER
 #: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
-msgstr ""
+msgstr "URL لايىھىسىنىڭ بىر تەرەپ قىلىش پروگراممىسى يوق"
 
 #. MATE_VFS_ERROR_PARSE
 #: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
-msgstr ""
+msgstr "بۇيرۇق قۇرىنى تەھلىل قىلىش خاتالىقى"
 
 #. MATE_VFS_ERROR_LAUNCH
 #: ../libmatevfs/mate-vfs-result.c:92
 msgid "Error launching command"
-msgstr ""
+msgstr "بۇيرۇق ئىجرا قىلىش خاتالىقى"
 
 #. MATE_VFS_ERROR_TIMEOUT
 #: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
-msgstr ""
+msgstr "ۋاقىت ھالقىش چېكىگە يەتتى"
 
 #. MATE_VFS_ERROR_NAMESERVER
 #: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
-msgstr ""
+msgstr "ئات مۇلازىمېتىر خاتالىقى"
 
 #. MATE_VFS_ERROR_LOCKED
 #: ../libmatevfs/mate-vfs-result.c:95
 msgid "The resource is locked"
-msgstr ""
+msgstr "مەنبە قۇلۇپلاقلىق"
 
 #. MATE_VFS_ERROR_DEPRECATED_FUNCTION
 #: ../libmatevfs/mate-vfs-result.c:96
 msgid "Function call deprecated"
-msgstr ""
+msgstr "فۇنكسىيە چاقىرىش تەۋسىيە قىلىنمايدۇ"
 
 #. MATE_VFS_ERROR_INVALID_FILENAME
 #: ../libmatevfs/mate-vfs-result.c:97
@@ -760,7 +763,7 @@ msgstr "ئىناۋەتسىز ھۆججەت ئاتى"
 #. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
 #: ../libmatevfs/mate-vfs-result.c:98
 msgid "Not a symbolic link"
-msgstr ""
+msgstr "بەلگە ئۇلانمىسى ئەمەس"
 
 #: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
@@ -770,7 +773,7 @@ msgstr "نامەلۇم خاتالىق"
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "بايت %u"
+msgstr[0] "%u بايت"
 
 #: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
@@ -795,7 +798,7 @@ msgstr " (ئىناۋەتسىز يۇنىكود)"
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:620
 msgid "Floppy"
-msgstr ""
+msgstr "يۇمشاق دىسكا "
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
@@ -855,7 +858,7 @@ msgstr "USB قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
 msgid "IEEE1394 Drive"
-msgstr ""
+msgstr "IEEE1394 قوزغاتقۇچ"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
@@ -863,7 +866,7 @@ msgstr "CF"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
 msgid "SD/MMC"
-msgstr ""
+msgstr "SD/MMC"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
@@ -872,19 +875,19 @@ msgstr "Memory Stick"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
-msgstr ""
+msgstr "Smart Media"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
 msgid "Camera"
-msgstr "فوتو ئاپپارات"
+msgstr "كامېرا"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:597
 msgid "DVD"
-msgstr "DVD"
+msgstr "DVD "
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
-msgstr ""
+msgstr "غول دىسكا"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
@@ -892,11 +895,11 @@ msgstr "ئۈن CD"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
-msgstr ""
+msgstr "نامەلۇم دىسكا"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
-msgstr ""
+msgstr "تور مۇلازىمېتىر"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
@@ -904,12 +907,14 @@ msgstr ""
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr ""
+"يۇمشاق دىسكا قوزغاتقۇچنى ئېگەرلىيەلمىدى. قوزغاتقۇچتا يۇمشاق دىسكا بولماسلىقى "
+"مۇمكىن."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
+msgstr "دىسكىنى ئېگەرلىيەلمىدى. ئۈسكۈنىدە ۋاسىتە يوق بولۇشى مۇمكىن."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
@@ -917,6 +922,8 @@ msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
 msgstr ""
+"يۇمشاق دىسكا قوزغاتقۇچنى ئېگەرلىيەلمىدى. يۇمشاق دىسكىنىڭ فورماتىنى "
+"ئېگەرلىيەلمىگەن بولۇشى مۇمكىن."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -925,6 +932,8 @@ msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
 msgstr ""
+"دىسكىنى ئېگەرلىيەلمىدى. ئەگەر بۇ دىسكا شىفىرلانغان قوزغاتقۇچ بولسا خاتا ئىم "
+"ياكى ئاچقۇچ ئىشلىتىلگەن بولۇشى مۇمكىن."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
@@ -932,14 +941,16 @@ msgid ""
 "Unable to mount the selected volume. The volume is probably in a format that "
 "cannot be mounted."
 msgstr ""
+"تاللانغان دىسكىنى ئېگەرلىيەلمىدى. دىسكا ئېگەرلىگىلى بولمايدىغان فورماتتا "
+"بولۇشى مۇمكىن."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
-msgstr ""
+msgstr "تاللانغان يۇمشاق دىسكا قوزغاتقۇچنى ئېگەرلىيەلمىدى."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:208
 msgid "Unable to mount the selected volume."
-msgstr ""
+msgstr "تاللانغان دىسكىنى ئېگەرلىيەلمىدى."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
 #, c-format
@@ -947,47 +958,51 @@ msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
 msgstr ""
+"تاللانغان دىسكىنى ئېگەردىن بوشىتالمىدى. ئەننى بىر ياكى بىر قانچە پروگرامما "
+"ئىشلىتىۋاتقان بولۇشى مۇمكىن."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
-msgstr ""
+msgstr "تاللانغان دىسكىنى ئېگەردىن بوشىتالمىدى."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:377
 #, c-format
 msgid "Failed to read data from child process %d (%s)"
-msgstr ""
+msgstr "تارماق جەريان %d (%s) دىن سانلىق مەلۇمات ئوقۇيالمىدى"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:421
 msgid "Couldn't run mount process in a pty"
-msgstr ""
+msgstr "pty دا ئېگەرلەش مەشغۇلاتىنى ئىجرا قىلالمىدى"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
 msgstr ""
+"جەريان (%s) دىن سانلىق مەلۇمات ئوقۇۋاتقاندا select() دا تاسادىپىي خاتالىق "
+"كۆرۈلدى"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
 msgid "Couldn't send password to mount process."
-msgstr ""
+msgstr "ئېگەرلەش جەريانغا ئىم يوللىيالمىدى."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:559
 #, c-format
 msgid "Unexpected error in waitpid() (%s)"
-msgstr ""
+msgstr "waitpid() دا تاسادىپىي خاتالىق كۆرۈلدى (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:669
 #: ../libmatevfs/mate-vfs-volume-ops.c:755
 msgid "Failed to start command"
-msgstr ""
+msgstr "بۇيرۇق قوزغىتىش مەغلۇپ بولدى"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:742
 msgid "Unable to eject media"
-msgstr ""
+msgstr "ۋاسىتىنى قاڭقىتالمىدى"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:983
 msgid "Unable to unmount connected server"
-msgstr ""
+msgstr "باغلانغان مۇلازىمېتىردىن ئايرىلالمىدى"
 
 #: ../modules/computer-method.c:543
 msgid "Network"
@@ -995,7 +1010,7 @@ msgstr "تور"
 
 #: ../modules/computer-method.c:561
 msgid "Home"
-msgstr "Home"
+msgstr "ماكان"
 
 #: ../modules/computer-method.c:579
 msgid "Filesystem"
@@ -1004,7 +1019,7 @@ msgstr "ھۆججەت سىستېمىسى"
 #: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
-msgstr ""
+msgstr "نامەلۇم MateVFSSeekPosition %d"
 
 #: ../modules/network-method.c:1399
 msgid "Windows Network"
@@ -1013,7 +1028,7 @@ msgstr "Windows تورى"
 #: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
-msgstr ""
+msgstr "يىراقتىكى كومپيۇتېر (%s)نىڭ كىملىكى نامەلۇم."
 
 #: ../modules/sftp-method.c:1425
 #, c-format
@@ -1023,6 +1038,10 @@ msgid ""
 "The identity sent by the remote computer is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
+"بۇ خىل ئەھۋال سىز تۇنجى قېتىم كومپيۇتېرغا تىزىمغا كىرگەندە كۆرۈلىدۇ.\n"
+"\n"
+"يىراقتىكى كومپيۇتېر يوللىغان كىملىك %s . ئەگەر سىز مۇتلەق ئىشەنسىڭىز "
+"داۋاملاشتۇرسىڭىز بىخەتەر، سىستېما باشقۇرغۇچى بىلەن ئالاقىلىشىڭ."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1036,55 +1055,56 @@ msgstr "تىزىمغا كىرىشتىن ۋاز كەچ"
 #: ../modules/test-method.c:587
 #, c-format
 msgid "Didn't find a valid settings file at %s\n"
-msgstr ""
+msgstr "%s دىن ئىناۋەتلىك سەپلىمە ھۆججەتنى تاپالمىدى\n"
 
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
+msgstr "%s مۇھىت ئۆزگەرگۈچى مىقدارىنى ئىشلىتىپ باشقا ئورۇننىڭ بەلگىلەڭ.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
-msgstr "HTTP ۋاكالەتچىڭىز تىزىملاشنى تەلەپ قىلىدۇ.\n"
+msgstr "HTTP ۋاكالەتچىڭىز تىزىمغا كىرىشىڭىزنى تەلەپ قىلىدۇ.\n"
 
 #: ../programs/authentication.c:107
 #, c-format
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr "سىز تىزىمغا كىرگەندىلا ئاندىن «%s» نى زىيارەت قىلالايسىز.\n"
+msgstr ""
+"سىز تىزىمغا كىرگەندىلا ئاندىن «%s» نى زىيارەت قىلالايسىز.\n"
 "%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
-msgstr "ئىمىڭىز شىفىرلىنىپ يوللىنىدۇ."
+msgstr "ئىم شىفىرلانماي يوللىنىدۇ."
 
 #: ../programs/authentication.c:111
 msgid "Your password will be transmitted encrypted."
-msgstr "ئىمىڭىز شىفىرلىنىپ يوللىنىدۇ."
+msgstr "ئىم شىفىرلىنىپ يوللىنىدۇ."
 
 #: ../programs/authentication.c:163
 #, c-format
 msgid "You must log in to access %s domain %s\n"
-msgstr "سىز چوقۇم تىزىمغا كىرگەندە ئاندىن %s دائىرىنى زىيارەت قىلالايسىز%s\n"
+msgstr "سىز چوقۇم تىزىمغا كىرگەندە ئاندىن %s دائىرىنى زىيارەت قىلالايسىز %s\n"
 
 #: ../programs/authentication.c:165
 #, c-format
 msgid "You must log in to access %s\n"
-msgstr "سىز تىزىمغا كىرگەندىلا ئاندىن%s نى زىيارەت قىلالايسىز.\n"
+msgstr "سىز تىزىمغا كىرگەندىلا ئاندىن %s نى زىيارەت قىلالايسىز.\n"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:1
 msgid "Default component viewer application"
-msgstr ""
+msgstr "كۆڭۈلدىكى بۆلەك كۆرگۈچ پروگراممىسى"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:2
 msgid "Default terminal application"
-msgstr ""
+msgstr "كۆڭۈلدىكى تېرمىنال پروگراممىسى"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
-msgstr ""
+msgstr "كۆڭۈلدىكى تېرمىنالنىڭ ئىجرا قىلىش ئەركىن ئۆزگەرگۈچىسى"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
@@ -1093,224 +1113,275 @@ msgid ""
 "them. The parameter %s will be replaced by the file's URIs, the parameter %c "
 "will be replaced by the component IID."
 msgstr ""
+"بۇ پروگرامما بۆلەكلەرلا كۆرەلەيدىغان ھۆججەتلەرنى كۆرۈشكە ئىشلىتىلىدۇ. %s "
+"پارامېتىر ھۆججەتنىڭ URI بىلەن ئالماشتۇرۇلىدۇ، %c پارامېتىر بۆلەك IID بىلەن "
+"ئالماشتۇرۇلىدۇ."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
 msgstr ""
+"تېرمىنالغا ئېھتىياجلىق پروگراممىلار ئىشلىتىدىغان كۆڭۈلدىكى تېرمىنال "
+"پروگراممىسى."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr ""
+"كۆڭۈلدىكى تېرمىنال پروگراممىسى ئىشلىتىدىغان ئىجرا قىلىش ئەركىن ئۆزگەرگۈچىسى."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
-msgstr "بۇيرۇقنى تېرمىنالدا ئىجرا قىلسۇن"
+msgstr "بۇيرۇقنى تېرمىنالدا ئىجرا قىل"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، \"aim\" URL نى بىر تەرەپ قىلىشقا ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"callto\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"ghelp\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"h323\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"http\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"https\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"info\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"mailto\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"man\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
 msgstr ""
+"ئەگەر قوزغىتىلسا، ئەگەر قوزغىتىلسا، \"trash\" URL نى بىر تەرەپ قىلىشقا "
+"ئىشلىتىدىغان بۇيرۇق."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
-msgstr ""
+msgstr "\"aim\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:13
 msgid "The handler for \"callto\" URLs"
-msgstr ""
+msgstr "\"callto\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:14
 msgid "The handler for \"ghelp\" URLs"
-msgstr ""
+msgstr "\"ghelp\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:15
 msgid "The handler for \"h323\" URLs"
-msgstr ""
+msgstr "\"h323\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:16
 msgid "The handler for \"http\" URLs"
-msgstr ""
+msgstr "\"http\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:17
 msgid "The handler for \"https\" URLs"
-msgstr ""
+msgstr "\"https\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:18
 msgid "The handler for \"info\" URLs"
-msgstr ""
+msgstr "\"info\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:19
 msgid "The handler for \"mailto\" URLs"
-msgstr ""
+msgstr "\"mailto\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:20
 msgid "The handler for \"man\" URLs"
-msgstr ""
+msgstr "\"man\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:21
 msgid "The handler for \"trash\" URLs"
-msgstr ""
+msgstr "\"trash\" URL نى بىر تەرەپ قىلىدىغان پروگرامما"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"aim\" URL بىر تەرەپ "
+"قىلىنىدۇ "
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
 "True if the command specified in the \"command\" key should handle \"callto"
 "\" URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"callto\" URL بىر "
+"تەرەپ قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ghelp\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"ghelp\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"h323\" URL بىر تەرەپ "
+"قىلىنىدۇ "
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"http\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
 "True if the command specified in the \"command\" key should handle \"https\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"https\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"info\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
 "True if the command specified in the \"command\" key should handle \"mailto"
 "\" URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"mailto\" URL بىر "
+"تەرەپ قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"man\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
 "True if the command specified in the \"command\" key should handle \"trash\" "
 "URLs."
 msgstr ""
+"True تاللانسا \"command\" دا بىر پروگرامما بېكىتىلىپ \"trash\" URL بىر تەرەپ "
+"قىلىنىدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr "بۇ خىل URL  نى بىر تەرەپ قىلىدىغان بۇيرۇقنى تېرمىنالدا ئىجرا قىلغاندا TRUE تاللىنىدۇ"
+msgstr ""
+"True تاللانسا بۇ خىل URL  نى بىر تەرەپ قىلىدىغان بۇيرۇقنى تېرمىنالدا ئىجرا "
+"قىلىدىغانلىقىنى ئىپادىلەيدۇ."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"aim\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:34
 msgid "Whether the specified command should handle \"callto\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"callto\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:35
 msgid "Whether the specified command should handle \"ghelp\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"ghelp\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:36
 msgid "Whether the specified command should handle \"h323\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"h323\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:37
 msgid "Whether the specified command should handle \"http\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"http\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:38
 msgid "Whether the specified command should handle \"https\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"https\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:39
 msgid "Whether the specified command should handle \"info\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"info\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:40
 msgid "Whether the specified command should handle \"mailto\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"mailto\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:41
 msgid "Whether the specified command should handle \"man\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"man\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:42
 msgid "Whether the specified command should handle \"trash\" URLs"
-msgstr ""
+msgstr "بەلگىلەنگەن بۇيرۇق \"trash\" URL نى بىر تەرەپ قىلامدۇ يوق"
 
 #: ../schemas/system_dns_sd.schemas.in.h:1
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
 msgstr ""
+"پەش بىلەن ئايرىلغان DNS-SD دائىرە ئات تىزىملىكى \"network:///\" ئورۇندا "
+"كۆرسىتىلىدۇ."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
-msgstr ""
+msgstr "DNS-SD مۇلازىمېتىر ئىزدەپ كۆرىدىغان نورمىدىن سىرت دائىرە"
 
 #: ../schemas/system_dns_sd.schemas.in.h:3
 msgid "How to display local DNS-SD service"
-msgstr ""
+msgstr "يەرلىك DNS-SD مۇلازىمىتىنى قانداق كۆرسىتىدۇ"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
 msgstr ""
+"تاللىغىلى بولىدىغان قىممىتى \"merged\" (بىرلەشتۈرۈلگەن)، \"separate\" ۋە "
+"\"disabled\" (چەكلەندى)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1318,19 +1389,20 @@ msgstr "دەلىللەش ۋاكالەتچى مۇلازىمېتىرىغا باغ�
 
 #: ../schemas/system_http_proxy.schemas.in.h:2
 msgid "Automatic proxy configuration URL"
-msgstr "ئاپتوماتىك ۋاكالەتچى تەڭشىكىنىڭ URL ئى"
+msgstr "ئاپتوماتىك ۋاكالەتچى مۇلازىمېتىر تەڭشىكىنىڭ URL ئى"
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
 msgstr ""
+"ئىنتېرنېتتىكىHTTP نى زىيارەت قىلغاندا ۋاكالەتچى مۇلازىمېتىر تەڭشىكىنى قوزغات "
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
-msgstr ""
+msgstr "FTP ۋاكالەتچى ماشىنىسىنىڭ ئاتى"
 
 #: ../schemas/system_http_proxy.schemas.in.h:5
 msgid "FTP proxy port"
-msgstr ""
+msgstr "FTP ۋاكالەتچىنىڭ ئېغىزى"
 
 #: ../schemas/system_http_proxy.schemas.in.h:6
 msgid "HTTP proxy host name"
@@ -1354,6 +1426,9 @@ msgid ""
 "username/password combo is defined by \"/system/http_proxy/"
 "authentication_user\" and \"/system/http_proxy/authentication_password\"."
 msgstr ""
+"true تاللانسا، ۋاكالەتچى مۇلازىمېتىرنىڭ ئۇلىنىشىغا سالاھىيەت دەلىللەش زۆرۈر. "
+"ئىشلەتكۈچى ئاتى/ئىم بىرىكمىسى \"/system/http_proxy/authentication_user\" ۋە "
+"\"/system/http_proxy/authentication_password\" دا ئېنىقلىنىدۇ."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1361,11 +1436,11 @@ msgstr "ۋاكالەتچى ئەمەس ماشىنىلار"
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "HTTP ۋاكالەتچى دەلىللەشتە ئىشلىتىلىدىغان ئىم."
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
-msgstr "ۋاكالەتچى تەڭشەش ھالىتى"
+msgstr "ۋاكالەتچى سەپلىمە ھالىتى"
 
 #: ../schemas/system_http_proxy.schemas.in.h:14
 msgid "SOCKS proxy host name"
@@ -1388,10 +1463,12 @@ msgid ""
 "Select the proxy configuration mode. Supported values are \"none\", \"manual"
 "\", \"auto\"."
 msgstr ""
+"ۋاكالەتچى سەپلىمە ھالىتىنى تاللاش. قوللايدىغان قىممىتى \"none\"(يوق)، "
+"\"manual\"(قولدا)، \"auto\"(ئاپتوماتىك)"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
-msgstr ""
+msgstr "ۋاكالەتچى FTP ماشىنا ئاتى."
 
 #: ../schemas/system_http_proxy.schemas.in.h:20
 msgid "The machine name to proxy HTTP through."
@@ -1410,24 +1487,32 @@ msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
 msgstr ""
+"سىز ئىشلەتكەن ۋاكالەتچى مۇلازىمېتىرنىڭ ئېغىز نومۇرى \"/system/http_proxy/host"
+"\" دا بەلگىلەنگەن."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
 "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
 "through."
 msgstr ""
+"سىز ئىشلەتكەن ۋاكالەتچى مۇلازىمېتىرنىڭ ئېغىز نومۇرى \"/system/proxy/ftp_host"
+"\" دا بەلگىلەنگەن."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
 msgstr ""
+"سىز ئىشلەتكەن ۋاكالەتچى مۇلازىمېتىرنىڭ ئېغىز نومۇرى \"/system/proxy/"
+"secure_host\" دا بەلگىلەنگەن."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
 msgstr ""
+"سىز ئىشلەتكەن ۋاكالەتچى مۇلازىمېتىرنىڭ ئېغىز نومۇرى \"/system/proxy/"
+"socks_host\" دا بەلگىلەنگەن."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
@@ -1436,10 +1521,15 @@ msgid ""
 "(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
 "IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
+"بۇ كۇنۇپكىدا بەلگىلەنگەن ماشىنا تىزىملىكى ۋاكالەتچى(بەلگىلەنگەن بولسا)دىن "
+"ئۆتمەي بىۋاسىتە ئۇلىنىدۇ. ئۇنىڭ قىممىتى ماشىنا ئاتى، دائىرە ئاتى(ئورتاق "
+"بەلگە بىلەن باشلانغان شەكىلنى قوللايدۇ مەسىلەن *.foo.com)، IP ماشىنا ئادرېسى "
+"(IPv4 ۋە IPv6 ھەر ئىككىسى) شۇنداقلا تور ماسكىسىغا ئەگەشكەن تور ئادرېسى "
+"(مەسىلەن، 192.168.0.0/24)"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
-msgstr ""
+msgstr "ۋاكالەتچى سەپلىمە قىممىتىنى تەمىنلەيدىغان URL"
 
 #: ../schemas/system_http_proxy.schemas.in.h:29
 msgid "Use HTTP proxy"
@@ -1447,11 +1537,11 @@ msgstr "HTTP ۋاكالەتچى ئىشلەت"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
+msgstr "HTTP ۋاكالەتچى دەلىللەشتە ئىشلىتىدىغان ئىشلەتكۈچى ئاتى"
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
-msgstr ""
+msgstr "SMB خىزمەت گۇرۇپپىسى"
 
 #: ../schemas/system_smb.schemas.in.h:2
 msgid ""
@@ -1459,3 +1549,6 @@ msgid ""
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
 msgstr ""
+"ئىشلەتكۈچى تەۋە بولغان Windows تور خىزمەت گۇرۇپپىسى ياكى دائىرە. يېڭى خىزمەت "
+"گۇرۇپپىسىنىڭ تولۇق كۈچكە ئىگە بولۇشى ئۈچۈن، ئىشلەتكۈچى تىزىمدىن چىقىپ قايتا "
+"تىزىمغا كىرىشى زۆرۈر بولۇشى مۇمكىن."
