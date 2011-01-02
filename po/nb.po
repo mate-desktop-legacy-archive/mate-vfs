@@ -1,20 +1,23 @@
 # Norwegian translation of mate-vfs (bokmål dialect).
 # Copyright (C) 1999-2003 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
 #
+# Kjartan Maraas <kmaraas@gnome.org>, 1999-2010.
+# Torstein Adolf Winterseth <kvikende@fsfe.org>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-vfs 2.24.x\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-16 21:21+0200\n"
-"PO-Revision-Date: 2010-10-16 21:21+0200\n"
-"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
+"cgi?product=mate-vfs&component=general\n"
+"POT-Creation-Date: 2010-10-16 19:22+0000\n"
+"PO-Revision-Date: 2010-12-30 20:34+0100\n"
+"Last-Translator: Torstein Adolf Winterseth <kvikende@fsfe.org>\n"
 "Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.1\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -1056,7 +1059,7 @@ msgstr "Fant ikke gyldig fil med innstillinger i %s\n"
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr "Bruk miljøvariabelen %s for å spesifisere en annen lokasjon.\n"
+msgstr "Bruk miljøvariabelen %s for å spesifisere en annen adresse.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1221,16 +1224,14 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"callto"
 "\" URLs."
 msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «callto»-"
-"URLer."
+"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «callto»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
 "True if the command specified in the \"command\" key should handle \"ghelp\" "
 "URLs."
 msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «ghelp»-"
-"URLer."
+"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «ghelp»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
@@ -1251,16 +1252,14 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"https\" "
 "URLs."
 msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «https»-"
-"URLer."
+"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «https»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr ""
-" True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «info»-"
-"URLer."
+" True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «info»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
@@ -1282,8 +1281,7 @@ msgid ""
 "True if the command specified in the \"command\" key should handle \"trash\" "
 "URLs."
 msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «trash»-"
-"URLer."
+"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «trash»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
@@ -1337,7 +1335,7 @@ msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
 msgstr ""
-"Kommaseparert liste med DNS-SD-domener som skal være synlige i lokasjonen "
+"Kommaseparert liste med DNS-SD-domener som skal være synlige i adressen "
 "«network:///»."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
@@ -1519,3 +1517,4 @@ msgid ""
 msgstr ""
 "Arbeidsgruppe eller domene brukeren er del av i Windows-nettverket. Brukeren "
 "må logge ut for at endringer skal tre i kraft."
+
