@@ -1,24 +1,26 @@
-# Esperanto translation of mate-vfs.
-# Copyright (C) 2003 Free Software Foundation, Inc.
+# Esperanto translation for mate-vfs.
+# Copyright (C) 2003-2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the mate-vfs package.
 # Charles VOELGER <cvoelger@dweasel.com>, 2003.
-# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010.
+# Michael MORONI < >, 2011.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-vfs 2.3.5\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-05-13 04:01+0000\n"
-"PO-Revision-Date: 2010-07-07 19:30+0200\n"
+"vfs&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-05-19 16:30+0000\n"
+"PO-Revision-Date: 2011-05-27 16:16+0200\n"
 "Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
 "Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
-"X-Launchpad-Export-Date: 2010-06-04 17:44+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"X-Launchpad-Export-Date: 2011-05-25 20:52+0000\n"
+"X-Generator: Launchpad (build 13085)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -27,12 +29,12 @@ msgstr "ISO-9660-portilo"
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
-msgstr ""
+msgstr "%s:%u enhavas NUL-karakterojn."
 
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
-msgstr ""
+msgstr "%s:%u ne enhavas metodnomon."
 
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
@@ -47,7 +49,7 @@ msgstr "%s:%u havas nekonatajn opciojn %s."
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
 msgid "%s:%u contains no module name."
-msgstr ""
+msgstr "%s:%u ne enhavas modulnomon."
 
 #: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
@@ -58,7 +60,7 @@ msgstr "Agordodosiero '%s' ne estis trovita: %s"
 #: ../libmatevfs/mate-vfs-configuration.c:382
 #, c-format
 msgid "%s:%d aborted parsing."
-msgstr ""
+msgstr "%s:%d ĉesigis analizon."
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
@@ -215,7 +217,7 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
-msgstr ""
+msgstr "Dumtempa datumportilo"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
@@ -231,7 +233,7 @@ msgstr "Xenix-portilo"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
-msgstr ""
+msgstr "XFS-Linuks-portilo"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
@@ -265,7 +267,7 @@ msgstr "KD-R"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:376
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:568
 msgid "CD-RW"
-msgstr ""
+msgstr "KD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:380
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:569
@@ -278,7 +280,7 @@ msgstr "DVD+R"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:384
 msgid "DVD+RW"
-msgstr ""
+msgstr "DVD+RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:386
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:571
@@ -288,7 +290,7 @@ msgstr "DVD-R"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:388
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:572
 msgid "DVD-RW"
-msgstr ""
+msgstr "DVD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:390
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
@@ -301,7 +303,7 @@ msgstr "DVD±R"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:396
 msgid "DVD±RW"
-msgstr ""
+msgstr "DVD±RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:399
 #, c-format
@@ -380,11 +382,11 @@ msgstr "KD-R-disko"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:520
 msgid "Blank CD-RW Disc"
-msgstr ""
+msgstr "Malplena KD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:522
 msgid "CD-RW Disc"
-msgstr ""
+msgstr "KD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:526
 msgid "DVD-ROM Disc"
@@ -392,11 +394,11 @@ msgstr "DVD-ROM-disko"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
-msgstr ""
+msgstr "Malplena DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
-msgstr ""
+msgstr "DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:538
 msgid "Blank DVD-R Disc"
@@ -408,11 +410,11 @@ msgstr "DVD-R-disko"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:545
 msgid "Blank DVD-RW Disc"
-msgstr ""
+msgstr "Malplena DVD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:547
 msgid "DVD-RW Disc"
-msgstr ""
+msgstr "DVD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:553
 msgid "Blank DVD+R Disc"
@@ -424,11 +426,11 @@ msgstr "DVD+R-disko"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:560
 msgid "Blank DVD+RW Disc"
-msgstr ""
+msgstr "Malplena DVD+RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:562
 msgid "DVD+RW Disc"
-msgstr ""
+msgstr "DVD+RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:569
 msgid "Audio Disc"
@@ -446,7 +448,7 @@ msgstr "Portilo"
 #: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
-msgstr ""
+msgstr "Nekonata agtipo %u"
 
 #: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
@@ -717,7 +719,7 @@ msgstr "Ne eblis trovi mastran rigardilon"
 #. MATE_VFS_ERROR_NO_DEFAULT
 #: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
-msgstr "Neniu apriora ago asociata"
+msgstr "Neniu defaŭlta ago asociata"
 
 #. MATE_VFS_ERROR_NO_HANDLER
 #: ../libmatevfs/mate-vfs-result.c:90
@@ -814,15 +816,15 @@ msgstr "KD-ROM/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
 msgid "CD-ROM/DVD-RW"
-msgstr ""
+msgstr "KD-ROM/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
 msgid "CD-R/DVD-ROM"
-msgstr ""
+msgstr "KD-R/DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
 msgid "CD-R/DVD-RAM"
-msgstr ""
+msgstr "KD-R/DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
 msgid "CD-R/DVD-R"
@@ -830,23 +832,23 @@ msgstr "KD-R/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
 msgid "CD-R/DVD-RW"
-msgstr ""
+msgstr "KD-R/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
 msgid "CD-RW/DVD-ROM"
-msgstr ""
+msgstr "KD-RW/DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
 msgid "CD-RW/DVD-RAM"
-msgstr ""
+msgstr "KD-RW/DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
 msgid "CD-RW/DVD-R"
-msgstr ""
+msgstr "KD-RW/DVD-R"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:584
 msgid "CD-RW/DVD-RW"
-msgstr ""
+msgstr "KD-RW/DVD-RW"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
 msgid "Disk"
@@ -1084,7 +1086,7 @@ msgstr ""
 
 #: ../schemas/desktop_default_applications.schemas.in.h:2
 msgid "Default terminal application"
-msgstr "Defaŭlta terminal-aplikaĵo"
+msgstr "Defaŭlta terminal-aplikaĵo"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
