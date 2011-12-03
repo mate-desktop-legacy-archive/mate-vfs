@@ -2,7 +2,7 @@
 
 # fill it
 pkgname=mate-vfs
-pkgver=2011.10.29
+pkgver=2011.12.01
 pkgrel=1
 pkgdesc="The MATE Virtual File System"
 depends=('gvfs' 'mate-conf' 'mate-mime-data')
