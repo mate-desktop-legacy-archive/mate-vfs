@@ -57,30 +57,34 @@ G_LOCK_DEFINE_STATIC (vfs_already_initialized);
 
 static GPrivate * private_is_primary_thread;
 
-static gboolean
-ensure_dot_mate_exists (void)
+static gboolean ensure_dot_mate_exists(void)
 {
 	gboolean retval = TRUE;
 	gboolean create_dirs;
-	gchar *dirname;
+	gchar* dirname;
 
 	/* If the user does not have a writable HOME directory, then
 	   avoid creating the directory. */
-	create_dirs = (g_access (g_get_home_dir(), W_OK) == 0);
+	create_dirs = (g_access(g_get_home_dir(), W_OK) == 0);
 
-        if (create_dirs != TRUE)
+	if (create_dirs != TRUE)
+	{
 		return TRUE;
+	}
 
-	dirname = g_build_filename (g_get_home_dir (), ".mate2", NULL);
+	dirname = g_build_filename(g_get_home_dir(), ".config", "mate", NULL);
 
-	if (!g_file_test (dirname, G_FILE_TEST_EXISTS)) {
-		if (g_mkdir (dirname, S_IRWXU) != 0) {
-			g_warning ("Unable to create ~/.mate2 directory: %s",
-				   g_strerror (errno));
+	if (!g_file_test(dirname, G_FILE_TEST_EXISTS))
+	{
+		if (g_mkdir(dirname, S_IRWXU) != 0)
+		{
+			g_warning("Unable to create ~/.config/mate/ directory: %s", g_strerror(errno));
 			retval = FALSE;
 		}
-	} else if (!g_file_test (dirname, G_FILE_TEST_IS_DIR)) {
-		g_warning ("Error: ~/.mate2 must be a directory.");
+	}
+	else if (!g_file_test(dirname, G_FILE_TEST_IS_DIR))
+	{
+		g_warning("Error: ~/.config/mate/ must be a directory.");
 		retval = FALSE;
 	}
 
@@ -88,14 +92,13 @@ ensure_dot_mate_exists (void)
 	return retval;
 }
 
-static void
-mate_vfs_thread_init (void)
+static void mate_vfs_thread_init(void)
 {
 	private_is_primary_thread = g_private_new (NULL);
 	g_private_set (private_is_primary_thread, GUINT_TO_POINTER (1));
-	
+
 	_mate_vfs_module_callback_private_init ();
-	
+
 	_mate_vfs_async_job_map_init ();
 	_mate_vfs_job_queue_init ();
 }
@@ -106,18 +109,18 @@ mate_vfs_thread_init (void)
  * If mate-vfs is not already initialized, initialize it. This must be
  * called prior to performing any other mate-vfs operations, and may
  * be called multiple times without error.
- * 
+ *
  * Return value: %TRUE if mate-vfs is successfully initialized (or was
  * already initialized).
  */
-gboolean 
+gboolean
 mate_vfs_init (void)
 {
 	gboolean retval;
 	/*
 	char *bogus_argv[2] = { "dummy", NULL };
 	*/
-	
+
 	if (!ensure_dot_mate_exists ()) {
 		return FALSE;
 	}
@@ -131,7 +134,7 @@ mate_vfs_init (void)
 #ifdef ENABLE_NLS
 		bindtextdomain (GETTEXT_PACKAGE, MATE_VFS_LOCALEDIR);
 		bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-#endif   
+#endif
 		mate_vfs_thread_init ();
 #ifdef USE_DAEMON
 		dbus_g_thread_init ();
@@ -144,12 +147,12 @@ mate_vfs_init (void)
 		if (retval) {
 			retval = _mate_vfs_configuration_init ();
 		}
-		
+
 #ifdef SIGPIPE
 		if (retval) {
 			signal (SIGPIPE, SIG_IGN);
 		}
-#endif		
+#endif
 	} else {
 		retval = TRUE;	/* Who cares after all.  */
 	}
@@ -165,7 +168,7 @@ mate_vfs_init (void)
  *
  * Detects if mate-vfs has already been initialized (mate-vfs must be
  * initialized prior to using any methods or operations).
- * 
+ *
  * Return value: %TRUE if mate-vfs has already been initialized.
  */
 gboolean
@@ -184,7 +187,7 @@ mate_vfs_initialized (void)
  *
  * Cease all active mate-vfs operations and unload the MIME
  * database from memory.
- * 
+ *
  */
 void
 mate_vfs_shutdown (void)
@@ -229,7 +232,7 @@ mate_vfs_postinit (gpointer app, gpointer modinfo)
  *
  * Check if the current thread is the thread with the main glib event loop.
  *
- * Return value: %TRUE if the current thread is the thread with the 
+ * Return value: %TRUE if the current thread is the thread with the
  * main glib event loop.
  */
 gboolean

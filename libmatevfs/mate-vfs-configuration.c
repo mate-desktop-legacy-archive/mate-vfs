@@ -219,7 +219,7 @@ parse_line (Configuration *configuration,
 	gboolean daemon;
 
 	daemon = FALSE;
-	
+
 	string_len = strlen (line_buffer);
 	if (string_len != line_len) {
 		g_warning (_("%s:%u contains NUL characters."),
@@ -272,12 +272,12 @@ parse_line (Configuration *configuration,
 		while (TRUE) {
 			while (*p && g_ascii_isspace (*p))
 				p++;
-		
+
 			option_start = p;
 			while (*p && *p != ',' && *p != ']') {
 				p++;
 			}
-			
+
 			if (*p == '\0') {
 				g_warning (_("%s:%u has no options endmarker."),
 						   file_name, line_number);
@@ -303,10 +303,10 @@ parse_line (Configuration *configuration,
 			p++;
 		}
 	}
-	
+
 	while (*p && g_ascii_isspace (*p))
 		p++;
-	
+
 	if (*p == '\0') {
 		if (method_list != NULL) {
 			g_warning (_("%s:%u contains no module name."),
@@ -476,7 +476,7 @@ install_path_list (const gchar *environment_path)
 			elem = g_strndup (oldp, p - oldp);
 			add_directory_internal (elem);
 			g_free (elem);
-		} 
+		}
 
 		oldp = p + 1;
 	}
@@ -508,12 +508,11 @@ _mate_vfs_configuration_init (void)
 	}
 
 	home_dir = g_get_home_dir ();
-	if (home_dir != NULL) {
-		home_config = g_build_filename (home_dir,
-						".mate2", "vfs", "modules",
-						NULL);
-		add_directory_internal (home_config);
-		g_free (home_config);
+	if (home_dir != NULL)
+	{
+		home_config = g_build_filename(home_dir, ".config", "mate", "vfs", "modules", NULL);
+		add_directory_internal(home_config);
+		g_free(home_config);
 	}
 
 	configuration_load ();
@@ -619,7 +618,7 @@ _mate_vfs_configuration_get_methods_list (void)
 	G_LOCK (configuration);
 	if (configuration != NULL) {
 		maybe_reload ();
-		g_hash_table_foreach(configuration->method_to_module_path, 
+		g_hash_table_foreach(configuration->method_to_module_path,
 				     (GHFunc)add_method_to_list, &methods_list);
 	} else {
 		/* This should never happen.  */
