@@ -7,9 +7,9 @@ AC_INIT(libmatevfs/mate-vfs.h)
 # if backwards compatibility has been broken,
 # set LIBMATEVFS_BINARY_AGE and LIBMATEVFS_INTERFACE_AGE to 0.
 #
-LIBMATEVFS_MAJOR_VERSION=2011
-LIBMATEVFS_MINOR_VERSION=12
-LIBMATEVFS_MICRO_VERSION=01
+LIBMATEVFS_MAJOR_VERSION=1
+LIBMATEVFS_MINOR_VERSION=1
+LIBMATEVFS_MICRO_VERSION=0
 LIBMATEVFS_INTERFACE_AGE=4
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
@@ -80,7 +80,7 @@ dnl Globally define_GNU_SOURCE and therefore enable the GNU extensions
 AC_DEFINE(_GNU_SOURCE, 1, [Enable GNU Extensions])
 
 dnl Versions shared with the .spec file.
-MATECONF_REQUIRED=1.1.1
+MATECONF_REQUIRED=1.1.0
 GLIB_REQUIRED=2.9.3
 XML_REQUIRED=2.6.0
 

@@ -1,6 +1,6 @@
 pkgname=mate-vfs
-pkgver=2011.12.01
-pkgrel=2
+pkgver=1.1.0
+pkgrel=1
 pkgdesc="The MATE Virtual File System"
 arch=(i686 x86_64)
 license=('LGPL')
