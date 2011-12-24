@@ -33,6 +33,8 @@ static gpointer foo (const char *mime_type) {
                 }
                 g_usleep (1000000);
         }
+        
+        return NULL;
 }
 
 int main (int argc, char **argv)
