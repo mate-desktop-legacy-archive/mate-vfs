@@ -1,19 +1,21 @@
 # Chinese (Taiwan) translation of mate-vfs.
 # Copyright (C) 2001, 02, 03, 04, 05 Free Software Foundation, Inc.
 # Joe Man <trmetal@yahoo.com.hk>, 2001.
-# Woodman Tuen <wmtuen@gmail.com>, 2004
-# Li-Jen Hsin <hsin@med.cgu.edu.tw>, 2004
-# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005
+# Woodman Tuen <wmtuen@gmail.com>, 2004.
+# Li-Jen Hsin <hsin@med.cgu.edu.tw>, 2004.
+# Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>, 2005, 2010.
 # Abel Cheung <abel@oaka.org>, 2002-2003, 2005.
+# Wei-Lun Chao <chaoweilun@gmail.com>, 2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-vfs 2.24.e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-10 05:58+0800\n"
-"PO-Revision-Date: 2010-02-07 21:09+0800\n"
-"Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
+"POT-Creation-Date: 2010-12-04 20:03+0800\n"
+"PO-Revision-Date: 2010-10-16 12:00+0800\n"
+"Last-Translator: Wei-Lun Chao <chaoweilun@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1024,7 +1026,7 @@ msgid ""
 "The identity sent by the remote computer is %s. If you want to be absolutely "
 "sure it is safe to continue, contact the system administrator."
 msgstr ""
-"當您首次登入一台主機時會發生。\n"
+"當您首次登入一臺主機時會發生。\n"
 "\n"
 "遠端主機傳送來的身分為 %s。若您肯定繼續使用是安全的，請與系統管理者接洽。"
 
