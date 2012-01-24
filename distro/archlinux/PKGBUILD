@@ -7,14 +7,14 @@ license=('LGPL')
 depends=('mate-conf' 'bzip2' 'smbclient' 'mate-mime-data') #  'krb5' 'avahi' 'gnutls' 'fam'
 makedepends=('pkgconfig' 'intltool' 'gtk-doc' 'mate-common')
 options=('!emptydirs' '!libtool')
-url="http://matsusoft.com.ar/projects"
+url="http://matsusoft.com.ar/projects/mate/"
 groups=('mate')
 install=mate-vfs.install
-source=(http://sourceforge.net/projects/matede/files/${pkgver}/${pkgname}.tar.gz/download)
-sha256sums=('37afc1ace240cf74d79c8d48700251bb628ac86e476e07469bafe26b555ad816')
+source=()
+sha256sums=()
 
 build() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     #Fix build with new gnutls
     #patch -Np1 -i "${srcdir}/gnutls-config.patch"
 
@@ -34,7 +34,7 @@ build() {
 }
 
 package() {
-    cd "${srcdir}/${pkgname}"
+	cd "${srcdir}/../../../"
     make MATECONF_DISABLE_MAKEFILE_SCHEMA_INSTALL=1 DESTDIR="${pkgdir}" install
 
     install -d -m755 "${pkgdir}/usr/share/mateconf/schemas"
