@@ -72,7 +72,11 @@ static gboolean ensure_dot_mate_exists(void)
 		return TRUE;
 	}
 
-	dirname = g_build_filename(g_get_home_dir(), ".config", "mate", NULL);
+	#if GLIB_CHECK_VERSION(2, 6, 0)
+		dirname = g_build_filename(g_get_user_config_dir(), "mate", NULL);
+	#else // glib version < 2.6.0
+		dirname = g_build_filename(g_get_home_dir(), ".config", "mate", NULL);
+	#endif
 
 	if (!g_file_test(dirname, G_FILE_TEST_EXISTS))
 	{
