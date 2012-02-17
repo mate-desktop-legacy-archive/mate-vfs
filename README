@@ -1,9 +1,7 @@
-This is the MATE Virtual File System.
+This is the MATE Virtual File System, a fork of GNOME Virtual File System.
 
 MATE VFS is currently used as one of the foundations of the Caja
 file manager.
-
-For instructions on submitting patches, etc. check out the 'HACKING' file.
 
 Please read OUTSTANDING_API_ISSUES for a list of things that are not
 frozen.
@@ -16,3 +14,5 @@ Special configure options:
   to yet another module, and the AFS libraries need -lucb on Solaris, which
   breaks things.
 
+
+http://www.mate-desktop.org/
