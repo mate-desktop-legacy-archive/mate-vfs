@@ -140,7 +140,7 @@ if test x"$ac_cv_have_off64_t" = "xyes" ; then
 	AC_DEFINE(HAVE_OFF64_T, 1, [Whether off64_t type is available])
 fi
 
-GETTEXT_PACKAGE=mate-vfs-2.0
+GETTEXT_PACKAGE=mate-vfs
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Name of the gettext package])
 
