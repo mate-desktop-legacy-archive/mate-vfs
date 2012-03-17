@@ -2378,7 +2378,18 @@ do_set_file_info (MateVFSMethod *method,
 	}
 
 	if (mask & MATE_VFS_SET_FILE_INFO_PERMISSIONS) {
-		if (chmod (full_name, info->permissions) != 0) {
+		int tmask;
+		int permissions = info->permissions;
+		/*
+		 * ktrace showed "invalid argument", and this makes sense....
+		 * because, we cannot pass the MATE_VFS_PERM_ACCESS_*
+		 * constants to chmod.
+		 */
+		tmask = MATE_VFS_PERM_ACCESS_READABLE;
+		tmask |= MATE_VFS_PERM_ACCESS_WRITABLE;
+		tmask |= MATE_VFS_PERM_ACCESS_EXECUTABLE;
+		permissions = permissions & ~tmask;
+		if (chmod (full_name, permissions) != 0) {
 			g_free (full_name);
 			return mate_vfs_result_from_errno ();
 		}
