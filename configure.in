@@ -9,7 +9,7 @@ AC_INIT(libmatevfs/mate-vfs.h)
 #
 LIBMATEVFS_MAJOR_VERSION=1
 LIBMATEVFS_MINOR_VERSION=2
-LIBMATEVFS_MICRO_VERSION=0
+LIBMATEVFS_MICRO_VERSION=1
 LIBMATEVFS_INTERFACE_AGE=4
 # If you need a modifier for the version number.
 # Normally empty, but can be used to make "fixup" releases.
