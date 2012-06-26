@@ -1,27 +1,25 @@
-# Dutch translation for Mate VFS
-#
-# This file is distributed under the same license as the mate-vfs package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Reinout van Schouwen <reinout@cs.vu.nl>, 2004, 2007.
 # Tino Meinen <a.t.meinen@chello.nl>, 2003, 2004, 2005, 2006.
 # Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003.
-# Reinout van Schouwen <reinout@cs.vu.nl>, 2004, 2007
-# Wouter Bolsterlee <wbolster@gnome.org>, 2010
-#
-# Deze vertalingen zijn te zien bij alle programma's die bestanden
-# openen en opslaan via het Mate virtual filesystem.
-#
+# Wouter Bolsterlee <wbolster@gnome.org>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-31 20:00+0200\n"
-"PO-Revision-Date: 2010-03-31 20:00+0200\n"
-"Last-Translator: Wouter Bolsterlee <wbolster@gnome.org>\n"
-"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/MATE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -37,7 +35,6 @@ msgstr "%s:%u bevat NUL-tekens."
 msgid "%s:%u contains no method name."
 msgstr "%s:%u bevat geen methodenaam."
 
-# eindmarkering/eindemarkering
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
@@ -72,9 +69,6 @@ msgstr "AFFS-volumen"
 msgid "AFS Network Volume"
 msgstr "AFS-netwerkvolumen"
 
-# ontdekt/bepaald/gedetecteerd
-# auto-gedetecteerd
-# determined/detected
 #: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
 msgstr "Automatisch bepaald volumen"
@@ -88,7 +82,6 @@ msgstr "Btrfs-Linux-volumen"
 msgid "CD-ROM Drive"
 msgstr "cdrom-apparaat"
 
-# cd-audio
 #: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "cd digitale audio"
@@ -341,7 +334,6 @@ msgstr "Smart media-station"
 msgid "SD/MMC Drive"
 msgstr "SD/MMC-station"
 
-# station/drive bij zip en jaz twijfel ik. Zip-drive is redelijk ingeburgerd
 #: ../libmatevfs/mate-vfs-hal-mounts.c:417
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:626
@@ -502,17 +494,13 @@ msgstr "Opdracht gestopt"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Afgeraden functie. Gebruikerswijzigingen aan de MIME-database zijn niet "
-"langer ondersteund."
+msgstr "Afgeraden functie. Gebruikerswijzigingen aan de MIME-database zijn niet langer ondersteund."
 
-# verwerken/ontleden
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Kon niet verwerken: %s"
 
-# komende/volgende/hieropvolgende
 #: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "De overige verwerkingsfouten worden genegeerd."
@@ -542,7 +530,6 @@ msgstr "Interne fout"
 msgid "Invalid parameters"
 msgstr "Ongeldige parameters"
 
-# bewerking/operatie/opdracht
 #. MATE_VFS_ERROR_NOT_SUPPORTED
 #: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
@@ -618,7 +605,6 @@ msgstr "Einde van bestand"
 msgid "Not a directory"
 msgstr "Geen map"
 
-# bewerking/opdracht
 #. MATE_VFS_ERROR_IN_PROGRESS
 #: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
@@ -634,7 +620,6 @@ msgstr "Opdracht afgebroken"
 msgid "File exists"
 msgstr "Bestand bestaat al"
 
-# Circulaire koppelingen gevonden/kringverwijzing
 #. MATE_VFS_ERROR_LOOP
 #: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
@@ -655,7 +640,6 @@ msgstr "Is een map"
 msgid "Not enough memory"
 msgstr "Onvoldoende geheugen"
 
-# host=host/gastcomputer (geen machine)
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
@@ -691,7 +675,6 @@ msgstr "Map is in gebruik"
 msgid "Directory not empty"
 msgstr "Map is niet leeg"
 
-# verwijzingen/koppelingen/links
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
 #: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
@@ -742,7 +725,6 @@ msgstr "Geen standaardactie gedefinieerd"
 msgid "No handler for URL scheme"
 msgstr "Geen actie voor URL-schema"
 
-# analyseren/verwerken/ontleden
 #. MATE_VFS_ERROR_PARSE
 #: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
@@ -753,7 +735,6 @@ msgstr "Fout bij verwerken opdrachtregel"
 msgid "Error launching command"
 msgstr "Fout bij starten opdracht"
 
-# vertaling voor timeout?
 #. MATE_VFS_ERROR_TIMEOUT
 #: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
@@ -779,7 +760,6 @@ msgstr "Functie-aanroep afgeraden"
 msgid "Invalid filename"
 msgstr "Ongeldige bestandsnaam"
 
-# link/koppeling/verwijzing
 #. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
 #: ../libmatevfs/mate-vfs-result.c:98
 msgid "Not a symbolic link"
@@ -796,7 +776,6 @@ msgid_plural "%u bytes"
 msgstr[0] "%u byte"
 msgstr[1] "%u bytes"
 
-# KB / Kb
 #: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
 msgid "%.1f KB"
@@ -882,7 +861,6 @@ msgstr "USB-station"
 msgid "IEEE1394 Drive"
 msgstr "IEEE1394-station"
 
-# compact-flash
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
 msgstr "CF"
@@ -929,26 +907,20 @@ msgstr "Netwerkserver"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Kan de diskette niet aankoppelen. Er zit waarschijnlijk geen diskette in het "
-"apparaat."
+msgstr "Kan de diskette niet aankoppelen. Er zit waarschijnlijk geen diskette in het apparaat."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Kan het volumen niet aankoppelen. Er zit waarschijnlijk geen schijf in het "
-"apparaat."
+msgstr "Kan het volumen niet aankoppelen. Er zit waarschijnlijk geen schijf in het apparaat."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Kan het diskettestation niet aankoppelen. De diskette bevat waarschijnlijk "
-"een niet ondersteund bestandssysteem."
+msgstr "Kan het diskettestation niet aankoppelen. De diskette bevat waarschijnlijk een niet ondersteund bestandssysteem."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -956,18 +928,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Kon het volumen niet aankoppelen. Indien dit een versleutelde schijf is, is "
-"mogelijkerwijs een foutief wachtwoord of sleutel gegeven."
+msgstr "Kon het volumen niet aankoppelen. Indien dit een versleutelde schijf is, is mogelijkerwijs een foutief wachtwoord of sleutel gegeven."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Kan het geselecteerde volumen niet aankoppelen. Het volumen bevat "
-"waarschijnlijk een niet ondersteund bestandssysteem."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Kan het geselecteerde volumen niet aankoppelen. Het volumen bevat waarschijnlijk een niet ondersteund bestandssysteem."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -982,9 +950,7 @@ msgstr "Kan het geselecteerde volumen niet aankoppelen."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Kon het geselecteerde volumen niet afkoppelen. Het volumen is nog in gebruik "
-"bij een of meerdere programma's."
+msgstr "Kon het geselecteerde volumen niet afkoppelen. Het volumen is nog in gebruik bij een of meerdere programma's."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1002,9 +968,7 @@ msgstr "Kon aankoppelingsproces niet uitvoeren in een pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Onverwachte fout in select() tijdens lezen van gegevens van een "
-"dochterproces (%s)"
+msgstr "Onverwachte fout in select() tijdens lezen van gegevens van een dochterproces (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1033,7 +997,6 @@ msgstr "Kan aangekoppelde server niet ontkoppelen"
 msgid "Network"
 msgstr "Netwerk"
 
-# Persoonlijke map/home/thuis
 #: ../modules/computer-method.c:561
 msgid "Home"
 msgstr "Persoonlijke map"
@@ -1051,27 +1014,18 @@ msgstr "Onbekende MateVFSSeekPosition %d"
 msgid "Windows Network"
 msgstr "Windows netwerk"
 
-# externe computer/computer op afstand
 #: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
 msgstr "De identiteit van de computer op afstand (%s) is onbekend."
 
-# absoluut zeker wilt weten of/er absoluut zeker van wilt zijn dat
-# /zeker wilt weten of/absulute zekerheid wilt hebben dat
 #: ../modules/sftp-method.c:1425
 #, c-format
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Dit gebeurt wanneer u zich voor de eerste keer bij een computer aanmeldt.\n"
-"\n"
-"De identiteit die door de computer op afstand is verzonden is %s. Indien u "
-"absoluut zeker wilt weten of het veilig is om door te gaan, neem dan contact "
-"op met de systeembeheerder."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Dit gebeurt wanneer u zich voor de eerste keer bij een computer aanmeldt.\n\nDe identiteit die door de computer op afstand is verzonden is %s. Indien u absoluut zeker wilt weten of het veilig is om door te gaan, neem dan contact op met de systeembeheerder."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1102,9 +1056,7 @@ msgstr "Uw HTTP-proxy verwacht dat u zich aanmeldt.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"U dient zich aan te melden om \"%s\" te openen.\n"
-"%s"
+msgstr "U dient zich aan te melden om \"%s\" te openen.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1140,20 +1092,15 @@ msgstr "Opstartargumenten voor standaard terminal"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Te gebruiken programma voor weergave van bestanden die een component "
-"vereisen. De parameter %s zal vervangen worden door de URI van het bestand "
-"en de parameter %c zal vervangen worden de de IID van de component."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Te gebruiken programma voor weergave van bestanden die een component vereisen. De parameter %s zal vervangen worden door de URI van het bestand en de parameter %c zal vervangen worden de de IID van de component."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Het standaard terminalprogramma voor toepassingen die een terminal nodig "
-"hebben."
+msgstr "Het standaard terminalprogramma voor toepassingen die een terminal nodig hebben."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1169,38 +1116,31 @@ msgstr "De opdracht voor het afhandelen van \"aim\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"callto\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"callto\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"ghelp\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"ghelp\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"h323\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"h323\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"http\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"http\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"https\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"https\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"info\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"info\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"mailto\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"mailto\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
@@ -1208,8 +1148,7 @@ msgstr "De opdracht voor het afhandelen van \"man\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr ""
-"De opdracht voor het afhandelen van \"trash\"-URL's, indien ingeschakeld"
+msgstr "De opdracht voor het afhandelen van \"trash\"-URL's, indien ingeschakeld"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
@@ -1255,89 +1194,67 @@ msgstr "Het programma dat \"trash\" URL's afhandelt"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"aim\"-URL's "
-"dient af te handelen."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"aim\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Waar indine de opdracht aangegeven in de sleutel: \"command\", \"callto\"-"
-"URL's dient af te handelen."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Waar indine de opdracht aangegeven in de sleutel: \"command\", \"callto\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"ghelp\"-"
-"URL's dient af te handelen."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"ghelp\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"h323\"-"
-"URL's dient af te handelen."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"h323\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\" \"http\"-URL's "
-"dient af te handelen."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\" \"http\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"https\"-"
-"URL's dient af te handelen."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"https\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"info\"-"
-"URL's dient af te handelen."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"info\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"mailto\"-"
-"URL's dient af te handelen."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"mailto\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"man\"-URL's "
-"dient af te handelen."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"man\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Waar indien de opdracht aangegeven in de sleutel: \"command\", \"trash\"-"
-"URL's dient af te handelen."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Waar indien de opdracht aangegeven in de sleutel: \"command\", \"trash\"-URL's dient af te handelen."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Waar indien de opdracht om dit type URL af te handelen in een "
-"terminalvenster gestart dient te worden."
+msgstr "Waar indien de opdracht om dit type URL af te handelen in een terminalvenster gestart dient te worden."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1383,9 +1300,7 @@ msgstr "Of de aangegeven opdracht \"trash\"-URL's dient af te handelen."
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Een door komma's gescheiden lijst met DNS-SD domeinen die zichtbaar behoren "
-"te zijn in de locatie \"netwerk:///\"."
+msgstr "Een door komma's gescheiden lijst met DNS-SD domeinen die zichtbaar behoren te zijn in de locatie \"netwerk:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1438,13 +1353,10 @@ msgstr "HTTP-proxy gebruikersnaam"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Indien waar, wordt voor een verbinding met de proxyserver "
-"aanmeldingscontrole vereist. De combinatie van gebruikersnaam en wachtwoord "
-"komt voort uit \"/system/http_proxy/authentication_user\" en \"/system/"
-"http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Indien waar, wordt voor een verbinding met de proxyserver aanmeldingscontrole vereist. De combinatie van gebruikersnaam en wachtwoord komt voort uit \"/system/http_proxy/authentication_user\" en \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1476,13 +1388,10 @@ msgstr "Beveiligde HTTP-proxy poortnummer"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Kies de proxy configuratiemodus. Mogelijke waarden zijn \"none\" (geen), "
-"\"manual\" (handmatig) en \"auto\" (automatisch)."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Kies de proxy configuratiemodus. Mogelijke waarden zijn \"none\" (geen), \"manual\" (handmatig) en \"auto\" (automatisch)."
 
-# BUG: machine name. Dit is erg lelijk, moet zijn host/computer/server
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
 msgstr "De machinenaam waar de FTP-proxy op draait."
@@ -1503,47 +1412,33 @@ msgstr "De machinenaam waar de socks-proxy op draait."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Het poortnummer op de machine die u als proxy gebruikt en gedefineerd door "
-"\"/system/http_proxy/host\" "
+msgstr "Het poortnummer op de machine die u als proxy gebruikt en gedefineerd door \"/system/http_proxy/host\" "
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/"
-"system/proxy/ftp_host\""
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/system/proxy/ftp_host\""
 
-# het poortnummer
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/"
-"system/proxy/secure_host\""
+msgstr "De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/system/proxy/secure_host\""
 
-# Het poortnummer
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/"
-"system/proxy/socks_host\""
+msgstr "De poort op de machine die u als proxy gebruikt en gedefinieerd door \"/system/proxy/socks_host\""
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Deze sleutel bevat een lijst van computers die direct benaderd dienen te "
-"worden in plaats van via de proxy. De waardes kunnen computernamen zijn, of "
-"domeinen (met jokertekens zoals: *.bla.com), IP-adressen (zowel IPv4 als "
-"IPv6) of netwerkadressen met netmasker zoals 192.168.0.0/24."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Deze sleutel bevat een lijst van computers die direct benaderd dienen te worden in plaats van via de proxy. De waardes kunnen computernamen zijn, of domeinen (met jokertekens zoals: *.bla.com), IP-adressen (zowel IPv4 als IPv6) of netwerkadressen met netmasker zoals 192.168.0.0/24."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1566,7 +1461,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"De werkgroep of het domein van het Windows-netwerk waar de gebruiker deel "
-"van is. Om de nieuwe werkgroep volledig effectief te laten zijn moet u "
-"mogelijkerwijs een keer uitloggen en opnieuw aanmelden."
+msgstr "De werkgroep of het domein van het Windows-netwerk waar de gebruiker deel van is. Om de nieuwe werkgroep volledig effectief te laten zijn moet u mogelijkerwijs een keer uitloggen en opnieuw aanmelden."

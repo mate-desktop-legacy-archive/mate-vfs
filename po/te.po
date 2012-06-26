@@ -1,23 +1,23 @@
-# translation of te.po to Telugu
-# Telugu translation of mate-vfs.
-# Copyright (C) 2007 Swecha Telugu Localisation Team <localisation@swecha.org>
-# This file is distributed under the same license as the mate-vfs package.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Krishna Babu K <kkrothap@redhat.com>, 2008, 2009.
 # Matapathi Pramod <pramod@swecha.net>, 2007.
-# Krishna Babu K <kkrothap@redhat.com>, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: te\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-22 16:53+0530\n"
-"PO-Revision-Date: 2009-03-03 15:58+0530\n"
-"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
-"Language-Team: Telugu <en@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: te\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -72,157 +72,175 @@ msgid "Auto-detected Volume"
 msgstr "స్వయంచాలకంగా-కనిపెట్టబడిన ధ్వని"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM చోదకం"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD వ్రేళ్ల సంఖ్య శ్రావణి"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "ఇనుపసామాను పరికరం ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 లైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 లైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "గవాక్షాల NT ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "వ్యవస్థ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "జ్ఞాపకశక్తి ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "మైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS అల్లిక ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "నెట్ వేర్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "లైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "FS లైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "గవాక్షాలు పంచుకొను ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "అధిపోగు ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "సొలారిస్/BSD ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs సొలారిస్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs సొలారిస్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "తాత్కాలిక ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "హెచ్చించిన DOS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "గవాక్షాల VFAT ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "గ్జెనిక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS లైనక్స్ ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS ధ్వని"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "తెలియనిది"
 
@@ -424,22 +442,22 @@ msgstr "%s తొలగించుటకువీలగు ధ్వని"
 msgid "Volume"
 msgstr "ధ్వని"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "తెలియని కార్యం పద్దతి %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "తెరచు GIOప్రసారమార్గం కొరకు పైప్ సృష్టించుటకు వీలుకాదు: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "తెలియని నిర్థిష్ట కార్యం జాతి %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "కార్యం ఆపబడినది"
 
@@ -476,12 +494,12 @@ msgid ""
 "supported."
 msgstr "ఆపివేయబడిన ప్రమేయం.  MIME డాటాబేసునకు వినియోగదారి సవరింపులు యిక మద్దతునీయవు."
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:720
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "పార్స్ వీలుకాదు: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:722
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "అధికమైన పార్సింగ్ దోషములు ఎరుగనట్లు విడుచు."
 
@@ -866,26 +884,27 @@ msgstr "ఛాయాగ్రహణం తీసే పరికరం"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "మూల ధ్వని"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "శ్రవణ CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "తెలియని ధ్వని"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "అల్లిక సేవిక"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "ఫ్లాపీ చోదకం పోగుకు వీలుకాదు. బహుశా అక్కడ చోదకంలో ఫ్లాపీ లేదు."
 
 #. All others
@@ -907,15 +926,13 @@ msgstr "ఫ్లాపీ చోదకం పోగుకు వీలుకా
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"ధ్వని పోగుకు వీలుకాదు. ఒక వేళ ఇది రహస్యపరచబడిన చోదకమైతే, అప్పుడు తప్పుడు రహస్యపదము లేదా మీట "
-"వాడబడినది."
+msgstr "ధ్వని పోగుకు వీలుకాదు. ఒక వేళ ఇది రహస్యపరచబడిన చోదకమైతే, అప్పుడు తప్పుడు రహస్యపదము లేదా మీట వాడబడినది."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "ఎంచుకొనబడిన ధ్వని పోగుకు వీలుకాదు. బహుశా ధ్వని దానియొక్క రూపలావణ్యంలోపోగుచేయుటకు వీలుకాదు."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -1005,14 +1022,8 @@ msgstr "సూదూర కంప్యూటర్ యొక్క గుర్
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"మీరు మొదటిసారి కంప్యూటరునకు లాగిన్ అయినప్పుడు యిది జరుగుతుంది.\n"
-"\n"
-"రిమోట్ కంప్యూటర్ ద్వారా పంపబడిన గుర్తింపు %s. ఇది కొనసాగించుటకు "
-"ఖచ్చితముగా సురక్షితమైనదేనేమో మీరు తెలుసుకొనవలెనంటే, సిస్టమ్ నిర్వహణాధికారిని "
-"సంప్రదించండి."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "మీరు మొదటిసారి కంప్యూటరునకు లాగిన్ అయినప్పుడు యిది జరుగుతుంది.\n\nరిమోట్ కంప్యూటర్ ద్వారా పంపబడిన గుర్తింపు %s. ఇది కొనసాగించుటకు ఖచ్చితముగా సురక్షితమైనదేనేమో మీరు తెలుసుకొనవలెనంటే, సిస్టమ్ నిర్వహణాధికారిని సంప్రదించండి."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1043,9 +1054,7 @@ msgstr "నీ ప్రవేశద్వారంకు మీ యొక్క
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" నీవు సాంగత్యంనకు ప్రవేశించవలయును.\n"
-"%s"
+msgstr "\"%s\" నీవు సాంగత్యంనకు ప్రవేశించవలయును.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1081,12 +1090,9 @@ msgstr "అప్రమేయ అగ్రం కొరకు నిర్వర
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"దస్త్రములను దర్శించుటకు వుపయోగించే అనువర్తనముకు వాటిని దర్శించుటకు మూలకం అవసరమైంది. "
-"పారామితి %s దస్త్రముయొక్క URIల చేత పునఃస్థాపించబడుతుంది, పారామితి %c మూలకం IID చేత "
-"పునఃస్థాపించబడుతుంది."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "దస్త్రములను దర్శించుటకు వుపయోగించే అనువర్తనముకు వాటిని దర్శించుటకు మూలకం అవసరమైంది. పారామితి %s దస్త్రముయొక్క URIల చేత పునఃస్థాపించబడుతుంది, పారామితి %c మూలకం IID చేత పునఃస్థాపించబడుతుంది."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1190,14 +1196,14 @@ msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే \"పిలుపుకు\" మీట ఉపయోగించవలెను \" URLs."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే \"gసహాయము\" మీట ఉపయోగించవలెను URLs."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1214,8 +1220,8 @@ msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే \"https\" మీట ఉపయోగించవలెను URLs."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1226,8 +1232,8 @@ msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే \"తపాలాకు\" మీట ఉపయోగించవలెను \" URLs."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1238,8 +1244,8 @@ msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "\"ఆదేశం\" లో నిర్థేశించిబడిన ఆదేశం ఒకవేళ నిజము ఐతే \"చెత్తకుండి\" మీట ఉపయోగించవలెను URLs."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1292,9 +1298,7 @@ msgstr "\"చెత్తకుండి\" URLs అయినను నిర్�
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"DNS-SD డొమైన్లయొక్క కామాతో విభజించిన జాబితా \"network:///\" స్థానమునందు "
-"కనిపించాలి."
+msgstr "DNS-SD డొమైన్లయొక్క కామాతో విభజించిన జాబితా \"network:///\" స్థానమునందు కనిపించాలి."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1347,12 +1351,10 @@ msgstr "HTTP ప్రాతినిథ్య వినియోగదారు
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"నిజమైతే, ప్రోక్సీ సేవికకు అనుసంధానములుకు దృవీకరణ అవసరమౌతుంది. వినియోగదారి/సంకేతపదం "
-"యుగళం \"/system/http_proxy/authentication_user\" మరియు \"/system/http_proxy/"
-"authentication_password\"చేత నిర్వచింపబడుతుంది."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "నిజమైతే, ప్రోక్సీ సేవికకు అనుసంధానములుకు దృవీకరణ అవసరమౌతుంది. వినియోగదారి/సంకేతపదం యుగళం \"/system/http_proxy/authentication_user\" మరియు \"/system/http_proxy/authentication_password\"చేత నిర్వచింపబడుతుంది."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1384,11 +1386,9 @@ msgstr "రక్షిత HTTP ప్రాతినిథ్యం రేవ�
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"ప్రాతినిథ్య రూపకరణ విధం ఎంచుకొనుము. సహకరించు విలువలు కలవు \"ఏదీకాదు\", \"నిర్థేశికం\", "
-"\"స్వయంచాలకం\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "ప్రాతినిథ్య రూపకరణ విధం ఎంచుకొనుము. సహకరించు విలువలు కలవు \"ఏదీకాదు\", \"నిర్థేశికం\", \"స్వయంచాలకం\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1414,8 +1414,8 @@ msgstr "రేవు పై పరికరం నిర్వచించుట
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "రేవు పై పరికరం నిర్వచించుట ద్వారా \"/వ్యవస్థ/ప్రాతినిథ్య/ftp_ఆతిథ్యం\" అది నీవు ప్రాతినిథ్యంగుండా."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1434,13 +1434,9 @@ msgstr "రేవు పై పరికరం నిర్వచించుట
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"ప్రోక్సీ(క్రియాశీలంగా వుంటే) ద్వారా కాకుండా, నేరుగా అనుసంధానమైవున్న అతిధేయలయొక్క "
-"జాబితాను కీ కలిగివుంది. అవి అతిధేయ నామములు, డొమైన్లు (ప్రాధమిక వైల్డుకార్డు *.foo.com "
-"వుపయోగించే), IP అతిధేయ చిరునామాలు (IPv4 మరియు IPv6 రెండూ) మరియు నెట్‌మాస్కు "
-"(192.168.0.0/24 వంటి)తో నెట్వర్కు చిరునామాలు."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "ప్రోక్సీ(క్రియాశీలంగా వుంటే) ద్వారా కాకుండా, నేరుగా అనుసంధానమైవున్న అతిధేయలయొక్క జాబితాను కీ కలిగివుంది. అవి అతిధేయ నామములు, డొమైన్లు (ప్రాధమిక వైల్డుకార్డు *.foo.com వుపయోగించే), IP అతిధేయ చిరునామాలు (IPv4 మరియు IPv6 రెండూ) మరియు నెట్‌మాస్కు (192.168.0.0/24 వంటి)తో నెట్వర్కు చిరునామాలు."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1463,8 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"వినియోగదారి భాగముగావున్న విండోస్ నెట్వర్కింగ్ పనిసమూహం లేదా డొమైన్. కొత్త "
-"పనిసమూహం(వర్కుగ్రూప్) పూర్తిగా ప్రభావితం కావటానికి వినియోగదారి లాగ్అవుట్ "
-"అయ్యి లాగిన్ అవ్వవలసిరావచ్చు."
-
+msgstr "వినియోగదారి భాగముగావున్న విండోస్ నెట్వర్కింగ్ పనిసమూహం లేదా డొమైన్. కొత్త పనిసమూహం(వర్కుగ్రూప్) పూర్తిగా ప్రభావితం కావటానికి వినియోగదారి లాగ్అవుట్ అయ్యి లాగిన్ అవ్వవలసిరావచ్చు."

@@ -1,28 +1,24 @@
-# mate-vfs yn Gymraeg.
-# www.gyfieithu.co.uk <kyfieithu@kyfieithu.co.uk>, 2003.
-# Dafydd Harries <daf@muse.19inch,net>, 2003 2004.
-# Rhys Jones <rhys@sucs.org>, 2003.
-# (RJ) Bathiad: Memory stick -> tocyn cof
-# (RJ) Fe ddefnyddiais i 'gyriant' yn hytrach na 'gyrrydd' - ceir
-# enghreifftiau o'r ddau yn caja ar hyn o bryd.
-# rhysj, 8ed Chw 2005
-# Wedi cysoni'r ffurfiau lluosog
-# Wedi gyrru'r cyfan drwy Cysill
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Iestyn Pryce <dylunio@gmail.com>, 2009.
+# Rhys Jones <rhys@sucs.org>, 2003.
+# www.gyfieithu.co.uk <kyfieithu@kyfieithu.co.uk>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-20 12:18+0000\n"
-"PO-Revision-Date: 2009-12-20 12:18+0100\n"
-"Last-Translator: Iestyn Pryce <dylunio@gmail.com>\n"
-"Language-Team: Welsh <mate-cy@pengwyn.linux.org.uk>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: cy\n"
-"Plural-Forms: nplurals=4; plural= (n==1) ? 0 : (n==2) ? 1 : (n != 8 && n !=11) ? 2 : 3;\n"
-"X-Generator: Virtaal 0.5.0\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -497,9 +493,7 @@ msgstr "Ataliwyd y gweithrediad"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Ffwythiant a anargymhellir. Ni chynhelir newidiadau defnyddiwr i'r gronfa "
-"ddata MIME bellach."
+msgstr "Ffwythiant a anargymhellir. Ni chynhelir newidiadau defnyddiwr i'r gronfa ddata MIME bellach."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -914,8 +908,7 @@ msgstr "Gweinydd rhwydwaith"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Methu rhagosod y gyriant disg hyblyg. Hwyrach nad oes disg yn y gyriant."
+msgstr "Methu rhagosod y gyriant disg hyblyg. Hwyrach nad oes disg yn y gyriant."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -928,9 +921,7 @@ msgstr "Methu rhagosod y gyfrol. Hwyrach nad oes dim yn y ddyfais."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Methu rhagosod y gyriant disg hyblyg. Hwyrach fod y disg hyblyg mewn ffurf "
-"na ellir ei osod."
+msgstr "Methu rhagosod y gyriant disg hyblyg. Hwyrach fod y disg hyblyg mewn ffurf na ellir ei osod."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -938,18 +929,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Methu gosod y gyfrol. Os yw hwn yn yriant wedi ei amgryptio, defnyddiwyd y "
-"cyfrinair neu'r allwedd anghywir."
+msgstr "Methu gosod y gyfrol. Os yw hwn yn yriant wedi ei amgryptio, defnyddiwyd y cyfrinair neu'r allwedd anghywir."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Methu a gosod y gyfrol a ddewiswyd. Hwyrach ei fod mewn ffurf na ellir ei "
-"osod."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Methu a gosod y gyfrol a ddewiswyd. Hwyrach ei fod mewn ffurf na ellir ei osod."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -964,9 +951,7 @@ msgstr "Methu gosod y gyfrol a ddewiswyd."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Methu gosod y gyfrol a ddewiswyd. Hwyrach fod un neu fwy o raglenni yn ei "
-"defnyddio."
+msgstr "Methu gosod y gyfrol a ddewiswyd. Hwyrach fod un neu fwy o raglenni yn ei defnyddio."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -984,8 +969,7 @@ msgstr "Methwyd rhedeg y broses osod mewn pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Gwall annisgwyl o fewn select() wrth ddarllen data o broses blentyn (%s)"
+msgstr "Gwall annisgwyl o fewn select() wrth ddarllen data o broses blentyn (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1041,13 +1025,8 @@ msgstr "Nid yw hunaniaeth y cyfrifiadur pell (%s) yn hysbys."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Mae hyn yn digwydd pan rydych chi'n mewngofnodi i gyfrifiadur y tro cyntaf.\n"
-"%s yw'r hunaniaeth a ddanfonwyd gan y cyfrifiadur pell. Os ydych chi eisiau "
-"bod yn hollol siŵr ei bod hi'n ddiogel i fynd ymlaen, cysylltwch â gweinydd "
-"y system."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Mae hyn yn digwydd pan rydych chi'n mewngofnodi i gyfrifiadur y tro cyntaf.\n%s yw'r hunaniaeth a ddanfonwyd gan y cyfrifiadur pell. Os ydych chi eisiau bod yn hollol siŵr ei bod hi'n ddiogel i fynd ymlaen, cysylltwch â gweinydd y system."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1078,9 +1057,7 @@ msgstr "Mae gofyn i chi fewngofnodi i'ch Dirprwy HTTP.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Rhaid i chi fewngofnodi cyn cael mynediad at \"%s\".\n"
-"%s"
+msgstr "Rhaid i chi fewngofnodi cyn cael mynediad at \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1116,25 +1093,19 @@ msgstr "Ymresymiad exec ar gyfer y derfynell rhagosodedig"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Y rhaglen i'w ddefnyddio i bori ffeiliau sydd angen cydran er mwyn eu "
-"gwylio. Amnewidir y paramedr %s gan URI y ffeil, ac amnewidir y paramedr %c "
-"gan IID y gydran."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Y rhaglen i'w ddefnyddio i bori ffeiliau sydd angen cydran er mwyn eu gwylio. Amnewidir y paramedr %s gan URI y ffeil, ac amnewidir y paramedr %c gan IID y gydran."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Y rhaglen derfynell rhagosodedig a ddefnyddir gan raglenni sydd angen "
-"terfynell."
+msgstr "Y rhaglen derfynell rhagosodedig a ddefnyddir gan raglenni sydd angen terfynell."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
-msgstr ""
-"Yr ymresymiad exec i'w ddefnyddio ar gyfer y rhaglen derfynell rhagosodedig."
+msgstr "Yr ymresymiad exec i'w ddefnyddio ar gyfer y rhaglen derfynell rhagosodedig."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
@@ -1224,89 +1195,67 @@ msgstr "Y trinydd ar gyfer LAU \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"aim\"."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"h323\"."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"http\"."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"info\"."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"man\"."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU "
-"\"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Gwir os ddylai'r gorchymyn a benodir yn yr allwedd \"command\" ymdrin â LAU \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Gwir os dylid rhedeg y gorchymyn sy'n delio â'r math yma o LAU mewn "
-"terfynell."
+msgstr "Gwir os dylid rhedeg y gorchymyn sy'n delio â'r math yma o LAU mewn terfynell."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1352,9 +1301,7 @@ msgstr "A ddylai'r gorchymyn penodedig ymdrin â LAU \"trash\""
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Rhestr o barthau DNS-SD, wedi'u gwahanu gan gomáu, a ddylai fod yn weladwy "
-"yn y lleoliad \"network:///\"."
+msgstr "Rhestr o barthau DNS-SD, wedi'u gwahanu gan gomáu, a ddylai fod yn weladwy yn y lleoliad \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1407,12 +1354,10 @@ msgstr "Enw defnyddiwr y dirprwy HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Os yn wir, bydd angen dilysu cysylltiadau â'r gweinydd dirprwy. Defnyddir y "
-"pâr enw defnyddiwr/cyfrinair a benodir gan \"/system/http_proxy/"
-"authentication_user\" a \"/system/http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Os yn wir, bydd angen dilysu cysylltiadau â'r gweinydd dirprwy. Defnyddir y pâr enw defnyddiwr/cyfrinair a benodir gan \"/system/http_proxy/authentication_user\" a \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1444,11 +1389,9 @@ msgstr "Porth gweinydd dirprwy HTTP diogel"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Dewiswch fodd rhagosod y dirprwy. Y gwerthoedd caniateir yw \"none\", "
+"Select the proxy configuration mode. Supported values are \"none\", "
 "\"manual\", \"auto\"."
+msgstr "Dewiswch fodd rhagosod y dirprwy. Y gwerthoedd caniateir yw \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1470,46 +1413,33 @@ msgstr "Enw'r peiriant i'w ddefnyddio fel dirprwy SOCKS."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Y porth ar y peiriant a ddiffinnir gan \"/system/http_proxy/host\" yr ydych "
-"yn ei ddefnyddio fel dirprwy."
+msgstr "Y porth ar y peiriant a ddiffinnir gan \"/system/http_proxy/host\" yr ydych yn ei ddefnyddio fel dirprwy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/ftp_host\" yr ydych "
-"yn ei ddefnyddio fel dirprwy."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/ftp_host\" yr ydych yn ei ddefnyddio fel dirprwy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/secure_host\" yr "
-"ydych yn ei ddefnyddio fel dirprwy."
+msgstr "Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/secure_host\" yr ydych yn ei ddefnyddio fel dirprwy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/socks_host\" yr ydych "
-"yn ei ddefnyddio fel dirprwy."
+msgstr "Y porth ar y peiriant a ddiffinnir gan \"/system/proxy/socks_host\" yr ydych yn ei ddefnyddio fel dirprwy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Mae'r allwedd hon yn cynnwys rhestr o weinyddion y cysylltir â hwy yn "
-"uniongyrchol, yn hytrach na thrwy'r dirprwy (os defnyddir). Medrwch roi fan "
-"hyn enwau gweinyddion, parth-enwau (gan ddefnyddio gwylltnod i ddechrau, fel "
-"*.foo.com), rhifau IP gweinyddion (IPv6 yn ogystal â IPv4) a rhifau "
-"rhwydwaith gyda masg rhwydwaith (tebyg i 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Mae'r allwedd hon yn cynnwys rhestr o weinyddion y cysylltir â hwy yn uniongyrchol, yn hytrach na thrwy'r dirprwy (os defnyddir). Medrwch roi fan hyn enwau gweinyddion, parth-enwau (gan ddefnyddio gwylltnod i ddechrau, fel *.foo.com), rhifau IP gweinyddion (IPv6 yn ogystal â IPv4) a rhifau rhwydwaith gyda masg rhwydwaith (tebyg i 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1532,367 +1462,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Y grŵp gwaith neu'r parth rhwydweithio Windows mae'r defnyddiwr yn rhan "
-"ohono. Cyn i grŵp gwaith newydd ddod i rym, efallai bydd rhaid i'r "
-"defnyddiwr allgofnodi a mewngofnodi eto."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Methwyd ymgychwyn MateComponent"
-
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Methwyd ymgychwyn mate vfs"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Ffatri Moniker safonol"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "ffeil MonikerExtender"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "moniker Mate VFS generig"
-
-#~ msgid "generic file moniker"
-#~ msgstr "moniker ffeil generig"
-
-#~ msgid "Display SCSI drives"
-#~ msgstr "Dangos gyriannau SCSI"
-
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Dangos gyriannau optegol SCSI"
-
-#~ msgid "Display drives with removable media"
-#~ msgstr "Dangos gyriannau gyda disgiau a ellir eu tynnu"
-
-#~ msgid "Display external drives"
-#~ msgstr "Dangos gyriannau allanol"
-
-#~ msgid "Display internal hard drives"
-#~ msgstr "Dangos gyriannau caled mewnol"
-
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "P'un ai i ddangos gyriannau optegol SCSI hyd yn oed os yw /system/storage/"
-#~ "display_scsi_drives wedi ei osod yn FFALS."
-
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr ""
-#~ "P'un ai i ddangos gyriannau a chyfrolau a ellir eu gosod o yriannau SCSI."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "P'un ai i ddangos gyriannau a chyfrolau a ellir eu gosod o yriannau gyda "
-#~ "disgiau a ellir eu tynnu."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "P'un ai i ddangos gyriannau a chyfrolau a ellir eu gosod o yriannau "
-#~ "allanol (e.e. gyriannau y gellir eu tynnu a'u gosod tra'u bod nhw, neu'r "
-#~ "system, yn rhedeg)"
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "P'un ai i ddangos gyriannau a chyfrolau a ellir eu gosod o yriannau "
-#~ "mewnol (dangosir bob amser yriannau optegol sydd ddim yn rai SCSI)."
-
-#~ msgid "The window workgroup the user is part of"
-#~ msgstr "Y grŵp Windows mae'r defnyddiwr yn rhan ohoni"
-
-#~ msgid "Optical Disc"
-#~ msgstr "Disg Optig"
-
-#~ msgid "Memory Stick Media"
-#~ msgstr "Cyfrwng Tocyn Cof"
-
-#~ msgid "Smart Media Media"
-#~ msgstr "Cyfrwng Smart Media"
-
-#~ msgid "Mac OS disk"
-#~ msgstr "Disg Mac OS"
-
-#~ msgid "Mac OS X disk"
-#~ msgstr "Disg Max OS X"
-
-#~ msgid "Windows Disk"
-#~ msgstr "Disg Windows"
-
-#~ msgid "Linux Disk"
-#~ msgstr "Disg Linux"
-
-#~ msgid "File could not be opened: %s"
-#~ msgstr "Methwyd agor y ffeil: %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Methwyd agor ffeil '%s': %s"
-
-#~ msgid "File is empty"
-#~ msgstr "Mae'r ffeil yn wag"
-
-#~ msgid ""
-#~ "desktop entries contain line '%s' which is not an entry, group, or comment"
-#~ msgstr ""
-#~ "mae'r cofnodion penbwrdd yn cynnwys llinell '%s' nad yw'r cofnod, grŵp na "
-#~ "sylw"
-
-#~ msgid "desktop entries file does not start with legal start group"
-#~ msgstr ""
-#~ "nid yw'r ffeil cofnodion penbwrdd yn cychwyn gyda grŵp cychwyn dilys"
-
-#~ msgid "desktop entries contain line '%s' which is not UTF-8"
-#~ msgstr "mae'r cofnodion penbwrdd yn cynnwys llinell '%s' nad yw'n UTF-8"
-
-#~ msgid "desktop entries contain unknown encoding '%s'"
-#~ msgstr "mae'r cofnodion penbwrdd yn cynnwys amgodiad anhysbys '%s'"
-
-#~ msgid "desktop entries do not have group '%s'"
-#~ msgstr "nid oes grŵp '%s' gan y cofnodion penbwrdd"
-
-#~ msgid "desktop entries do not have key '%s'"
-#~ msgstr "nid oes allwedd '%s' gan y cofnodion penbwrdd"
-
-#~ msgid ""
-#~ "desktop entries contain key '%s' which has value that cannot be "
-#~ "interpreted."
-#~ msgstr ""
-#~ "mae'r cofnodion penbwrdd yn cynnwys bysell '%s' sydd â gwerth ni ellir ei "
-#~ "ddehongli"
-
-#~ msgid ""
-#~ "desktop entries contain no translated value for key '%s' with locale '%s'."
-#~ msgstr ""
-#~ "nid yw'r cofnodion penbwrdd yn cynnwys gwerth cyfieithiedig o'r bysell '%"
-#~ "s' â'r locale '%s'."
-
-#~ msgid "desktop entries contain invalid escape sequence '%s'"
-#~ msgstr "mae'r cofnodion penbwrdd yn cynnwys dilyniant dianc annilys '%s'"
-
-#~ msgid "desktop entries contain escape character at end of line"
-#~ msgstr "mae'r cofnodion penbwrdd yn cynnwys nod dianc ar ddiwedd llinell"
-
-#~ msgid "Value '%s' cannot be interpreted as a number."
-#~ msgstr "Ni ellir dehongli'r gwerth '%s' fel rhif."
-
-#~ msgid "Value '%s' cannot be interpreted as a boolean."
-#~ msgstr "Ni ellir dehongli'r gwerth '%s' fel gwerth booleaidd."
-
-#~ msgid "Applications"
-#~ msgstr "Rhaglenni"
-
-#~ msgid "Cards"
-#~ msgstr "Cardiau"
-
-#~ msgid "Files"
-#~ msgstr "Ffeiliau"
-
-#~ msgid "Folders"
-#~ msgstr "Plygellau"
-
-#~ msgid "Help"
-#~ msgstr "Cymorth"
-
-#~ msgid "Hosts"
-#~ msgstr "Gwesteiwyr"
-
-#~ msgid "Links"
-#~ msgstr "Cysylltion"
-
-#~ msgid "Mail"
-#~ msgstr "Post"
-
-#~ msgid "Tools"
-#~ msgstr "Offer"
-
-#~ msgid "Windows"
-#~ msgstr "Ffenestri"
-
-#~ msgid "The command used to handle HTTP URLs, if enabled."
-#~ msgstr "Y gorchymyn a ddefnyddir i ymdrin â LAU HTTP, os yn alluog."
-
-#~ msgid "The command used to handle HTTPS URLs, if enabled."
-#~ msgstr "Y gorchymyn a ddefnyddir i ymdrin â LAU HTTPS, os yn alluog."
-
-#, fuzzy
-#~ msgid "The handler for HTTP URLs"
-#~ msgstr "Ymdrin â LAU HTTP"
-
-#, fuzzy
-#~ msgid "The handler for HTTPS URLs"
-#~ msgstr "Ymdrin â LAU HTTP diogel"
-
-#, fuzzy
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTP "
-#~ "URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU HTTPS."
-
-#, fuzzy
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTPS "
-#~ "URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU HTTPS."
-
-#, fuzzy
-#~ msgid "Whether the specified command should handle HTTP URLs"
-#~ msgstr "A ddylai'r gorchymyn penodedig ymdrin a LAU HTTP"
-
-#, fuzzy
-#~ msgid "Whether the specified command should handle HTTPS URLs"
-#~ msgstr "A ddylai'r gorchymyn penodedig ymdrin a LAU HTTPS"
-
-#~ msgid "H323 URL handler"
-#~ msgstr "trinydd LAU H323"
-
-#~ msgid "HTTP URL handler"
-#~ msgstr "trinydd LAU HTTP"
-
-#~ msgid "HTTPS URL handler"
-#~ msgstr "trinydd LAU HTTP diogel"
-
-#~ msgid "Handle callto URLs"
-#~ msgstr "Ymdrin â LAU \"callto\""
-
-#~ msgid "Handle ghelp URLs"
-#~ msgstr "Ymdrin â LAU \"ghelp\""
-
-#~ msgid "Handle info URLs"
-#~ msgstr "Ymdrin â LAU \"info\""
-
-#~ msgid "Handle man URLs"
-#~ msgstr "Ymdrin â LAU \"man\""
-
-#~ msgid "Handle trash URLs"
-#~ msgstr "Ymdrin â LAU sbwriel"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle H323 URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU H323."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle HTTP URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU HTTP."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle HTTPS URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU HTTP diogel."
-
-#, fuzzy
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle aim URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"man\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle callto URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"callto\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle ghelp URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"ghelp\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle info URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"info\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle mailto URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"mailto\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle man URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"man\"."
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle trash URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU sbwriel."
-
-#, fuzzy
-#~ msgid "aim URL handler"
-#~ msgstr "trinydd LAU \"man\""
-
-#~ msgid "callto URL handler"
-#~ msgstr "trinydd LAU \"callto\""
-
-#~ msgid "ghelp URL handler"
-#~ msgstr "trinydd LAU \"ghelp\""
-
-#~ msgid "info URL handler"
-#~ msgstr "trinydd LAU \"info\""
-
-#~ msgid "mailto URL handler"
-#~ msgstr "trinydd LAU \"mailto\""
-
-#~ msgid "man URL handler"
-#~ msgstr "trinydd LAU \"man\""
-
-#~ msgid "trash URL handler"
-#~ msgstr "trinydd LAU sbwriel"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Methodd cadw llyfrnod (%s)"
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "Methwyd cyrchu gwybodaeth ar gyfer ffeil '%s': %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Methwyd llwytho delwedd '%s': rheswm anhysbys, hwyrach ffeil delwedd "
-#~ "annilys"
-
-#~ msgid ""
-#~ "Set to true to have the command specified in \"command\" handle mailto "
-#~ "URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU \"mailto\"."
-
-#~ msgid ""
-#~ "Set to true to have the command specified in the \"command\" key handle "
-#~ "http URLs."
-#~ msgstr ""
-#~ "Gosodwch hyn yn wir er mwyn i'r rhaglen a benodir yn \"command\" i ymdrin "
-#~ "â LAU HTTP."
-
-#~ msgid "URL handler for H323 locations"
-#~ msgstr "Trinydd LAU ar gyfer lleoliadau H323"
-
-#~ msgid "URL handler for HTTP locations"
-#~ msgstr "Trinydd LAU ar gyfer lleoliadau HTTP"
-
-#~ msgid "URL handler for HTTPS locations"
-#~ msgstr "Trinydd LAU ar gyfer lleoliadau HTTPS"
-
-#~ msgid "1 byte"
-#~ msgstr "1 beit"
+msgstr "Y grŵp gwaith neu'r parth rhwydweithio Windows mae'r defnyddiwr yn rhan ohono. Cyn i grŵp gwaith newydd ddod i rym, efallai bydd rhaid i'r defnyddiwr allgofnodi a mewngofnodi eto."

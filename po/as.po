@@ -1,21 +1,22 @@
-# translation of as.po to Assamese
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Amitakhya Phukan <aphukan@redhat.com>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: as\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-05 04:03+0000\n"
-"PO-Revision-Date: 2008-02-05 16:59+0530\n"
-"Last-Translator: Amitakhya Phukan <aphukan@redhat.com>\n"
-"Language-Team: Assamese\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1)\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: as\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -70,157 +71,175 @@ msgid "Auto-detected Volume"
 msgstr "স্বয়ংক্ৰিয়ৰূপে চিনাক্ত ভলিউম"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM ড্ৰাইভ"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD ডিজিটাল অডিও"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "হাৰ্ডওয়্যাৰ ডিভাইস ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "সিস্টেম ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "মেমৰি ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS নেটৱৰ্ক ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Windows Shared ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "অস্থায়ী ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Enhanced DOS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS ভলিউম"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "অজ্ঞাত"
 
@@ -422,22 +441,22 @@ msgstr "%s অপসাৰণযোগ্য ভলিউম"
 msgid "Volume"
 msgstr "ভলিউম"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "অজ্ঞাত ধৰনেৰ কৰ্ম %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "খোলা GIOChannel'ৰ ক্ষেত্ৰে পাইপ নিৰ্মাণ কৰতে ব্যৰ্থ: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "অজ্ঞাত ধৰনেৰ কৰ্ম %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "কৰ্ম বন্ধ কৰা হয়েছে"
 
@@ -474,12 +493,12 @@ msgid ""
 "supported."
 msgstr "অবচিত কৰ্ম ।  MIME ডাটাবেসে ব্যবহাৰকাৰীদেৰ দ্বাৰা পৰিবৰ্তন বৰ্তমানে সমৰ্থিত নয় ।"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "বিশ্লেষণ কৰতে ব্যৰ্থ: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "বিশ্লেষণ কৰ্মজড়িত ত্ৰুটি অতিৰিক্ত ত্ৰুটি অগ্ৰাহ্য কৰা হবে ।"
 
@@ -864,33 +883,37 @@ msgstr "ক্যামেৰা"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Root ভলিউম"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "অডিও CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "অজ্ঞাত ভলিউম"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "নেটৱৰ্ক সাৰ্ভাৰ"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+#, c-format
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "ফ্লপি ড্ৰাইভ মাউন্ট কৰতে ব্যৰ্থ । সম্ভবত ড্ৰাইভেত ফ্লপি অনুপস্থিত ।"
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr "ভলিউম মাউন্ট কৰতে ব্যৰ্থ । সম্ভবত ডিভাইসেত কোনো মিডিয়া উপস্থিত নাই ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
@@ -898,17 +921,17 @@ msgstr "ফ্লপি ড্ৰাইভ মাউন্ট কৰতে ব�
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"ভলিউম মাউন্ট কৰতে ব্যৰ্থ । এনক্ৰিপ্ট কৰা ড্ৰাইভেৰ ক্ষেত্ৰে সম্ভবত ভুল পাসৱৰ্ড অথবা কি "
-"প্ৰয়োগ কৰা হয়েছে ।"
+msgstr "ভলিউম মাউন্ট কৰতে ব্যৰ্থ । এনক্ৰিপ্ট কৰা ড্ৰাইভেৰ ক্ষেত্ৰে সম্ভবত ভুল পাসৱৰ্ড অথবা কি প্ৰয়োগ কৰা হয়েছে ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "নিৰ্বাচিত ভলিউম মাউন্ট কৰতে ব্যৰ্থ । সম্ভবত ভলিউমেৰ বিন্যাস মাউন্ট কৰাৰ উপযুক্ত নয় ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -920,12 +943,11 @@ msgid "Unable to mount the selected volume."
 msgstr "নিৰ্বাচিত ভলিউম মাউন্ট কৰতে ব্যৰ্থ ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"নিৰ্বাচিত ভলিউম আন-মাউন্ট কৰতে ব্যৰ্থ । এক অথবা অধিক প্ৰোগ্ৰামেৰ দ্বাৰা এই ভলিউমটি "
-"ব্যবহৃত হচ্ছে ।"
+msgstr "নিৰ্বাচিত ভলিউম আন-মাউন্ট কৰতে ব্যৰ্থ । এক অথবা অধিক প্ৰোগ্ৰামেৰ দ্বাৰা এই ভলিউমটি ব্যবহৃত হচ্ছে ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -946,6 +968,7 @@ msgid "Unexpected error in select() reading data from a child process (%s)"
 msgstr "চাইল্ড প্ৰসেস থেকে select() দ্বাৰা তথ্য পড়তে অপ্ৰত্যাশিত সমস্যা (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr "মাউন্ট কৰ্মেৰ জন্য পাসৱৰ্ড প্ৰেৰণ কৰতে ব্যৰ্থ ।"
 
@@ -998,13 +1021,8 @@ msgstr "দূৰবৰ্তী কম্পিউটাৰেৰ (%s) পৰ�
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"প্ৰথমবাৰ কম্পিউটাৰে লগ-ইন কৰাৰ সময় এই ৰকম হয়ে থাকে ।\n"
-"\n"
-"দূৰবৰ্তী কম্পিউটাৰ দ্বাৰা প্ৰেৰিত পৰিচিতি হল %s । এগিয়ে চলাৰ পূৰ্বে সম্পূৰ্ণৰূপে নিশ্চিত "
-"হতে সিস্টেম অ্যাডমিনিস্ট্ৰেটৰেৰ সাথে যোগাযোগ কৰুন ।"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "প্ৰথমবাৰ কম্পিউটাৰে লগ-ইন কৰাৰ সময় এই ৰকম হয়ে থাকে ।\n\nদূৰবৰ্তী কম্পিউটাৰ দ্বাৰা প্ৰেৰিত পৰিচিতি হল %s । এগিয়ে চলাৰ পূৰ্বে সম্পূৰ্ণৰূপে নিশ্চিত হতে সিস্টেম অ্যাডমিনিস্ট্ৰেটৰেৰ সাথে যোগাযোগ কৰুন ।"
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1035,9 +1053,7 @@ msgstr "আপনাৰ ব্যবহৃত HTTP প্ৰক্সি সা�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" ব্যবহাৰ কৰাৰ উদ্দেশ্যে লগ-ইন কৰা আবশ্যক ।\n"
-"%s"
+msgstr "\"%s\" ব্যবহাৰ কৰাৰ উদ্দেশ্যে লগ-ইন কৰা আবশ্যক ।\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1073,12 +1089,9 @@ msgstr "ডিফল্ট টাৰ্মিনালেৰ জন্য exec �
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"আবশ্যকৰূপে কোনো কম্পোনেন্ট সহযোগে প্ৰদৰ্শনেৰ উদ্দেশ্যে চিহ্নিত নথিপত্ৰ প্ৰদৰ্শনেৰ জন্য "
-"ব্যবহৃত অ্যাপ্লিকেশন । %s পৰামিতিৰ দ্বাৰা নথিপত্ৰেৰ URI উল্লিখিত হবে ও পৰামিতি %c "
-"দ্বাৰা কম্পোনেন্টেৰ IID নিৰ্দিষ্ট কৰা হবে ।"
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "আবশ্যকৰূপে কোনো কম্পোনেন্ট সহযোগে প্ৰদৰ্শনেৰ উদ্দেশ্যে চিহ্নিত নথিপত্ৰ প্ৰদৰ্শনেৰ জন্য ব্যবহৃত অ্যাপ্লিকেশন । %s পৰামিতিৰ দ্বাৰা নথিপত্ৰেৰ URI উল্লিখিত হবে ও পৰামিতি %c দ্বাৰা কম্পোনেন্টেৰ IID নিৰ্দিষ্ট কৰা হবে ।"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1182,14 +1195,14 @@ msgstr "\"command\" কি'ৰ দ্বাৰা \"aim\" URL ব্যবস্
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "\"command\" কি'ৰ দ্বাৰা \"callto\" URL ব্যবস্থাপনা নিৰ্ধাৰিত হলে মান true (সত্য) ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "\"command\" কি'ৰ দ্বাৰা \"ghelp\" URL ব্যবস্থাপনা নিৰ্ধাৰিত হলে মান true (সত্য) ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1206,8 +1219,8 @@ msgstr "\"command\" কি'ৰ দ্বাৰা \"http\" URL ব্যবস�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "\"command\" কি'ৰ দ্বাৰা \"https\" URL ব্যবস্থাপনা নিৰ্ধাৰিত হলে মান true (সত্য) ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1218,8 +1231,8 @@ msgstr "\"command\" কি'ৰ দ্বাৰা \"info\" URL ব্যবস�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "\"command\" কি'ৰ দ্বাৰা \"mailto\" URL ব্যবস্থাপনা নিৰ্ধাৰিত হলে মান true (সত্য) ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1230,8 +1243,8 @@ msgstr "\"command\" কি'ৰ দ্বাৰা \"man\" URL ব্যবস্
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "\"command\" কি'ৰ দ্বাৰা \"trash\" URL ব্যবস্থাপনা নিৰ্ধাৰিত হলে মান true (সত্য) ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1284,9 +1297,7 @@ msgstr "উল্লিখিত কমান্ডেৰ দ্বাৰা \"t
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"\"network:///\" location'ত প্ৰদৰ্শনযোগ্য DNS-SD'ৰ তালিকা, কমা চিহ্ন দ্বাৰা "
-"বিভাজিত"
+msgstr "\"network:///\" location'ত প্ৰদৰ্শনযোগ্য DNS-SD'ৰ তালিকা, কমা চিহ্ন দ্বাৰা বিভাজিত"
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1339,12 +1350,10 @@ msgstr "HTTP প্ৰক্সি ব্যবহাৰকাৰীৰ না�
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"মান true (সত্য) হলে প্ৰক্সি সাৰ্ভাৰেৰ সাথে সংযোগেৰ জন্য অনুমোদন আবশ্যক । ব্যবহাৰকাৰীৰ "
-"নাম/পাসৱৰ্ড জুটি \"/system/http_proxy/authentication_user\" ও \"/system/"
-"http_proxy/authentication_password\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "মান true (সত্য) হলে প্ৰক্সি সাৰ্ভাৰেৰ সাথে সংযোগেৰ জন্য অনুমোদন আবশ্যক । ব্যবহাৰকাৰীৰ নাম/পাসৱৰ্ড জুটি \"/system/http_proxy/authentication_user\" ও \"/system/http_proxy/authentication_password\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1376,11 +1385,9 @@ msgstr "নিৰাপদ HTTP প্ৰক্সি পোৰ্ট"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"প্ৰক্সি বিন্যাস মোড নিৰ্বাচন কৰুন । সমৰ্থিত মান হল \"none\", \"manual\", \"auto"
-"\" ।"
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "প্ৰক্সি বিন্যাস মোড নিৰ্বাচন কৰুন । সমৰ্থিত মান হল \"none\", \"manual\", \"auto\" ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1402,45 +1409,33 @@ msgstr "socks প্ৰক্সিৰ জন্য ব্যবহাৰযো�
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/http_proxy/host\" দ্বাৰা "
-"ব্যাখ্যা কৰা হয় ।"
+msgstr "প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/http_proxy/host\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/ftp_host\" দ্বাৰা "
-"ব্যাখ্যা কৰা হয় ।"
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/ftp_host\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/secure_host\" দ্বাৰা "
-"ব্যাখ্যা কৰা হয় ।"
+msgstr "প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/secure_host\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/socks_host\" দ্বাৰা "
-"ব্যাখ্যা কৰা হয় ।"
+msgstr "প্ৰক্সি কৰাৰ উদ্দেশ্যে ব্যবহৃত মেশিনেৰ পোৰ্ট \"/system/proxy/socks_host\" দ্বাৰা ব্যাখ্যা কৰা হয় ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"প্ৰক্সিৰ (যদি সক্ৰিয়) পৰিবৰ্তে সৰাসৰি সংযোগকাৰী হোস্টেৰ তালিকা এই কি দ্বাৰা "
-"উল্লিখিত হয়েছে । হোস্ট-নেম, ডোমেইন (প্ৰাৰম্ভিক ৱইল্ডকাৰ্ডসহ যেমন *.foo.com), IP "
-"হোস্ট ঠিকানা (IPv4 ও IPv6) ও নেটমাস্কসহ নেটৱৰ্ক ঠিকানাৰ (যেমন 192.168.0.0/24) "
-"মান এই ক্ষেত্ৰে অন্তৰ্ভুক্ত কৰা যাবে ।"
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "প্ৰক্সিৰ (যদি সক্ৰিয়) পৰিবৰ্তে সৰাসৰি সংযোগকাৰী হোস্টেৰ তালিকা এই কি দ্বাৰা উল্লিখিত হয়েছে । হোস্ট-নেম, ডোমেইন (প্ৰাৰম্ভিক ৱইল্ডকাৰ্ডসহ যেমন *.foo.com), IP হোস্ট ঠিকানা (IPv4 ও IPv6) ও নেটমাস্কসহ নেটৱৰ্ক ঠিকানাৰ (যেমন 192.168.0.0/24) মান এই ক্ষেত্ৰে অন্তৰ্ভুক্ত কৰা যাবে ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1463,7 +1458,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"ব্যবহাৰকাৰী যে Windows নেটৱৰ্কিং ৱৰ্কগ্ৰুপ অথবা ডোমেইনেৰ অংশ । নতুন ৱৰ্কগ্ৰুপ "
-"সম্পূৰ্ণৰূপে সক্ৰিয় কৰাৰ জন্য ব্যবহাৰকাৰীকে সম্ভবত লগ-আউট কৰে পুনৰায় লগ-ইন কৰতে হবে ।"
-
+msgstr "ব্যবহাৰকাৰী যে Windows নেটৱৰ্কিং ৱৰ্কগ্ৰুপ অথবা ডোমেইনেৰ অংশ । নতুন ৱৰ্কগ্ৰুপ সম্পূৰ্ণৰূপে সক্ৰিয় কৰাৰ জন্য ব্যবহাৰকাৰীকে সম্ভবত লগ-আউট কৰে পুনৰায় লগ-ইন কৰতে হবে ।"

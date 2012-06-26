@@ -1,24 +1,23 @@
-# translation of mate-vfs.HEAD.ml.po to
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-# FSF-India <locale@gnu.org.in>, 2003.
+# 
+# Translators:
 # Ani Peter <apeter@redhat.com>, 2006, 2009.
-#
+# FSF-India <locale@gnu.org.in>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD.ml\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-11-07 13:57+0100\n"
-"PO-Revision-Date: 2009-03-10 22:15+0530\n"
-"Last-Translator: Ani Peter <apeter@redhat.com> \n"
-"Language-Team:  Swathanthra Malayalam Computing|സ്വതന്ത്ര മലയാളം കമ്പ്യൂട്ടിങ് <smc-discuss@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"\n"
-"\n"
+"Language: ml\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -73,157 +72,175 @@ msgid "Auto-detected Volume"
 msgstr "കംപ്യൂട്ടര്‍ സ്വയം കണ്ടുപിടിച്ച വോള്യം"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM ഡ്രൈവ്"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "സി.ഡി ഡിജിറ്റല്‍ ഓഡിയോ"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "ഹാര്‍ഡ്‍വയര്‍ ഡിവൈസ് വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "സിസ്റ്റം വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "മെമ്മറി വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS നെറ്റ്‍വര്‍ക്ക് വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Windows ഷെയര്‍ഡ് വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "താല്‍കാലികമായ വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "എന്‍ഹാന്‍സ്ഡ് DOS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS വോള്യം"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "അപരിചിതം"
 
@@ -425,22 +442,22 @@ msgstr "%s നീക്കം ചെയ്യാന്‍ സാധ്യമാ�
 msgid "Volume"
 msgstr "വോള്യം"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "അപരിചിതമായ തരത്തിലുളള പ്രവൃത്തി %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "തുറന്ന അവസ്ഥയിലുളള GIOChannel-ന് പൈപ്പ് ഉണ്ടാക്കുവാന്‍ സാധ്യമല്ല: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "അറിയാത്ത തരം ജോലി %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "പ്രവ‌ര്‍ത്തനം അവസാനിപ്പിച്ചു"
 
@@ -475,16 +492,14 @@ msgstr "പ്രവ‌ര്‍ത്തനം അവസാനിപ്പി�
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"അപലപിക്കുന്ന ഫംഗ്ഷന്‍.  MIME ഡേറ്റാബെയിസിലേക്ക് ഉപയോഗിക്കുന്ന ആള്‍ വരുത്തുന്ന മാറ്റങ്ങള്‍ക്ക് ഇപ്പോള്‍ "
-"പിന്തുണ ലഭ്യമല്ല."
+msgstr "അപലപിക്കുന്ന ഫംഗ്ഷന്‍.  MIME ഡേറ്റാബെയിസിലേക്ക് ഉപയോഗിക്കുന്ന ആള്‍ വരുത്തുന്ന മാറ്റങ്ങള്‍ക്ക് ഇപ്പോള്‍ പിന്തുണ ലഭ്യമല്ല."
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "പാഴ്സ് ചെയ്യുവാന്‍ സാധ്യമല്ല: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "കൂടുതലായുളള പാഴ്സിങ് പിശകുകള്‍ അവഗണിക്കുന്നതാണ്."
 
@@ -869,26 +884,27 @@ msgstr "ക്യാമറാ"
 msgid "DVD"
 msgstr "ാ"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Root വോള്യം"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "ഓഡിയോ CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "അപരിചിതമായ വോള്യം"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "നെറ്റ്‍വര്‍ക്ക് സര്‍വര്‍"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "ഫ്ളോപ്പി ഡ്രൈവ് മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. ഡ്രൈവില്‍ ഫ്ളോപ്പി ഉണ്ട് എന്നുറപ്പുവരുത്തുക."
 
 #. All others
@@ -902,9 +918,7 @@ msgstr "വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ 
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"ഫ്ളോപ്പി ഡ്രൈവ് മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. ഫ്ളോപ്പി മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമാകുന്ന "
-"രൂപത്തിലായിരിക്കില്ല."
+msgstr "ഫ്ളോപ്പി ഡ്രൈവ് മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. ഫ്ളോപ്പി മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമാകുന്ന രൂപത്തിലായിരിക്കില്ല."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -912,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമല്ല. ഇത് രഹസ്യകോഡ് ഉപയോഗിക്കുന്ന ഡ്രൈവ് ആണെങ്കില്‍, തെറ്റായ "
-"പാസ്‍വേര്‍ഡ് അല്ലെങ്കില്‍ കീ ഉപയോഗിച്ചിരിക്കുന്നു."
+msgstr "വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമല്ല. ഇത് രഹസ്യകോഡ് ഉപയോഗിക്കുന്ന ഡ്രൈവ് ആണെങ്കില്‍, തെറ്റായ പാസ്‍വേര്‍ഡ് അല്ലെങ്കില്‍ കീ ഉപയോഗിച്ചിരിക്കുന്നു."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"തിരഞ്ഞെടുത്ത വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമാകുന്ന "
-"രൂപത്തിലായിരിക്കില്ല."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "തിരഞ്ഞെടുത്ത വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമാകുന്ന രൂപത്തിലായിരിക്കില്ല."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -938,9 +948,7 @@ msgstr "തിരഞ്ഞെടുത്ത വോള്യം മൌണ്ട�
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"തിരഞ്ഞെടുത്ത വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. ഒന്നോ അതിലധികമോ പ്രോഗ്രാമുകള്‍ വോള്യം "
-"ഉപയോഗിച്ചു കൊണ്ടിരിക്കുന്നു."
+msgstr "തിരഞ്ഞെടുത്ത വോള്യം മൌണ്ട് ചെയ്യുവാന്‍ സാധ്യമായില്ല. ഒന്നോ അതിലധികമോ പ്രോഗ്രാമുകള്‍ വോള്യം ഉപയോഗിച്ചു കൊണ്ടിരിക്കുന്നു."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1014,13 +1022,8 @@ msgstr "തിരിച്ചറിയുവാന്‍ സാധ്യമല�
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"നിങ്ങള്‍ ആദ്യമായി ഒരു കംപ്യൂട്ടറിലേക്ക് പ്രവേശിക്കുന്പോള്‍ ഇങ്ങനെ സംഭവിക്കുന്നു.\n"
-"\n"
-"വിദൂരതയിലുളള കംപ്യൂട്ടറിനെ തിരിച്ചറിയുന്നതിനായി അയച്ചിരിക്കുന്നത് %s ആണ്. ഈ വിധം മുന്നോട്ട് "
-"പോകുന്നത് സുരക്ഷിതമെന്ന് ഉറപ്പ് വരുത്തണമെങ്കില്‍, ദയവായി സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്ററുമായി ബന്ധപ്പെടുക."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "നിങ്ങള്‍ ആദ്യമായി ഒരു കംപ്യൂട്ടറിലേക്ക് പ്രവേശിക്കുന്പോള്‍ ഇങ്ങനെ സംഭവിക്കുന്നു.\n\nവിദൂരതയിലുളള കംപ്യൂട്ടറിനെ തിരിച്ചറിയുന്നതിനായി അയച്ചിരിക്കുന്നത് %s ആണ്. ഈ വിധം മുന്നോട്ട് പോകുന്നത് സുരക്ഷിതമെന്ന് ഉറപ്പ് വരുത്തണമെങ്കില്‍, ദയവായി സിസ്റ്റം അഡ്മിനിസ്ട്രേറ്ററുമായി ബന്ധപ്പെടുക."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1051,9 +1054,7 @@ msgstr "HTTP പ്രോക്സിയ്ക്ക് നിങ്ങള്‍
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" ലഭ്യമാകുന്നതിന് നിങ്ങള്‍ ലോഗിന്‍ ചെയ്യേണ്ടതാണ്.\n"
-"%s"
+msgstr "\"%s\" ലഭ്യമാകുന്നതിന് നിങ്ങള്‍ ലോഗിന്‍ ചെയ്യേണ്ടതാണ്.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1089,11 +1090,9 @@ msgstr "ഡീഫോള്‍ട്ട് ടെര്‍മിനലിനാ�
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"പ്രയോഗത്തില്‍ ഉപയോഗിക്കുന്ന ഫയലുകള്‍ കാണുന്നതിനായി ആവശ്യമുളള ഘടകം. %s പരാമീറ്ററിന് പകരം "
-"ഫയലിന്‍റെ URI, %c പരാമീറ്ററിന് പകരം ഘടകം IID എന്നിവ ഉപയോഗിക്കുന്നു."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "പ്രയോഗത്തില്‍ ഉപയോഗിക്കുന്ന ഫയലുകള്‍ കാണുന്നതിനായി ആവശ്യമുളള ഘടകം. %s പരാമീറ്ററിന് പകരം ഫയലിന്‍റെ URI, %c പരാമീറ്ററിന് പകരം ഘടകം IID എന്നിവ ഉപയോഗിക്കുന്നു."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1193,89 +1192,67 @@ msgstr "\"trash\" URL കൈകാര്യം ചെയ്യുവാനുള
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"aim\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി "
-"(ട്രൂ) ആണ്."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"aim\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"callto\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, "
-"ശരി (ട്രൂ) ആണ്."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"callto\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"ghelp\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, "
-"ശരി (ട്രൂ) ആണ്."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"ghelp\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"h323\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി "
-"(ട്രൂ) ആണ്."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"h323\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"http\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി "
-"(ട്രൂ) ആണ്."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"http\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"https\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, "
-"ശരി (ട്രൂ) ആണ്."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"https\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"info\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി "
-"(ട്രൂ) ആണ്."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"info\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"mailto\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, "
-"ശരി (ട്രൂ) ആണ്."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"mailto\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"man\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി "
-"(ട്രൂ) ആണ്."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"man\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"trash\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, "
-"ശരി (ട്രൂ) ആണ്."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "\"command\" കീയില്‍ പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദേശം \"trash\" URL കൈകാര്യം ചെയ്യണമെങ്കില്‍, ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"ഈ തരത്തിലുളള നിര്‍ദ്ദേശം കൈകാര്യം ചെയ്യുന്ന നിര്‍ദ്ദേശം ഒരു ടെര്‍മിനലിലാണ് പ്രവര്‍ത്തിക്കേണ്ടത് "
-"എങ്കില്‍ ശരി (ട്രൂ) ആണ്."
+msgstr "ഈ തരത്തിലുളള നിര്‍ദ്ദേശം കൈകാര്യം ചെയ്യുന്ന നിര്‍ദ്ദേശം ഒരു ടെര്‍മിനലിലാണ് പ്രവര്‍ത്തിക്കേണ്ടത് എങ്കില്‍ ശരി (ട്രൂ) ആണ്."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1321,9 +1298,7 @@ msgstr "പറഞ്ഞിരിക്കുന്ന നിര്‍ദ്ദ�
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"\"നെറ്റ്‍വര്‍ക്ക്:///\" സ്ഥാനത്ത് ദൃശ്യമായിരിക്കേണ്ട കോമാ ഉപയോഗിച്ച് വേര്‍തിരിച്ചിരിക്കുന്ന DNS-SD "
-"ഡൊമെയിനുകള്‍."
+msgstr "\"നെറ്റ്‍വര്‍ക്ക്:///\" സ്ഥാനത്ത് ദൃശ്യമായിരിക്കേണ്ട കോമാ ഉപയോഗിച്ച് വേര്‍തിരിച്ചിരിക്കുന്ന DNS-SD ഡൊമെയിനുകള്‍."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1376,12 +1351,10 @@ msgstr "HTTP പ്രോക്സി ഉപയോക്തൃനാമം"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"ട്രൂ എങ്കില്‍, പ്രോക്സി സര്‍വറിലേക്കുളള കണക്ഷനുകള്‍ക്ക് ആധികാരികത ഉറപ്പ് വരുത്തേണ്ടതുണ്ട്. \"/system/"
-"http_proxy/authentication_user\" , \"/system/http_proxy/"
-"authentication_password\" ഉപയോഗിച്ച് username/password കോംപോ വ്യക്തമാക്കിയിരിക്കുന്നു."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "ട്രൂ എങ്കില്‍, പ്രോക്സി സര്‍വറിലേക്കുളള കണക്ഷനുകള്‍ക്ക് ആധികാരികത ഉറപ്പ് വരുത്തേണ്ടതുണ്ട്. \"/system/http_proxy/authentication_user\" , \"/system/http_proxy/authentication_password\" ഉപയോഗിച്ച് username/password കോംപോ വ്യക്തമാക്കിയിരിക്കുന്നു."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1413,11 +1386,9 @@ msgstr "സെക്ക്യൂര്‍ HTTP പ്രോക്സി പോ�
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"പ്രോക്സി കോണ്‍ഫിഗറേഷന്‍ രീതി തിരഞ്ഞെടുക്കുക. \"ഒന്നുമില്ല\", \"മാനുവല്‍\", \"ഓട്ടോ\" ആണ് "
-"പിന്തുണയുളള മൂല്ല്യങ്ങള്‍."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "പ്രോക്സി കോണ്‍ഫിഗറേഷന്‍ രീതി തിരഞ്ഞെടുക്കുക. \"ഒന്നുമില്ല\", \"മാനുവല്‍\", \"ഓട്ടോ\" ആണ് പിന്തുണയുളള മൂല്ല്യങ്ങള്‍."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1439,45 +1410,33 @@ msgstr "സോക്ക്സ് വഴി പ്രോക്സി ചെയ്
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/http_proxy/host\" "
-"വ്യക്തമാക്കിയിരിക്കുന്നു."
+msgstr "നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/http_proxy/host\" വ്യക്തമാക്കിയിരിക്കുന്നു."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/ftp_host\" "
-"വ്യക്തമാക്കിയിരിക്കുന്നു."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/ftp_host\" വ്യക്തമാക്കിയിരിക്കുന്നു."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/secure_host\" "
-"വ്യക്തമാക്കിയിരിക്കുന്നു."
+msgstr "നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/secure_host\" വ്യക്തമാക്കിയിരിക്കുന്നു."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/socks_host\" "
-"വ്യക്തമാക്കിയിരിക്കുന്നു."
+msgstr "നിങ്ങള്‍ പ്രോക്സി ചെയ്യുന്ന കംപ്യൂട്ടറിന്‍റെ പോര്‍ട്ട് \"/system/proxy/socks_host\" വ്യക്തമാക്കിയിരിക്കുന്നു."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"പ്രോക്സി വഴി (സജ്ജമെങ്കില്‍) അല്ലാതെ നേരിട്ട് കണക്ട് ചെയ്യുന്ന ഹോസ്റ്റുകളുടെ ലിസ്റ്റ് ഈ കീയില്‍ "
-"അടങ്ങുന്നു. ഹോസ്റ്റ് നെയിമുകള്‍, ഡോമെയിനുകള്‍ (*.foo.com പോലുളള ആരംഭത്തിലുളള വൈള്‍ഡ് കാര്‍ഡ് "
-"ഉപയോഗിക്കുന്നു), IP ഹോസ്റ്റ് വിലാസങ്ങള്‍ ( IPv4, IPv6 എന്നിവ), നെറ്റ്മാസ്കുളള നെറ്റ്‍വര്‍ക്ക് "
-"വിലാസങ്ങള്‍ (192.168.0.0/24 പോലുളളവ) എന്നിവ മൂല്ല്യങ്ങള്‍ ആവാം."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "പ്രോക്സി വഴി (സജ്ജമെങ്കില്‍) അല്ലാതെ നേരിട്ട് കണക്ട് ചെയ്യുന്ന ഹോസ്റ്റുകളുടെ ലിസ്റ്റ് ഈ കീയില്‍ അടങ്ങുന്നു. ഹോസ്റ്റ് നെയിമുകള്‍, ഡോമെയിനുകള്‍ (*.foo.com പോലുളള ആരംഭത്തിലുളള വൈള്‍ഡ് കാര്‍ഡ് ഉപയോഗിക്കുന്നു), IP ഹോസ്റ്റ് വിലാസങ്ങള്‍ ( IPv4, IPv6 എന്നിവ), നെറ്റ്മാസ്കുളള നെറ്റ്‍വര്‍ക്ക് വിലാസങ്ങള്‍ (192.168.0.0/24 പോലുളളവ) എന്നിവ മൂല്ല്യങ്ങള്‍ ആവാം."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1500,8 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"ഉപയോക്താവ് ഭാഗമായിരിക്കുന്ന Windows നെറ്റ്‍വര്‍ക്കിങ് ഗ്രൂപ്പ് അല്ലെങ്കില്‍ ഡൊമെയിന്‍. ഒരു പുതിയ "
-"വര്‍ക്ക് ഗ്രൂപ്പ് കംപ്യൂട്ടര്‍ അംഗീകരിക്കണമെങ്കില്‍ ഉപയോക്താവ് ലോഗൌട്ട് ചെയ്ത് വീണ്ടും ലോഗിന്‍ "
-"ചെയ്യേണ്ടതാകുന്നു."
-
+msgstr "ഉപയോക്താവ് ഭാഗമായിരിക്കുന്ന Windows നെറ്റ്‍വര്‍ക്കിങ് ഗ്രൂപ്പ് അല്ലെങ്കില്‍ ഡൊമെയിന്‍. ഒരു പുതിയ വര്‍ക്ക് ഗ്രൂപ്പ് കംപ്യൂട്ടര്‍ അംഗീകരിക്കണമെങ്കില്‍ ഉപയോക്താവ് ലോഗൌട്ട് ചെയ്ത് വീണ്ടും ലോഗിന്‍ ചെയ്യേണ്ടതാകുന്നു."

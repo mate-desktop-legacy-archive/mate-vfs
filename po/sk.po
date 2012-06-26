@@ -1,23 +1,24 @@
-# Slovak translation for mate-vfs.
-# Copyright (C) 2000, 2001, 2003, 2004, 2005, 2008, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-vfs package.
-# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000, 2001, 2003, 2004.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ivan Noris <vix@vazka.sk>, 2004, 2005.
 # Marcel Telka <marcel@telka.sk>, 2008, 2010.
-#
+# Stanislav Visnovsky <visnovsky@nenya.ms.mff.cuni.cz>, 2000, 2001, 2003, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-02-19 10:35+0000\n"
-"PO-Revision-Date: 2010-02-23 00:53+0100\n"
-"Last-Translator: Marcel Telka <marcel@telka.sk>\n"
-"Language-Team: Slovak <mate-sk-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:44+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -492,8 +493,7 @@ msgstr "Operácia zastavená"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Zastaralá funkcia.  Používateľské zmeny MIME databázy už nie sú podporované."
+msgstr "Zastaralá funkcia.  Používateľské zmeny MIME databázy už nie sú podporované."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -920,8 +920,7 @@ msgstr "Nepodarilo sa pripojiť zväzok. Možno v mechanike nie je médium."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Nepodarilo sa pripojiť disketu. Disketa asi nie je v podporovanom formáte."
+msgstr "Nepodarilo sa pripojiť disketu. Disketa asi nie je v podporovanom formáte."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -929,18 +928,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Nepodarilo sa pripojiť zväzok. Ak je tento zväzok zašifrovaný, bolo použité "
-"nesprávne heslo alebo kľúč."
+msgstr "Nepodarilo sa pripojiť zväzok. Ak je tento zväzok zašifrovaný, bolo použité nesprávne heslo alebo kľúč."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Nepodarilo sa pripojiť zadaný zväzok. Zväzok asi nie je v podporovanom "
-"formáte."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Nepodarilo sa pripojiť zadaný zväzok. Zväzok asi nie je v podporovanom formáte."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -955,9 +950,7 @@ msgstr "Nepodarilo sa pripojiť zadaný disk."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Nepodarilo sa odpojiť zadaný zväzok. Zväzok je používaný jedným alebo "
-"viacerými programami."
+msgstr "Nepodarilo sa odpojiť zadaný zväzok. Zväzok je používaný jedným alebo viacerými programami."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1031,13 +1024,8 @@ msgstr "Totožnosť vzdialeného počítača (%s) je neznáma."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Toto sa stane pri prvom prihlásení k počítaču.\n"
-"\n"
-"Totožnosť odoslaná vzdialeným počítačom je %s. Ak chcete mať absolútnu "
-"istotu, že je bezpečné pokračovať, kontaktujte správcu systému."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Toto sa stane pri prvom prihlásení k počítaču.\n\nTotožnosť odoslaná vzdialeným počítačom je %s. Ak chcete mať absolútnu istotu, že je bezpečné pokračovať, kontaktujte správcu systému."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1068,9 +1056,7 @@ msgstr "Vaše HTTP proxy vyžaduje vaše prihlásenie.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Aby ste mohli pristupovať k \"%s\", musíte sa prihlásiť.\n"
-"%s"
+msgstr "Aby ste mohli pristupovať k \"%s\", musíte sa prihlásiť.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1106,20 +1092,15 @@ msgstr "Argument spustenia pre štandardný terminál"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Aplikácia používaná pre zobrazenie súborov, ktoré vyžadujú nejakú súčasť pre "
-"zobrazenie. Parameter %s bude nahradený URI súborov, parameter %c bude "
-"nahradený IID súčasti."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Aplikácia používaná pre zobrazenie súborov, ktoré vyžadujú nejakú súčasť pre zobrazenie. Parameter %s bude nahradený URI súborov, parameter %c bude nahradený IID súčasti."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Štandardná aplikácia terminálu používaná pre aplikácie, ktoré vyžadujú "
-"terminál."
+msgstr "Štandardná aplikácia terminálu používaná pre aplikácie, ktoré vyžadujú terminál."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1213,79 +1194,67 @@ msgstr "Obslužný program pre URL \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"aim\"."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"h323\"."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"http\"."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"info\"."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"man\"."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "True, ak program zadaný v kľúči \"command\" by mal obsluhovať URL \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"True, ak má byť program, použitý na obsluhu tohoto typu URL, spustený v "
-"termináli."
+msgstr "True, ak má byť program, použitý na obsluhu tohoto typu URL, spustený v termináli."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1331,9 +1300,7 @@ msgstr "Či má zadaný príkaz obsuhovať URL \"trash\""
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Čiarkou oddelený zoznam DNS-SD domén, ktoré majú byť viditeľné v umiestnení "
-"\"network:///\"."
+msgstr "Čiarkou oddelený zoznam DNS-SD domén, ktoré majú byť viditeľné v umiestnení \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1386,12 +1353,10 @@ msgstr "Meno používateľa pre HTTP proxy"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Ak je true, pripojenia k proxy serveru vyžadujú overenie totožnosti. "
-"Kombinácia používateľ/heslo je definovaná v \"/system/http_proxy/"
-"authentication_user\" a \"/system/http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Ak je true, pripojenia k proxy serveru vyžadujú overenie totožnosti. Kombinácia používateľ/heslo je definovaná v \"/system/http_proxy/authentication_user\" a \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1423,11 +1388,9 @@ msgstr "Port proxy pre zabezpečené HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Výber režimu nastavenia proxy. Podporované hodnoty sú \"none\", \"manual\", "
-"\"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Výber režimu nastavenia proxy. Podporované hodnoty sú \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1449,45 +1412,33 @@ msgstr "Názov počítača, ktorý používať ako proxy pre socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port počítača definovaného v \"/system/http_proxy/host\", ktorý používate "
-"ako proxy."
+msgstr "Port počítača definovaného v \"/system/http_proxy/host\", ktorý používate ako proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port počítača definovaného v \"/system/proxy/ftp_host\", ktorý používate ako "
-"proxy."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port počítača definovaného v \"/system/proxy/ftp_host\", ktorý používate ako proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port počítača definovaného v \"/system/proxy/secure_host\", ktorý používate "
-"ako proxy."
+msgstr "Port počítača definovaného v \"/system/proxy/secure_host\", ktorý používate ako proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port počítača definovaného v \"/system/proxy/socks_host\", ktorý používate "
-"ako proxy."
+msgstr "Port počítača definovaného v \"/system/proxy/socks_host\", ktorý používate ako proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Tento kľúč obsahuje zoznam hostiteľov, ku ktorým sa radšej pripojiť priamo a "
-"nie cez proxy (ak je atívne). Hodnoty môžu byť názvy hostiteľov, domény "
-"(pomocou počiatočných žolíkov, napr. *.foo.com), IP adresy (IPv4 aj IPv6) a "
-"sieťové adresy s maskou (napr. 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Tento kľúč obsahuje zoznam hostiteľov, ku ktorým sa radšej pripojiť priamo a nie cez proxy (ak je atívne). Hodnoty môžu byť názvy hostiteľov, domény (pomocou počiatočných žolíkov, napr. *.foo.com), IP adresy (IPv4 aj IPv6) a sieťové adresy s maskou (napr. 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1510,7 +1461,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Sieťová pracovná skupina alebo doména Windows, do ktorej patrí používateľ. "
-"Aby sa nová pracovná skupina úplne prejavila, použivateľ sa možno bude "
-"musieť odhlásiť a prihlásiť."
+msgstr "Sieťová pracovná skupina alebo doména Windows, do ktorej patrí používateľ. Aby sa nová pracovná skupina úplne prejavila, použivateľ sa možno bude musieť odhlásiť a prihlásiť."

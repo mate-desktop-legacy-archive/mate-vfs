@@ -1,24 +1,21 @@
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# matepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-19 11:35+0100\n"
-"PO-Revision-Date: 2010-02-19 11:28+0100\n"
-"Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
-"Language-Team: Polish <matepl@aviary.pl>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/MATE/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -493,9 +490,7 @@ msgstr "Zatrzymano operację"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Przestarzała funkcja. Modyfikacje przez użytkownika bazy MIME nie są więcej "
-"obsługiwane."
+msgstr "Przestarzała funkcja. Modyfikacje przez użytkownika bazy MIME nie są więcej obsługiwane."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -909,9 +904,7 @@ msgstr "Serwer sieciowy"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Nie można zamontować napędu dyskietek. Prawdopodobnie brak jest dyskietki w "
-"napędzie."
+msgstr "Nie można zamontować napędu dyskietek. Prawdopodobnie brak jest dyskietki w napędzie."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -924,9 +917,7 @@ msgstr "Nie można zamontować woluminu. Prawdopodobnie brak nośnika w napędzi
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Nie można zamontować napędu dyskietek. Prawdopodobnie dyskietka jest "
-"zapisana w formacie, którego nie można zamontować."
+msgstr "Nie można zamontować napędu dyskietek. Prawdopodobnie dyskietka jest zapisana w formacie, którego nie można zamontować."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -934,18 +925,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Nie można zamontować woluminu. Jeżeli jest to zaszyfrowany napęd, mogło "
-"zostać użyte złe hasło lub klucz."
+msgstr "Nie można zamontować woluminu. Jeżeli jest to zaszyfrowany napęd, mogło zostać użyte złe hasło lub klucz."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Nie można zamontować wybranego woluminu. Prawdopodobnie wolumin jest "
-"zapisany w formacie, którego nie można zamontować."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Nie można zamontować wybranego woluminu. Prawdopodobnie wolumin jest zapisany w formacie, którego nie można zamontować."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -960,9 +947,7 @@ msgstr "Nie można zamontować wybranego woluminu."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Nie można odmontować wybranego woluminu. Wolumin jest w użyciu przez jeden "
-"lub więcej programów."
+msgstr "Nie można odmontować wybranego woluminu. Wolumin jest w użyciu przez jeden lub więcej programów."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -980,8 +965,7 @@ msgstr "Nie można uruchomić procesu mount w pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Nieoczekiwany błąd w select() podczas odczytu danych z procesu potomnego (%s)"
+msgstr "Nieoczekiwany błąd w select() podczas odczytu danych z procesu potomnego (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1037,14 +1021,8 @@ msgstr "Nieznany identyfikator zdalnego komputera (%s)."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Taka sytuacja występuje podczas pierwszego logowania.\n"
-"\n"
-"Identyfikator wysłany przez zdalny komputer to %s. Jeżeli chcesz się "
-"upewnić, że kontynuowanie jest bezpieczne, skontaktuj się z administratorem "
-"systemu."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Taka sytuacja występuje podczas pierwszego logowania.\n\nIdentyfikator wysłany przez zdalny komputer to %s. Jeżeli chcesz się upewnić, że kontynuowanie jest bezpieczne, skontaktuj się z administratorem systemu."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1075,9 +1053,7 @@ msgstr "Pośrednik sieciowy HTTP wymaga zalogowania.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Należy się zalogować aby mieć dostęp do \"%s\".\n"
-"%s"
+msgstr "Należy się zalogować aby mieć dostęp do \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1113,19 +1089,15 @@ msgstr "Argument uruchamiania dla domyślnego terminala"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Aplikacja używana do przeglądania plików wymagająca komponentu do ich "
-"obejrzenia. Parametr %s zostanie zastąpiony przez URI pliku, parametr %c "
-"zostanie zastąpiony poprzez IID komponentu."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Aplikacja używana do przeglądania plików wymagająca komponentu do ich obejrzenia. Parametr %s zostanie zastąpiony przez URI pliku, parametr %c zostanie zastąpiony poprzez IID komponentu."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Domyślna aplikacja terminala używana dla aplikacji wymagającej terminala."
+msgstr "Domyślna aplikacja terminala używana dla aplikacji wymagającej terminala."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1137,53 +1109,43 @@ msgstr "Uruchomienie polecenia w terminalu"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"aim\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"callto\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"ghelp\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"h323\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"http\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"https\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"info\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"mailto\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"man\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr ""
-"Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"trash\"."
+msgstr "Jeżeli włączone, polecenie używane do obsługi adresów URL typu \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
@@ -1229,89 +1191,67 @@ msgstr "Obsługa adresu URL typu \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"aim\"."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"h323\"."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"http\"."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"info\"."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"man\"."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL "
-"typu \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Określa, czy program podany w kluczu \"command\" ma obsługiwać adresy URL typu \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Określa, czy program obsługujący ten typ adresu URL powinien być uruchomiony "
-"w terminalu."
+msgstr "Określa, czy program obsługujący ten typ adresu URL powinien być uruchomiony w terminalu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1357,9 +1297,7 @@ msgstr "Określa, czy podane polecenie ma obsługiwać adresy URL typu \"trash\"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Lista oddzielonych przecinkami domen DNS-SD, które powinny być widoczne w "
-"położeniu \"network:///\"."
+msgstr "Lista oddzielonych przecinkami domen DNS-SD, które powinny być widoczne w położeniu \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1371,9 +1309,7 @@ msgstr "Sposób wyświetlania lokalnych usług DNS-SD"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Dopuszczalne wartości to \"merged\" (połączone), \"separate\" (oddzielne) "
-"oraz \"disabled\" (wyłączone)."
+msgstr "Dopuszczalne wartości to \"merged\" (połączone), \"separate\" (oddzielne) oraz \"disabled\" (wyłączone)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1385,9 +1321,7 @@ msgstr "Adres URL automatycznej konfiguracji pośrednika"
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr ""
-"Włącza ustawienia pośrednika podczas próby dostępu HTTP za pośrednictwem "
-"Internetu."
+msgstr "Włącza ustawienia pośrednika podczas próby dostępu HTTP za pośrednictwem Internetu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
@@ -1416,13 +1350,10 @@ msgstr "Nazwa użytkownika pośrednika HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Jeżeli ustawione, połączenia do serwera pośredniczącego wymagają "
-"uwierzytelniania. Lista rozwijana użytkownik/hasło jest zdefiniowana przez "
-"\"/system/http_proxy/authentication_user\" oraz \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Jeżeli ustawione, połączenia do serwera pośredniczącego wymagają uwierzytelniania. Lista rozwijana użytkownik/hasło jest zdefiniowana przez \"/system/http_proxy/authentication_user\" oraz \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1430,9 +1361,7 @@ msgstr "Komputery bez pośrednika"
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Hasło podawane przy uwierzytelnieniu podczas wykonywania operacji "
-"pośredniczących HTTP."
+msgstr "Hasło podawane przy uwierzytelnieniu podczas wykonywania operacji pośredniczących HTTP."
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
@@ -1456,11 +1385,9 @@ msgstr "Port pośrednika bezpiecznego połączenia HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Wybierz tryb konfiguracji pośrednika. Obsługiwanymi wartościami są \"none"
-"\" (brak konfiguracji), \"manual\" (ręczna), \"auto\" (automatyczna)."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Wybierz tryb konfiguracji pośrednika. Obsługiwanymi wartościami są \"none\" (brak konfiguracji), \"manual\" (ręczna), \"auto\" (automatyczna)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1482,46 +1409,33 @@ msgstr "Nazwa maszyny stanowiącej pośrednika dla mechanizmu gniazd."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port komputera określonego przez \"/system/http_proxy/host\", będący "
-"pośrednikiem dla ruchu sieciowego."
+msgstr "Port komputera określonego przez \"/system/http_proxy/host\", będący pośrednikiem dla ruchu sieciowego."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port komputera określonego przez \"/system/proxy/ftp_host\", będący "
-"pośrednikiem dla ruchu sieciowego."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port komputera określonego przez \"/system/proxy/ftp_host\", będący pośrednikiem dla ruchu sieciowego."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port komputera określonego przez \"/system/proxy/secure_host\", będący "
-"pośrednikiem dla ruchu sieciowego."
+msgstr "Port komputera określonego przez \"/system/proxy/secure_host\", będący pośrednikiem dla ruchu sieciowego."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port komputera określonego przez \"/system/proxy/socks_host\", będącego "
-"pośrednikiem dla ruchu sieciowego."
+msgstr "Port komputera określonego przez \"/system/proxy/socks_host\", będącego pośrednikiem dla ruchu sieciowego."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Ten klucz zawiera listę komputerów, które są połączone bezpośrednio, nie zaś "
-"przez pośrednika (jeśli jest aktywny). Wartościami mogą być nazwy "
-"komputerów, domeny (z użyciem sekwencji specjalnych takich jak *.foo.com), "
-"adresy IP (zarówno IPv4 jak i IPv6) oraz adresy sieciowe z maską sieci (np. "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Ten klucz zawiera listę komputerów, które są połączone bezpośrednio, nie zaś przez pośrednika (jeśli jest aktywny). Wartościami mogą być nazwy komputerów, domeny (z użyciem sekwencji specjalnych takich jak *.foo.com), adresy IP (zarówno IPv4 jak i IPv6) oraz adresy sieciowe z maską sieci (np. 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1533,9 +1447,7 @@ msgstr "Użycie pośrednika HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Nazwa użytkownika przekazywana do uwierzytelnienia podczas operacji "
-"pośredniczenia http."
+msgstr "Nazwa użytkownika przekazywana do uwierzytelnienia podczas operacji pośredniczenia http."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1546,7 +1458,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Grupa robocza Windows lub domena do której należy użytkownik. Aby nowa grupa "
-"odniosła pełny skutek, użytkownik może potrzebować wylogować się i zalogować "
-"ponownie."
+msgstr "Grupa robocza Windows lub domena do której należy użytkownik. Aby nowa grupa odniosła pełny skutek, użytkownik może potrzebować wylogować się i zalogować ponownie."

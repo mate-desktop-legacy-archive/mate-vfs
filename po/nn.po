@@ -1,23 +1,22 @@
-# translation of nn.po to Norwegian Nynorsk
-# Norwegian (nynorsk) translation of mate-vfs.
-# Copyright (C) 2002 Free Software Foundation
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Kjartan Maraas  <kmaraas@gnome.org>, 2001, 2006.
-# Roy-Magne Mo <rmo@sunnmore.net>, 2001-2002.
-# Åsmund Skjæveland <aasmunds@ulrik.uio.no>, 2003-2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: nn\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-02-24 19:16+0100\n"
-"PO-Revision-Date: 2008-02-24 19:17+0100\n"
-"Last-Translator: Åsmund Skjæveland <aasmunds@ulrik.uio.no>\n"
-"Language-Team: Norwegian Nynorsk <i18n-nn@lister.ping.uio.no>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: nn\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -72,157 +71,175 @@ msgid "Auto-detected Volume"
 msgstr "Automatisk attkjend volum"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM-stasjon"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "Digital CD-lyd"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Maskinvaredataeining"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Systemvolum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Minnevolum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS nettverksvolum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Delt Windows-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Mellombels volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Utvida DOS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS-volum"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Ukjend"
 
@@ -424,23 +441,22 @@ msgstr "%s Flyttbart volum"
 msgid "Volume"
 msgstr "Volum"
 
-# TRN: Hø?
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "Ukjend operasjonstype %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Kan ikkje oppretta røyr for open GIOChannel: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Ukjend jobbtype %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "Operasjonen vart stoppa"
 
@@ -477,12 +493,12 @@ msgid ""
 "supported."
 msgstr "Forelda funksjonar. Brukarendringar av MIME-databasen er ikkje støtta lenger."
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Kunne ikkje tolka %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Overser komande tolkingsfeil."
 
@@ -691,7 +707,6 @@ msgstr "Spørjing gjer tenesta sine data for gamle"
 msgid "Protocol error"
 msgstr "Protokollfeil"
 
-# TRN: Kva er ein master browser?
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
 #: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
@@ -868,29 +883,28 @@ msgstr "Kamera"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Rotvolum"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "Lyd-CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Ukjent volum"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Nettverkstenar"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Kan ikkje montera disketten. Det er truleg ikkje nokon diskett i "
-"diskettstasjonen."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgstr "Kan ikkje montera disketten. Det er truleg ikkje nokon diskett i diskettstasjonen."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -903,9 +917,7 @@ msgstr "Kan ikkje montera volumet. Det er truleg ikkje noko media i stasjonen."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Kan ikkje montera disketten. Disketten er truleg i eit format som ikkje kan "
-"monterast."
+msgstr "Kan ikkje montera disketten. Disketten er truleg i eit format som ikkje kan monterast."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -913,18 +925,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Klarte ikkje å montera volumet. Dersom det var ein kryptert stasjon, vart "
-"feil passord eller nøkkel brukt."
+msgstr "Klarte ikkje å montera volumet. Dersom det var ein kryptert stasjon, vart feil passord eller nøkkel brukt."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Kan ikkje montera det valde volumet. Volumet er truleg i eit format som "
-"ikkje kan monterast."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Kan ikkje montera det valde volumet. Volumet er truleg i eit format som ikkje kan monterast."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -939,9 +947,7 @@ msgstr "Kan ikkje montera det valde volumet."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Kan ikkje montera det valde volumet. Volumet er truleg i bruk av eitt eller "
-"fleier program."
+msgstr "Kan ikkje montera det valde volumet. Volumet er truleg i bruk av eitt eller fleier program."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1015,14 +1021,8 @@ msgstr "Identiteten til den eksterne maskinen (%s) er ukjent."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Dette skjer når du loggar på ein maskin for fyrste gong.\n"
-"\n"
-"Identiteten som er sendt av den eksterne maskinen er «%s». Dersom du vil "
-"vera heilt viss på at det er trygt å halda fram, bør du kontakta "
-"systemadministratoren."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Dette skjer når du loggar på ein maskin for fyrste gong.\n\nIdentiteten som er sendt av den eksterne maskinen er «%s». Dersom du vil vera heilt viss på at det er trygt å halda fram, bør du kontakta systemadministratoren."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1053,9 +1053,7 @@ msgstr "HTTP-mellomtenaren din krev at du loggar inn.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Du må logga inn for å få tilgang til «%s».\n"
-"%s"
+msgstr "Du må logga inn for å få tilgang til «%s».\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1091,12 +1089,9 @@ msgstr "Exec-argument til standardterminalemulatoren"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Programmet som skal brukast til å visa filer som krev ein eigen komponent "
-"for å visast. Parameteren %s vert erstatta av URI-en til fila, og "
-"parameteren %c vert erstatta med komponenten sin IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Programmet som skal brukast til å visa filer som krev ein eigen komponent for å visast. Parameteren %s vert erstatta av URI-en til fila, og parameteren %c vert erstatta med komponenten sin IID."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1196,89 +1191,67 @@ msgstr "Handsamar av «trash»-adresser"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «aim»-"
-"adresser."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «aim»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «callto»-"
-"adresser."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «callto»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «ghelp»-"
-"adresser."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «ghelp»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «h323»-"
-"adresser."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «h323»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «http»-"
-"adresser."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «http»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «https»-"
-"adresser."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «https»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «info»-"
-"adresser."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «info»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «mailto»-"
-"adresser."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «mailto»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «man»-"
-"adresser."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «man»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Sett til sann for å la programmet i nøkkelen «command» handsama «trash»-"
-"adresser."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Sett til sann for å la programmet i nøkkelen «command» handsama «trash»-adresser."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Sann dersom programmet som handsamar denne typen adresser skal køyrast i ein "
-"terminal."
+msgstr "Sann dersom programmet som handsamar denne typen adresser skal køyrast i ein terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1324,9 +1297,7 @@ msgstr "Om den oppgjevne kommandoen skal handsama «trash»-adresser"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Kommadelt liste over DNS-SD-domener som skal vera synlege i "
-"nettverksplasseringa."
+msgstr "Kommadelt liste over DNS-SD-domener som skal vera synlege i nettverksplasseringa."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1376,27 +1347,21 @@ msgstr "Port på HTTP-mellomtenar"
 msgid "HTTP proxy username"
 msgstr "Brukarnamn på HTTP-mellomtenar"
 
-# TRN: Gives not the meaning.
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Dersom denne er sann, skal tilkoplingar til mellomtenaren autentiserast. "
-"Brukarnamn og passord er definerte i nøklane «/system/http_proxy/"
-"authentication_user» og «/system/http_proxy/authentication_password»."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Dersom denne er sann, skal tilkoplingar til mellomtenaren autentiserast. Brukarnamn og passord er definerte i nøklane «/system/http_proxy/authentication_user» og «/system/http_proxy/authentication_password»."
 
-# TRN: Trur eg.
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
 msgstr "Vertar som ikkje brukar mellomtenar"
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Passord som skal brukast til autentisering når ein HTTP-mellomtenar vert "
-"brukt"
+msgstr "Passord som skal brukast til autentisering når ein HTTP-mellomtenar vert brukt"
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
@@ -1418,14 +1383,11 @@ msgstr "Vertsnamn på trygg HTTP-mellomtenar"
 msgid "Secure HTTP proxy port"
 msgstr "Port på trygg HTTP-mellomtenar"
 
-# TRN: Skal verdiane omsetjast
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Vel korleis bruken av mellomtenaren skal setjast opp. Moglege verdiar er "
-"«none», «manual» og «auto»."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Vel korleis bruken av mellomtenaren skal setjast opp. Moglege verdiar er «none», «manual» og «auto»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1447,46 +1409,33 @@ msgstr "Namnet på maskinen som er Socks-mellomtenar."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Porten som skal brukast på mellomtenaren som er definert i «/system/"
-"http_proxy/host»."
+msgstr "Porten som skal brukast på mellomtenaren som er definert i «/system/http_proxy/host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Porten som skal brukast på mellomtenaren som er definert i «/system/proxy/"
-"ftp_host»."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Porten som skal brukast på mellomtenaren som er definert i «/system/proxy/ftp_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Porten som skal brukast på mellomtenaren som er definert i «/system/proxy/"
-"secure_host»."
+msgstr "Porten som skal brukast på mellomtenaren som er definert i «/system/proxy/secure_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Porten som skal brukast på mellomtenaren som er definert i «/system/"
-"socks_host»."
+msgstr "Porten som skal brukast på mellomtenaren som er definert i «/system/socks_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Denne nøkkelen inneheld ei liste med vertar som skal koplast til direkte, og "
-"ikkje gjennom ein mellomtenar, sjølv om ein er i bruk elles. Verdiane kan "
-"vera vertsnamn, domener (med jokerteikn i byrjinga, t.d. *.foo.com), IP-"
-"adresser (både IPv4 og IPv6) og nettverksadresser med nettmaske (t.d. "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Denne nøkkelen inneheld ei liste med vertar som skal koplast til direkte, og ikkje gjennom ein mellomtenar, sjølv om ein er i bruk elles. Verdiane kan vera vertsnamn, domener (med jokerteikn i byrjinga, t.d. *.foo.com), IP-adresser (både IPv4 og IPv6) og nettverksadresser med nettmaske (t.d. 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1498,9 +1447,7 @@ msgstr "Bruk HTTP-mellomtenar"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Brukarnamn som skal brukast til autentisering når ein HTTP-mellomtenar vert "
-"brukt"
+msgstr "Brukarnamn som skal brukast til autentisering når ein HTTP-mellomtenar vert brukt"
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1511,8 +1458,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Windows-nettverk-arbeidsgruppa eller -domenet som brukaren er ein del av. "
-"For at ei ny arbeidsgruppe skal tre i kraft må brukaren kanskje logga av og "
-"på."
-
+msgstr "Windows-nettverk-arbeidsgruppa eller -domenet som brukaren er ein del av. For at ei ny arbeidsgruppe skal tre i kraft må brukaren kanskje logga av og på."

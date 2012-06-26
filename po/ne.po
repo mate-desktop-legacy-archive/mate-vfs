@@ -1,29 +1,30 @@
-# translation of mate-vfs.mate-2-20.ne.po to Nepali
-# This file is distributed under the same license as the mate-vfs package.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
-#
-# Pawan Chitrakar <pawan@nplinux.org>, 2004.
-# Sameer Rajbhandari <amit@mpp.org.np>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ishwar Sharma <eesha_kaf@yahoo.com>, 2005.
 # Jaydeep Bhusal <zaydeep@hotmail.com>, 2005.
-# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
 # Kapil Timilsina <lipak21@gmail.com>, 2006.
-# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 # Mahesh subedi <submanesh@hotmail.com>, 2006.
 # Nabin Gautam <nabin@mpp.org.np>, 2007.
+# Pawan Chitrakar <pawan@nplinux.org>, 2004.
+# Sameer Rajbhandari <amit@mpp.org.np>, 2005.
+# Shiva  Pokharel <pokharelshiva@hotmail.com>, 2005.
+# Shyam Krishna Bal <shyamkrishna_bal@yahoo.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.mate-2-20.ne\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-19 03:46+0100\n"
-"PO-Revision-Date: 2007-11-30 14:45+0545\n"
-"Last-Translator: Nabin Gautam <nabin@mpp.org.np>\n"
-"Language-Team: Nepali <info@mpp.org.np>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=n !=1\n"
+"Language: ne\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -78,157 +79,175 @@ msgid "Auto-detected Volume"
 msgstr "स्वत: पत्ता लगाइएको भोल्युम"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "सीडी-रोम ड्राइभ"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "सीडी डिजिटल अडियो"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "हार्डवयेर यन्त्रको भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 लिनक्स भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 लिनक्स भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs सीडी रोम भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "विण्डोज NT भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "प्रणाली भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "स्मृति भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS सञ्जाल भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "नेटवेयर भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "रेईजर४ लिनक्स भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "रेईजर FS लिनक्स भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "विण्डोज सेयर भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "सुपरमाउन्ट भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "डीभीडी (DVD) भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "सोलारिस/BSD भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs सोलारिस भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs सोलारिस भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "सन SAM-QFS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "अस्थायी भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "बढाइएको DOS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "विण्डोज VFAT भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS लिनक्स भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS भोल्युम"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "अज्ञात"
 
@@ -430,22 +449,22 @@ msgstr "%s हटाउन मिल्ने भोल्युम"
 msgid "Volume"
 msgstr "भोल्युम"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "अज्ञात सञ्चालन प्रकार %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "GIO च्यानल: %s खोल्नका लागि पाइप सिर्जना गर्न सकिँदैन"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "अज्ञात कामको प्रकार %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "सञ्चालन रोकियो"
 
@@ -482,298 +501,250 @@ msgid ""
 "supported."
 msgstr "अनुचित प्रकार्य माइम डेटाबेसले प्रयोगर्कतालाई परिमार्जन गर्न धेरै समयसँग समर्थन गर्दैन ।"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:720
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "पद वर्णन गर्न सकेन: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:722
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "धेरै पद वर्णन त्रुटिहरू उपेक्षा गरिन्छन् ।"
 
-#  MATE_VFS_OK
 #. MATE_VFS_OK
 #: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
 msgstr "त्रुटि छैन"
 
-#  MATE_VFS_ERROR_NOT_FOUND
 #. MATE_VFS_ERROR_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:48
 msgid "File not found"
 msgstr "फाइल फेला परेन"
 
-#  MATE_VFS_ERROR_GENERIC
 #. MATE_VFS_ERROR_GENERIC
 #: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
 msgstr "जेनेरिक त्रुटि"
 
-#  MATE_VFS_ERROR_INTERNAL
 #. MATE_VFS_ERROR_INTERNAL
 #: ../libmatevfs/mate-vfs-result.c:50
 msgid "Internal error"
 msgstr "आन्तरिक त्रुटि"
 
-#  MATE_VFS_ERROR_BAD_PARAMETERS
 #. MATE_VFS_ERROR_BAD_PARAMETERS
 #: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
 msgstr "अवैध परामितिहरू"
 
-#  MATE_VFS_ERROR_NOT_SUPPORTED
 #. MATE_VFS_ERROR_NOT_SUPPORTED
 #: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
 msgstr "असमर्थित सञ्चालन"
 
-#  MATE_VFS_ERROR_IO
 #. MATE_VFS_ERROR_IO
 #: ../libmatevfs/mate-vfs-result.c:53
 msgid "I/O error"
 msgstr "I/O त्रुटि"
 
-#  MATE_VFS_ERROR_CORRUPTED_DATA
 #. MATE_VFS_ERROR_CORRUPTED_DATA
 #: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
 msgstr "डेटा बिग्रियो"
 
-#  MATE_VFS_ERROR_WRONG_FORMAT
 #. MATE_VFS_ERROR_WRONG_FORMAT
 #: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
 msgstr "ढाँचा मान्य छैन"
 
-#  MATE_VFS_ERROR_BAD_FILE
 #. MATE_VFS_ERROR_BAD_FILE
 #: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
 msgstr "खराब फाइल ह्यान्डल"
 
-#  MATE_VFS_ERROR_TOO_BIG
 #. MATE_VFS_ERROR_TOO_BIG
 #: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
 msgstr "अति ठूलो फाइल"
 
-#  MATE_VFS_ERROR_NO_SPACE
 #. MATE_VFS_ERROR_NO_SPACE
 #: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
 msgstr "यन्त्रमा खाली ठाउँ छैन"
 
-#  MATE_VFS_ERROR_READ_ONLY
 #. MATE_VFS_ERROR_READ_ONLY
 #: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
 msgstr "पढ्ने-मात्र फाइल प्रणाली"
 
-#  MATE_VFS_ERROR_INVALID_URI
 #. MATE_VFS_ERROR_INVALID_URI
 #: ../libmatevfs/mate-vfs-result.c:60
 msgid "Invalid URI"
 msgstr "अमान्य URI"
 
-#  MATE_VFS_ERROR_NOT_OPEN
 #. MATE_VFS_ERROR_NOT_OPEN
 #: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
 msgstr "फाइल खुल्दैन"
 
-#  MATE_VFS_ERROR_INVALID_OPEN_MODE
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
 #: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
 msgstr "खुला मोड मान्य छैन"
 
-#  MATE_VFS_ERROR_ACCESS_DENIED
 #. MATE_VFS_ERROR_ACCESS_DENIED
 #: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
 msgstr "पहुँच अस्विकार गरियो"
 
-#  MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
 #: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
 msgstr "धेरै खुला फाइलहरू"
 
-#  MATE_VFS_ERROR_EOF
 #. MATE_VFS_ERROR_EOF
 #: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
 msgstr "फाइलको अन्त्य"
 
-#  MATE_VFS_ERROR_NOT_A_DIRECTORY
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
 msgstr "डाइरेक्टरी होइन"
 
-#  MATE_VFS_ERROR_IN_PROGRESS
 #. MATE_VFS_ERROR_IN_PROGRESS
 #: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
 msgstr "सञ्चालन प्रगतिमा"
 
-#  MATE_VFS_ERROR_INTERRUPTED
 #. MATE_VFS_ERROR_INTERRUPTED
 #: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
 msgstr "सञ्चालन रोकियो"
 
-#  MATE_VFS_ERROR_FILE_EXISTS
 #. MATE_VFS_ERROR_FILE_EXISTS
 #: ../libmatevfs/mate-vfs-result.c:69
 msgid "File exists"
 msgstr "फाइल अवस्थित छ ।"
 
-#  MATE_VFS_ERROR_LOOP
 #. MATE_VFS_ERROR_LOOP
 #: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
 msgstr "लूपिङ लिङ्क देखा पर्यो"
 
-#  MATE_VFS_ERROR_NOT_PERMITTED
 #. MATE_VFS_ERROR_NOT_PERMITTED
 #: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
 msgstr "सञ्चालन अनुमति प्राप्त छैन"
 
-#  MATE_VFS_ERROR_IS_DIRECTORY
 #. MATE_VFS_ERROR_IS_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
 msgstr "डाइरेक्टरी हो"
 
-#  MATE_VFS_ERROR_NO_MEMMORY
 #. MATE_VFS_ERROR_NO_MEMORY
 #: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
 msgstr "पर्याप्त स्मृति छैन"
 
-#  MATE_VFS_ERROR_HOST_NOT_FOUND
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
 msgstr "होस्ट फेला परेन"
 
-#  MATE_VFS_ERROR_INVALID_HOST_NAME
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
 #: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
 msgstr "होस्टनाम वैध छैन"
 
-#  MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
 #: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
 msgstr "होस्टसँग ठेगाना छैन"
 
-#  MATE_VFS_ERROR_LOGIN_FAILED
 #. MATE_VFS_ERROR_LOGIN_FAILED
 #: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
 msgstr "लगइन असफल भयो"
 
-#  MATE_VFS_ERROR_CANCELLED
 #. MATE_VFS_ERROR_CANCELLED
 #: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
 msgstr "सञ्चालन रद्द गरियो"
 
-#  MATE_VFS_ERROR_DIRECTORY_BUSY
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
 #: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
 msgstr "डाइरेक्टरी ब्यस्त छ"
 
-#  MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
 #: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
 msgstr "डाइरेक्टरी खाली छैन"
 
-#  MATE_VFS_ERROR_TOO_MANY_LINKS
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
 #: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
 msgstr "अति धेरै लिङ्कहरू"
 
-#  MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
 msgstr "पढ्ने-मात्र फाइल प्रणाली"
 
-#  MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
 msgstr "उस्तै फाइल प्रणालीमा होइन"
 
-#  MATE_VFS_ERROR_NAME_TOO_LONG
 #. MATE_VFS_ERROR_NAME_TOO_LONG
 #: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
 msgstr "धेरै लामो नाम"
 
-#  MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
 #: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
 msgstr "सेवा उपलब्ध छैन"
 
-#  MATE_VFS_ERROR_SERVICE_OBSOLETE
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
 #: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
 msgstr "अस्पष्ट सेवाको डेटा अनुरोध गर्नुहोस्"
 
-#  MATE_VFS_ERROR_PROTOCOL_ERROR
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
 #: ../libmatevfs/mate-vfs-result.c:87
 msgid "Protocol error"
 msgstr "प्रोटोकल त्रुटि"
 
-#  MATE_VFS_ERROR_NO_MASTER_BROWSER
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
 #: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
 msgstr "मास्टर ब्राउजर फेला पार्न सकेन"
 
-#  MATE_VFS_ERROR_NO_DEFAULT
 #. MATE_VFS_ERROR_NO_DEFAULT
 #: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
 msgstr "कुनै पनि पूर्वनिर्धारित कार्य सम्बन्धित छैन"
 
-#  MATE_VFS_ERROR_NO_HANDLER
 #. MATE_VFS_ERROR_NO_HANDLER
 #: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
 msgstr "यूआरएल (URL) स्कीमाका लागि ह्यान्डलर छैन"
 
-#  MATE_VFS_ERROR_PARSE
 #. MATE_VFS_ERROR_PARSE
 #: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
 msgstr "आदेश रेखा पद वर्णन गर्दा त्रुटि"
 
-#  MATE_VFS_ERROR_LAUNCH
 #. MATE_VFS_ERROR_LAUNCH
 #: ../libmatevfs/mate-vfs-result.c:92
 msgid "Error launching command"
 msgstr "आदेश थालनी गर्दा त्रुटि"
 
-#  MATE_VFS_ERROR_TIMEOUT
 #. MATE_VFS_ERROR_TIMEOUT
 #: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
 msgstr "समय समाप्तिसम्म पुग्यो"
 
-#  MATE_VFS_ERROR_GENERIC
 #. MATE_VFS_ERROR_NAMESERVER
 #: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
@@ -789,7 +760,6 @@ msgstr "स्रोतमा ताल्चा लगाइएको छ"
 msgid "Function call deprecated"
 msgstr "प्रकार्य कल अस्वीकार गरियो"
 
-#  MATE_VFS_ERROR_BAD_PARAMETERS
 #. MATE_VFS_ERROR_INVALID_FILENAME
 #: ../libmatevfs/mate-vfs-result.c:97
 msgid "Invalid filename"
@@ -921,35 +891,37 @@ msgstr "क्यामेरा"
 msgid "DVD"
 msgstr "डीभीडी"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "मूल भोल्युम"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "अडियो सीडी"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "अज्ञात भोल्युम"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "सञ्जाल सर्भर"
 
-#  Handle floppy case
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+#, c-format
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "फ्लपी ड्राइभ माउन्ट गर्न अक्षम । सायद ड्राइभमा फ्लपी नहुनसक्छ ।"
 
-#  All others
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr "भोल्युमलाई माउन्ट गर्न अक्षम । सायद यन्त्रमा मिडिया नहुनसक्छ ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
@@ -957,17 +929,17 @@ msgstr "फ्लपी ड्राइभलाई माउन्ट गर्
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"भोल्युमलाई माउन्ट गर्न अक्षम । यदि यो गुप्तीकरण गरिएको ड्राइभ हो भने, त्यसो भए गलत "
-"पासवर्ड वा कुञ्जी प्रयोग गरिएको छ ।"
+msgstr "भोल्युमलाई माउन्ट गर्न अक्षम । यदि यो गुप्तीकरण गरिएको ड्राइभ हो भने, त्यसो भए गलत पासवर्ड वा कुञ्जी प्रयोग गरिएको छ ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "चयन गरिएको भोल्युमलाई माउन्ट गर्न अक्षम । सायद भोल्युम माउन्ट गर्न नसकिने ढाँचामा छ ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -979,12 +951,11 @@ msgid "Unable to mount the selected volume."
 msgstr "चयन गरिएको भोल्युमलाई माउन्ट गर्न अक्षम ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"चयन गरिएको भोल्युमलाई अनमाउन्ट गर्न अक्षम छ । सायद भोल्युम एक वा बढी कार्यक्रमद्धारा "
-"प्रयोग गरिएको छ ।"
+msgstr "चयन गरिएको भोल्युमलाई अनमाउन्ट गर्न अक्षम छ । सायद भोल्युम एक वा बढी कार्यक्रमद्धारा प्रयोग गरिएको छ ।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1005,6 +976,7 @@ msgid "Unexpected error in select() reading data from a child process (%s)"
 msgstr "चाइल्ड प्रक्रिया (%s) बाट चयन () पढ्ने डेटामा अनपेक्षित त्रुटि"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr "प्रक्रिया माउन्ट गर्न पासवर्ड पठाउन सकेन ।"
 
@@ -1057,13 +1029,8 @@ msgstr "टाढाको कम्प्युटर (%s) को पहिच�
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"पहिलो पटक कम्प्युटर लगइन गर्दा यस्तो हुन्छ । \n"
-"\n"
-"टाढाको कम्प्युटरले पठाएको परिचय %s हो । यदि तपाईँ निश्चित रूपमा यसलाई नियमित गर्न चाहनुहुन्छ "
-"भने तपाईँको प्रणाली प्रशासकसँग सम्पर्क राख्नुहोस् ।"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "पहिलो पटक कम्प्युटर लगइन गर्दा यस्तो हुन्छ । \n\nटाढाको कम्प्युटरले पठाएको परिचय %s हो । यदि तपाईँ निश्चित रूपमा यसलाई नियमित गर्न चाहनुहुन्छ भने तपाईँको प्रणाली प्रशासकसँग सम्पर्क राख्नुहोस् ।"
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1073,7 +1040,6 @@ msgstr "जेभए पानि लगइन गर्नुहोस्"
 msgid "Cancel Login"
 msgstr "लगइन रद्द गर्नुहोस्"
 
-#  FIXME: we probably shouldn't use printf to output the message
 #. FIXME: we probably shouldn't use printf to output the message
 #: ../modules/test-method.c:587
 #, c-format
@@ -1095,9 +1061,7 @@ msgstr "तपाईँको एचटीटीपी प्रोक्सी�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"तपाईँले पहुँच \"%s\" मा लगइन गर्नुपर्दछ ।\n"
-"%s"
+msgstr "तपाईँले पहुँच \"%s\" मा लगइन गर्नुपर्दछ ।\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1133,12 +1097,9 @@ msgstr "पूर्वनिर्धारित टर्मिनलका �
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"फाइल हेर्नका लागि प्रयोग गरिने अनुप्रयोगले ती फाइल हेर्नलाई केही तत्वको आवश्यकता महसुस "
-"गर्दछ । %s परामिति URIs फाइलमा प्रतिस्थापन गरिन्छन्, %c परामिति IID अवयवद्वारा "
-"प्रस्तिस्थापन गरिन्छ ।"
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "फाइल हेर्नका लागि प्रयोग गरिने अनुप्रयोगले ती फाइल हेर्नलाई केही तत्वको आवश्यकता महसुस गर्दछ । %s परामिति URIs फाइलमा प्रतिस्थापन गरिन्छन्, %c परामिति IID अवयवद्वारा प्रस्तिस्थापन गरिन्छ ।"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1206,17 +1167,14 @@ msgstr "\"callto\" URLs का लागि ह्यान्डलर"
 msgid "The handler for \"ghelp\" URLs"
 msgstr "\"ghelp\" URLs का लागि ह्यान्डलर"
 
-#  MATE_VFS_ERROR_NO_HANDLER
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:15
 msgid "The handler for \"h323\" URLs"
 msgstr "\"h323\" URLs का लागि ह्यान्डलर"
 
-#  MATE_VFS_ERROR_NO_HANDLER
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:16
 msgid "The handler for \"http\" URLs"
 msgstr "\"http\" URLs का लागि ह्यान्डलर"
 
-#  MATE_VFS_ERROR_NO_HANDLER
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:17
 msgid "The handler for \"https\" URLs"
 msgstr "\"https\" URLs का लागि ह्यान्डलर"
@@ -1241,81 +1199,61 @@ msgstr "\"trash\" URLs का लागि ह्यान्डलर"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"aim\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"aim\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"callto"
-"\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"callto\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"ghelp\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"ghelp\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"h323\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"h323\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"http\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"http\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"https\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"https\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"info\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"info\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"mailto"
-"\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"mailto\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"man\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"man\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"trash\" "
-"URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "यदि \"command\" कुञ्जीमा निदिष्ट गरिएको आदेशले \"trash\" URLs ह्यान्डल गर्नुपर्दछ भने ठीक हुन्छ ।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
@@ -1367,9 +1305,7 @@ msgstr "निर्दिष्ट गरिएको आदेशले \"tras
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"अल्पविरामले DNS-SD डोमेनको सूची विभाजन गर्दछ जुन \"network:///\" स्थानमा देखिने "
-"हुनुपर्दछ ।"
+msgstr "अल्पविरामले DNS-SD डोमेनको सूची विभाजन गर्दछ जुन \"network:///\" स्थानमा देखिने हुनुपर्दछ ।"
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1422,12 +1358,10 @@ msgstr "एचटीटीपी (HTTP) प्रोक्सी प्रयो
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"यदि ठीक भएमा, त्यसपछि प्रोक्सी सर्भरसँग जडान गर्न प्रमाणिकरण चाहिन्छ ।\"/system/http_proxy/"
-"authentication_user\" र \"/system/http_proxy/authentication_password\" "
-"द्वारा प्रयोगकर्तानाम/पासवर्ड कम्बो परिभाषित गरिन्छ ।"
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "यदि ठीक भएमा, त्यसपछि प्रोक्सी सर्भरसँग जडान गर्न प्रमाणिकरण चाहिन्छ ।\"/system/http_proxy/authentication_user\" र \"/system/http_proxy/authentication_password\" द्वारा प्रयोगकर्तानाम/पासवर्ड कम्बो परिभाषित गरिन्छ ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1459,11 +1393,9 @@ msgstr "एचटीटीपी (HTTP) प्रोक्सी पोर्ट
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"प्रोक्सी कन्फिगरेसन मोड चयन गर्नुहोस् । समर्थित मान \"कुनै पनि होइन\", \"म्यानुअल\", \"स्वचालित\" "
-"हुन् ।"
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "प्रोक्सी कन्फिगरेसन मोड चयन गर्नुहोस् । समर्थित मान \"कुनै पनि होइन\", \"म्यानुअल\", \"स्वचालित\" हुन् ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1489,8 +1421,8 @@ msgstr "तपाईँले प्रोक्सी गर्ने \"/system
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "तपाईँले प्रोक्सि गर्नुभएको \"/system/proxy/ftp_host\" द्वारा परिभाषित मेसिनको पोर्ट ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1509,12 +1441,9 @@ msgstr "तपाईँले प्रोक्सि गर्नुभएक�
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"यस कुञ्जीले प्रोक्सी मार्फत नभइ प्रत्यक्ष जडित होस्टको सूची समावेश गर्दछ (यदि यो सक्रिय भएमा) । यसका मानहरू, होस्टनाम, डोमेन ( *.foo.com जस्ता प्रारम्भिक वाइल्डकार्ड प्रयोग "
-"गर्ने), आई पी होस्ट ठेगाना (दुवै IPv4 र IPv6) तथा नेटमास्क भएका सञ्जाल ठेगानाहरू "
-"(१९२.१६८.०.०/२४ जस्ता केही वस्तु) हुन् ।"
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "यस कुञ्जीले प्रोक्सी मार्फत नभइ प्रत्यक्ष जडित होस्टको सूची समावेश गर्दछ (यदि यो सक्रिय भएमा) । यसका मानहरू, होस्टनाम, डोमेन ( *.foo.com जस्ता प्रारम्भिक वाइल्डकार्ड प्रयोग गर्ने), आई पी होस्ट ठेगाना (दुवै IPv4 र IPv6) तथा नेटमास्क भएका सञ्जाल ठेगानाहरू (१९२.१६८.०.०/२४ जस्ता केही वस्तु) हुन् ।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1537,7 +1466,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"विण्डोज नेटवर्किङ कार्यसमूह वा डोमेन जुन प्रयोगकर्ता एउटा अंश हो । नयाँ कार्यसमूहका लागि "
-"पूरै प्रभाव पार्न प्रयोगकर्ताले लग आउट गरेर फेरि लगइन गर्नुपर्दछ ।"
-
+msgstr "विण्डोज नेटवर्किङ कार्यसमूह वा डोमेन जुन प्रयोगकर्ता एउटा अंश हो । नयाँ कार्यसमूहका लागि पूरै प्रभाव पार्न प्रयोगकर्ताले लग आउट गरेर फेरि लगइन गर्नुपर्दछ ।"

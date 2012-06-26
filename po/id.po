@@ -1,25 +1,25 @@
-# Indonesia translation of mate-vfs.
-# Copyright (C) 2005 THE mate-vfs'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-vfs package.
-#
-# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ahmad Riza H Nst <rizahnst@id.gnome.org>, 2006.
 # Andika Triwidada <andika@gmail.com>, 2009.
 # Dirgita <dirgitadevina@yahoo.co.id>, 2010.
+# Mohammad DAMT <mdamt@bisnisweb.com>, 2005.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-07-27 12:33+0000\n"
-"PO-Revision-Date: 2010-08-29 10:57+0700\n"
-"Last-Translator: Dirgita <dirgitadevina@yahoo.co.id>\n"
-"Language-Team: MATE Indonesian Translation Team <mate@i15n.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/MATE/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.1\n"
+"Language: id\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -494,9 +494,7 @@ msgstr "Operasi dihentikan"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Fungsi deprekasi. Modifikasi pengguna pada basis data MIME tidak lagi "
-"didukung."
+msgstr "Fungsi deprekasi. Modifikasi pengguna pada basis data MIME tidak lagi didukung."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -908,24 +906,20 @@ msgstr "Server jaringan"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Tidak dapat mengaitkan disket. Mungkin tidak ada disket di dalam kandar."
+msgstr "Tidak dapat mengaitkan disket. Mungkin tidak ada disket di dalam kandar."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Tidak dapat mengaitkan volume. Mungkin tidak ada media di dalam perangkat."
+msgstr "Tidak dapat mengaitkan volume. Mungkin tidak ada media di dalam perangkat."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Tidak dapat mengaitkan disket. Disket mungkin memiliki format yang tidak "
-"bisa dikaitkan."
+msgstr "Tidak dapat mengaitkan disket. Disket mungkin memiliki format yang tidak bisa dikaitkan."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -933,18 +927,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Tidak dapat mengaitkan volume. Jika ini adalah kandar yang dienkripsi, sandi "
-"yang digunakan mungkin salah."
+msgstr "Tidak dapat mengaitkan volume. Jika ini adalah kandar yang dienkripsi, sandi yang digunakan mungkin salah."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Tidak dapat mengaitkan volume. Volume mungkin memiliki format yang tidak "
-"bisa dikaitkan."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Tidak dapat mengaitkan volume. Volume mungkin memiliki format yang tidak bisa dikaitkan."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -977,8 +967,7 @@ msgstr "Tidak dapat menjalankan proses kait pada pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Terjadi galat pada fungsi select() ketika membaca data dari anak proses (%s)"
+msgstr "Terjadi galat pada fungsi select() ketika membaca data dari anak proses (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1034,13 +1023,8 @@ msgstr "Identitas komputer jauh (%s) tidak dikenal"
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Ini terjadi ketika Anda memasuki komputer untuk pertama kalinya.\n"
-"\n"
-"Identitas yang dikirim oleh komputer jauh adalah %s. Apabila ingin lebih "
-"yakin bahwa telah aman untuk dilanjutkan, hubungilah administrator sistem."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ini terjadi ketika Anda memasuki komputer untuk pertama kalinya.\n\nIdentitas yang dikirim oleh komputer jauh adalah %s. Apabila ingin lebih yakin bahwa telah aman untuk dilanjutkan, hubungilah administrator sistem."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1071,9 +1055,7 @@ msgstr "Proksi HTTP Anda meminta untuk log masuk.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Anda harus masuk untuk mengakses \"%s\"\n"
-"%s"
+msgstr "Anda harus masuk untuk mengakses \"%s\"\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1109,12 +1091,9 @@ msgstr "Argumen eksekusi untuk terminal utama"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Aplikasi untuk menampilkan berkas yang memerlukan komponen untuk melihatnya. "
-"Parameter %s akan diganti oleh URI berkas, parameter %c diganti oleh IID "
-"komponen."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Aplikasi untuk menampilkan berkas yang memerlukan komponen untuk melihatnya. Parameter %s akan diganti oleh URI berkas, parameter %c diganti oleh IID komponen."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1214,89 +1193,67 @@ msgstr "Penangan untuk URL \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"aim\"."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"h323\"."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"http\"."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"info\"."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"man\"."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai "
-"untuk menangani URL \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Isikan nilai benar (true) apabila perintah pada kunci \"command\" dipakai untuk menangani URL \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Isikan nilai benar (true) apabila perintah untuk menangani jenis URL ini "
-"harus dijalankan dalam terminal."
+msgstr "Isikan nilai benar (true) apabila perintah untuk menangani jenis URL ini harus dijalankan dalam terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1342,9 +1299,7 @@ msgstr "Apakah perintah yang diberikan dipakai untuk menangani URL \"trash\""
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Daftar domain DNS-SD (dipisahkan koma) yang akan ditampilkan pada lokasi "
-"\"network:///\"."
+msgstr "Daftar domain DNS-SD (dipisahkan koma) yang akan ditampilkan pada lokasi \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1397,13 +1352,10 @@ msgstr "Nama pengguna proksi HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Jika bernilai benar (true), maka hubungan menuju server proksi harus "
-"diotentikasi. Pasangan nama pengguna/sandi ditentukan oleh \"/system/"
-"http_proxy/authentication_user\" dan \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Jika bernilai benar (true), maka hubungan menuju server proksi harus diotentikasi. Pasangan nama pengguna/sandi ditentukan oleh \"/system/http_proxy/authentication_user\" dan \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1435,11 +1387,9 @@ msgstr "Port proksi HTTP teracak"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Memilih mode konfigurasi proksi. Nilai yang didukung antaranya \"none\", "
-"\"manual\", dan \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Memilih mode konfigurasi proksi. Nilai yang didukung antaranya \"none\", \"manual\", dan \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1461,45 +1411,33 @@ msgstr "Nama mesin untuk melakukan proksi terhadap socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port pada mesin yang ditentukan oleh \"/system/http_proxy/host\" yang Anda "
-"proksikan."
+msgstr "Port pada mesin yang ditentukan oleh \"/system/http_proxy/host\" yang Anda proksikan."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port pada mesin yang ditentukan oleh \"/system/proxy/ftp_host\" yang Anda "
-"proksikan."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port pada mesin yang ditentukan oleh \"/system/proxy/ftp_host\" yang Anda proksikan."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port pada mesin yang ditentukan oleh \"/system/proxy/secure_host\" yang Anda "
-"proksikan."
+msgstr "Port pada mesin yang ditentukan oleh \"/system/proxy/secure_host\" yang Anda proksikan."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port pada mesin yang ditentukan oleh \"/system/proxy/socks_host\" yang Anda "
-"proksikan."
+msgstr "Port pada mesin yang ditentukan oleh \"/system/proxy/socks_host\" yang Anda proksikan."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Kunci ini mengandung daftar host yang terhubung secara langsung, ketimbang "
-"melalui proksi (jika aktif). Nilainya bisa nama host, domain (memakai wilkar "
-"seperti *.foo.com), alamat IP host (baik IPv4 maupun IPv6), serta alamat "
-"jaringan dengan netmask (seperti 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Kunci ini mengandung daftar host yang terhubung secara langsung, ketimbang melalui proksi (jika aktif). Nilainya bisa nama host, domain (memakai wilkar seperti *.foo.com), alamat IP host (baik IPv4 maupun IPv6), serta alamat jaringan dengan netmask (seperti 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1522,7 +1460,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Kelompok jaringan atau domain Windows di mana pengguna menjadi bagian di "
-"dalamnya. Untuk menjamin kelompok kerja yang baru dapat dioperasikan dengan "
-"benar, pengguna mungkin harus log keluar dan masuk kembali."
+msgstr "Kelompok jaringan atau domain Windows di mana pengguna menjadi bagian di dalamnya. Untuk menjamin kelompok kerja yang baru dapat dioperasikan dengan benar, pengguna mungkin harus log keluar dan masuk kembali."

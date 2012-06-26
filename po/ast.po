@@ -1,22 +1,23 @@
-# Asturian translation for mate-vfs
-# Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the mate-vfs package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
-#
+# Xuacu Saturio <xuacusk8@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-10 09:21+0100\n"
-"PO-Revision-Date: 2009-01-21 16:49+0000\n"
-"Last-Translator: Astur <malditoastur@gmail.com>\n"
-"Language-Team: Asturian <mate@softastur.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-06-20 22:25+0000\n"
+"Last-Translator: Xuacu Saturio <xuacusk8@gmail.com>\n"
+"Language-Team: Asturian (http://www.transifex.com/projects/p/MATE/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Launchpad-Export-Date: 2009-02-10 01:08+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: ast\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -71,157 +72,175 @@ msgid "Auto-detected Volume"
 msgstr "Volume autu-deteutáu"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr "Volume Btrfs de Linux"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "Unidá de CD-ROM"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD de soníu dixital"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Volume de dispositivu hardware"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "Volume EncFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr "Volume eCryptfs"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Volume Linux Ext2"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Volume Linux Ext3"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr "Volume Ext4 de Linux"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "Volume MSDOS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "Volume BSD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "Volume FUSE"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "Volume MacOS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "Volume CDROM"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Volume CDROM HSFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "Volume JFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Volume Windows NT"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Volume de sistema"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Volume de memoria"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Volume Minix"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "Volume de rede NFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr "Volume NILFS de Linux"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Volume Netware"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Volume Linux Reiser4"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "Volume Linux ReiserFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Volume compartíu de Windows"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "Volume SuperMount"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "Volume DVD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Volume Solaris/BSD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Volume Solaris UDFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Volume Solaris PCFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Volume Sun SAM-QFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Volume temporal"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Volume meyoráu de DOS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Volume VFAT de Windows"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Volume Xenix"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "Volume Linux XFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "Volume XIAFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "Volume CIFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Desconocíu"
 
@@ -473,9 +492,7 @@ msgstr "Detúvose la operación"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Función obsoleta. Les modificaciones del usuariu a la base de datos MIME nun "
-"se sofiten dende agora."
+msgstr "Función obsoleta. Les modificaciones del usuariu a la base de datos MIME nun se sofiten dende agora."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -888,25 +905,20 @@ msgstr "Servidor de rede"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Nun ye dable montar la unidá de disquetes. Seique nun heba disquete na unidá."
+msgstr "Nun ye dable montar la unidá de disquetes. Seique nun heba disquete na unidá."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Nun ye dable montar el volume. Seique non introduxo un soporte nel "
-"dispositivu."
+msgstr "Nun ye dable montar el volume. Seique non introduxo un soporte nel dispositivu."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Nun ye dable montar la unidá de disquetes. El disquete seique ta nún formatu "
-"que nun pue ser montáu."
+msgstr "Nun ye dable montar la unidá de disquetes. El disquete seique ta nún formatu que nun pue ser montáu."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -914,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Nun ye dable montar el volume. Si esta ye una unidá cifrada, entós usóse una "
-"contraseña o clave incorreuta."
+msgstr "Nun ye dable montar el volume. Si esta ye una unidá cifrada, entós usóse una contraseña o clave incorreuta."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Nun ye dable montar el volume seleicionáu. Seique'l volume tea nún formatu "
-"que nun pue ser montaú."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Nun ye dable montar el volume seleicionáu. Seique'l volume tea nún formatu que nun pue ser montaú."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -940,9 +948,7 @@ msgstr "Nun ye dable montar el volume seleicionáu."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Nun ye dable desmontar el volume seleicionáu. Seique'l volume tea siendo "
-"usáu por otru o dellos programes."
+msgstr "Nun ye dable desmontar el volume seleicionáu. Seique'l volume tea siendo usáu por otru o dellos programes."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1016,13 +1022,8 @@ msgstr "La identidá de la computadora remota (%s) ye desconocía."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Esto asocede cuando anicia sesión nuna computadora per primer vegada.\n"
-"\n"
-"La identidá unviada pola computadora remota ye %s. Si quier asegurase de que "
-"ye seguro continuar, consulte col alministrador del sistema."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Esto asocede cuando anicia sesión nuna computadora per primer vegada.\n\nLa identidá unviada pola computadora remota ye %s. Si quier asegurase de que ye seguro continuar, consulte col alministrador del sistema."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1041,8 +1042,7 @@ msgstr "No s'alcontró un ficheru de configuración válidu pa %s\n"
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
-"Use la variable d'entorno %s pa especificar una llocalización diferente\n"
+msgstr "Use la variable d'entorno %s pa especificar una llocalización diferente\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1054,9 +1054,7 @@ msgstr "El to Proxy HTTP requier que tes identificáu.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Tien de tar identificáu \"%s\".\n"
-"%s"
+msgstr "Tien de tar identificáu \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1092,20 +1090,15 @@ msgstr "L'argumentu exec pa la terminal predeterminada"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"L'aplicación que s'usará p'adicar ficheros que requieren un componente pa "
-"velos. El parámetru %s podrá ser reemplazáu polos URIs del ficheru, el "
-"parámetru %c sedrá reemplazáu pol IID del componente."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "L'aplicación que s'usará p'adicar ficheros que requieren un componente pa velos. El parámetru %s podrá ser reemplazáu polos URIs del ficheru, el parámetru %c sedrá reemplazáu pol IID del componente."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"La'aplicación de terminal predeterminada pa les aplicaciones que lo "
-"requieran."
+msgstr "La'aplicación de terminal predeterminada pa les aplicaciones que lo requieran."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1116,9 +1109,8 @@ msgid "Run the command in a terminal"
 msgstr "Executar el comandu nún terminal"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
-#, fuzzy
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "El comandu usáu pa remanar les URLs «man», si tan activaes."
+msgstr "El comandu que s'usa pa xestionar les URL «aim», si tan activaes."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
@@ -1157,9 +1149,8 @@ msgid "The command used to handle \"trash\" URLs, if enabled."
 msgstr "El comandu usáu pa remanar les URLs «trash», si tan activaes."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
-#, fuzzy
 msgid "The handler for \"aim\" URLs"
-msgstr "El remanador pa les URLs «man»"
+msgstr "El xestor pa les URL «aim»"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:13
 msgid "The handler for \"callto\" URLs"
@@ -1198,98 +1189,74 @@ msgid "The handler for \"trash\" URLs"
 msgstr "El remanador pa les URLs «trash»"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
-#, fuzzy
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «man»."
+msgstr "Verdadero si'l programa especificáu na clave «command» tien de xestionar les URL «aim»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «callto»."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «callto»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «ghelp»."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «ghelp»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «h323»."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «h323»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «http»."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «http»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «https»."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «https»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «info»."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «info»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «mailto»."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «mailto»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «man»."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «man»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-"remanar les URLs «trash»."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de remanar les URLs «trash»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Afitar a «true» si'l programa que remana esta URL tien d'executase nún "
-"terminal."
+msgstr "Afitar a «true» si'l programa que remana esta URL tien d'executase nún terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
-#, fuzzy
 msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Conseña si'l comandu especificáu tien de remanar les URLs «man»"
+msgstr "El comandu especificáu tien de xestionar les URL «aim»"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:34
 msgid "Whether the specified command should handle \"callto\" URLs"
@@ -1331,9 +1298,7 @@ msgstr "Conseña si'l comandu especificáu tien de remanar les URLs «trash»"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Llista separtada por comes de dominios DNS-SD que tendríen de ser adicables "
-"nel llugar «network:///»."
+msgstr "Llista separtada por comes de dominios DNS-SD que tendríen de ser adicables nel llugar «network:///»."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1386,13 +1351,10 @@ msgstr "Usuariu del proxy HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Si ye «true» (braero), les conexones al servidor proxy requieren "
-"d'autenticación. La combinación usuariu/contraseña defínses en \"/system/"
-"http_proxy/authentication_user\" y \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Si ye «true» (braero), les conexones al servidor proxy requieren d'autenticación. La combinación usuariu/contraseña defínses en \"/system/http_proxy/authentication_user\" y \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1424,11 +1386,9 @@ msgstr "Puertu del proxy HTTP seguru"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Seleicione el mou de configuración del proxy.  Los valores sofitaos son "
-"\"none\", \"manual\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Seleicione el mou de configuración del proxy.  Los valores sofitaos son \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1450,46 +1410,33 @@ msgstr "El nome de la máquina pela que se fai proxy socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"El puertu de la máquina definía por \"/system/HTTP_proxy/host\" que fai de "
-"proxy."
+msgstr "El puertu de la máquina definía por \"/system/HTTP_proxy/host\" que fai de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"El puertu de la máquina definía por \"/system/proxy/ftp_host\" que fai de "
-"proxy."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "El puertu de la máquina definía por \"/system/proxy/ftp_host\" que fai de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"El puertu de la máquina definía por \"/system/proxy/secure_host\" que fai de "
-"proxy."
+msgstr "El puertu de la máquina definía por \"/system/proxy/secure_host\" que fai de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"El puertu de la máquina definía por \"/system/proxy/socks_host\" que fai de "
-"proxy."
+msgstr "El puertu de la máquina definía por \"/system/proxy/socks_host\" que fai de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Esta clave contién una llista de hosts colos que ta coneutado direutamente, "
-"n'arróu de per aciu del proxy (si ta activu). Los valores puen ser nomes de "
-"anfitrión, dominios (usando un comodín auxiliar como *.foo.com), direiciones "
-"IP de hosts (tantu IPv4 como IPv6) y direiciones de rede con una máscara "
-"(daqué como 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Esta clave contién una llista de hosts colos que ta coneutado direutamente, n'arróu de per aciu del proxy (si ta activu). Los valores puen ser nomes de anfitrión, dominios (usando un comodín auxiliar como *.foo.com), direiciones IP de hosts (tantu IPv4 como IPv6) y direiciones de rede con una máscara (daqué como 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1512,23 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"La grea/grupu de trabayu de rede de Windows o el dominiu del que l'usuariu "
-"ye parte. Pa que un grupu nuevu tenga efeutu, l'usuariu pue necesitar zarrar "
-"la sesión y entrar de nuevu."
-
-#~ msgid "The command used to handle \"cdda\" URLs, if enabled."
-#~ msgstr "El comandu usáu pa remanar URLs «cdda», si ta habilitáu"
-
-#~ msgid "The handler for \"cdda\" URLs"
-#~ msgstr "El remanador pa URLs «cdda»"
-
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle \"cdda"
-#~ "\" URLs."
-#~ msgstr ""
-#~ "Afitar a «true» si'l programa especificáu na clave «comandu» tendría de "
-#~ "remanar les URLs «cdda»."
-
-#~ msgid "Whether the specified command should handle \"cdda\" URLs"
-#~ msgstr "Conseña si'l comandu especificáu tien de remanar les URLs «cdda»"
+msgstr "La grea/grupu de trabayu de rede de Windows o el dominiu del que l'usuariu ye parte. Pa que un grupu nuevu tenga efeutu, l'usuariu pue necesitar zarrar la sesión y entrar de nuevu."

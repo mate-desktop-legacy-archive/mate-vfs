@@ -1,25 +1,26 @@
-# Bulgarian translation for mate-vfs po-file.
-# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-# Copyright (C) 2010 Free Software Foundation, Inc.
-# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Alexander Shopov <ash@kambanaria.org>, 2003, 2005, 2006, 2007, 2008.
+# Borislav Aleksandrov <B.Aleksandrov@cnsys.bg>, 2002.
 # Peter "Peshka" Slavov <pslavov@i-space.org>, 2004.
 # Rostislav Raykov <zbrox@i-space.org>, 2004.
 # Vladimir Petkov <kaladan@gmail.com>, 2005.
-#
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-01-25 12:02+0200\n"
-"PO-Revision-Date: 2010-01-25 12:02+0200\n"
-"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
-"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Bulgarian (http://www.transifex.com/projects/p/MATE/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: bg\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -494,9 +495,7 @@ msgstr "Операцията е спряна"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Остаряла функция, да не се използва! Не се поддържат вече потребителски "
-"промени по базата с данни за видове MIME."
+msgstr "Остаряла функция, да не се използва! Не се поддържат вече потребителски промени по базата с данни за видове MIME."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -909,9 +908,7 @@ msgstr "Мрежови сървър"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Флопи-дисковото устройство не може да бъде монтирано. Вероятно няма дискета "
-"в устройството."
+msgstr "Флопи-дисковото устройство не може да бъде монтирано. Вероятно няма дискета в устройството."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -924,9 +921,7 @@ msgstr "Дялът не може да бъде монтиран. Вероятн�
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Флопи-дисковото устройство не може да бъде монтирано. Вероятно е във формат, "
-"който не може да бъде монтиран."
+msgstr "Флопи-дисковото устройство не може да бъде монтирано. Вероятно е във формат, който не може да бъде монтиран."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -934,18 +929,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Дялът не може да бъде монтиран. Ако дялът е шифрован, причината е невярна "
-"парола или ключ."
+msgstr "Дялът не може да бъде монтиран. Ако дялът е шифрован, причината е невярна парола или ключ."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Дялът не може да бъде монтиран. Вероятно е във формат, който не може да бъде "
-"монтиран."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Дялът не може да бъде монтиран. Вероятно е във формат, който не може да бъде монтиран."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -960,9 +951,7 @@ msgstr "Избраният дял не може да бъде монтиран."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Дялът не може да бъде демонтиран. Вероятно се използва от една или повече "
-"програми."
+msgstr "Дялът не може да бъде демонтиран. Вероятно се използва от една или повече програми."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -980,9 +969,7 @@ msgstr "Неуспех при монтиране/демонтиране в те�
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Неочаквана грешка при извършване на select() докато се четат данни от "
-"дъщерен процес (%s)"
+msgstr "Неочаквана грешка при извършване на select() докато се четат данни от дъщерен процес (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1038,14 +1025,8 @@ msgstr "Идентичността на отдалечения компютър 
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Това се случва, когато влизате за пръв път.\n"
-"\n"
-"Изпратената от отдалечения компютър идентичност е %s. Ако искате да сте "
-"сигурни, че е безопасно да продължите, свържете се със системния "
-"администратор."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Това се случва, когато влизате за пръв път.\n\nИзпратената от отдалечения компютър идентичност е %s. Ако искате да сте сигурни, че е безопасно да продължите, свържете се със системния администратор."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1064,9 +1045,7 @@ msgstr "Не е намерен валиден файл с настройки в 
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
-"Ползвайте променливата на средата %s, за да зададете различно "
-"местоположение.\n"
+msgstr "Ползвайте променливата на средата %s, за да зададете различно местоположение.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1078,9 +1057,7 @@ msgstr "Сървърът-посредник за HTTP изисква да се �
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"За да достъпите „%s“, трябва да се идентифицирате.\n"
-"%s"
+msgstr "За да достъпите „%s“, трябва да се идентифицирате.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1116,25 +1093,19 @@ msgstr "Аргументът exec за стандартната програма
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Програмата, която да се използва за преглед на файлове, които изискват "
-"определен компонент за преглед. Параметърът %s ще бъде заменен пътя до "
-"файла, параметъра %c ще бъде заменен с IID на компонента."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Програмата, която да се използва за преглед на файлове, които изискват определен компонент за преглед. Параметърът %s ще бъде заменен пътя до файла, параметъра %c ще бъде заменен с IID на компонента."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Стандартната терминална програма да се използва за програми, които изискват "
-"терминал."
+msgstr "Стандартната терминална програма да се използва за програми, които изискват терминал."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
-msgstr ""
-"Аргументът за изпълнение (exec) за терминалния емулатор по подразбиране."
+msgstr "Аргументът за изпълнение (exec) за терминалния емулатор по подразбиране."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
@@ -1224,79 +1195,67 @@ msgstr "Програма за обработка на адреси от вида
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „aim“."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „aim“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „callto“."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „callto“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „ghelp“."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „ghelp“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „h323“."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „h323“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „http“."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „http“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „https“."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „https“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „info“."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „info“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „mailto“."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „mailto“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „man“."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „man“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „trash“."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Истина, ако програмата в ключа „command“ ще обслужва адреси от вида „trash“."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Истина, ако програмата, която ще обслужва този вид адреси, трябва да бъде "
-"изпълнена в терминал."
+msgstr "Истина, ако програмата, която ще обслужва този вид адреси, трябва да бъде изпълнена в терминал."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1342,9 +1301,7 @@ msgstr "Дали избраната програма да обработва а�
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Списък от домейни тип DNS-SD, разделени със запетаи, които трябва да са "
-"видими в местоположението „network:///“."
+msgstr "Списък от домейни тип DNS-SD, разделени със запетаи, които трябва да са видими в местоположението „network:///“."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1397,12 +1354,10 @@ msgstr "Потребителско име за сървъра-посредник
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Ако е истина, връзките към сървъра-посредник изискват идентификация. "
-"Комбинацията „потребителско име/парола“ е дефинирана в „/system/http_proxy/"
-"authentication_user“ и „/system/http_proxy/authentication_password“."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Ако е истина, връзките към сървъра-посредник изискват идентификация. Комбинацията „потребителско име/парола“ е дефинирана в „/system/http_proxy/authentication_user“ и „/system/http_proxy/authentication_password“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1410,8 +1365,7 @@ msgstr "Сървъри, които да не минават през сървъ�
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Парола, която да се подава като идентификация на сървъра-посредник за HTTP."
+msgstr "Парола, която да се подава като идентификация на сървъра-посредник за HTTP."
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
@@ -1435,12 +1389,9 @@ msgstr "Порт на сървъра-посредник за HTTPS"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Изберете режим на настройка на сървър-посредник. Поддържани стойности са "
-"„none“ — без сървър посредник, „manual“ — настройка на ръка и „auto“ — "
-"автоматично настройване."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Изберете режим на настройка на сървър-посредник. Поддържани стойности са „none“ — без сървър посредник, „manual“ — настройка на ръка и „auto“ — автоматично настройване."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1462,41 +1413,33 @@ msgstr "Името на сървъра-посредник за връзки по
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Портът на сървъра-посредник, който е дефиниран в „/system/proxy/http_host“."
+msgstr "Портът на сървъра-посредник, който е дефиниран в „/system/proxy/http_host“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Портът на сървъра-посредник, който е дефиниран в „/system/proxy/ftp_host“."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Портът на сървъра-посредник, който е дефиниран в „/system/proxy/ftp_host“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Портът на сървъра-посредник, който е дефиниран в „/system/proxy/secure_host“."
+msgstr "Портът на сървъра-посредник, който е дефиниран в „/system/proxy/secure_host“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Портът на сървъра-посредник, който е дефиниран в „/system/proxy/socks_host“."
+msgstr "Портът на сървъра-посредник, който е дефиниран в „/system/proxy/socks_host“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Този ключ съдържа списък с хостове, които за свързани директно, вместо през "
-"сървър-посредник (ако е активно). Стойностите могат да са хостове, домейни "
-"(*.foo.com), IP адреси на хостове(и IPv4, и IPv6) и мрежови адреси с мрежова "
-"маска (192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Този ключ съдържа списък с хостове, които за свързани директно, вместо през сървър-посредник (ако е активно). Стойностите могат да са хостове, домейни (*.foo.com), IP адреси на хостове(и IPv4, и IPv6) и мрежови адреси с мрежова маска (192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1508,9 +1451,7 @@ msgstr "Използване на сървър-посредник за HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Потребителско име, което да се подава като идентификация, при използване на "
-"сървър-посредник за HTTP."
+msgstr "Потребителско име, което да се подава като идентификация, при използване на сървър-посредник за HTTP."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1521,7 +1462,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Работната група или домейнът на Windows, в която потребителят участва. "
-"Възможно е да се наложи да излезете и да влезете в системата отново, за да "
-"може тази настройка да влезе в сила."
+msgstr "Работната група или домейнът на Windows, в която потребителят участва. Възможно е да се наложи да излезете и да влезете в системата отново, за да може тази настройка да влезе в сила."

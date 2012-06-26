@@ -1,23 +1,25 @@
-# translation of mate-vfs.HEAD.po to Latvian
-# Copyright (C) 2006, 2009 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Peteris Krisjanis <pecisk@gmail.com>, 2010.
+# Peteris Krisjanis <peteris.krisjanis@os.lv>, 2002.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2009.
 # Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2009-12-14 21:54+0000\n"
-"PO-Revision-Date: 2010-06-13 12:23+0300\n"
-"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
-"Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -72,7 +74,6 @@ msgid "Auto-detected Volume"
 msgstr "Automātiski noteikts sējums"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#| msgid "Ext2 Linux Volume"
 msgid "Btrfs Linux Volume"
 msgstr "Btrfs Linux sējums"
 
@@ -94,7 +95,6 @@ msgid "EncFS Volume"
 msgstr "EncFS sējums"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
-#| msgid "Memory Volume"
 msgid "eCryptfs Volume"
 msgstr "eCryptfs sējums"
 
@@ -109,7 +109,6 @@ msgstr "Ext2 Linux sējums"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#| msgid "Ext2 Linux Volume"
 msgid "Ext4 Linux Volume"
 msgstr "Ext4 Linux sējums"
 
@@ -172,7 +171,6 @@ msgid "NFS Network Volume"
 msgstr "NFS tīkla sējums"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
-#| msgid "XFS Linux Volume"
 msgid "NILFS Linux Volume"
 msgstr "NILFS Linux sējums"
 
@@ -496,8 +494,7 @@ msgstr "Operācija apturēta"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Apturēta funkcija. Lietotāju izmaiņas MIME datubāzē vairs netiek atbalstītas."
+msgstr "Apturēta funkcija. Lietotāju izmaiņas MIME datubāzē vairs netiek atbalstītas."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -924,9 +921,7 @@ msgstr "Nevarēja piemontēt sējumu. Iespējams nav datu nesēja iekārtas."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Nevar piemontēt diskešu dzini. Iespējams diskete ir formatā, kas nevar tikt "
-"piemontēts."
+msgstr "Nevar piemontēt diskešu dzini. Iespējams diskete ir formatā, kas nevar tikt piemontēts."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -934,18 +929,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Nevarēja piemontēt izvēlēto sējumu. Ja tas ir šifrēts dzinis, tad tika "
-"izmantota nepareiza parole vai atslēga."
+msgstr "Nevarēja piemontēt izvēlēto sējumu. Ja tas ir šifrēts dzinis, tad tika izmantota nepareiza parole vai atslēga."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Nevarēja piemontēt izvēlēto sējumu. Sējums, iespējams, uztur citu formātu, "
-"ko nav iespējams montēt."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Nevarēja piemontēt izvēlēto sējumu. Sējums, iespējams, uztur citu formātu, ko nav iespējams montēt."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -960,9 +951,7 @@ msgstr "Nevarēja piemontēt izvēlēto sējumu."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Nevarēja atmontēt izvēlēto sējumu. Sējumu izmanto viena vai vairākas "
-"programmas."
+msgstr "Nevarēja atmontēt izvēlēto sējumu. Sējumu izmanto viena vai vairākas programmas."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1036,13 +1025,8 @@ msgstr "Attālinātā datora (%s) identitāte nav zināma."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Tā notiek, kad ienākat datorā pirmo reizi.\n"
-"\n"
-"Identitāte, kas sūtīta no attālināta datora ir %s. Ja jūs vēlaties pilnībā "
-"pārliecināties, ka turpināt ir droši, sazinieties ar sistēmas administratoru."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Tā notiek, kad ienākat datorā pirmo reizi.\n\nIdentitāte, kas sūtīta no attālināta datora ir %s. Ja jūs vēlaties pilnībā pārliecināties, ka turpināt ir droši, sazinieties ar sistēmas administratoru."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1073,9 +1057,7 @@ msgstr "Jūsu HTTP starpnieks pieprasa jums ienākt sistēmā.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Jums jāienāk sistēmā, lai piekļūtu \"%s\".\n"
-"%s"
+msgstr "Jums jāienāk sistēmā, lai piekļūtu \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1111,20 +1093,15 @@ msgstr "Izpildes arguments noklusētam terminālam"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Lietotne, ko izmanto, lai aplūkotu datnes, kas pieprasa komponenti, lai "
-"aplūkotu tās. Parametrs %s būs aizvietots ar datnes URI, parametrs %c būs "
-"aizvietots ar komponenta IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Lietotne, ko izmanto, lai aplūkotu datnes, kas pieprasa komponenti, lai aplūkotu tās. Parametrs %s būs aizvietots ar datnes URI, parametrs %c būs aizvietots ar komponenta IID."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Noklusēta termināļa lietotne, lai izmantotu lietotnes, kam nepieciešams "
-"terminālis."
+msgstr "Noklusēta termināļa lietotne, lai izmantotu lietotnes, kam nepieciešams terminālis."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1172,8 +1149,7 @@ msgstr "Komanda, kas tiek izmantota apejoties ar \"man\" URL,ja ieslēgta."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr ""
-"Komanda, kas tiek izmantota apejoties ar \"miskastes\" URL,ja ieslēgta."
+msgstr "Komanda, kas tiek izmantota apejoties ar \"miskastes\" URL,ja ieslēgta."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
@@ -1219,89 +1195,67 @@ msgstr "\"miskastes\" URL apstrādātājs"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"aim\" URL."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"aim\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"callto\" URL."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"callto\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"ghelp\" URL."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"ghelp\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"h323\" URL."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"h323\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"http\" URL."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"http\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"https\" URL."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"https\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"info\" URL."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"info\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"mailto\" URL."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"mailto\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"man\" URL."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"man\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar "
-"\"miskastes\" URL."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Patiess, ja komandai norādītai \"komanda\" atslēgā vajadzētu apieties ar \"miskastes\" URL."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Patiess, ja komandai, kas izmantota, lai apietos ar šo URL tipu, jāpalaižas "
-"terminālī."
+msgstr "Patiess, ja komandai, kas izmantota, lai apietos ar šo URL tipu, jāpalaižas terminālī."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1347,9 +1301,7 @@ msgstr "Vai norādītai komandai nepieciešams apieties ar \"miskastes\" URL"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Komata atdalīts DNS-SD domēnu saraksts, ko vajadzētu redzēt šeit: "
-"\"network:///\"."
+msgstr "Komata atdalīts DNS-SD domēnu saraksts, ko vajadzētu redzēt šeit: \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1402,13 +1354,10 @@ msgstr "HTTP starpnieka lietotāja vārds"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Ja patiess, tad savienojumiem ar starpniekserveri, nepieciešama "
-"identifikācija. Lietotāja vārds/parole kombinācija ir definēta ar \"/system/"
-"http_proxy/authentication_user\" un \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Ja patiess, tad savienojumiem ar starpniekserveri, nepieciešama identifikācija. Lietotāja vārds/parole kombinācija ir definēta ar \"/system/http_proxy/authentication_user\" un \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1440,11 +1389,9 @@ msgstr "Drošs HTTP starpnieka ports"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Izvēlieties starpnieka konfigurācijas režīmu. Atbalstītās vērtības ir \"none"
-"\", \"manual\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Izvēlieties starpnieka konfigurācijas režīmu. Atbalstītās vērtības ir \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1466,45 +1413,33 @@ msgstr "Mašīnas vārds, lai starpietu cauri."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Mašīnas ports definēts \"/system/http_proxy/host\" , lai jūs varētu iziet "
-"cauri starpniekam."
+msgstr "Mašīnas ports definēts \"/system/http_proxy/host\" , lai jūs varētu iziet cauri starpniekam."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Mašīnas ports definēts \"/system/proxy/ftp_host\" , lai jūs varētu iziet "
-"cauri starpniekam."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Mašīnas ports definēts \"/system/proxy/ftp_host\" , lai jūs varētu iziet cauri starpniekam."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Mašīnas ports definēts \"/system/proxy/secure_host\"  ,lai jūs varētu iziet "
-"cauri starpniekam."
+msgstr "Mašīnas ports definēts \"/system/proxy/secure_host\"  ,lai jūs varētu iziet cauri starpniekam."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Mašīnas ports definēts \"/system/proxy/socks_host\" , lai jūs varētu iziet "
-"cauri starpniekam."
+msgstr "Mašīnas ports definēts \"/system/proxy/socks_host\" , lai jūs varētu iziet cauri starpniekam."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Šī atslēga satur resursdatoru sarakstu, kas ir savienoti tieši, labāk nekā "
-"caur starpnieku (ja tas ir aktīvs). Vērtības var būt saimniekdatoru vārdi, "
-"domēni (izmantojot aizstājējzīmes, kā *.foo.com), resursdatoru IP adreses "
-"(kā IPv4 un IPv6) un tīklu adreses ar tīkla masku (piemēram, 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Šī atslēga satur resursdatoru sarakstu, kas ir savienoti tieši, labāk nekā caur starpnieku (ja tas ir aktīvs). Vērtības var būt saimniekdatoru vārdi, domēni (izmantojot aizstājējzīmes, kā *.foo.com), resursdatoru IP adreses (kā IPv4 un IPv6) un tīklu adreses ar tīkla masku (piemēram, 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1516,9 +1451,7 @@ msgstr "Izmantot HTTP starpnieku"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Lietotāja vārds, lai izietu identifikāciju,veicot HTTP starpniekošanu "
-"(proxying)."
+msgstr "Lietotāja vārds, lai izietu identifikāciju,veicot HTTP starpniekošanu (proxying)."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1529,8 +1462,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Windows tīklošanas darba grupa vai domēns, kura sastāvā ir lietotājs. Lai "
-"jaunā darba grupa strādātu pilnīgi, lietotājam vajadzētu iziet no sistēmas "
-"un ienākt atpakaļ."
-
+msgstr "Windows tīklošanas darba grupa vai domēns, kura sastāvā ir lietotājs. Lai jaunā darba grupa strādātu pilnīgi, lietotājam vajadzētu iziet no sistēmas un ienākt atpakaļ."

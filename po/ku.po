@@ -1,29 +1,22 @@
-# translation of ku.po to Kurdish
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: ku\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-02-19 04:08+0100\n"
-"PO-Revision-Date: 2006-02-19 04:12+0100\n"
-"Last-Translator: Erdal Ronahi <erdal.ronahi@gmail.com>\n"
-"Language-Team: Kurdish <ku@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:44+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Kurdish (http://www.transifex.com/projects/p/MATE/language/ku/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= n != 1\n"
-"X-Generator: KBabel 1.11\n"
-
-#: ../daemon/mate-vfs-daemon.c:596
-msgid "Could not initialize MateComponent"
-msgstr ""
-
-#: ../daemon/mate-vfs-daemon.c:603
-msgid "Could not initialize mate vfs"
-msgstr ""
+"Language: ku\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -31,27 +24,27 @@ msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
-msgid "%s:%d contains NUL characters."
+msgid "%s:%u contains NUL characters."
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
-msgid "%s:%d contains no method name."
+msgid "%s:%u contains no method name."
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
-msgid "%s:%d has no options endmarker."
+msgid "%s:%u has no options endmarker."
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
-msgid "%s:%d has unknown options %s."
+msgid "%s:%u has unknown options %s."
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
-msgid "%s:%d contains no module name."
+msgid "%s:%u contains no module name."
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:363
@@ -65,349 +58,386 @@ msgstr ""
 msgid "%s:%d aborted parsing."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:37
+#: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:38
+#: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:39
+#: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:40
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-msgid "CD-ROM Drive"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:41
-msgid "CD Digital Audio"
+msgid "Btrfs Linux Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:43
-msgid "Hardware Device Volume"
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+msgid "CD-ROM Drive"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:44
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
-msgid "Ext2 Linux Volume"
+msgid "CD Digital Audio"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:46
-msgid "Ext3 Linux Volume"
+msgid "Hardware Device Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:47
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-msgid "MSDOS Volume"
+msgid "EncFS Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
-msgid "MacOS Volume"
+msgid "eCryptfs Volume"
 msgstr ""
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
 #: ../libmatevfs/mate-vfs-filesystem-type.c:50
-msgid "CDROM Volume"
+msgid "Ext2 Linux Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:51
-msgid "Hsfs CDROM Volume"
+msgid "Ext3 Linux Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
-msgid "JFS Volume"
-msgstr ""
-
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
-msgid "Windows NT Volume"
+msgid "Ext4 Linux Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:54
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
-msgid "System Volume"
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
+msgid "MSDOS Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:55
-msgid "Memory Volume"
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
+msgid "BSD Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:56
-msgid "Minix Volume"
+msgid "FUSE Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
+msgid "MacOS Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:59
-msgid "NFS Network Volume"
+msgid "CDROM Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+msgid "Hsfs CDROM Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:61
-msgid "Netware Volume"
+msgid "JFS Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-msgid "Reiser4 Linux Volume"
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+msgid "Windows NT Volume"
 msgstr ""
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
 #: ../libmatevfs/mate-vfs-filesystem-type.c:65
-msgid "ReiserFS Linux Volume"
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+msgid "System Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:66
-msgid "Windows Shared Volume"
+msgid "Memory Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:67
-msgid "SuperMount Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
-msgid "DVD Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-msgid "Solaris/BSD Volume"
+msgid "Minix Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:70
-msgid "Udfs Solaris Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
-msgid "Pcfs Solaris Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
-msgid "Sun SAM-QFS Volume"
+msgid "NFS Network Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
-msgid "Enhanced DOS Volume"
+msgid "NILFS Linux Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:74
-msgid "Windows VFAT Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
-msgid "Xenix Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
-msgid "XFS Linux Volume"
-msgstr ""
-
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
-msgid "XIAFS Volume"
+msgid "Netware Volume"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:78
+msgid "Reiser4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+msgid "ReiserFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+msgid "Windows Shared Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+msgid "SuperMount Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+msgid "DVD Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+msgid "Solaris/BSD Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+msgid "Udfs Solaris Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+msgid "Pcfs Solaris Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+msgid "Sun SAM-QFS Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+msgid "Temporary Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
+msgid "Enhanced DOS Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
+msgid "Windows VFAT Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
+msgid "Xenix Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
+msgid "XFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
+msgid "XIAFS Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:106
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Nenas"
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:363
-#: ../libmatevfs/mate-vfs-hal-mounts.c:589
+#: ../libmatevfs/mate-vfs-hal-mounts.c:356
+#: ../libmatevfs/mate-vfs-hal-mounts.c:582
 #, c-format
 msgid "%s Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:379
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:622
+#: ../libmatevfs/mate-vfs-hal-mounts.c:372
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:565
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:623
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:381
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:566
+#: ../libmatevfs/mate-vfs-hal-mounts.c:374
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:567
 msgid "CD-R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:383
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:567
+#: ../libmatevfs/mate-vfs-hal-mounts.c:376
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:568
 msgid "CD-RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:387
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:568
+#: ../libmatevfs/mate-vfs-hal-mounts.c:380
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:569
 msgid "DVD-ROM"
 msgstr "DVD-ROM"
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:389
+#: ../libmatevfs/mate-vfs-hal-mounts.c:382
 msgid "DVD+R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:391
+#: ../libmatevfs/mate-vfs-hal-mounts.c:384
 msgid "DVD+RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:393
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
+#: ../libmatevfs/mate-vfs-hal-mounts.c:386
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:571
 msgid "DVD-R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:395
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:571
+#: ../libmatevfs/mate-vfs-hal-mounts.c:388
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:572
 msgid "DVD-RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:397
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:569
+#: ../libmatevfs/mate-vfs-hal-mounts.c:390
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
 msgid "DVD-RAM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:400
+#: ../libmatevfs/mate-vfs-hal-mounts.c:393
 msgid "DVD±R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:403
+#: ../libmatevfs/mate-vfs-hal-mounts.c:396
 msgid "DVD±RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:406
+#: ../libmatevfs/mate-vfs-hal-mounts.c:399
 #, c-format
 msgid "%s/%s Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:408
+#: ../libmatevfs/mate-vfs-hal-mounts.c:401
 #, c-format
 msgid "%s Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:413
+#: ../libmatevfs/mate-vfs-hal-mounts.c:406
 msgid "Floppy Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:416
+#: ../libmatevfs/mate-vfs-hal-mounts.c:409
 msgid "Compact Flash Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:418
+#: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:420
+#: ../libmatevfs/mate-vfs-hal-mounts.c:413
 msgid "Smart Media Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:422
+#: ../libmatevfs/mate-vfs-hal-mounts.c:415
 msgid "SD/MMC Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:424
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:593
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:625
+#: ../libmatevfs/mate-vfs-hal-mounts.c:417
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:626
 msgid "Zip Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:427
+#: ../libmatevfs/mate-vfs-hal-mounts.c:420
 msgid "Jaz Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:430
+#: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:436
+#: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:444
+#: ../libmatevfs/mate-vfs-hal-mounts.c:437
 #, c-format
 msgid "%s %s Digital Camera"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:474
+#: ../libmatevfs/mate-vfs-hal-mounts.c:467
 msgid "Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:479
+#: ../libmatevfs/mate-vfs-hal-mounts.c:472
 #, c-format
 msgid "External %s"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:515
+#: ../libmatevfs/mate-vfs-hal-mounts.c:508
 msgid "CD-ROM Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:520
+#: ../libmatevfs/mate-vfs-hal-mounts.c:513
 msgid "Blank CD-R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:522
+#: ../libmatevfs/mate-vfs-hal-mounts.c:515
 msgid "CD-R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:527
+#: ../libmatevfs/mate-vfs-hal-mounts.c:520
 msgid "Blank CD-RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:529
+#: ../libmatevfs/mate-vfs-hal-mounts.c:522
 msgid "CD-RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:533
+#: ../libmatevfs/mate-vfs-hal-mounts.c:526
 msgid "DVD-ROM Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:538
+#: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:540
+#: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:545
+#: ../libmatevfs/mate-vfs-hal-mounts.c:538
 msgid "Blank DVD-R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:547
+#: ../libmatevfs/mate-vfs-hal-mounts.c:540
 msgid "DVD-R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:552
+#: ../libmatevfs/mate-vfs-hal-mounts.c:545
 msgid "Blank DVD-RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:554
+#: ../libmatevfs/mate-vfs-hal-mounts.c:547
 msgid "DVD-RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:560
+#: ../libmatevfs/mate-vfs-hal-mounts.c:553
 msgid "Blank DVD+R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:562
+#: ../libmatevfs/mate-vfs-hal-mounts.c:555
 msgid "DVD+R Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:567
+#: ../libmatevfs/mate-vfs-hal-mounts.c:560
 msgid "Blank DVD+RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:569
+#: ../libmatevfs/mate-vfs-hal-mounts.c:562
 msgid "DVD+RW Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:576
+#: ../libmatevfs/mate-vfs-hal-mounts.c:569
 msgid "Audio Disc"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:587
+#: ../libmatevfs/mate-vfs-hal-mounts.c:580
 #, c-format
 msgid "%s Removable Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-hal-mounts.c:598
+#: ../libmatevfs/mate-vfs-hal-mounts.c:591
 msgid "Volume"
 msgstr ""
 
@@ -421,308 +451,318 @@ msgstr ""
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-job.c:1698
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-job.c:1731
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-mime-handlers.c:108
-#: ../libmatevfs/mate-vfs-mime-handlers.c:268
-#: ../libmatevfs/mate-vfs-mime-handlers.c:319
-#: ../libmatevfs/mate-vfs-mime-handlers.c:615
-#: ../libmatevfs/mate-vfs-mime-handlers.c:636
-#: ../libmatevfs/mate-vfs-mime-handlers.c:656
-#: ../libmatevfs/mate-vfs-mime-handlers.c:677
-#: ../libmatevfs/mate-vfs-mime-handlers.c:698
-#: ../libmatevfs/mate-vfs-mime-handlers.c:849
-#: ../libmatevfs/mate-vfs-mime-handlers.c:873
-#: ../libmatevfs/mate-vfs-mime-handlers.c:894
-#: ../libmatevfs/mate-vfs-mime-handlers.c:915
-#: ../libmatevfs/mate-vfs-mime-handlers.c:972
-#: ../libmatevfs/mate-vfs-mime-handlers.c:991
-#: ../libmatevfs/mate-vfs-mime-handlers.c:1010
-#: ../libmatevfs/mate-vfs-mime-handlers.c:1030
-#: ../libmatevfs/mate-vfs-mime-handlers.c:1050
-#: ../libmatevfs/mate-vfs-mime-info.c:624
+#: ../libmatevfs/mate-vfs-mime-handlers.c:103
+#: ../libmatevfs/mate-vfs-mime-handlers.c:231
+#: ../libmatevfs/mate-vfs-mime-handlers.c:282
+#: ../libmatevfs/mate-vfs-mime-handlers.c:365
+#: ../libmatevfs/mate-vfs-mime-handlers.c:386
+#: ../libmatevfs/mate-vfs-mime-handlers.c:406
+#: ../libmatevfs/mate-vfs-mime-handlers.c:427
+#: ../libmatevfs/mate-vfs-mime-handlers.c:448
+#: ../libmatevfs/mate-vfs-mime-handlers.c:541
+#: ../libmatevfs/mate-vfs-mime-handlers.c:565
+#: ../libmatevfs/mate-vfs-mime-handlers.c:586
+#: ../libmatevfs/mate-vfs-mime-handlers.c:607
+#: ../libmatevfs/mate-vfs-mime-handlers.c:628
+#: ../libmatevfs/mate-vfs-mime-handlers.c:647
+#: ../libmatevfs/mate-vfs-mime-handlers.c:666
+#: ../libmatevfs/mate-vfs-mime-handlers.c:686
+#: ../libmatevfs/mate-vfs-mime-handlers.c:706
 #: ../libmatevfs/mate-vfs-mime-info.c:631
-#: ../libmatevfs/mate-vfs-mime-info.c:639
+#: ../libmatevfs/mate-vfs-mime-info.c:638
 #: ../libmatevfs/mate-vfs-mime-info.c:646
-#: ../libmatevfs/mate-vfs-mime-info.c:654
-#: ../libmatevfs/mate-vfs-mime-info.c:671
+#: ../libmatevfs/mate-vfs-mime-info.c:653
+#: ../libmatevfs/mate-vfs-mime-info.c:661
 #: ../libmatevfs/mate-vfs-mime-info.c:678
 #: ../libmatevfs/mate-vfs-mime-info.c:685
 #: ../libmatevfs/mate-vfs-mime-info.c:692
-#: ../libmatevfs/mate-vfs-mime-info.c:700
+#: ../libmatevfs/mate-vfs-mime-info.c:699
 #: ../libmatevfs/mate-vfs-mime-info.c:707
+#: ../libmatevfs/mate-vfs-mime-info.c:714
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:704
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:706
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr ""
 
 #. MATE_VFS_OK
-#: ../libmatevfs/mate-vfs-result.c:42
+#: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
 msgstr "Çewtî tune"
 
 #. MATE_VFS_ERROR_NOT_FOUND
-#: ../libmatevfs/mate-vfs-result.c:43
+#: ../libmatevfs/mate-vfs-result.c:48
 msgid "File not found"
 msgstr "Dosya nehat dîtin"
 
 #. MATE_VFS_ERROR_GENERIC
-#: ../libmatevfs/mate-vfs-result.c:44
+#: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
 msgstr ""
 
 #. MATE_VFS_ERROR_INTERNAL
-#: ../libmatevfs/mate-vfs-result.c:45
+#: ../libmatevfs/mate-vfs-result.c:50
 msgid "Internal error"
 msgstr ""
 
 #. MATE_VFS_ERROR_BAD_PARAMETERS
-#: ../libmatevfs/mate-vfs-result.c:46
+#: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
 msgstr ""
 
 #. MATE_VFS_ERROR_NOT_SUPPORTED
-#: ../libmatevfs/mate-vfs-result.c:47
+#: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
 msgstr ""
 
 #. MATE_VFS_ERROR_IO
-#: ../libmatevfs/mate-vfs-result.c:48
+#: ../libmatevfs/mate-vfs-result.c:53
 msgid "I/O error"
 msgstr ""
 
 #. MATE_VFS_ERROR_CORRUPTED_DATA
-#: ../libmatevfs/mate-vfs-result.c:49
+#: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
 msgstr ""
 
 #. MATE_VFS_ERROR_WRONG_FORMAT
-#: ../libmatevfs/mate-vfs-result.c:50
+#: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
 msgstr ""
 
 #. MATE_VFS_ERROR_BAD_FILE
-#: ../libmatevfs/mate-vfs-result.c:51
+#: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
 msgstr ""
 
 #. MATE_VFS_ERROR_TOO_BIG
-#: ../libmatevfs/mate-vfs-result.c:52
+#: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
 msgstr ""
 
 #. MATE_VFS_ERROR_NO_SPACE
-#: ../libmatevfs/mate-vfs-result.c:53
+#: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
 msgstr ""
 
 #. MATE_VFS_ERROR_READ_ONLY
-#: ../libmatevfs/mate-vfs-result.c:54
+#: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
 msgstr ""
 
 #. MATE_VFS_ERROR_INVALID_URI
-#: ../libmatevfs/mate-vfs-result.c:55
+#: ../libmatevfs/mate-vfs-result.c:60
 msgid "Invalid URI"
 msgstr ""
 
 #. MATE_VFS_ERROR_NOT_OPEN
-#: ../libmatevfs/mate-vfs-result.c:56
+#: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
 msgstr ""
 
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
-#: ../libmatevfs/mate-vfs-result.c:57
+#: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
 msgstr ""
 
 #. MATE_VFS_ERROR_ACCESS_DENIED
-#: ../libmatevfs/mate-vfs-result.c:58
+#: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
 msgstr "Gîhîştin hat asteng kirin"
 
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
-#: ../libmatevfs/mate-vfs-result.c:59
+#: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
 msgstr ""
 
 #. MATE_VFS_ERROR_EOF
-#: ../libmatevfs/mate-vfs-result.c:60
+#: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
 msgstr ""
 
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
-#: ../libmatevfs/mate-vfs-result.c:61
+#: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
 msgstr ""
 
 #. MATE_VFS_ERROR_IN_PROGRESS
-#: ../libmatevfs/mate-vfs-result.c:62
+#: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
 msgstr ""
 
 #. MATE_VFS_ERROR_INTERRUPTED
-#: ../libmatevfs/mate-vfs-result.c:63
+#: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
 msgstr ""
 
 #. MATE_VFS_ERROR_FILE_EXISTS
-#: ../libmatevfs/mate-vfs-result.c:64
+#: ../libmatevfs/mate-vfs-result.c:69
 msgid "File exists"
 msgstr "Dosya heye"
 
 #. MATE_VFS_ERROR_LOOP
-#: ../libmatevfs/mate-vfs-result.c:65
+#: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
 msgstr ""
 
 #. MATE_VFS_ERROR_NOT_PERMITTED
-#: ../libmatevfs/mate-vfs-result.c:66
+#: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
 msgstr ""
 
 #. MATE_VFS_ERROR_IS_DIRECTORY
-#: ../libmatevfs/mate-vfs-result.c:67
+#: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
 msgstr ""
 
 #. MATE_VFS_ERROR_NO_MEMORY
-#: ../libmatevfs/mate-vfs-result.c:68
+#: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
 msgstr "Xêv têr nake"
 
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
-#: ../libmatevfs/mate-vfs-result.c:69
+#: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
 msgstr ""
 
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
-#: ../libmatevfs/mate-vfs-result.c:70
+#: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
 msgstr ""
 
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
-#: ../libmatevfs/mate-vfs-result.c:71
+#: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
 msgstr ""
 
 #. MATE_VFS_ERROR_LOGIN_FAILED
-#: ../libmatevfs/mate-vfs-result.c:72
+#: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
 msgstr "Têketîn serneket"
 
 #. MATE_VFS_ERROR_CANCELLED
-#: ../libmatevfs/mate-vfs-result.c:73
+#: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
 msgstr ""
 
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
-#: ../libmatevfs/mate-vfs-result.c:74
+#: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
 msgstr ""
 
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
-#: ../libmatevfs/mate-vfs-result.c:75
+#: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
 msgstr ""
 
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
-#: ../libmatevfs/mate-vfs-result.c:76
+#: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
 msgstr ""
 
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
-#: ../libmatevfs/mate-vfs-result.c:77
+#: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
 msgstr ""
 
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
-#: ../libmatevfs/mate-vfs-result.c:78
+#: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
 msgstr ""
 
 #. MATE_VFS_ERROR_NAME_TOO_LONG
-#: ../libmatevfs/mate-vfs-result.c:79
+#: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
 msgstr ""
 
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
-#: ../libmatevfs/mate-vfs-result.c:80
+#: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
 msgstr ""
 
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
-#: ../libmatevfs/mate-vfs-result.c:81
+#: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
 msgstr ""
 
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
-#: ../libmatevfs/mate-vfs-result.c:82
+#: ../libmatevfs/mate-vfs-result.c:87
 msgid "Protocol error"
 msgstr ""
 
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
-#: ../libmatevfs/mate-vfs-result.c:83
+#: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
 msgstr ""
 
 #. MATE_VFS_ERROR_NO_DEFAULT
-#: ../libmatevfs/mate-vfs-result.c:84
+#: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
 msgstr ""
 
 #. MATE_VFS_ERROR_NO_HANDLER
-#: ../libmatevfs/mate-vfs-result.c:85
+#: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
 msgstr ""
 
 #. MATE_VFS_ERROR_PARSE
-#: ../libmatevfs/mate-vfs-result.c:86
+#: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
 msgstr ""
 
 #. MATE_VFS_ERROR_LAUNCH
-#: ../libmatevfs/mate-vfs-result.c:87
+#: ../libmatevfs/mate-vfs-result.c:92
 msgid "Error launching command"
 msgstr ""
 
 #. MATE_VFS_ERROR_TIMEOUT
-#: ../libmatevfs/mate-vfs-result.c:88 ../libmatevfs/mate-vfs-result.c:90
+#: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
 msgstr ""
 
 #. MATE_VFS_ERROR_NAMESERVER
-#: ../libmatevfs/mate-vfs-result.c:89
+#: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
 msgstr ""
 
 #. MATE_VFS_ERROR_LOCKED
-#: ../libmatevfs/mate-vfs-result.c:91
+#: ../libmatevfs/mate-vfs-result.c:95
 msgid "The resource is locked"
 msgstr ""
 
 #. MATE_VFS_ERROR_DEPRECATED_FUNCTION
-#: ../libmatevfs/mate-vfs-result.c:92
+#: ../libmatevfs/mate-vfs-result.c:96
 msgid "Function call deprecated"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-result.c:215
+#. MATE_VFS_ERROR_INVALID_FILENAME
+#: ../libmatevfs/mate-vfs-result.c:97
+msgid "Invalid filename"
+msgstr ""
+
+#. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
+#: ../libmatevfs/mate-vfs-result.c:98
+msgid "Not a symbolic link"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
 msgstr "Çewtiya nenas"
 
@@ -749,212 +789,220 @@ msgid "%.1f GB"
 msgstr ""
 
 #: ../libmatevfs/mate-vfs-utils.c:1108
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:381
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:382
 msgid " (invalid Unicode)"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:563
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:619
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:620
 msgid "Floppy"
 msgstr "Flopî"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:572
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:574
 msgid "CD-ROM/DVD-RAM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:574
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:575
 msgid "CD-ROM/DVD-R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:575
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
 msgid "CD-ROM/DVD-RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
 msgid "CD-R/DVD-ROM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
 msgid "CD-R/DVD-RAM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
 msgid "CD-R/DVD-R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
 msgid "CD-R/DVD-RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
 msgid "CD-RW/DVD-ROM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
 msgid "CD-RW/DVD-RAM"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
 msgid "CD-RW/DVD-R"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:584
 msgid "CD-RW/DVD-RW"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:585
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
 msgid "Disk"
 msgstr "Dîsk"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:587
 msgid "USB Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:587
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
 msgid "IEEE1394 Drive"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
 msgid "SD/MMC"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
 msgid "Camera"
 msgstr "Kamera"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:597
 msgid "DVD"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:841
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:922
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:955
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1160
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr ""
 
 #. Handle floppy case
-#: ../libmatevfs/mate-vfs-volume-ops.c:186
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+#: ../libmatevfs/mate-vfs-volume-ops.c:184
+#, c-format
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr ""
 
 #. All others
-#: ../libmatevfs/mate-vfs-volume-ops.c:190
+#: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:196
+#: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
 msgstr ""
 
 #. Probably a wrong password
-#: ../libmatevfs/mate-vfs-volume-ops.c:200
+#: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:203
+#: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:208
+#: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:210
+#: ../libmatevfs/mate-vfs-volume-ops.c:208
 msgid "Unable to mount the selected volume."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:223
+#: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:226
+#: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:393
+#: ../libmatevfs/mate-vfs-volume-ops.c:377
 #, c-format
 msgid "Failed to read data from child process %d (%s)"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:437
+#: ../libmatevfs/mate-vfs-volume-ops.c:421
 msgid "Couldn't run mount process in a pty"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:482
+#: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:536
+#: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:575
+#: ../libmatevfs/mate-vfs-volume-ops.c:559
 #, c-format
 msgid "Unexpected error in waitpid() (%s)"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:677
-#: ../libmatevfs/mate-vfs-volume-ops.c:760
+#: ../libmatevfs/mate-vfs-volume-ops.c:669
+#: ../libmatevfs/mate-vfs-volume-ops.c:755
 msgid "Failed to start command"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:747
+#: ../libmatevfs/mate-vfs-volume-ops.c:742
 msgid "Unable to eject media"
 msgstr ""
 
-#: ../libmatevfs/mate-vfs-volume-ops.c:995
+#: ../libmatevfs/mate-vfs-volume-ops.c:983
 msgid "Unable to unmount connected server"
 msgstr ""
 
-#: ../modules/computer-method.c:546
+#: ../modules/computer-method.c:543
 msgid "Network"
 msgstr "Tor"
 
-#: ../modules/computer-method.c:564
+#: ../modules/computer-method.c:561
 msgid "Home"
 msgstr "Mal"
 
-#: ../modules/computer-method.c:582
+#: ../modules/computer-method.c:579
 msgid "Filesystem"
 msgstr "Pergala dosiyan"
 
-#: ../modules/file-method.c:483
+#: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
 msgstr ""
@@ -963,25 +1011,24 @@ msgstr ""
 msgid "Windows Network"
 msgstr ""
 
-#: ../modules/sftp-method.c:1321
+#: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
 msgstr ""
 
-#: ../modules/sftp-method.c:1322
+#: ../modules/sftp-method.c:1425
 #, c-format
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
 msgstr ""
 
-#: ../modules/sftp-method.c:1330
+#: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
 msgstr ""
 
-#: ../modules/sftp-method.c:1331
+#: ../modules/sftp-method.c:1434
 msgid "Cancel Login"
 msgstr ""
 
@@ -996,20 +1043,34 @@ msgstr ""
 msgid "Use the %s environment variable to specify a different location.\n"
 msgstr ""
 
-#: ../monikers/MATE_VFS_Moniker_std.server.in.in.h:1
-msgid "Standard Moniker factory"
+#: ../programs/authentication.c:106
+#, c-format
+msgid "Your HTTP Proxy requires you to log in.\n"
 msgstr ""
 
-#: ../monikers/MATE_VFS_Moniker_std.server.in.in.h:2
-msgid "file MonikerExtender"
+#: ../programs/authentication.c:107
+#, c-format
+msgid ""
+"You must log in to access \"%s\".\n"
+"%s"
 msgstr ""
 
-#: ../monikers/MATE_VFS_Moniker_std.server.in.in.h:3
-msgid "generic Mate VFS moniker"
+#: ../programs/authentication.c:110
+msgid "Your password will be transmitted unencrypted."
 msgstr ""
 
-#: ../monikers/MATE_VFS_Moniker_std.server.in.in.h:4
-msgid "generic file moniker"
+#: ../programs/authentication.c:111
+msgid "Your password will be transmitted encrypted."
+msgstr ""
+
+#: ../programs/authentication.c:163
+#, c-format
+msgid "You must log in to access %s domain %s\n"
+msgstr ""
+
+#: ../programs/authentication.c:165
+#, c-format
+msgid "You must log in to access %s\n"
 msgstr ""
 
 #: ../schemas/desktop_default_applications.schemas.in.h:1
@@ -1028,8 +1089,8 @@ msgstr ""
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
 msgstr ""
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
@@ -1134,14 +1195,14 @@ msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1158,8 +1219,8 @@ msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1170,8 +1231,8 @@ msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1182,8 +1243,8 @@ msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1289,8 +1350,9 @@ msgstr ""
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
 msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
@@ -1323,8 +1385,8 @@ msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
 msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
@@ -1351,8 +1413,8 @@ msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1371,8 +1433,8 @@ msgstr ""
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
@@ -1397,53 +1459,3 @@ msgid ""
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
 msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:1
-msgid "Display SCSI drives"
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:2
-msgid "Display SCSI optical drives"
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:3
-msgid "Display drives with removable media"
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:4
-msgid "Display external drives"
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:5
-msgid "Display internal hard drives"
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:6
-msgid ""
-"Whether to display SCSI optical drives even if /system/storage/"
-"display_scsi_drives is set to FALSE."
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:7
-msgid "Whether to display drives and mountable volumes from SCSI drives."
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:8
-msgid ""
-"Whether to display drives and mountable volumes from drives with removable "
-"media (e.g. drives where media can be inserted and removed)."
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:9
-msgid ""
-"Whether to display drives and mountable volumes from external drives (e.g. "
-"drives that are hotpluggable; e.g. drives that can be attached and detached "
-"while the system is running)."
-msgstr ""
-
-#: ../schemas/system_storage.schemas.in.h:10
-msgid ""
-"Whether to display drives and mountable volumes from internal hard drives "
-"(non-SCSI optical drives are always shown)."
-msgstr ""
-

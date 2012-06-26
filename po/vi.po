@@ -1,21 +1,22 @@
-# Vietnamese translation for Mate-VFS.
-# Copyright © 2010 Mate i18n Project for Vietnamese.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Nguyễn Thái Ngọc Duy <pclouds@gmx.net>, 2002.
-# Clytie Siddall <clytie@riverland.net.au>, 2005-2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs 2.24.1\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2009-12-14 21:54+0000\n"
-"PO-Revision-Date: 2010-03-22 21:51+0930\n"
-"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
-"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: LocFactoryEditor 1.8\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -70,7 +71,6 @@ msgid "Auto-detected Volume"
 msgstr "Khối tin đã dò tìm tự động"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#| msgid "Ext2 Linux Volume"
 msgid "Btrfs Linux Volume"
 msgstr "Khối tin Linux Btrfs"
 
@@ -92,7 +92,6 @@ msgid "EncFS Volume"
 msgstr "Khối tin EncFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
-#| msgid "Memory Volume"
 msgid "eCryptfs Volume"
 msgstr "Khối tin eCryptfs"
 
@@ -107,7 +106,6 @@ msgstr "Khối tin Linux Ext3"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#| msgid "Ext2 Linux Volume"
 msgid "Ext4 Linux Volume"
 msgstr "Khối tin Linux Ext4"
 
@@ -170,7 +168,6 @@ msgid "NFS Network Volume"
 msgstr "Khối tin mạng NFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
-#| msgid "XFS Linux Volume"
 msgid "NILFS Linux Volume"
 msgstr "Khối tin Linux NILFS"
 
@@ -449,8 +446,7 @@ msgstr "Khối tin"
 msgid "Unknown operation type %u"
 msgstr "Kiểu thao tác không rõ %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1024
-#: ../libmatevfs/mate-vfs-job.c:1175
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Không thể tạo ống dẫn cho kênh GIOChannel: %s"
@@ -492,7 +488,9 @@ msgstr "Thao tác đã dừng"
 #: ../libmatevfs/mate-vfs-mime-info.c:699
 #: ../libmatevfs/mate-vfs-mime-info.c:707
 #: ../libmatevfs/mate-vfs-mime-info.c:714
-msgid "Deprecated function.  User modifications to the MIME database are no longer supported."
+msgid ""
+"Deprecated function.  User modifications to the MIME database are no longer "
+"supported."
 msgstr "Chức năng bị phản đối. Không còn hỗ trợ lại người dùng sửa đổi cơ sở dữ liệu MIME."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
@@ -903,7 +901,8 @@ msgstr "Máy phục vụ mạng"
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "Không thể gắn kết ổ đĩa mềm. Rất có thể là không có đĩa mềm trong ổ."
 
 #. All others
@@ -914,18 +913,24 @@ msgstr "Không thể gắn kết khối tin. Rất có thể là không có vậ
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
-msgid "Unable to mount the floppy drive. The floppy is probably in a format that cannot be mounted."
+msgid ""
+"Unable to mount the floppy drive. The floppy is probably in a format that "
+"cannot be mounted."
 msgstr "Không thể gắn kết đĩa mềm. Rất có thể là đĩa dùng định dạng không thể gắn kết."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
 #, c-format
-msgid "Unable to mount the volume. If this is an encrypted drive, then the wrong password or key was used."
+msgid ""
+"Unable to mount the volume. If this is an encrypted drive, then the wrong "
+"password or key was used."
 msgstr "Không thể gắn kết khối tin. Nếu đĩa này có mật mã thì mật khẩu hay khóa sai đã được nhập."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
-msgid "Unable to mount the selected volume. The volume is probably in a format that cannot be mounted."
+msgid ""
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "Không thể gắn kết khối đã chọn. Rất có thể là khối dùng định dạng không thể gắn kết."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -938,7 +943,9 @@ msgstr "Không thể gắn kết khối tin đã chọn."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
 #, c-format
-msgid "Unable to unmount the selected volume. The volume is in use by one or more programs."
+msgid ""
+"Unable to unmount the selected volume. The volume is in use by one or more "
+"programs."
 msgstr "Không thể gắn kết khối tin đã chọn. Rất có thể là khối tin đang được dùng bởi một hay nhiều chương trình."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
@@ -1014,10 +1021,7 @@ msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
 "The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Điều này xảy ra khi bạn đăng nhập vào máy tính lần đầu tiên.\n"
-"\n"
-"Máy tính ở xa đã gởi thông tin nhận diện là %s. Nếu bạn muốn đảm bảo là toàn an để tiếp tục, hãy liên lạc với nhà quản trị hệ thống."
+msgstr "Điều này xảy ra khi bạn đăng nhập vào máy tính lần đầu tiên.\n\nMáy tính ở xa đã gởi thông tin nhận diện là %s. Nếu bạn muốn đảm bảo là toàn an để tiếp tục, hãy liên lạc với nhà quản trị hệ thống."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1048,9 +1052,7 @@ msgstr "Ủy nhiệm HTTP của bạn cần thiết bạn đăng nhập.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Bạn phải đăng nhập để truy cập « %s ».\n"
-"%s"
+msgstr "Bạn phải đăng nhập để truy cập « %s ».\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1084,11 +1086,16 @@ msgstr "Đối số thức hiện cho thiết bị cuối mặc định"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
-msgid "The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file's URIs, the parameter %c will be replaced by the component IID."
+msgid ""
+"The application to use for viewing files that require a component to view "
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
 msgstr "Ứng dụng cần dùng để xem tập tin cần thiết thành phần để xem nó. Tham số %s sẽ được thay thế bằng các URI của tập tin đó, tham số %c sẽ được thay thế bằng IID của thành phần."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
-msgid "The default terminal application to use for applications that require a terminal."
+msgid ""
+"The default terminal application to use for applications that require a "
+"terminal."
 msgstr "Ứng dụng thiết bị cuối mặc định cần dùng cho các ứng dụng cần thiết thiết bị cuối."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
@@ -1180,47 +1187,69 @@ msgid "The handler for \"trash\" URLs"
 msgstr "Bộ xử lý cho URL « trash » (rác)"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
-msgid "True if the command specified in the \"command\" key should handle \"aim\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"aim\" "
+"URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « aim »."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
-msgid "True if the command specified in the \"command\" key should handle \"callto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « callto » (gợi đến)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
-msgid "True if the command specified in the \"command\" key should handle \"ghelp\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « ghelp » (trợ giúp g)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
-msgid "True if the command specified in the \"command\" key should handle \"h323\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"h323\" "
+"URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « h323 »."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
-msgid "True if the command specified in the \"command\" key should handle \"http\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"http\" "
+"URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « http »."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
-msgid "True if the command specified in the \"command\" key should handle \"https\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « https »."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
-msgid "True if the command specified in the \"command\" key should handle \"info\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"info\" "
+"URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « info » (thông tin)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
-msgid "True if the command specified in the \"command\" key should handle \"mailto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « mailto » (gởi thư cho)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
-msgid "True if the command specified in the \"command\" key should handle \"man\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"man\" "
+"URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « man » (trang hướng dẫn)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
-msgid "True if the command specified in the \"command\" key should handle \"trash\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "Đúng nếu lệnh được xác định trong khóa « lệnh » nên xử lý các URL « trash » (rác)."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
-msgid "True if the command used to handle this type of URL should be run in a terminal."
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr "Đúng nếu lệnh được dùng để xử lý URL kiểu này nên được dùng trong thiết bị cuối."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
@@ -1264,7 +1293,9 @@ msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "Lệnh được xác định có nên xử lý URL « trash » (rác) hay không"
 
 #: ../schemas/system_dns_sd.schemas.in.h:1
-msgid "Comma separated list of DNS-SD domains that should be visible in the \"network:///\" location."
+msgid ""
+"Comma separated list of DNS-SD domains that should be visible in the "
+"\"network:///\" location."
 msgstr "Danh sách các miền DNS-SD, định giới bằng dấu phẩy, nên được hiển thị trong địa điểm « network:// »."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
@@ -1277,11 +1308,7 @@ msgstr "Cách hiển thị dịch vụ DNS-SD cục bộ"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Giá trị có thể là:\n"
-" • merged — đã phối hợp.\n"
-" • separate — riêng,\n"
-" • disabled — đã tắt."
+msgstr "Giá trị có thể là:\n • merged — đã phối hợp.\n • separate — riêng,\n • disabled — đã tắt."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1320,7 +1347,11 @@ msgid "HTTP proxy username"
 msgstr "Tên người dùng ủy nhiệm HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:10
-msgid "If true, then connections to the proxy server require authentication. The username/password combo is defined by \"/system/http_proxy/authentication_user\" and \"/system/http_proxy/authentication_password\"."
+msgid ""
+"If true, then connections to the proxy server require authentication. The "
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
 msgstr "Nếu đúng, mọi sự kết nối đến máy phục vụ ủy nhiệm cần thiết xác thực. Tổ hợp tên người dùng và mật khẩu được định nghĩa bằng « /system/http_proxy/authentication_user » và « /system/http_proxy/authentication_password »."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
@@ -1352,12 +1383,10 @@ msgid "Secure HTTP proxy port"
 msgstr "Cổng ủy nhiệm HTTP bảo mật"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
-msgid "Select the proxy configuration mode. Supported values are \"none\", \"manual\", \"auto\"."
-msgstr ""
-"Hãy chọn chế độ cấu hình ủy nhiệm. Giá trị được hỗ trợ là:\n"
-" • none — không có,\n"
-" • manual — tự làm,\n"
-" • auto — tự động."
+msgid ""
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Hãy chọn chế độ cấu hình ủy nhiệm. Giá trị được hỗ trợ là:\n • none — không có,\n • manual — tự làm,\n • auto — tự động."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1376,23 +1405,35 @@ msgid "The machine name to proxy socks through."
 msgstr "Tên của máy qua đó cần chạy ủy nhiệm SOCKS."
 
 #: ../schemas/system_http_proxy.schemas.in.h:23
-msgid "The port on the machine defined by \"/system/http_proxy/host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/http_proxy/host\" that you "
+"proxy through."
 msgstr "Cổng trên máy được định nghĩa bởi « /system/http_proxy/host » qua đó cần chạy ủy nhiệm."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
-msgid "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "Cổng trên máy được định nghĩa bởi « /system/ftp_proxy/host » qua đó cần chạy ủy nhiệm."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
-msgid "The port on the machine defined by \"/system/proxy/secure_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/secure_host\" that you "
+"proxy through."
 msgstr "Cổng trên máy được định nghĩa bởi « /system/proxy/secure_host » qua đó cần chạy ủy nhiệm."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
-msgid "The port on the machine defined by \"/system/proxy/socks_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/socks_host\" that you "
+"proxy through."
 msgstr "Cổng trên máy được định nghĩa bởi « /system/proxy/socks_host » qua đó cần chạy ủy nhiệm."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
-msgid "This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgid ""
+"This key contains a list of hosts which are connected to directly, rather "
+"than via the proxy (if it is active). The values can be hostnames, domains "
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr "Khóa này chứa danh sách các máy được kết nối trực tiếp, hơn là qua ủy nhiệm (nếu nó hoạt động). Giá trị có thể là tên máy, miền (dùng ký tự đại diện ban đầu như « *.phu.com »), địa chỉ IP của máy (cả IPv4 lẫn IPv6) và địa chỉ mạng có mặt nạ mạng (như « 192.168.0.0/24 »)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
@@ -1412,6 +1453,8 @@ msgid "SMB workgroup"
 msgstr "Nhóm làm việc SMB"
 
 #: ../schemas/system_smb.schemas.in.h:2
-msgid "The Windows networking workgroup or domain that the user is part of. In order for a new workgroup to fully take effect the user may need to log out and log back in."
+msgid ""
+"The Windows networking workgroup or domain that the user is part of. In "
+"order for a new workgroup to fully take effect the user may need to log out "
+"and log back in."
 msgstr "Nhóm làm việc chạy mạng Windows hay miền chứa người dùng này. Người dùng có lẽ cần phải đăng xuất rồi đăng nhập lại để dùng một nhóm làm việc mới."
-

@@ -1,22 +1,23 @@
-# translation of mr.po to Marathi
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
+# Translators:
 # Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2008, 2009.
 # Sandeep Shedmake <sshedmak@redhat.com>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: mr\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2010-04-05 14:34+0000\n"
-"PO-Revision-Date: 2010-04-13 17:17+0530\n"
-"Last-Translator: Sandeep Shedmake <sshedmak@redhat.com>\n"
-"Language-Team: Marathi <maajhe-sanganak@freelists.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: mr\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -71,157 +72,175 @@ msgid "Auto-detected Volume"
 msgstr "स्वयंशोधीत खंड"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "सीडीरॉम ड्राईव्ह"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "सिडी सांकेतिक श्रवण कृती"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "हार्डवेअर साधन खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs सीडीरॉम खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "प्रणाली खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "स्मृती खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS महाजाल खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Windows सहभागीय खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "डिव्हीडी खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "तात्पुरते खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "विस्तारीत DOS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS खंड"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "अज्ञात"
 
@@ -884,7 +903,8 @@ msgstr "महाजाल सर्वर"
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "फ्लॉपी ड्राइव्ह आरोहीत करता येत नाही. कदाचित ड्राईव्हमध्ये फ्लॉपी नाही."
 
 #. All others
@@ -898,9 +918,7 @@ msgstr "खंड आरोहीत करता येत नाही. कद
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"फ्लॉपी ड्राइव्ह आरोहीत करता येत नाही. कदाचित ही फ्लॉपी ज्या स्वरूपात आहे त्या स्थितीत "
-"आरोहीत करता येणार नाही."
+msgstr "फ्लॉपी ड्राइव्ह आरोहीत करता येत नाही. कदाचित ही फ्लॉपी ज्या स्वरूपात आहे त्या स्थितीत आरोहीत करता येणार नाही."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -908,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"खंड आरोहीत करता येत नाही. कदाचित ही फ्लॉपी ज्या स्वरूपात आहे त्या स्थितीत आरोहीत करता "
-"येणार नाही."
+msgstr "खंड आरोहीत करता येत नाही. कदाचित ही फ्लॉपी ज्या स्वरूपात आहे त्या स्थितीत आरोहीत करता येणार नाही."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"निवडलेले खंड आरोहीत करता येत नाही. कदाचित खंड ज्या स्वरूपात आहे त्या स्थितीत आरोहीत "
-"करता येत नाही."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "निवडलेले खंड आरोहीत करता येत नाही. कदाचित खंड ज्या स्वरूपात आहे त्या स्थितीत आरोहीत करता येत नाही."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -934,9 +948,7 @@ msgstr "निवडलेले खंड आरोहीत करता य�
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"निवडलेले आवाज अनारोहीत करता येत नाही. कदाचीत खंड एका पेक्षा जास्त अनुप्रयोग द्वारे "
-"वापरणीत आहे."
+msgstr "निवडलेले आवाज अनारोहीत करता येत नाही. कदाचीत खंड एका पेक्षा जास्त अनुप्रयोग द्वारे वापरणीत आहे."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1010,13 +1022,8 @@ msgstr "दूरस्थ संगणक (%s) ची ओळख अपरिच
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"जेव्हा तुम्ही प्रथमता संगणकामध्ये प्रवेश करता त्यावेळी असे घडते.\n"
-"\n"
-"दूरस्थ संगणकाने पाठविलेला परिचय %s आहे. कार्य सुरू करण्यापूर्वी तुम्हाला पक्की कात्री हवी "
-"असेल तर, तुमच्या सुरक्षिततेच्या संगणक व्यवस्थापनाकडे जा."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "जेव्हा तुम्ही प्रथमता संगणकामध्ये प्रवेश करता त्यावेळी असे घडते.\n\nदूरस्थ संगणकाने पाठविलेला परिचय %s आहे. कार्य सुरू करण्यापूर्वी तुम्हाला पक्की कात्री हवी असेल तर, तुमच्या सुरक्षिततेच्या संगणक व्यवस्थापनाकडे जा."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1047,9 +1054,7 @@ msgstr "तुमच्या HTTP प्रॉक्सीला तुम्�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" चा वापर करण्यासाठी तुम्हाला प्रवेश करायला हवे.\n"
-"%s"
+msgstr "\"%s\" चा वापर करण्यासाठी तुम्हाला प्रवेश करायला हवे.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1085,11 +1090,9 @@ msgstr "मुलभूत कार्यक्रमांसाठी Exec �
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"घटकाची आवश्यकता लागत असणाऱ्या फाइलला पहाण्याकरीताचे अनुप्रयोग. घटक %s फाइलच्या URI "
-"बदलविले जाईल, बाब %c घटकाच्या IID शी बदलविले जाईल."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "घटकाची आवश्यकता लागत असणाऱ्या फाइलला पहाण्याकरीताचे अनुप्रयोग. घटक %s फाइलच्या URI बदलविले जाईल, बाब %c घटकाच्या IID शी बदलविले जाईल."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1193,14 +1196,14 @@ msgstr "\"command\" मध्ये वर्णित आज्ञावली 
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "\"command\" मध्ये वर्णित आज्ञावली \"callto\" URL ला सूचित करीत असल्यास खरे आहे."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "\"command\" मध्ये वर्णित आज्ञावली \"ghelp\" URL ला सूचित करीत असल्यास खरे आहे."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1217,8 +1220,8 @@ msgstr "\"command\" मध्ये वर्णित आज्ञावली 
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "\"command\" मध्ये वर्णित आज्ञावली \"https\" URL ला सूचित करीत असल्यास खरे आहे."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1229,8 +1232,8 @@ msgstr "\"command\" मध्ये वर्णित आज्ञावली 
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "\"command\" मध्ये वर्णित आज्ञावली \"mailto\" URL ला सूचित करीत असल्यास खरे आहे."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1241,8 +1244,8 @@ msgstr "\"command\" मध्ये वर्णित आज्ञावली 
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "\"command\" मध्ये वर्णित आज्ञावली \"trash\" URL ला सूचित करीत असल्यास खरे आहे."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1348,12 +1351,10 @@ msgstr "HTTP पर्यायी वापरकर्त्याचे न�
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"जर ठिक असेल तर, पर्यायी सर्वर जोडणीला होकार द्यावा लागेल. वापरकर्ता/गुप्तशब्दाचे  "
-"निश्चितीकरण \"/system/http_proxy/authentication_user\" आणि \"/system/"
-"http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "जर ठिक असेल तर, पर्यायी सर्वर जोडणीला होकार द्यावा लागेल. वापरकर्ता/गुप्तशब्दाचे  निश्चितीकरण \"/system/http_proxy/authentication_user\" आणि \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1385,11 +1386,9 @@ msgstr "HTTP पर्यायी स्थान सुरक्षित आ�
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"पर्यायी संयोजनाची रीत निवडा. \"एकही नाही\", \"स्वयंसिद्ध\", \"हस्ते\" ही स्वीकृत मूल्ये "
-"आहेत."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "पर्यायी संयोजनाची रीत निवडा. \"एकही नाही\", \"स्वयंसिद्ध\", \"हस्ते\" ही स्वीकृत मूल्ये आहेत."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1411,45 +1410,33 @@ msgstr "पर्यायी सॉक्स साठी यात्रिक
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"संगणकावरील स्थान जे यंत्रणा \"/system/http_proxy/host\" द्वारे पर्यायासाठी तुम्ही वापरू "
-"शकता."
+msgstr "संगणकावरील स्थान जे यंत्रणा \"/system/http_proxy/host\" द्वारे पर्यायासाठी तुम्ही वापरू शकता."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"संगणकावरील स्थान जे यंत्रणा \"/system/proxy/ftp_host\"  द्वारे पर्यायासाठी तुम्ही वापरू "
-"शकता."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "संगणकावरील स्थान जे यंत्रणा \"/system/proxy/ftp_host\"  द्वारे पर्यायासाठी तुम्ही वापरू शकता."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"संगणकावरील स्थान जे यंत्रणा \"/system/proxy/secure_host\" द्वारे पर्यायासाठी तुम्ही "
-"वापरू शकता."
+msgstr "संगणकावरील स्थान जे यंत्रणा \"/system/proxy/secure_host\" द्वारे पर्यायासाठी तुम्ही वापरू शकता."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"संगणकावरील स्थान जे यंत्रणा  \"/system/proxy/socks_host\"  द्वारे पर्यायासाठी तुम्ही "
-"वापरू शकता."
+msgstr "संगणकावरील स्थान जे यंत्रणा  \"/system/proxy/socks_host\"  द्वारे पर्यायासाठी तुम्ही वापरू शकता."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"या किल्लीत प्रत्यक्षरित्या जुळलेली यजमानची यादी, प्रॉक्सीच्या (सक्रीय असल्यास) ऐवजी "
-"समाविष्टीत आहे. मुल्य यजमाननाव, क्षेत्र (प्रारंभीक वाईल्डकार्ड जसे की *.foo.com), IP "
-"यजमान पत्ता (दोन्ही IPv4 व IPv6) व संजाळ पत्ता सह नेटमास्क (काहितरी यासारखे "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "या किल्लीत प्रत्यक्षरित्या जुळलेली यजमानची यादी, प्रॉक्सीच्या (सक्रीय असल्यास) ऐवजी समाविष्टीत आहे. मुल्य यजमाननाव, क्षेत्र (प्रारंभीक वाईल्डकार्ड जसे की *.foo.com), IP यजमान पत्ता (दोन्ही IPv4 व IPv6) व संजाळ पत्ता सह नेटमास्क (काहितरी यासारखे 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1472,8 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"वापरकर्ता ज्या कार्यस्थानाचा किंवा विंडोज नेटवर्कीग करणाऱ्या गटाचा भाग असेल ते स्थान "
-"एखाद्या नव्या कार्यगटाचा पूर्ण उपयोग करायचा असेल तर वापर करत्याने प्रथम प्रवेशातून बाहेर "
-"जावे आणि पुन्हा प्रवेश करावा."
-
+msgstr "वापरकर्ता ज्या कार्यस्थानाचा किंवा विंडोज नेटवर्कीग करणाऱ्या गटाचा भाग असेल ते स्थान एखाद्या नव्या कार्यगटाचा पूर्ण उपयोग करायचा असेल तर वापर करत्याने प्रथम प्रवेशातून बाहेर जावे आणि पुन्हा प्रवेश करावा."

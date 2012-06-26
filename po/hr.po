@@ -1,22 +1,21 @@
-# Translation of mate-vfs to Croatiann
-# Copyright (C) Croatiann team
-# Translators: Automatski Prijevod <>,Robert Sedak <robert.sedak@sk.tel.hr>,
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs 0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-09 14:39+0200\n"
-"PO-Revision-Date: 2008-03-21 16:32+0000\n"
-"Last-Translator: Launchpad Translations Administrators <rosetta@launchpad."
-"net>\n"
-"Language-Team: Croatian <lokalizacija@linux.hr>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Launchpad-Export-Date: 2008-05-28 04:36+0000\n"
-"X-Generator: Launchpad (build Unknown)\n"
+"Language: hr\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -71,157 +70,175 @@ msgid "Auto-detected Volume"
 msgstr "Automatski prepoznat disk"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM uređaj"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD digitalni zvuk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Disk na hardverskom uređaju"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE uređaj"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CD-ROM disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Sistemski disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Memorijski disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS mrežni disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Dijeljeni Windows disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Privremeni disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Enhanced DOS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS disk"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Nepoznato"
 
@@ -423,22 +440,22 @@ msgstr "%s uklonjivi disk"
 msgid "Volume"
 msgstr "Disk"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "Nepoznata vrsta operacije %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Ne mogu stvoriti cjevovod za GIOChannel: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Nepoznata vrsta zadatka %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "Operacija je zaustavljena"
 
@@ -473,16 +490,14 @@ msgstr "Operacija je zaustavljena"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Zastarjela funkcija. Korisničke modifikacije MIME baze podataka više nisu "
-"podržane."
+msgstr "Zastarjela funkcija. Korisničke modifikacije MIME baze podataka više nisu podržane."
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Ne mogu prevesti: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Iduće greške pri analiziranju će biti ignorirane."
 
@@ -868,58 +883,56 @@ msgstr "Kamera"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Korijenski disk"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "Zvučni CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Nepoznati disk"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Mrežni poslužitelj"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Ne mogu montirati meki disk. Moguće je da nema diska u disketnom uređaju."
+msgstr "Ne mogu montirati meki disk. Moguće je da nema diska u disketnom uređaju."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr "Ne mogu montirati disk.  Moguće je da nema medija u uređaju."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Ne mogu montirati meki disk. Moguće je da je meki disk u obliku koji ne može "
-"biti montiran."
+msgstr "Ne mogu montirati meki disk. Moguće je da je meki disk u obliku koji ne može biti montiran."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Ne mogu montirati disk. Ako je riječ o kriptiranom disku, tada je korištena "
-"kriva lozinka ili ključ."
+msgstr "Ne mogu montirati disk. Ako je riječ o kriptiranom disku, tada je korištena kriva lozinka ili ključ."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Ne mogu montirati odabrani disk. Moguće je da je disk u obliku koji ne može "
-"biti montiran."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Ne mogu montirati odabrani disk. Moguće je da je disk u obliku koji ne može biti montiran."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -930,11 +943,11 @@ msgid "Unable to mount the selected volume."
 msgstr "Ne mogu montirati odabrani disk."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Ne mogu odmontirati odabrani disk. Disk koristi jedan ili više programa."
+msgstr "Ne mogu odmontirati odabrani disk. Disk koristi jedan ili više programa."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -952,11 +965,10 @@ msgstr "Nisam mogao pokrenuti proces montiranja u pty-u"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Neočekivana greška u select() funkciji, čitajući podatke od procesa-dijete (%"
-"s)"
+msgstr "Neočekivana greška u select() funkciji, čitajući podatke od procesa-dijete (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr "Ne mogu poslati lozinku procesu za montiranje."
 
@@ -1009,14 +1021,8 @@ msgstr "Identitet udaljenog računala (%s) nije poznat."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Ovo se dogodi kada se prvi puta prijavljujete za rad na računalu.\n"
-"\n"
-"Identitet poslan od strane udaljenog računala je %s. Ako želite biti "
-"apsolutno sigurni da je sigurno nastaviti, kontaktirajte administratora "
-"vašeg sustava."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ovo se dogodi kada se prvi puta prijavljujete za rad na računalu.\n\nIdentitet poslan od strane udaljenog računala je %s. Ako želite biti apsolutno sigurni da je sigurno nastaviti, kontaktirajte administratora vašeg sustava."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1047,9 +1053,7 @@ msgstr "Vaš HTTP Proxy zahtijeva da se prijavite.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Morate se prijaviti kako biste pristupili na \"%s\".\n"
-"%s"
+msgstr "Morate se prijaviti kako biste pristupili na \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1085,20 +1089,15 @@ msgstr "Izvršni argument za uobičajeni terminal"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Program koji se koristi za pregled datoteka, te koji zahtjeva komponentu za "
-"pregledavanje istih. Parametar %s će biti zamijenjen s URI datoteke, a "
-"parametar %c će biti zamijenjen s IID komponente."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Program koji se koristi za pregled datoteka, te koji zahtjeva komponentu za pregledavanje istih. Parametar %s će biti zamijenjen s URI datoteke, a parametar %c će biti zamijenjen s IID komponente."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Uobičajeni terminalni program koji se koristi za programe koji zahtijevaju "
-"terminal."
+msgstr "Uobičajeni terminalni program koji se koristi za programe koji zahtijevaju terminal."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1110,53 +1109,43 @@ msgstr "Pokreni naredbu u treminalu"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"aim\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"aim\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"callto\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"callto\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"ghelp\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"ghelp\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"h323\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"h323\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"http\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"http\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"https\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"https\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"info\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"info\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"mailto\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"mailto\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"man\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"man\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr ""
-"Naredba koja se koristi za rukovanje \"trash\" URL-ovima, ako je omogućena."
+msgstr "Naredba koja se koristi za rukovanje \"trash\" URL-ovima, ako je omogućena."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
@@ -1202,89 +1191,67 @@ msgstr "Rukovatelj za \"trash\" URL-ove"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"aim\" "
-"URL-ovima."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"aim\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"callto"
-"\" URL-ovima."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"callto\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"ghelp"
-"\" URL-ovima."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"ghelp\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"h323"
-"\" URL-ovima."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"h323\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"http"
-"\" URL-ovima."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"http\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"https"
-"\" URL-ovima."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"https\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"info"
-"\" URL-ovima."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"info\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"mailto"
-"\" URL-ovima."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"mailto\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"man\" "
-"URL-ovima."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"man\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Istina ako naredba specificirana u \"command\" ključu treba rukovati \"trash"
-"\" URL-ovima."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Istina ako naredba specificirana u \"command\" ključu treba rukovati \"trash\" URL-ovima."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Istina ako naredba koja se koristi za rukovanje ovim tipom URL-a, treba biti "
-"pokrenuta u terminalu."
+msgstr "Istina ako naredba koja se koristi za rukovanje ovim tipom URL-a, treba biti pokrenuta u terminalu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1330,9 +1297,7 @@ msgstr "Treba li specificirana naredba rukovati \"trash\" URL-ovima."
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Zarezima odvojena lista DNS-SD domena koje trebaju biti vidljive u "
-"\"network:///\" lokaciji."
+msgstr "Zarezima odvojena lista DNS-SD domena koje trebaju biti vidljive u \"network:///\" lokaciji."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1356,8 +1321,7 @@ msgstr "Automatska po postavljanje proxy URL-a"
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr ""
-"Omogućava postavljanje proxy-a kod pristupa http protokolom prema internetu."
+msgstr "Omogućava postavljanje proxy-a kod pristupa http protokolom prema internetu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
@@ -1386,13 +1350,10 @@ msgstr "Ime korisnika HTTP proxy-a"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Ako je \"točno\", tada veze na proxy poslužitelj zahtijevaju provjeru "
-"vjerodostojnosti. Kombinacija ime_korisnika/lozinka je definirana u "
-"datotekama \"/system/http_proxy/authentication_user\" i \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Ako je \"točno\", tada veze na proxy poslužitelj zahtijevaju provjeru vjerodostojnosti. Kombinacija ime_korisnika/lozinka je definirana u datotekama \"/system/http_proxy/authentication_user\" i \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1400,8 +1361,7 @@ msgstr "Računala bez proxy-a"
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Lozinka za prolazak provjere vjerodostojnosti kod korištenja http proxy-a."
+msgstr "Lozinka za prolazak provjere vjerodostojnosti kod korištenja http proxy-a."
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
@@ -1425,11 +1385,9 @@ msgstr "Port sigurnog http proxy-a"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Označite način postavljanja proxy-a. Podržane vrijednosti su \"bez\", \"ručno"
-"\", \"automatsko\""
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Označite način postavljanja proxy-a. Podržane vrijednosti su \"bez\", \"ručno\", \"automatsko\""
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1451,46 +1409,33 @@ msgstr "Naziv računala s proxy utičnicama."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port na računalu je određen u datoteci /system/http_proxy/host računala s "
-"proxy-em."
+msgstr "Port na računalu je određen u datoteci /system/http_proxy/host računala s proxy-em."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port na računalu je određen u datoteci /system/proxy/ftp_host računala s "
-"proxy-em."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port na računalu je određen u datoteci /system/proxy/ftp_host računala s proxy-em."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port na računalu je određen u datoteci /system/proxy/secure_host računala s "
-"proxy-em."
+msgstr "Port na računalu je određen u datoteci /system/proxy/secure_host računala s proxy-em."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port na računalu je određen u datoteci /system/proxy/socks_host računala s "
-"proxy-em."
+msgstr "Port na računalu je određen u datoteci /system/proxy/socks_host računala s proxy-em."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Ovaj ključ sadrži popis računala koji su direktno povezani, radije nego "
-"pomoću proxy-a (ako je uopće uključen). Vrijednosti mogu biti nazivi "
-"računala, domene (koristeći početne zamjenske znakove kao *.foo.com), IP "
-"adrese računala (obje IPv4 i IPv6) i mrežne adrese s mrežnim maskama (npr. "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Ovaj ključ sadrži popis računala koji su direktno povezani, radije nego pomoću proxy-a (ako je uopće uključen). Vrijednosti mogu biti nazivi računala, domene (koristeći početne zamjenske znakove kao *.foo.com), IP adrese računala (obje IPv4 i IPv6) i mrežne adrese s mrežnim maskama (npr. 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1502,8 +1447,7 @@ msgstr "Koristi HTTP proxy"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Korisničko ime koje treba proći provjeru vjerodostojnosti kod http proxy-a."
+msgstr "Korisničko ime koje treba proći provjeru vjerodostojnosti kod http proxy-a."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1514,24 +1458,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Radna grupa ili domena Windows umrežavanja, koje je korisnik član. Kako bi "
-"nova radna grupa došla do izražaja korisnik će se možda morati odjaviti i "
-"ponovno prijaviti u sustav."
-
-#~ msgid "The command used to handle \"cdda\" URLs, if enabled."
-#~ msgstr ""
-#~ "Naredba koja se koristi za rukovanje \"cdda\" URL-ovima, ako je omogućena."
-
-#~ msgid "The handler for \"cdda\" URLs"
-#~ msgstr "Rukovatelj za \"cdda\" URL-ove"
-
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle \"cdda"
-#~ "\" URLs."
-#~ msgstr ""
-#~ "Istina ako naredba specificirana u \"command\" ključu treba rukovati "
-#~ "\"cdda\" URL-ovima."
-
-#~ msgid "Whether the specified command should handle \"cdda\" URLs"
-#~ msgstr "Treba li specificirana naredba rukovati \"cdda\" URL-ovima."
+msgstr "Radna grupa ili domena Windows umrežavanja, koje je korisnik član. Kako bi nova radna grupa došla do izražaja korisnik će se možda morati odjaviti i ponovno prijaviti u sustav."

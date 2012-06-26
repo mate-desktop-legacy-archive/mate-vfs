@@ -1,22 +1,24 @@
-# translation of eu.po to Basque
-# Copyright (C) 2001, 2004, 2005, 2006, 2007, 2010 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Hizkuntza Politikarako Sailburuordetza <hizpol@ej-gv.es>, 2004.
 # Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2004, 2005, 2006, 2010.
 # Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-27 12:55+0100\n"
-"PO-Revision-Date: 2010-03-27 12:55+0100\n"
-"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
-"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/MATE/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: eu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -491,9 +493,7 @@ msgstr "Eragiketa geldiarazita"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Funtzio zaharkitua. erabiltzaileak egindako MIME datu-basearen aldaketarik "
-"ez da onartuko"
+msgstr "Funtzio zaharkitua. erabiltzaileak egindako MIME datu-basearen aldaketarik ez da onartuko"
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -919,9 +919,7 @@ msgstr "Ezin da bolumena muntatu. Baliteke gailuan euskarririk ez egotea."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Ezin da diskete gailua muntatu. Baliteke disketeak muntatu ezin daitekeen "
-"formatua edukitzea."
+msgstr "Ezin da diskete gailua muntatu. Baliteke disketeak muntatu ezin daitekeen formatua edukitzea."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -929,18 +927,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Ezin da bolumena muntatu. Enkriptatutako unitatea bada, pasahitz edo gako "
-"okerra erabili da."
+msgstr "Ezin da bolumena muntatu. Enkriptatutako unitatea bada, pasahitz edo gako okerra erabili da."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Ezin da hautatutako bolumena muntatu. Baliteke bolumenak muntatu ezin "
-"daitekeen formatua edukitzea."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Ezin da hautatutako bolumena muntatu. Baliteke bolumenak muntatu ezin daitekeen formatua edukitzea."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -955,9 +949,7 @@ msgstr "Ezin da hautatutako bolumena muntatu."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Ezin da hautatutako bolumena muntatu. Programa batek (edo gehiagok) darabil "
-"bolumena."
+msgstr "Ezin da hautatutako bolumena muntatu. Programa batek (edo gehiagok) darabil bolumena."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -975,8 +967,7 @@ msgstr "Ezin izan da muntatze-prozesua exekutatu 'pty' batean"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Ustekabeko errorea select() funtzioan ume-prozesutik (%s) datuak irakurtzean"
+msgstr "Ustekabeko errorea select() funtzioan ume-prozesutik (%s) datuak irakurtzean"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1032,13 +1023,8 @@ msgstr "Urruneko ordenagailuaren (%s) identitatea ezezaguna da."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Ordenagailuan lehen aldiz saioa hastean gertatzen da.\n"
-"\n"
-"Urruneko ordenagailuak bidalitako identitatea %s da. Jar zaitez sistemako "
-"arduradunarekin harremanetan, erabateko segurtasuna duela ziurtatzeko."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ordenagailuan lehen aldiz saioa hastean gertatzen da.\n\nUrruneko ordenagailuak bidalitako identitatea %s da. Jar zaitez sistemako arduradunarekin harremanetan, erabateko segurtasuna duela ziurtatzeko."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1069,9 +1055,7 @@ msgstr "HTTP proxy-ak saioa hastea eskatzen dizu.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Saioa hasi behar duzu \"%s\"(e)n sartzeko.\n"
-"%s"
+msgstr "Saioa hasi behar duzu \"%s\"(e)n sartzeko.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1107,20 +1091,15 @@ msgstr "Exec argumentua, terminal lehenetsirako"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Fitxategiak bistaratzeko eta hauek ikusteko behar duen osagaia eskatzen duen "
-"aplikazioa. %s parametroa fitxategiaren URIagatik, eta %c parametroa IID "
-"osagaiagatik ordeztuko dira."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Fitxategiak bistaratzeko eta hauek ikusteko behar duen osagaia eskatzen duen aplikazioa. %s parametroa fitxategiaren URIagatik, eta %c parametroa IID osagaiagatik ordeztuko dira."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Terminal aplikazio lehenetsia, terminala eskatzen duten aplikazioetan "
-"erabiltzeko."
+msgstr "Terminal aplikazio lehenetsia, terminala eskatzen duten aplikazioetan erabiltzeko."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1214,88 +1193,67 @@ msgstr "\"trash\" URLen kudeatzailea"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"aim\" "
-"URLak kudeatuko baditu."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"aim\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"callto\" "
-"URLak kudeatuko baditu."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"callto\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"ghelp\" "
-"URLak kudeatuko baditu."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"ghelp\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"h323\" "
-"URLak kudeatuko baditu."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"h323\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"http\" "
-"URLak kudeatuko baditu."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"http\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"https\" "
-"URLak kudeatuko baditu."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"https\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"info\" "
-"URLak kudeatuko baditu."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"info\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"mailto\" "
-"URLak kudeatuko baditu."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"mailto\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"man\" "
-"URLak kudeatuko baditu."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"man\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"trash\" "
-"URLak kudeatuko baditu."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Ezarri egi gisa (true) \"komandoa\" gakoan zehaztutako komandoak \"trash\" URLak kudeatuko baditu."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada."
+msgstr "Egia (true) URL hau kudeatzeko programa terminal batean exekutatu behar bada."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1341,9 +1299,7 @@ msgstr "Hemen zehaztutako komandoak \"trash\" URLak kudeatuko ditu."
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Komaz bereiztutako DNS-SD domeinuen zerrenda, \"network:///\" helbidean "
-"ikusgai izango dena."
+msgstr "Komaz bereiztutako DNS-SD domeinuen zerrenda, \"network:///\" helbidean ikusgai izango dena."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1396,12 +1352,10 @@ msgstr "HTTP proxy-ko erabiltzaile-izena"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Egia bada, proxy zerbitzarira konektatzeko autentifikazioa eskatuko da. "
-"Erabiltzailea/pasahitza bikotea \"/system/http_proxy/authentication_user\"-"
-"ean eta \"/system/http_proxy/authentication_password\"-ean definitzen dira."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Egia bada, proxy zerbitzarira konektatzeko autentifikazioa eskatuko da. Erabiltzailea/pasahitza bikotea \"/system/http_proxy/authentication_user\"-ean eta \"/system/http_proxy/authentication_password\"-ean definitzen dira."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1433,11 +1387,9 @@ msgstr "HTTP Seguruaren proxy -aren ataka"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Hautatu proxy-aren konfigurazio modua. Onartutako balioak \"none\", \"manual"
-"\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Hautatu proxy-aren konfigurazio modua. Onartutako balioak \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1459,46 +1411,33 @@ msgstr "Ordenagailuaren izena, proxy socks egiten duenarena."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Ordenagailuaren ataka, \"/system/http_proxy/host\"-ean definituta proxy-"
-"arena egiteko."
+msgstr "Ordenagailuaren ataka, \"/system/http_proxy/host\"-ean definituta proxy-arena egiteko."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Ordenagailuaren ataka, \"/system/proxy/ftp_host\"-ean definituta proxy-arena "
-"egiteko."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Ordenagailuaren ataka, \"/system/proxy/ftp_host\"-ean definituta proxy-arena egiteko."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Ordenagailuaren ataka, \"/system/proxy/secure_host\"-ean definituta proxy-"
-"arena egiteko."
+msgstr "Ordenagailuaren ataka, \"/system/proxy/secure_host\"-ean definituta proxy-arena egiteko."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Ordenagailuaren ataka, \"/system/proxy/socks_host\"-ean definituta proxy-"
-"arena egiteko."
+msgstr "Ordenagailuaren ataka, \"/system/proxy/socks_host\"-ean definituta proxy-arena egiteko."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Gako honek zuzenean konektatzen diren ostalarien zerrenda dauka, proxy-aren "
-"bitartez egin beharrean (nahiz eta abioan egon). Balioak ostalarien izenak, "
-"domeinuak (*.lelo.com bezalako hasierako komodina erabiliz), IP helbideak "
-"(bai IPv4 bai IPv6) eta sareko helbideak, sare-maskarekin, (192.168.0.0/24 "
-"bezalakoak)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Gako honek zuzenean konektatzen diren ostalarien zerrenda dauka, proxy-aren bitartez egin beharrean (nahiz eta abioan egon). Balioak ostalarien izenak, domeinuak (*.lelo.com bezalako hasierako komodina erabiliz), IP helbideak (bai IPv4 bai IPv6) eta sareko helbideak, sare-maskarekin, (192.168.0.0/24 bezalakoak)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1521,7 +1460,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Erabiltzailea harpidetuta dagoen Windows sareko lan-taldea edo domeinua. Lan-"
-"talde berri batek erabateko eragina edukitzeko erabiltzaileak saioa amaitu "
-"eta berriro saioa hasi beharko du."
+msgstr "Erabiltzailea harpidetuta dagoen Windows sareko lan-taldea edo domeinua. Lan-talde berri batek erabateko eragina edukitzeko erabiltzaileak saioa amaitu eta berriro saioa hasi beharko du."

@@ -1,23 +1,24 @@
-# mate-vfs ja.po.
-# Copyright (C) 2000-2007,2010 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Akira TAGOH <at@ff.iij4u.or.jp>, 2000.
-# Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2007.
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
 # Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2010.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-09-20 09:22+0000\n"
-"PO-Revision-Date: 2009-10-21 00:03+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
-"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -492,8 +493,7 @@ msgstr "操作を停止しました"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"廃止予定の関数です。MIME 型データベースの変更はもうサポートしていません。"
+msgstr "廃止予定の関数です。MIME 型データベースの変更はもうサポートしていません。"
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -905,26 +905,20 @@ msgstr "ネットワーク・サーバ"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"フロッピー・ドライブをマウントできません。おそらくフロッピーがドライブに挿入"
-"されていないようです。"
+msgstr "フロッピー・ドライブをマウントできません。おそらくフロッピーがドライブに挿入されていないようです。"
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"ボリュームをマウントできません。おそらくデバイスの中にメディアがないようで"
-"す。"
+msgstr "ボリュームをマウントできません。おそらくデバイスの中にメディアがないようです。"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"フロッピー・ドライブをマウントできません。フォーマットされていないフロッピー"
-"はマウントできません。"
+msgstr "フロッピー・ドライブをマウントできません。フォーマットされていないフロッピーはマウントできません。"
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -932,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"ボリュームをマウントできません。暗号化されたドライブならば、パスワードが間"
-"違っているか鍵が必要です。"
+msgstr "ボリュームをマウントできません。暗号化されたドライブならば、パスワードが間違っているか鍵が必要です。"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"選択したボリュームをマウントできません。フォーマットされていないボリュームは"
-"マウントできません。"
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "選択したボリュームをマウントできません。フォーマットされていないボリュームはマウントできません。"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -958,9 +948,7 @@ msgstr "選択したボリュームをマウントできません。"
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"選択したボリュームをマウントできません。一個以上のプログラムがそのボリューム"
-"を使用しています"
+msgstr "選択したボリュームをマウントできません。一個以上のプログラムがそのボリュームを使用しています"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -978,9 +966,7 @@ msgstr "お使いの PTY でマウント・プロセスを起動できません�
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"子プロセス (%s) からデータを読み込む際に select(2) で原因不明なエラーが発生し"
-"ました"
+msgstr "子プロセス (%s) からデータを読み込む際に select(2) で原因不明なエラーが発生しました"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1036,13 +1022,8 @@ msgstr "リモート・コンピュータ (%s) を識別できません"
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"これは、コンピュータへ初めてログインした際に発生します。\n"
-"\n"
-"リモート・コンピュータから送られた識別子は %s です。その識別子が絶対確実だと"
-"思う場合は、システム管理者に問い合わせてください。"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "これは、コンピュータへ初めてログインした際に発生します。\n\nリモート・コンピュータから送られた識別子は %s です。その識別子が絶対確実だと思う場合は、システム管理者に問い合わせてください。"
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1073,9 +1054,7 @@ msgstr "お使いの HTTP プロキシにログインしてください。\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" にアクセスするためにログインしてください。\n"
-"%s"
+msgstr "\"%s\" にアクセスするためにログインしてください。\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1111,25 +1090,19 @@ msgstr "デフォルトの端末で使用する Exec 用引数"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"コンポーネントが必要となるファイルを閲覧するためのアプリケーションです。%s は"
-"ファイルの URI で、パラメータ %c はコポーネントの IID でそれぞれ置き換えられ"
-"ます。"
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "コンポーネントが必要となるファイルを閲覧するためのアプリケーションです。%s はファイルの URI で、パラメータ %c はコポーネントの IID でそれぞれ置き換えられます。"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"端末を必要とするアプリケーションで使用するデフォルトの端末アプリケーションで"
-"す。"
+msgstr "端末を必要とするアプリケーションで使用するデフォルトの端末アプリケーションです。"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
-msgstr ""
-"デフォルトの端末アプケーションで使用するプログラムを実行する時の引数です。"
+msgstr "デフォルトの端末アプケーションで使用するプログラムを実行する時の引数です。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
@@ -1219,88 +1192,67 @@ msgstr "URL \"trash\" の 処理"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"URL \"aim\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にしま"
-"す。"
+msgstr "URL \"aim\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"URL \"callto\" を処理するキー \"command\" にコマンドを指定する場合は TRUE に"
-"します。"
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "URL \"callto\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"URL \"ghelp\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にし"
-"ます。"
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "URL \"ghelp\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"\"h323\" の URL を処理するキー \"command\" にコマンドを指定する場合は TRUE に"
-"します。"
+msgstr "\"h323\" の URL を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"URL \"http\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にし"
-"ます。"
+msgstr "URL \"http\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"URL \"https\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にし"
-"ます。"
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "URL \"https\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"URL \"info\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にし"
-"ます。"
+msgstr "URL \"info\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"URL \"mailto\" を処理するキー \"command\" にコマンドを指定する場合は TRUE に"
-"します。"
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "URL \"mailto\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"URL \"man\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にしま"
-"す。"
+msgstr "URL \"man\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"URL \"trash\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にし"
-"ます。"
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "URL \"trash\" を処理するキー \"command\" にコマンドを指定する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。"
+msgstr "この種類の URL を処理するコマンドを端末内で実行する場合は TRUE にします。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1346,8 +1298,7 @@ msgstr "指定したコマンドで URL \"trash\" を処理するかどうか"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"コンマ (,) で区切った DNS-SD のリストで、\"network:///\" の中に表示されます。"
+msgstr "コンマ (,) で区切った DNS-SD のリストで、\"network:///\" の中に表示されます。"
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1400,12 +1351,10 @@ msgstr "HTTP プロキシのユーザ名"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"TRUE の場合、プロキシ・サーバへの接続で認証が要求されます。ユーザ名/パスワー"
-"ドの組み合わせは \"/system/http_proxy/authentication_user\" と \"/system/"
-"http_proxy/authentication_password\" で定義されます。"
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "TRUE の場合、プロキシ・サーバへの接続で認証が要求されます。ユーザ名/パスワードの組み合わせは \"/system/http_proxy/authentication_user\" と \"/system/http_proxy/authentication_password\" で定義されます。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1437,11 +1386,9 @@ msgstr "セキュア HTTP プロキシのポート番号"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"プロキシ設定モードを選択します (利用可能な値: \"none\", \"manual\", \"auto"
-"\")。"
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "プロキシ設定モードを選択します (利用可能な値: \"none\", \"manual\", \"auto\")。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1463,46 +1410,33 @@ msgstr "SOCKS プロキシとして利用するマシンの名前です。"
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"プロキシとして利用する、\"/system/http_proxy/host\" で定義されたマシンのポー"
-"ト番号です。"
+msgstr "プロキシとして利用する、\"/system/http_proxy/host\" で定義されたマシンのポート番号です。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"プロキシとして利用する、\"/system/proxy/ftp_host\" で定義されたマシンのポート"
-"番号です。"
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "プロキシとして利用する、\"/system/proxy/ftp_host\" で定義されたマシンのポート番号です。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"プロキシとして利用する、\"/system/proxy/secure_host\" で定義されたマシンの"
-"ポート番号です。"
+msgstr "プロキシとして利用する、\"/system/proxy/secure_host\" で定義されたマシンのポート番号です。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"プロキシとして利用する、\"/system/proxy/socks_host\" で定義されたマシンのポー"
-"ト番号です。"
+msgstr "プロキシとして利用する、\"/system/proxy/socks_host\" で定義されたマシンのポート番号です。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"このキーには、(アクティブな場合は) プロキシ経由ではなく直接接続される多くのホ"
-"ストが含まれています。ホスト名、ドメイン (*.foo.com のように先頭にワイルド・"
-"カードが使われます)、IP ホスト・アドレス (IPv4 と IPv6 の両方)、ネット・マス"
-"クが併記されたネットワーク・アドレス (192.168.0.0/24のような値) といった値に"
-"なります。"
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "このキーには、(アクティブな場合は) プロキシ経由ではなく直接接続される多くのホストが含まれています。ホスト名、ドメイン (*.foo.com のように先頭にワイルド・カードが使われます)、IP ホスト・アドレス (IPv4 と IPv6 の両方)、ネット・マスクが併記されたネットワーク・アドレス (192.168.0.0/24のような値) といった値になります。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1525,7 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"ユーザが所属する Windows ネットワーク・グループまたはドメインです。新しいワー"
-"クグループを認識するには、ユーザがそのグループにログインしてログアウトする必"
-"要があります。"
+msgstr "ユーザが所属する Windows ネットワーク・グループまたはドメインです。新しいワークグループを認識するには、ユーザがそのグループにログインしてログアウトする必要があります。"

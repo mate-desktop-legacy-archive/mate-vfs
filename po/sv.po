@@ -1,23 +1,24 @@
-# Swedish messages for mate-vfs.
-# Copyright (C) 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2008 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2008.
 # Martin Norbäck <d95mback@dtek.chalmers.se>, 2000, 2001.
-# Christian Rose <menthos@menthos.com>, 2000, 2001, 2002, 2003, 2004, 2005.
-#
-# $Id: sv.po,v 1.104 2006/08/16 06:07:11 dnylande Exp $
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-30 09:58+0200\n"
-"PO-Revision-Date: 2009-09-30 09:58+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
-"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -289,7 +290,6 @@ msgstr "Dvd-r"
 msgid "DVD-RW"
 msgstr "Dvd-rw"
 
-# http://www.nada.kth.se/dataterm/rek.html#a23
 #: ../libmatevfs/mate-vfs-hal-mounts.c:390
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
 msgid "DVD-RAM"
@@ -366,7 +366,6 @@ msgstr "Enhet"
 msgid "External %s"
 msgstr "Extern %s"
 
-# http://www.nada.kth.se/dataterm/rek.html#a23
 #: ../libmatevfs/mate-vfs-hal-mounts.c:508
 msgid "CD-ROM Disc"
 msgstr "Cd-romskiva"
@@ -387,17 +386,14 @@ msgstr "Tom cd-rw-skiva"
 msgid "CD-RW Disc"
 msgstr "Cd-rw-skiva"
 
-# http://www.nada.kth.se/dataterm/rek.html#a23
 #: ../libmatevfs/mate-vfs-hal-mounts.c:526
 msgid "DVD-ROM Disc"
 msgstr "Dvd-romskiva"
 
-# http://www.nada.kth.se/dataterm/rek.html#a23
 #: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
 msgstr "Tom dvd-ramskiva"
 
-# http://www.nada.kth.se/dataterm/rek.html#a23
 #: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
 msgstr "Dvd-ramskiva"
@@ -452,8 +448,7 @@ msgstr "Volym"
 msgid "Unknown operation type %u"
 msgstr "Okänd operationstyp %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1024
-#: ../libmatevfs/mate-vfs-job.c:1175
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Kan inte skapa rör till öppen GIOChannel: %s"
@@ -495,7 +490,9 @@ msgstr "Operationen stoppad"
 #: ../libmatevfs/mate-vfs-mime-info.c:699
 #: ../libmatevfs/mate-vfs-mime-info.c:707
 #: ../libmatevfs/mate-vfs-mime-info.c:714
-msgid "Deprecated function.  User modifications to the MIME database are no longer supported."
+msgid ""
+"Deprecated function.  User modifications to the MIME database are no longer "
+"supported."
 msgstr "Föråldrad funktion. Användarändringar i MIME-databasen stöds inte längre."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
@@ -907,7 +904,8 @@ msgstr "Nätverksserver"
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "Kan inte montera diskettenheten. Det finns troligtvis ingen diskett i enheten."
 
 #. All others
@@ -918,18 +916,24 @@ msgstr "Kan inte montera volymen. Det finns troligtvis inget medium i enheten."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
-msgid "Unable to mount the floppy drive. The floppy is probably in a format that cannot be mounted."
+msgid ""
+"Unable to mount the floppy drive. The floppy is probably in a format that "
+"cannot be mounted."
 msgstr "Kan inte montera diskettenheten. Disketten är troligtvis i ett format som inte kan monteras."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
 #, c-format
-msgid "Unable to mount the volume. If this is an encrypted drive, then the wrong password or key was used."
+msgid ""
+"Unable to mount the volume. If this is an encrypted drive, then the wrong "
+"password or key was used."
 msgstr "Kunde inte montera volymen. Om det här är en krypterad enhet så användes fel lösenord eller nyckel."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
-msgid "Unable to mount the selected volume. The volume is probably in a format that cannot be mounted."
+msgid ""
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "Kan inte montera den valda volymen. Volymen är troligtvis i ett format som inte kan monteras."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -942,7 +946,9 @@ msgstr "Kan inte montera den valda volymen."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
 #, c-format
-msgid "Unable to unmount the selected volume. The volume is in use by one or more programs."
+msgid ""
+"Unable to unmount the selected volume. The volume is in use by one or more "
+"programs."
 msgstr "Kunde inte avmontera den valda volymen. Volymen används av ett eller flera program."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
@@ -1018,10 +1024,7 @@ msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
 "The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Detta händer när du loggar in på en dator för första gången.\n"
-"\n"
-"Identiteten som skickats av fjärrdatorn är %s. Om du vill vara absolut säker på att det är säkert att fortsätta bör du kontakta systemadministratören."
+msgstr "Detta händer när du loggar in på en dator för första gången.\n\nIdentiteten som skickats av fjärrdatorn är %s. Om du vill vara absolut säker på att det är säkert att fortsätta bör du kontakta systemadministratören."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1052,9 +1055,7 @@ msgstr "Din HTTP-proxyserver kräver att du loggar in.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Du måste logga in för att komma åt \"%s\".\n"
-"%s"
+msgstr "Du måste logga in för att komma åt \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1088,11 +1089,16 @@ msgstr "Exekveringsargument för standardterminal"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
-msgid "The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file's URIs, the parameter %c will be replaced by the component IID."
+msgid ""
+"The application to use for viewing files that require a component to view "
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
 msgstr "Programmet som används för visning av filer som kräver en komponent för att visa dem. Parametern %s kommer att ersättas av filens URI:er, och parametern %c kommer att ersättas av komponent-IID."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
-msgid "The default terminal application to use for applications that require a terminal."
+msgid ""
+"The default terminal application to use for applications that require a "
+"terminal."
 msgstr "Standardterminalprogrammet att använda för program som kräver en terminal."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
@@ -1184,47 +1190,69 @@ msgid "The handler for \"trash\" URLs"
 msgstr "Hanteraren för \"trash\"-URL:er"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
-msgid "True if the command specified in the \"command\" key should handle \"aim\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"aim\" "
+"URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"aim\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
-msgid "True if the command specified in the \"command\" key should handle \"callto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"callto\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
-msgid "True if the command specified in the \"command\" key should handle \"ghelp\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"ghelp\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
-msgid "True if the command specified in the \"command\" key should handle \"h323\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"h323\" "
+"URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"h323\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
-msgid "True if the command specified in the \"command\" key should handle \"http\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"http\" "
+"URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"http\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
-msgid "True if the command specified in the \"command\" key should handle \"https\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"https\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
-msgid "True if the command specified in the \"command\" key should handle \"info\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"info\" "
+"URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"info\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
-msgid "True if the command specified in the \"command\" key should handle \"mailto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"mailto\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
-msgid "True if the command specified in the \"command\" key should handle \"man\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"man\" "
+"URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"man\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
-msgid "True if the command specified in the \"command\" key should handle \"trash\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera \"trash\"-URL:er."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
-msgid "True if the command used to handle this type of URL should be run in a terminal."
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr "Sant om kommandot för att hantera denna typ av URL ska köras i ett terminalfönster."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
@@ -1268,7 +1296,9 @@ msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "Huruvida det angivna kommandot ska hantera \"trash\"-URL:er"
 
 #: ../schemas/system_dns_sd.schemas.in.h:1
-msgid "Comma separated list of DNS-SD domains that should be visible in the \"network:///\" location."
+msgid ""
+"Comma separated list of DNS-SD domains that should be visible in the "
+"\"network:///\" location."
 msgstr "Kommaseparerad lista med dns-sd-domäner som ska synas på platsen \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
@@ -1320,7 +1350,11 @@ msgid "HTTP proxy username"
 msgstr "Användarnamn för HTTP-proxyserver"
 
 #: ../schemas/system_http_proxy.schemas.in.h:10
-msgid "If true, then connections to the proxy server require authentication. The username/password combo is defined by \"/system/http_proxy/authentication_user\" and \"/system/http_proxy/authentication_password\"."
+msgid ""
+"If true, then connections to the proxy server require authentication. The "
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
 msgstr "Om detta är sant kräver anslutningarna till proxyservern autentisering. Användarnamn- och lösenordsparet definieras av \"/system/http_proxy/authentication_user\" och \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
@@ -1352,7 +1386,9 @@ msgid "Secure HTTP proxy port"
 msgstr "Port för säker HTTP-proxyserver"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
-msgid "Select the proxy configuration mode. Supported values are \"none\", \"manual\", \"auto\"."
+msgid ""
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
 msgstr "Välj proxykonfigurationsläget. Värden som stöds är \"none\", \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
@@ -1372,23 +1408,35 @@ msgid "The machine name to proxy socks through."
 msgstr "Namnet på maskinen som ska agera proxyserver för socks."
 
 #: ../schemas/system_http_proxy.schemas.in.h:23
-msgid "The port on the machine defined by \"/system/http_proxy/host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/http_proxy/host\" that you "
+"proxy through."
 msgstr "Porten på maskinen som definieras av \"/system/http_proxy/host\" som du använder som proxyserver."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
-msgid "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "Porten på maskinen som definieras av \"/system/proxy/ftp_host\" som du använder som proxyserver."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
-msgid "The port on the machine defined by \"/system/proxy/secure_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/secure_host\" that you "
+"proxy through."
 msgstr "Porten på maskinen som definieras av \"/system/proxy/secure_host\" som du använder som proxyserver."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
-msgid "The port on the machine defined by \"/system/proxy/socks_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/socks_host\" that you "
+"proxy through."
 msgstr "Porten på maskinen som definieras av \"/system/proxy/socks_host\" som du använder som proxyserver."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
-msgid "This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgid ""
+"This key contains a list of hosts which are connected to directly, rather "
+"than via the proxy (if it is active). The values can be hostnames, domains "
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr "Denna nyckel innehåller en lista med värdar som ansluts till direkt istället för att gå via proxyservern (om den är igång). Värdena kan vara värdnamn, domäner (genom användning av ett inledande jokertecken som *.blaha.se), IP-värdadresser (både IPv4 och IPv6) och nätverksadresser med en nätmask (någonting liknande 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
@@ -1408,411 +1456,8 @@ msgid "SMB workgroup"
 msgstr "SMB-arbetsgrupp"
 
 #: ../schemas/system_smb.schemas.in.h:2
-msgid "The Windows networking workgroup or domain that the user is part of. In order for a new workgroup to fully take effect the user may need to log out and log back in."
+msgid ""
+"The Windows networking workgroup or domain that the user is part of. In "
+"order for a new workgroup to fully take effect the user may need to log out "
+"and log back in."
 msgstr "Windows-nätverksarbetsgruppen eller -domänen som användaren är del av. För att en ny arbetsgrupp ska börja gälla kan användaren behöva logga ut och in igen."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Kunde inte initiera MateComponent"
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Kunde inte initiera mate-vfs"
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Standardmonikerfabrik"
-#~ msgid "file MonikerExtender"
-#~ msgstr "MonikerExtender-fil"
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "allmän Mate VFS-moniker"
-#~ msgid "generic file moniker"
-#~ msgstr "allmän filmoniker"
-#~ msgid "Display SCSI drives"
-#~ msgstr "Visa scsi-enheter"
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Visa optiska scsi-enheter"
-#~ msgid "Display drives with removable media"
-#~ msgstr "Visa enheter med löstagbara media"
-#~ msgid "Display external drives"
-#~ msgstr "Visa externa enheter"
-#~ msgid "Display internal hard drives"
-#~ msgstr "Visa interna hårddiskar"
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "Huruvida optiska scsi-enheter ska visas även om /system/storage/"
-#~ "display_scsi_drives är satt till FALSKT."
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr "Huruvida enheter och monteringsbara volymer från scsi-enheter."
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "Huruvida enheter och monteringsbara volymer från enheter med löstagbara "
-#~ "media ska visas (dvs. enheter där media kan sättas in och tas ut)."
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "Huruvida enheter och monteringsbara volymer från externa enheter ska "
-#~ "visas (dvs. hotplug-enheter som kan kopplas in och tas loss medan "
-#~ "systemet körs)."
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "Huruvida enheter och monteringsbara volymer från interna hårddiskar ska "
-#~ "visas (optiska icke-scsi-enheter visas alltid)."
-#~ msgid "Memorystick"
-#~ msgstr "Minnespinne"
-#~ msgid "Memory stick"
-#~ msgstr "Minnespinne"
-#~ msgid "%s Music Player"
-#~ msgstr "%s-musikspelare"
-#~ msgid "Music Player"
-#~ msgstr "Musikspelare"
-#~ msgid "%s Digital Camera"
-#~ msgstr "%s-digitalkamera"
-#~ msgid "Digital Camera"
-#~ msgstr "Digitalkamera"
-#~ msgid "The window workgroup the user is part of"
-#~ msgstr "Fönsterarbetsgruppen som användaren är del av"
-#~ msgid ""
-#~ "If true, then connections to the proxy server require authentication. The "
-#~ "username/password combo defined by \"/system/http_proxy/"
-#~ "authentication_user\" and \"/system/http_proxy/authentication_password\"."
-#~ msgstr ""
-#~ "Om detta är sant kräver anslutningarna till proxyservern autentisering. "
-#~ "Användarnamn- och lösenordsparet definieras av \"/system/http_proxy/"
-#~ "authentication_user\" och \"/system/http_proxy/authentication_password\"."
-#~ msgid "Optical Disc"
-#~ msgstr "Optisk skiva"
-#~ msgid "Memory Stick Media"
-#~ msgstr "Minnespinnemedia"
-#~ msgid "Smart Media Media"
-#~ msgstr "Smart Media-media"
-
-# Detta handlar om filsystemstypen som finns på skivan/mediumet
-#~ msgid "Mac OS disk"
-#~ msgstr "Mac OS-disk"
-# Detta handlar om filsystemstypen som finns på skivan/mediumet
-#~ msgid "Mac OS X disk"
-#~ msgstr "Mac OS X-disk"
-# Detta handlar om filsystemstypen som finns på skivan/mediumet
-#~ msgid "Windows Disk"
-#~ msgstr "Windows-disk"
-# Detta handlar om filsystemstypen som finns på skivan/mediumet
-#~ msgid "Linux Disk"
-#~ msgstr "Linux-disk"
-#~ msgid "File could not be opened: %s"
-#~ msgstr "Filen kunde inte öppnas: %s"
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Misslyckades med att öppna filen \"%s\": %s"
-#~ msgid "File is empty"
-#~ msgstr "Filen är tom"
-#~ msgid ""
-#~ "desktop entries contain line '%s' which is not an entry, group, or comment"
-#~ msgstr ""
-#~ "skrivbordsposter innehåller raden \"%s\" som inte är en post, grupp eller "
-#~ "kommentar"
-#~ msgid "desktop entries file does not start with legal start group"
-#~ msgstr "skrivbordspostfilen börjar inte med en tillåten startgrupp"
-#~ msgid "desktop entries contain line '%s' which is not UTF-8"
-#~ msgstr "skrivbordsposter innehåller raden \"%s\" som inte är UTF-8"
-#~ msgid "desktop entries contain unknown encoding '%s'"
-#~ msgstr "skrivbordsposter innehåller okända kodningen \"%s\""
-#~ msgid "desktop entries do not have group '%s'"
-#~ msgstr "skrivbordsposter har inte gruppen \"%s\""
-#~ msgid "desktop entries do not have key '%s'"
-#~ msgstr "skrivbordsposter har inte nyckeln \"%s\""
-#~ msgid ""
-#~ "desktop entries contain key '%s' which has value that cannot be "
-#~ "interpreted."
-#~ msgstr ""
-#~ "skrivbordsposter innehåller nyckeln \"%s\" som har ett värde som inte kan "
-#~ "tolkas."
-#~ msgid ""
-#~ "desktop entries contain no translated value for key '%s' with locale '%s'."
-#~ msgstr ""
-#~ "skrivbordsposter innehåller inget översatt värde för nyckeln \"%s\" i "
-#~ "lokalen \"%s\"."
-#~ msgid "desktop entries contain invalid escape sequence '%s'"
-#~ msgstr "skrivbordsposter innehåller ogiltiga kontrollsekvensen \"%s\""
-#~ msgid "desktop entries contain escape character at end of line"
-#~ msgstr "skrivbordsposter innehåller kontrolltecken vid radslut"
-#~ msgid "Value '%s' cannot be interpreted as a number."
-#~ msgstr "Värdet \"%s\" kan inte tolkas som ett tal."
-#~ msgid "Value '%s' cannot be interpreted as a boolean."
-#~ msgstr "Värdet \"%s\" kan inte tolkas som ett booleskt värde."
-#~ msgid "Applications"
-#~ msgstr "Program"
-#~ msgid "Cards"
-#~ msgstr "Kort"
-#~ msgid "Files"
-#~ msgstr "Filer"
-#~ msgid "Folders"
-#~ msgstr "Mappar"
-#~ msgid "Help"
-#~ msgstr "Hjälp"
-#~ msgid "Hosts"
-#~ msgstr "Värdar"
-#~ msgid "Links"
-#~ msgstr "Länkar"
-#~ msgid "Mail"
-#~ msgstr "E-post"
-#~ msgid "Tools"
-#~ msgstr "Verktyg"
-# Osäker. Är det operativsystemet eller fönster?
-#~ msgid "Windows"
-#~ msgstr "Fönster"
-#~ msgid "CD Disc"
-#~ msgstr "Cd-skiva"
-#~ msgid "The command used to handle HTTP URLs, if enabled."
-#~ msgstr "Kommandot som används för att hantera HTTP-URL:er, om aktiverat."
-#~ msgid "The command used to handle HTTPS URLs, if enabled."
-#~ msgstr "Kommandot som används för att hantera HTTPS-URL:er, om aktiverat."
-#~ msgid "The handler for HTTP URLs"
-#~ msgstr "Hanteraren för HTTP-URL:er"
-#~ msgid "The handler for HTTPS URLs"
-#~ msgstr "Hanteraren för HTTPS-URL:er"
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTP "
-#~ "URLs."
-#~ msgstr ""
-#~ "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera HTTP-"
-#~ "URL:er."
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTPS "
-#~ "URLs."
-#~ msgstr ""
-#~ "Sant om kommandot som är angivet i nyckeln \"command\" ska hantera HTTPS-"
-#~ "URL:er."
-#~ msgid "Whether the specified command should handle HTTP URLs"
-#~ msgstr "Huruvida det angivna kommandot ska hantera HTTP-URL:er"
-#~ msgid "Whether the specified command should handle HTTPS URLs"
-#~ msgstr "Huruvida det angivna kommandot ska hantera HTTPS-URL:er"
-#~ msgid "H323 URL handler"
-#~ msgstr "Hanterare för H323-URL:er"
-#~ msgid "HTTP URL handler"
-#~ msgstr "Hanterare för HTTP-URL:er"
-#~ msgid "HTTPS URL handler"
-#~ msgstr "Hanterare för HTTPS-URL:er"
-#~ msgid "Handle callto URLs"
-#~ msgstr "Hantera callto-URL:er"
-#~ msgid "Handle ghelp URLs"
-#~ msgstr "Hantera ghelp-URL:er"
-#~ msgid "Handle info URLs"
-#~ msgstr "Hantera info-URL:er"
-#~ msgid "Handle mailto URLs"
-#~ msgstr "Hantera mailto-URL:er"
-#~ msgid "Handle man URLs"
-#~ msgstr "Hantera man-URL:er"
-#~ msgid "Handle trash URLs"
-#~ msgstr "Hantera trash-URL:er"
-#~ msgid "aim URL handler"
-#~ msgstr "Hanterare för aim-URL:er"
-#~ msgid "callto URL handler"
-#~ msgstr "Hanterare för callto-URL:er"
-#~ msgid "ghelp URL handler"
-#~ msgstr "Hanterare för ghelp-URL:er"
-#~ msgid "info URL handler"
-#~ msgstr "Hanterare för info-URL:er"
-#~ msgid "mailto URL handler"
-#~ msgstr "Hanterare för mailto-URL:er"
-#~ msgid "man URL handler"
-#~ msgstr "Hanterare för man-URL:er"
-#~ msgid "trash URL handler"
-#~ msgstr "Hanterare för trash-URL:er"
-#~ msgid "Possible values are \"merged\", \"separate\" and \"disabled\""
-#~ msgstr "Möjliga värden är \"merged\", \"separate\" och \"disabled\""
-#~ msgid "Could not write to file: %s"
-#~ msgstr "Kunde inte skriva till filen: %s"
-#, fuzzy
-#~ msgid "Could not inflate data"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not initialize zlib"
-#~ msgstr "Kunde inte initiera MateComponent"
-
-#, fuzzy
-#~ msgid "[invalid date]"
-#~ msgstr "Ogiltiga parametrar"
-
-#, fuzzy
-#~ msgid "SSL negotiation failed: %s"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not parse redirect location."
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "%s: connection was closed by proxy server."
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Error reading request body."
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Could not determine file length: %s"
-#~ msgstr "Kunde inte få tag i information om filen \"%s\": %s"
-
-#, fuzzy
-#~ msgid "Could not read chunk size"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not parse chunk size"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not read response body"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not read chunk delimiter"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not read status line"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not parse response status line."
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not read interim response headers"
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Could not send request"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not send request body"
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Error reading response headers"
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Could not resolve hostname `%s': %s"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not create SSL connection through proxy server"
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Could not create socket"
-#~ msgstr "Kunde inte tolka: %s"
-
-#, fuzzy
-#~ msgid "Could not connect to server"
-#~ msgstr "Kan inte avmontera ansluten server"
-
-#, fuzzy
-#~ msgid "Could not connect to proxy server"
-#~ msgstr "Kunde inte hitta huvudbläddrare"
-
-#, fuzzy
-#~ msgid "Line too long"
-#~ msgstr "Namnet är för långt"
-
-#, fuzzy
-#~ msgid "Could not create SSL structure"
-#~ msgstr "Kunde inte tolka: %s"
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Sparande av bokmärke misslyckades (%s)"
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Misslyckades med att läsa in bilden \"%s\": orsaken inte känd, troligtvis "
-#~ "en skadad bildfil"
-#~ msgid "Bookmark saving failed"
-#~ msgstr "Sparande av bokmärke misslyckades"
-#~ msgid "%.1f kB"
-#~ msgstr "%.1f kB"
-#~ msgid "How to handle http URLs"
-#~ msgstr "Hur http-URL:er ska hanteras"
-#~ msgid "How to handle https URLs"
-#~ msgstr "Hur https-URL:er ska hanteras"
-#~ msgid "Set to true to have a program specified in command handle https URLs"
-#~ msgstr ""
-#~ "Sätt detta till sant för att ett program som är angivet i kommando ska "
-#~ "hantera https-URL:er"
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/ghelp handle ghelp "
-#~ "URLs"
-#~ msgstr ""
-#~ "Sätt detta till sant för att ett program som är angivet i programs/ghelp "
-#~ "ska hantera ghelp-URL:er"
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/info handle info URLs"
-#~ msgstr ""
-#~ "Sätt detta till sant för att ett program som är angivet i programs/info "
-#~ "ska hantera info-URL:er"
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/man handle man URLs"
-#~ msgstr ""
-#~ "Sätt detta till sant för att ett program som är angivet i programs/man "
-#~ "ska hantera man-URL:er"
-#~ msgid "URL handler for h323 uris"
-#~ msgstr "URL-hanterare för h323-URI:er"
-#~ msgid "URL handler for http uris"
-#~ msgstr "URL-hanterare för http-URI:er"
-#~ msgid "URL handler for https uris"
-#~ msgstr "URL-hanterare för https-URI:er"
-#~ msgid "Hosts are not contacted via the proxy"
-#~ msgstr "Värdar kontaktas inte via proxyservern"
-#~ msgid "The machine name to proxy http through."
-#~ msgstr "Namnet på maskinen som ska agera proxyserver för http."
-#~ msgid "Use proxy settings when accessing http"
-#~ msgstr "Använd proxyinställningar vid åtkomst av http"
-#~ msgid "http proxy password"
-#~ msgstr "Lösenord för http-proxyserver"
-#~ msgid "http proxy username"
-#~ msgstr "Användarnamn för http-proxyserver"
-#~ msgid "Generic file moniker"
-#~ msgstr "Allmän filmoniker"
-#~ msgid "1 byte"
-#~ msgstr "1 byte"
-#~ msgid "%u bytes"
-#~ msgstr "%u byte"
-#~ msgid "Could not initialize mate-vfs"
-#~ msgstr "Kunde inte initiera mate-vfs"
-#~ msgid ""
-#~ "The application to use for viewing files that require a component to view "
-#~ "them. The parameter %s will be replaced by the file's URI, the parameter %"
-#~ "c will be replaced by the component IID."
-#~ msgstr ""
-#~ "Programmet som används för visning av filer som kräver en komponent för "
-#~ "att visa dem. Parametern %s kommer att ersättas av filens URI, och "
-#~ "parametern %c kommer att ersättas av komponent-IID."
-#~ msgid "Name"
-#~ msgstr "Namn"
-#~ msgid "parse error"
-#~ msgstr "tolkningsfel"
-#~ msgid "0 bytes"
-#~ msgstr "0 byte"
-#~ msgid "Application"
-#~ msgstr "Program"
-#~ msgid "Card"
-#~ msgstr "Kort"
-#~ msgid "File"
-#~ msgstr "Fil"
-#~ msgid "Folder"
-#~ msgstr "Mapp"
-#~ msgid "Host"
-#~ msgstr "Värd"
-#~ msgid "Link"
-#~ msgstr "Länk"
-#~ msgid "Tool"
-#~ msgstr "Verktyg"
-#~ msgid "Window"
-#~ msgstr "Fönster"
-#~ msgid "%u size"
-#~ msgstr "%u storlek"
-

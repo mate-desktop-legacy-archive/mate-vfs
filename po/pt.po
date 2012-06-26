@@ -1,149 +1,151 @@
-# mate-vfs's Portuguese Translation.
-# Copyright © 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 mate-vfs
-# Distributed under the same licence as the mate-vfs package
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Duarte Loreto <happyguy_pt@hotmail.com>, 2001, 2004, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.30\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-01 00:54+0000\n"
-"PO-Revision-Date: 2010-03-01 00:55+0000\n"
-"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <mate_pt@yahoogroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-05-30 12:11+0000\n"
+"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
-msgstr "Unidade ISO 9660"
+msgstr "Volume ISO 9660"
 
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
-msgstr "%s:%u contém caracteres NUL."
+msgstr "%s:%u contém caracteres NULL"
 
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
-msgstr "%s:%u não contém nome de método."
+msgstr "%s:%u não possui o nome do método."
 
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
-msgstr "%s:%u não contém terminador de opções."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
 msgid "%s:%u has unknown options %s."
-msgstr "%s:%u contém opções desconhecidas %s."
+msgstr "%s:%u tem opções desconhecidas %s."
 
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
 msgid "%s:%u contains no module name."
-msgstr "%s:%u não contém nome de módulo."
+msgstr "%s:%u não possui o nome do módulo."
 
 #: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
 msgid "Configuration file `%s' was not found: %s"
-msgstr "Não foi encontrado ficheiro de configuração `%s': %s"
+msgstr "O ficheiro de configuração \"%s\" não foi encontrado: %s"
 
 #. stop parsing if we failed
 #: ../libmatevfs/mate-vfs-configuration.c:382
 #, c-format
 msgid "%s:%d aborted parsing."
-msgstr "%s:%d abortou o processamento."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
-msgstr "Unidade AFFS"
+msgstr "Volume AFFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
-msgstr "Unidade de Rede AFS"
+msgstr "Volume de rede AFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
-msgstr "Unidade Detectada Automaticamente"
+msgstr "Volume detetado automaticamente"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
 msgid "Btrfs Linux Volume"
-msgstr "Unidade Linux Btrfs"
+msgstr "Volume Btrfs Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:43
 #: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
-msgstr "Dispositivo CD-ROM"
+msgstr "Unidade CD_ROM"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
-msgstr "CD Audio Digital"
+msgstr "CD de áudio digital"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
-msgstr "Unidade de Dispositivo de Hardware"
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
-msgstr "Unidade EncFS"
+msgstr "Volume EncFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
 msgid "eCryptfs Volume"
-msgstr "Unidade eCryptfs"
+msgstr "Volume eCryptfs"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:49
 #: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
-msgstr "Unidade Linux Ext2"
+msgstr "Volume Ext2 Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
-msgstr "Unidade Linux Ext3"
+msgstr "Volume Ext3 Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
 msgid "Ext4 Linux Volume"
-msgstr "Unidade Linux Ext4"
+msgstr "Volume Ext4 Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:54
 #: ../libmatevfs/mate-vfs-filesystem-type.c:68
 #: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
-msgstr "Unidade MSDOS"
+msgstr "Volume MSDOS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:55
 #: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
-msgstr "Unidade BSD"
+msgstr "Volume BSD"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
-msgstr "Unidade FUSE"
+msgstr "Volume FUSE"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:57
 #: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
-msgstr "Unidade MacOS"
+msgstr "Volume MacOS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
-msgstr "Unidade CDROM"
+msgstr "Volume CDROM"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
-msgstr "Unidade CDROM Hsfs"
+msgstr "Volume CDROM Hsfs"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
-msgstr "Unidade JFS"
+msgstr "Volume JFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:62
 #: ../libmatevfs/mate-vfs-filesystem-type.c:71
 #: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
-msgstr "Unidade Windows NT"
+msgstr "Volume Windows NT"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:63
 #: ../libmatevfs/mate-vfs-filesystem-type.c:65
@@ -151,91 +153,91 @@ msgstr "Unidade Windows NT"
 #: ../libmatevfs/mate-vfs-filesystem-type.c:76
 #: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
-msgstr "Unidade de Sistema"
+msgstr "Volume de sistema"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
-msgstr "Unidade em Memória"
+msgstr "Volume de memória"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
-msgstr "Unidade Minix"
+msgstr "Volume Mimix"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
-msgstr "Unidade de Rede NFS"
+msgstr "Volume de rede NFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
 msgid "NILFS Linux Volume"
-msgstr "Unidade Linux NILFS"
+msgstr "Volume NILFS Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
-msgstr "Unidade Netware"
+msgstr "Volume Netware"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
-msgstr "Unidade Linux Reiser4"
+msgstr "Volume Reiser4 Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
-msgstr "Unidade Linux ReiserFS"
+msgstr "Volume ReiserFS Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
-msgstr "Unidade Partilhado Windows"
+msgstr "Volume partilhado Windows"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
-msgstr "Unidade SuperMount"
+msgstr "Volume SuperMount"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
-msgstr "Unidade DVD"
+msgstr "Volume DVD"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
-msgstr "Unidade Solaris/BSD"
+msgstr "Volume Solaris/BSD"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
-msgstr "Unidade Solaris Udfs"
+msgstr "Volume Udfs Solaris"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
-msgstr "Unidade Solaris Pcfs"
+msgstr "Volume Pcfs Solaris"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
-msgstr "Unidade Sun SAM-QFS"
+msgstr "Volume Sun SAM-QFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
-msgstr "Unidade Temporária"
+msgstr "Volume temporário"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
-msgstr "Unidade DOS Melhorado"
+msgstr "Volume Enhanced DOS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
-msgstr "Unidade Windows VFAT"
+msgstr "Volume Windows VFAT"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
-msgstr "Unidade Xenix"
+msgstr "Volume Xenix"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
-msgstr "Unidade Linux XFS"
+msgstr "Volume XFS Linux"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
-msgstr "Unidade XIAFS"
+msgstr "Volume XIAFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
-msgstr "Unidade CIFS"
+msgstr "Volume CIFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
@@ -245,7 +247,7 @@ msgstr "Desconhecido"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:582
 #, c-format
 msgid "%s Volume"
-msgstr "Unidade %s"
+msgstr "Volume %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:372
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:565
@@ -302,65 +304,65 @@ msgstr "DVD±RW"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:399
 #, c-format
 msgid "%s/%s Drive"
-msgstr "Dispositivo %s/%s"
+msgstr "Unidade %s/%s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:401
 #, c-format
 msgid "%s Drive"
-msgstr "Dispositivo %s"
+msgstr "Unidade %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:406
 msgid "Floppy Drive"
-msgstr "Dispositivo de Disquette"
+msgstr "Unidade de disquetes"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:409
 msgid "Compact Flash Drive"
-msgstr "Dispositivo de Flash Compacta"
+msgstr "Unidade Compact Flash"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
-msgstr "Dispositivo de Caneta de Memória"
+msgstr "Unidade do cartão de memória"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:413
 msgid "Smart Media Drive"
-msgstr "Dispositivo de Smart Media"
+msgstr "Unidade Smart Media"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:415
 msgid "SD/MMC Drive"
-msgstr "Dispositivo SD/MMC"
+msgstr "Unidade SD/MMC"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:417
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:626
 msgid "Zip Drive"
-msgstr "Dispositivo Zip"
+msgstr "Unidade Zip"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:420
 msgid "Jaz Drive"
-msgstr "Dispositivo Jaz"
+msgstr "Unidade Jaz"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
-msgstr "Dispositivo Pen"
+msgstr "Unidade Pen"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
-msgstr "Reprodutor de Música %s %s"
+msgstr "Reprodutor de músicas %s %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:437
 #, c-format
 msgid "%s %s Digital Camera"
-msgstr "Câmara Digital %s %s"
+msgstr "Máquina digital %s %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:467
 msgid "Drive"
-msgstr "Dispositivo"
+msgstr "Unidade"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:472
 #, c-format
 msgid "External %s"
-msgstr "%s Externo"
+msgstr "%s externo"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:508
 msgid "CD-ROM Disc"
@@ -368,7 +370,7 @@ msgstr "Disco CD-ROM"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:513
 msgid "Blank CD-R Disc"
-msgstr "Disco CD-R Virgem"
+msgstr "Disco CD-R vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:515
 msgid "CD-R Disc"
@@ -376,7 +378,7 @@ msgstr "Disco CD-R"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:520
 msgid "Blank CD-RW Disc"
-msgstr "Disco CD-RW Virgem"
+msgstr "Disco CD-RW vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:522
 msgid "CD-RW Disc"
@@ -384,11 +386,11 @@ msgstr "Disco CD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:526
 msgid "DVD-ROM Disc"
-msgstr "Disco CVD-ROM"
+msgstr "Disco DVD-ROM"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
-msgstr "Disco DVD-RAM Virgem"
+msgstr "Disco DVD-ROM vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
@@ -396,7 +398,7 @@ msgstr "Disco DVD-RAM"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:538
 msgid "Blank DVD-R Disc"
-msgstr "Disco DVD-R Virgem"
+msgstr "Disco DVD-RAM vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:540
 msgid "DVD-R Disc"
@@ -404,7 +406,7 @@ msgstr "Disco DVD-R"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:545
 msgid "Blank DVD-RW Disc"
-msgstr "Disco DVD-RW Virgem"
+msgstr "Disco DVD-RW vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:547
 msgid "DVD-RW Disc"
@@ -412,7 +414,7 @@ msgstr "Disco DVD-RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:553
 msgid "Blank DVD+R Disc"
-msgstr "Disco DVD+R Virgem"
+msgstr "Disco DVD+R vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:555
 msgid "DVD+R Disc"
@@ -420,7 +422,7 @@ msgstr "Disco DVD+R"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:560
 msgid "Blank DVD+RW Disc"
-msgstr "Disco DVD+RW Virgem"
+msgstr "Disco DVD+RW vazio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:562
 msgid "DVD+RW Disc"
@@ -428,31 +430,31 @@ msgstr "Disco DVD+RW"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:569
 msgid "Audio Disc"
-msgstr "Disco Audio"
+msgstr "Disco de áudio"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:580
 #, c-format
 msgid "%s Removable Volume"
-msgstr "Unidade Removível %s"
+msgstr "Disco amovível %s"
 
 #: ../libmatevfs/mate-vfs-hal-mounts.c:591
 msgid "Volume"
-msgstr "Unidade"
+msgstr "Volume"
 
 #: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
-msgstr "Tipo de operação %u desconhecido"
+msgstr "Tipo de operação desconhecida %u"
 
 #: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
-msgstr "Incapaz de criar canal para GIOChannel aberto: %s"
+msgstr "Incapaz de criar o canal para GIOChannel: %s"
 
 #: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
-msgstr "Tipo de trabalho %u desconhecido"
+msgstr "Tipo de tarefa desconhecida %u"
 
 #: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
@@ -489,9 +491,7 @@ msgstr "Operação parada"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Função obsoleta.  Não são mais suportadas alterações pelo utilizador à base "
-"de dados MIME."
+msgstr "Função descontinuada. As modificações feitas à base de dados MIME não são suportadas."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -500,12 +500,12 @@ msgstr "Incapaz de processar: %s"
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
-msgstr "Erros de processamento subsequentes serão ignorados."
+msgstr "Os restantes erros serão ignorados."
 
 #. MATE_VFS_OK
 #: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
-msgstr "Nenhum erro"
+msgstr "Sem erros"
 
 #. MATE_VFS_ERROR_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:48
@@ -540,7 +540,7 @@ msgstr "Erro I/O"
 #. MATE_VFS_ERROR_CORRUPTED_DATA
 #: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
-msgstr "Dados corrompidos"
+msgstr "Dados danificados"
 
 #. MATE_VFS_ERROR_WRONG_FORMAT
 #: ../libmatevfs/mate-vfs-result.c:55
@@ -550,22 +550,22 @@ msgstr "Formato inválido"
 #. MATE_VFS_ERROR_BAD_FILE
 #: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
-msgstr "Ponteiro para ficheiro inválido"
+msgstr "Erro ao manipular ficheiro"
 
 #. MATE_VFS_ERROR_TOO_BIG
 #: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
-msgstr "Ficheiro demasiado grande"
+msgstr "Ficheiro muito grande"
 
 #. MATE_VFS_ERROR_NO_SPACE
 #: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
-msgstr "Dispositivo sem espaço livre"
+msgstr "não existe espaço no dispositivo"
 
 #. MATE_VFS_ERROR_READ_ONLY
 #: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
-msgstr "Sistema de ficheiros apenas de leitura"
+msgstr "Sistema de ficheiros de leitura"
 
 #. MATE_VFS_ERROR_INVALID_URI
 #: ../libmatevfs/mate-vfs-result.c:60
@@ -580,37 +580,37 @@ msgstr "Ficheiro não aberto"
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
 #: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
-msgstr "Modo de abertura inválido"
+msgstr "Método de abertura inválido"
 
 #. MATE_VFS_ERROR_ACCESS_DENIED
 #: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
-msgstr "Acesso negado"
+msgstr "Acesso recusado"
 
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
 #: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
-msgstr "Demasiados ficheiros abertos"
+msgstr "Muitos ficheiros abertos"
 
 #. MATE_VFS_ERROR_EOF
 #: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
-msgstr "Final de ficheiro"
+msgstr "Fim do ficheiro"
 
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
-msgstr "Não é um directório"
+msgstr "Não é diretório"
 
 #. MATE_VFS_ERROR_IN_PROGRESS
 #: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
-msgstr "Operação em execução"
+msgstr "Operação em curso"
 
 #. MATE_VFS_ERROR_INTERRUPTED
 #: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
-msgstr "Operação interrompida"
+msgstr "operação interrompida"
 
 #. MATE_VFS_ERROR_FILE_EXISTS
 #: ../libmatevfs/mate-vfs-result.c:69
@@ -620,7 +620,7 @@ msgstr "Ficheiro existe"
 #. MATE_VFS_ERROR_LOOP
 #: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
-msgstr "Encontrados atalhos circulares"
+msgstr "Encontradas ligações em ciclos"
 
 #. MATE_VFS_ERROR_NOT_PERMITTED
 #: ../libmatevfs/mate-vfs-result.c:71
@@ -630,7 +630,7 @@ msgstr "Operação não permitida"
 #. MATE_VFS_ERROR_IS_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
-msgstr "É um directório"
+msgstr "É um diretório"
 
 #. MATE_VFS_ERROR_NO_MEMORY
 #: ../libmatevfs/mate-vfs-result.c:73
@@ -650,12 +650,12 @@ msgstr "Nome de máquina inválido"
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
 #: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
-msgstr "Máquina não possui endereço"
+msgstr "Máquina não tem endereço"
 
 #. MATE_VFS_ERROR_LOGIN_FAILED
 #: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
-msgstr "Falha ao iniciar sessão"
+msgstr "Falha ao inicar sessão"
 
 #. MATE_VFS_ERROR_CANCELLED
 #: ../libmatevfs/mate-vfs-result.c:78
@@ -665,22 +665,22 @@ msgstr "Operação cancelada"
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
 #: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
-msgstr "Directório ocupado"
+msgstr "Diretório ocupado"
 
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
 #: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
-msgstr "Directório não vazio"
+msgstr "Diretório não vazio"
 
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
 #: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
-msgstr "Demasiados atalhos"
+msgstr "Demasiadas ligações"
 
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
-msgstr "Sistema de ficheiros apenas de leitura"
+msgstr "Sistema de ficheiros de leitura"
 
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:83
@@ -690,17 +690,17 @@ msgstr "Não está no mesmo sistema de ficheiros"
 #. MATE_VFS_ERROR_NAME_TOO_LONG
 #: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
-msgstr "Nome demasiado longo"
+msgstr "Nome muito extenso"
 
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
 #: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
-msgstr "Serviço indisponível"
+msgstr "Serviço não disponível"
 
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
 #: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
-msgstr "Pedido de dados a serviço obsoleto"
+msgstr ""
 
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
 #: ../libmatevfs/mate-vfs-result.c:87
@@ -710,22 +710,22 @@ msgstr "Erro de protocolo"
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
 #: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
-msgstr "Incapaz de encontrar browser principal"
+msgstr "Incapaz de encontrar o explorador principal"
 
 #. MATE_VFS_ERROR_NO_DEFAULT
 #: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
-msgstr "Nenhuma acção por omissão associada"
+msgstr "Não existe uma ação associada"
 
 #. MATE_VFS_ERROR_NO_HANDLER
 #: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
-msgstr "Nenhum manipulador de esquema de URL"
+msgstr "Nenhum gestor para esquemas URL"
 
 #. MATE_VFS_ERROR_PARSE
 #: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
-msgstr "Erro ao processar linha de comando"
+msgstr "Erro ao processar linha de comandos"
 
 #. MATE_VFS_ERROR_LAUNCH
 #: ../libmatevfs/mate-vfs-result.c:92
@@ -735,22 +735,22 @@ msgstr "Erro ao executar comando"
 #. MATE_VFS_ERROR_TIMEOUT
 #: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
-msgstr "Tempo limite atingido"
+msgstr "Tempo limite excedido"
 
 #. MATE_VFS_ERROR_NAMESERVER
 #: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
-msgstr "Erro de servidor de nomes"
+msgstr "Erro no nome do servidor"
 
 #. MATE_VFS_ERROR_LOCKED
 #: ../libmatevfs/mate-vfs-result.c:95
 msgid "The resource is locked"
-msgstr "O recurso está em utilização exclusiva"
+msgstr "O recurso está bloqueado"
 
 #. MATE_VFS_ERROR_DEPRECATED_FUNCTION
 #: ../libmatevfs/mate-vfs-result.c:96
 msgid "Function call deprecated"
-msgstr "Chamada de função obsoleta"
+msgstr "Função descontinuada"
 
 #. MATE_VFS_ERROR_INVALID_FILENAME
 #: ../libmatevfs/mate-vfs-result.c:97
@@ -760,7 +760,7 @@ msgstr "Nome de ficheiro inválido"
 #. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
 #: ../libmatevfs/mate-vfs-result.c:98
 msgid "Not a symbolic link"
-msgstr "Não é uma ligação simbólica"
+msgstr "Não é ligação simbólica"
 
 #: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
@@ -796,7 +796,7 @@ msgstr " (Unicode inválido)"
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:620
 msgid "Floppy"
-msgstr "Disquette"
+msgstr "Disquete"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
@@ -852,11 +852,11 @@ msgstr "Disco"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:587
 msgid "USB Drive"
-msgstr "Dispositivo USB"
+msgstr "Disco USB"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
 msgid "IEEE1394 Drive"
-msgstr "Dispositivo IEEE1394"
+msgstr "Unidade IEEE1394"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
@@ -869,7 +869,7 @@ msgstr "SD/MMC"
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
-msgstr "Caneta de Memória"
+msgstr "Cartão de memória"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
@@ -877,7 +877,7 @@ msgstr "Smart Media"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
 msgid "Camera"
-msgstr "Câmara"
+msgstr "Máquina fotográfica"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:597
 msgid "DVD"
@@ -885,15 +885,15 @@ msgstr "DVD"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
-msgstr "Unidade Raíz"
+msgstr "Volume root"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
-msgstr "CD Audio"
+msgstr "CD áudio"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
-msgstr "Unidade desconhecida"
+msgstr "Volume desconhecido"
 
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
@@ -905,16 +905,12 @@ msgstr "Servidor de rede"
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr ""
-"Incapaz de montar o dispositivo de disquette. Provavelmente não existe "
-"nenhuma disquette dentro do dispositivo."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr ""
-"Incapaz de montar a unidade. Provavelmente não existe nenhum media no "
-"dispositivo."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
@@ -922,8 +918,6 @@ msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
 msgstr ""
-"Incapaz de montar o dispositivo de disquette. Provavelmente a disquette "
-"encontra-se num formato que não pode ser montado."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -932,25 +926,21 @@ msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
 msgstr ""
-"Incapaz de montar o volume. Se este for um dispositivo encriptado, foi "
-"utilizada a senha ou chave incorrecta."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr ""
-"Incapaz de montar a unidade seleccionada. Provavelmente a unidade encontra-"
-"se num formato que não pode ser montado."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
-msgstr "Incapaz de montar o dispositivo de disquette seleccionado."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:208
 msgid "Unable to mount the selected volume."
-msgstr "Incapaz de montar a unidade seleccionada."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
 #, c-format
@@ -958,49 +948,47 @@ msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
 msgstr ""
-"Incapaz de desmontar a unidade seleccionada. A unidade encontra-se em "
-"utilização por uma ou mais aplicações."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
-msgstr "Incapaz de desmontar a unidade seleccionada."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:377
 #, c-format
 msgid "Failed to read data from child process %d (%s)"
-msgstr "Falha ao ler dados do processo filho %d (%s)"
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:421
 msgid "Couldn't run mount process in a pty"
-msgstr "Incapaz de executar o processo de montagem numa pty"
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr "Erro inesperado no select() ao ler dados de um processo filho (%s)"
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
 msgid "Couldn't send password to mount process."
-msgstr "Incapaz de enviar a senha para um processo de montagem."
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:559
 #, c-format
 msgid "Unexpected error in waitpid() (%s)"
-msgstr "Erro inesperado no waitpid() (%s)"
+msgstr ""
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:669
 #: ../libmatevfs/mate-vfs-volume-ops.c:755
 msgid "Failed to start command"
-msgstr "Falha ao iniciar comando"
+msgstr "Falha ao iniciar o comando"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:742
 msgid "Unable to eject media"
-msgstr "Incapaz de ejectar media"
+msgstr "Incapaz de ejetar o disco"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:983
 msgid "Unable to unmount connected server"
-msgstr "Incapaz de desmontar servidor ligado"
+msgstr "Incapaz de desmontar o servidor"
 
 #: ../modules/computer-method.c:543
 msgid "Network"
@@ -1008,7 +996,7 @@ msgstr "Rede"
 
 #: ../modules/computer-method.c:561
 msgid "Home"
-msgstr "Pasta Pessoal"
+msgstr "Pasta pessoal"
 
 #: ../modules/computer-method.c:579
 msgid "Filesystem"
@@ -1017,7 +1005,7 @@ msgstr "Sistema de ficheiros"
 #: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
-msgstr "MateVFSSeekPosition %d desconhecida"
+msgstr ""
 
 #: ../modules/network-method.c:1399
 msgid "Windows Network"
@@ -1026,46 +1014,39 @@ msgstr "Rede Windows"
 #: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
-msgstr "Desconhece-se a identidade do comuptador remoto (%s)."
+msgstr ""
 
 #: ../modules/sftp-method.c:1425
 #, c-format
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
 msgstr ""
-"Isto acontece quando inicia uma sessão num computador pela primeira vez.\n"
-"\n"
-"A identidade enviada pelo computador remoto é %s. Se deseja ter a certeza "
-"absoluta de que é seguro prosseguir, contacte o administrador de sistemas."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
-msgstr "Ainda Assim Iniciar Sessão"
+msgstr "Ainda assim, iniciar sessão"
 
 #: ../modules/sftp-method.c:1434
 msgid "Cancel Login"
-msgstr "Cancelar o Início de Sessão"
+msgstr "Cancelar início de sessão"
 
 #. FIXME: we probably shouldn't use printf to output the message
 #: ../modules/test-method.c:587
 #, c-format
 msgid "Didn't find a valid settings file at %s\n"
-msgstr "Não foi encontrado um ficheiro de definições válido em %s\n"
+msgstr ""
 
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
 msgstr ""
-"Utilize a variável de ambiente %s para especificar uma localização "
-"diferente.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
-msgstr "A sua Proxy HTTP necessita que inicie uma sessão.\n"
+msgstr ""
 
 #: ../programs/authentication.c:107
 #, c-format
@@ -1073,453 +1054,404 @@ msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
 msgstr ""
-"Tem de iniciar uma sessão para aceder a \"%s\".\n"
-"%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
-msgstr "A sua senha será transmitida sem encriptação."
+msgstr ""
 
 #: ../programs/authentication.c:111
 msgid "Your password will be transmitted encrypted."
-msgstr "A sua senha será transmitida encriptada."
+msgstr ""
 
 #: ../programs/authentication.c:163
 #, c-format
 msgid "You must log in to access %s domain %s\n"
-msgstr "Tem de iniciar uma sessão para aceder a %s no domínio %s\n"
+msgstr ""
 
 #: ../programs/authentication.c:165
 #, c-format
 msgid "You must log in to access %s\n"
-msgstr "Tem de iniciar uma sessão para aceder a %s\n"
+msgstr ""
 
 #: ../schemas/desktop_default_applications.schemas.in.h:1
 msgid "Default component viewer application"
-msgstr "Aplicação visualizadora por omissão de componente"
+msgstr ""
 
 #: ../schemas/desktop_default_applications.schemas.in.h:2
 msgid "Default terminal application"
-msgstr "Aplicação de consola por omissão"
+msgstr "Aplicação de consola pré-definida"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
-msgstr "Argumentos de execução para consola por omissão"
+msgstr "Argumento Exec da consola pré-definida"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
 msgstr ""
-"A aplicação a utilizar para visualizar ficheiros que requerem um componente "
-"para que possam ser visualizadas. O parâmetro %s será substituído pelo URI "
-"do ficheiro, o parâmetro %c será substituído pelo IID do componente."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
 msgstr ""
-"A aplicação de consola a utilizar por omissão para aplicações que necessitem "
-"de uma consola."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr ""
-"O argumento de execução a utilizar para a aplicação de consola por omissão."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
-msgstr "Executar o comando numa consola"
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"aim\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"callto\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"ghelp\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"h323\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"http\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"https\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"info\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"mailto\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"man\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr "O comando utilizado para manipular URLs \"trash\", se activo."
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
-msgstr "O manipulador de URLs \"aim\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:13
 msgid "The handler for \"callto\" URLs"
-msgstr "O manipulador de URLs \"callto\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:14
 msgid "The handler for \"ghelp\" URLs"
-msgstr "O manipulador de URLs \"ghelp\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:15
 msgid "The handler for \"h323\" URLs"
-msgstr "O manipulador de URLs \"h323\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:16
 msgid "The handler for \"http\" URLs"
-msgstr "O manipulador de URLs \"http\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:17
 msgid "The handler for \"https\" URLs"
-msgstr "O manipulador de URLs \"https\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:18
 msgid "The handler for \"info\" URLs"
-msgstr "O manipulador de URLs \"info\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:19
 msgid "The handler for \"mailto\" URLs"
-msgstr "O manipulador de URLs \"mailto\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:20
 msgid "The handler for \"man\" URLs"
-msgstr "O manipulador de URLs \"man\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:21
 msgid "The handler for \"trash\" URLs"
-msgstr "O manipulador de URLs \"trash\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr ""
-"Verdadeiro se o comando especificado na chave \"command\" deverá manipular "
-"URLs \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
 msgstr ""
-"Verdadeiro se o comando utilizado para manipular este tipo de URL deverá ser "
-"executado numa consola."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"aim\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:34
 msgid "Whether the specified command should handle \"callto\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"callto\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:35
 msgid "Whether the specified command should handle \"ghelp\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"ghelp\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:36
 msgid "Whether the specified command should handle \"h323\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"h323\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:37
 msgid "Whether the specified command should handle \"http\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"http\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:38
 msgid "Whether the specified command should handle \"https\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"https\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:39
 msgid "Whether the specified command should handle \"info\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"info\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:40
 msgid "Whether the specified command should handle \"mailto\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"mailto\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:41
 msgid "Whether the specified command should handle \"man\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"man\""
+msgstr ""
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:42
 msgid "Whether the specified command should handle \"trash\" URLs"
-msgstr "Se o comando especificado deverá manipular URLs \"trash\""
+msgstr ""
 
 #: ../schemas/system_dns_sd.schemas.in.h:1
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
 msgstr ""
-"Lista separada por vírgulas de domínios DNS-SD que deverão ser visíveis na "
-"localização de rede \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
-msgstr "Domínios adicionais onde procurar serviços DNS-SD"
+msgstr ""
 
 #: ../schemas/system_dns_sd.schemas.in.h:3
 msgid "How to display local DNS-SD service"
-msgstr "Como apresentar o serviço DNS-SD local"
+msgstr ""
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr "Valores possíveis são \"merged\", \"separate\" e \"disabled\"."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
-msgstr "Autenticar ligações ao servidor proxy"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:2
 msgid "Automatic proxy configuration URL"
-msgstr "URL de configuração automática de proxy"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr "Activa as definições de proxy ao aceder por HTTP à Internet."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
-msgstr "Nome de máquina da proxy FTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:5
 msgid "FTP proxy port"
-msgstr "Porto do proxy FTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:6
 msgid "HTTP proxy host name"
-msgstr "Nome de máquina da proxy HTTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:7
 msgid "HTTP proxy password"
-msgstr "Senha da proxy HTTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:8
 msgid "HTTP proxy port"
-msgstr "Porto do proxy HTTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:9
 msgid "HTTP proxy username"
-msgstr "Utilizador da proxy HTTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Se verdadeiro, ligações ao servidor proxy requerem autenticação. O conjunto "
-"utilizador/senha é definido por \"/system/http_proxy/authentication_user\" e "
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
 "\"/system/http_proxy/authentication_password\"."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
-msgstr "Máquina não-proxy"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr "Senha a indicar como autenticação ao efectuar proxy de HTTP."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
-msgstr "Modo de configuração proxy"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:14
 msgid "SOCKS proxy host name"
-msgstr "Nome de máquina de proxy SOCKS"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:15
 msgid "SOCKS proxy port"
-msgstr "Porto de proxy SOCKS"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:16
 msgid "Secure HTTP proxy host name"
-msgstr "Nome de máquina de proxy de HTTP seguro"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:17
 msgid "Secure HTTP proxy port"
-msgstr "Porto de proxy de HTTP seguro"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
 msgstr ""
-"Seleccione o modo de configuração de proxy. Valores suportados são \"none"
-"\" (nenhum), \"manual\", \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
-msgstr "O nome da máquina através da qual efectuar proxy de FTP."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:20
 msgid "The machine name to proxy HTTP through."
-msgstr "O nome da máquina através da qual efectuar proxy de HTTP."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:21
 msgid "The machine name to proxy secure HTTP through."
-msgstr "O nome da máquina através da qual efectuar proxy de HTTP seguro."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:22
 msgid "The machine name to proxy socks through."
-msgstr "O nome da máquina através da qual efectuar proxy socks."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
 msgstr ""
-"O porto na máquina, definido por \"/system/http_proxy/host\", através do "
-"qual efectuar proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr ""
-"O porto na máquina, definido por \"/system/proxy/ftp_host\", através do qual "
-"efectuar proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
 msgstr ""
-"O porto na máquina, definido por \"/system/proxy/secure_host\", através do "
-"qual efectuar proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
 msgstr ""
-"O porto na máquina, definido por \"/system/proxy/socks_host\", através do "
-"qual efectuar proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr ""
-"Esta chave contém uma lista de máquinas às quais a ligação deverá ser "
-"directa, e não através da proxy (caso esteja activa). Os valores podem ser "
-"nomes de máquinas, domínios (utilizando um caracter global tal como *."
-"exemplo.pt), endereços IP (tanto IPv4 como IPv6) e endereços de rede com uma "
-"máscara de rede (algo como 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
-msgstr "URL que disponibiliza valores de configuração da proxy."
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:29
 msgid "Use HTTP proxy"
-msgstr "Utilizar proxy HTTP"
+msgstr ""
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr "Utilizador a indicar como autenticação ao efectuar proxy de HTTP."
+msgstr ""
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
-msgstr "Grupo de trabalho SMB"
+msgstr ""
 
 #: ../schemas/system_smb.schemas.in.h:2
 msgid ""
@@ -1527,338 +1459,3 @@ msgid ""
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
 msgstr ""
-"O grupo de trabalho de rede Windows ou o domínio a que o utilizador "
-"pertence. Para que um novo grupo de trabalho tenha efeito total o utilizador "
-"poderá ter de terminar a sessão e iniciá-la novamente."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Incapaz de inicializar MateComponent"
-
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Incapaz de inicializar mate vfs"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Fábrica de Moniker padrão"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "ficheiro MonikerExtender"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "moniker Mate VFS genérico"
-
-#~ msgid "generic file moniker"
-#~ msgstr "ficheiro moniker genérico"
-
-#~ msgid "Display SCSI drives"
-#~ msgstr "Apresentar dispositivos SCSI"
-
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Apresentar dispositivos ópticos SCSI"
-
-#~ msgid "Display drives with removable media"
-#~ msgstr "Apresentar dispositivos com media amovível"
-
-#~ msgid "Display external drives"
-#~ msgstr "Apresentar dispositivos externos"
-
-#~ msgid "Display internal hard drives"
-#~ msgstr "Apresentar discos rígidos internos"
-
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "Se apresentar ou não dispositivos ópticos SCSI mesmo se /system/storage/"
-#~ "display_scsi_drives estiver definido como FALSE."
-
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr ""
-#~ "Se apresentar ou não dispositivos e unidades montáveis de dispositivos "
-#~ "SCSI."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "Se apresentar ou não dispositivos e unidades montáveis de dispositivos "
-#~ "com media amovível (por ex. dispositivos onde pode ser inserido e "
-#~ "removido media)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "Se apresentar ou não dispositivos e volumes montáveis de dispositivos "
-#~ "externos (por ex. dispositivos que são \"hotpluggable\"; por ex. "
-#~ "dispositivos que podem ser ligados e desligados do computador enquanto "
-#~ "este funciona)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "Se apresentar ou não dispositivos e volumes montáveis de discos rígidos "
-#~ "internos (dispositivos ópticos não-SCSI são sempre apresentados)."
-
-#~ msgid "The window workgroup the user is part of"
-#~ msgstr "O grupo de trabalho windows a que o utilizador pertence"
-
-#~ msgid "Optical Disc"
-#~ msgstr "Disco Óptico"
-
-#~ msgid "Memory Stick Media"
-#~ msgstr "Media de Caneta de Memória"
-
-#~ msgid "Smart Media Media"
-#~ msgstr "Media Smart Media"
-
-#~ msgid "Mac OS disk"
-#~ msgstr "Disco Mac OS"
-
-#~ msgid "Mac OS X disk"
-#~ msgstr "Disco Mac OS X"
-
-#~ msgid "Windows Disk"
-#~ msgstr "Disco Windows"
-
-#~ msgid "Linux Disk"
-#~ msgstr "Disco Linux"
-
-#~ msgid "File could not be opened: %s"
-#~ msgstr "Incapaz de abrir o ficheiro: %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Falha ao abrir o ficheiro '%s': %s"
-
-#~ msgid "File is empty"
-#~ msgstr "O ficheiro está vazio"
-
-#~ msgid ""
-#~ "desktop entries contain line '%s' which is not an entry, group, or comment"
-#~ msgstr ""
-#~ "entradas de área de trabalho contêm a linha '%s' que não é uma entrada, "
-#~ "grupo ou comentário"
-
-#~ msgid "desktop entries file does not start with legal start group"
-#~ msgstr ""
-#~ "ficheiro de entradas de área de trabalho não começa por um grupo inicial "
-#~ "permitido"
-
-#~ msgid "desktop entries contain line '%s' which is not UTF-8"
-#~ msgstr "entradas de área de trabalho contêm a linha '%s' que não é UTF-8"
-
-#~ msgid "desktop entries contain unknown encoding '%s'"
-#~ msgstr "entradas de área de trabalho contêm a codificação desconhecida '%s'"
-
-#~ msgid "desktop entries do not have group '%s'"
-#~ msgstr "entradas de área de trabalho não possuem o grupo '%s'"
-
-#~ msgid "desktop entries do not have key '%s'"
-#~ msgstr "entradas de área de trabalho não possuem a chave '%s'"
-
-#~ msgid ""
-#~ "desktop entries contain key '%s' which has value that cannot be "
-#~ "interpreted."
-#~ msgstr ""
-#~ "entradas de área de trabalho contêm a chave '%s' que possui um valor que "
-#~ "não pode ser interpretado."
-
-#~ msgid ""
-#~ "desktop entries contain no translated value for key '%s' with locale '%s'."
-#~ msgstr ""
-#~ "entradas de área de trabalho não contêm um valor traduzido para a chave '%"
-#~ "s' com a configuração regional '%s'."
-
-#~ msgid "desktop entries contain invalid escape sequence '%s'"
-#~ msgstr ""
-#~ "entradas de área de trabalho contêm sequencia de escape inválida '%s'"
-
-#~ msgid "desktop entries contain escape character at end of line"
-#~ msgstr ""
-#~ "entradas de área de trabalho contêm caracter de escape no final da linha"
-
-#~ msgid "Value '%s' cannot be interpreted as a number."
-#~ msgstr "Valor '%s' não pode ser interpretado como um número."
-
-#~ msgid "Value '%s' cannot be interpreted as a boolean."
-#~ msgstr "Valor '%s' não pode ser interpretado como uma boleana."
-
-#~ msgid "Applications"
-#~ msgstr "Aplicações"
-
-#~ msgid "Cards"
-#~ msgstr "Cartões"
-
-#~ msgid "Files"
-#~ msgstr "Ficheiros"
-
-#~ msgid "Folders"
-#~ msgstr "Pastas"
-
-#~ msgid "Help"
-#~ msgstr "Ajuda"
-
-#~ msgid "Hosts"
-#~ msgstr "Máquinas"
-
-#~ msgid "Links"
-#~ msgstr "Atalhos"
-
-#~ msgid "Mail"
-#~ msgstr "Correio"
-
-#~ msgid "Tools"
-#~ msgstr "Ferramentas"
-
-#~ msgid "Windows"
-#~ msgstr "Janelas"
-
-#~ msgid "CD Disc"
-#~ msgstr "Disco CD"
-
-#~ msgid "The command used to handle HTTP URLs, if enabled."
-#~ msgstr "O comando utilizado para manipular URLs HTTP, se activo."
-
-#~ msgid "The command used to handle HTTPS URLs, if enabled."
-#~ msgstr "O comando utilizado para manipular URLs HTTPS, se activo."
-
-#~ msgid "The handler for HTTP URLs"
-#~ msgstr "O manipulador de URLs HTTP"
-
-#~ msgid "The handler for HTTPS URLs"
-#~ msgstr "O manipulador de URLs HTTPS"
-
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTP "
-#~ "URLs."
-#~ msgstr ""
-#~ "Verdadeiro se o comando especificado na chave \"command\" deverá "
-#~ "manipular URLs HTTP."
-
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTPS "
-#~ "URLs."
-#~ msgstr ""
-#~ "Verdadeiro se o comando especificado na chave \"command\" deverá "
-#~ "manipular URLs HTTPS."
-
-#~ msgid "Whether the specified command should handle HTTP URLs"
-#~ msgstr "Se o comando especificado deverá manipular URLs HTTP."
-
-#~ msgid "Whether the specified command should handle HTTPS URLs"
-#~ msgstr "Se o comando especificado deverá manipular URLs HTTPS."
-
-#~ msgid "H323 URL handler"
-#~ msgstr "Manipulador de URL H323"
-
-#~ msgid "HTTP URL handler"
-#~ msgstr "Manipulador de URL HTTP"
-
-#~ msgid "HTTPS URL handler"
-#~ msgstr "Manipulador de URL HTTPS"
-
-#~ msgid "Handle callto URLs"
-#~ msgstr "Manipulador de URLs callto"
-
-#~ msgid "Handle ghelp URLs"
-#~ msgstr "Manipulador de URLs ghelp"
-
-#~ msgid "Handle info URLs"
-#~ msgstr "Manipulador de URLs info"
-
-#~ msgid "Handle mailto URLs"
-#~ msgstr "Manipulador de URLs mailto"
-
-#~ msgid "Handle man URLs"
-#~ msgstr "Manipulador de URLs man"
-
-#~ msgid "Handle trash URLs"
-#~ msgstr "Manipulador de URLs de lixo"
-
-#~ msgid "aim URL handler"
-#~ msgstr "Manipulador de URL aim"
-
-#~ msgid "callto URL handler"
-#~ msgstr "Manipulador de URL callto"
-
-#~ msgid "ghelp URL handler"
-#~ msgstr "Manipulador de URL ghelp"
-
-#~ msgid "info URL handler"
-#~ msgstr "Manipulador de URL info"
-
-#~ msgid "mailto URL handler"
-#~ msgstr "Manipulador de URL mailto"
-
-#~ msgid "man URL handler"
-#~ msgstr "Manipulador de URL man"
-
-#~ msgid "trash URL handler"
-#~ msgstr "Manipulador de URL de lixo"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Falha ao gravar marcadores (%s)"
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "Incapaz de obter informação para o ficheiro '%s': %s"
-
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Falha ao ler a imagem '%s': motivo desconhecido, provavelmente um "
-#~ "ficheiro de imagem corrompido"
-
-#~ msgid "How to handle http URLs"
-#~ msgstr "Como manipulador URLs http"
-
-#~ msgid "How to handle https URLs"
-#~ msgstr "Como manipulador URLs https"
-
-#~ msgid "Set to true to have a program specified in command handle https URLs"
-#~ msgstr ""
-#~ "Definir como verdadeiro para que aplicação especificada no comando "
-#~ "manipule URLs https"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/ghelp handle ghelp "
-#~ "URLs"
-#~ msgstr ""
-#~ "Definir como verdadeiro para que aplicação especificada em aplicações/"
-#~ "ghelp manipule URLs ghelp"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/info handle info URLs"
-#~ msgstr ""
-#~ "Definir como verdadeiro para que aplicação especificada em aplicações/"
-#~ "info manipule URLs info"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/man handle man URLs"
-#~ msgstr ""
-#~ "Definir como verdadeiro para que aplicação especificada em aplicações/man "
-#~ "manipule URLs man"
-
-#~ msgid "URL handler for h323 uris"
-#~ msgstr "Manipulador de URL para uris h323"
-
-#~ msgid "URL handler for http uris"
-#~ msgstr "Manipulador de URL para uris http"
-
-#~ msgid "URL handler for https uris"
-#~ msgstr "Manipulador de URL para uris https"
-
-#~ msgid "Hosts are not contacted via the proxy"
-#~ msgstr "Máquinas não são contactadas através da proxy"
-
-#~ msgid "The machine name to proxy http through."
-#~ msgstr "O nome da máquina através da qual efectuar proxy de http."
-
-#~ msgid "Use proxy settings when accessing http"
-#~ msgstr "Utilizar definições da proxy ao aceder por http"
-
-#~ msgid "http proxy password"
-#~ msgstr "Senha de proxy http"
-
-#~ msgid "http proxy username"
-#~ msgstr "Utilizador de proxy http"

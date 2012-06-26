@@ -1,22 +1,24 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2001-2004 Free Software Foundation, Inc.
-# Lou Bingyong <loubingyong@hotmail.com>, 2001.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Funda Wang <fundawang@linux.net.cn>, 2003, 2004, 2005.
 # LoneStar <lone@auvtech.com>, 2004.
-#
+# Lou Bingyong <loubingyong@hotmail.com>, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs 2.8.0\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2009-11-11 19:12+0000\n"
-"PO-Revision-Date: 2009-11-21 17:45+0100\n"
-"Last-Translator: Tao Wei <weitao1979@gmail.com>\n"
-"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -929,8 +931,8 @@ msgstr "无法挂载卷。如果该卷是加密驱动器，那么可能使用了
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "无法挂载选中的卷。可能卷的格式无法挂载。"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -1020,12 +1022,8 @@ msgstr "远程计算机(%s)的身份未知。"
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"这种情况经常发生在您首次登录到计算机时。\n"
-"\n"
-"远程计算机发送的身份是 %s。如果您绝对相信继续进行是安全的，请联系系统管理员。"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "这种情况经常发生在您首次登录到计算机时。\n\n远程计算机发送的身份是 %s。如果您绝对相信继续进行是安全的，请联系系统管理员。"
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1056,9 +1054,7 @@ msgstr "您的 HTTP 代理服务器需要您登录。\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"您必须登录才能访问“%s”。\n"
-"%s"
+msgstr "您必须登录才能访问“%s”。\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1094,11 +1090,9 @@ msgstr "默认终端的执行参数"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"该应用程序用于查看需要组件才能查看的文件。参数 %s 将被替换为文件的 URI，参数 "
-"%c 将被替换为组件 IID。"
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "该应用程序用于查看需要组件才能查看的文件。参数 %s 将被替换为文件的 URI，参数 %c 将被替换为组件 IID。"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1202,14 +1196,14 @@ msgstr "设为 true 可在“command”键中指定一个程序来处理“aim�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "设为 true 可在“command”键中指定一个程序来处理“callto”URLs。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "设为 true 可在“command”键中指定一个程序来处理“ghelp”URLs。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1226,8 +1220,8 @@ msgstr "设为 true 可在“command”键中指定一个程序来处理“http�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "设为 true 可在“command”键中指定一个程序来处理“https”URLs。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1238,8 +1232,8 @@ msgstr "设为 true 可在“command”键中指定一个程序来处理“info�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "设为 true 可在“command”键中指定一个程序来处理“mailto”URLs。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1250,8 +1244,8 @@ msgstr "设为 true 可在“command”键中指定一个程序来处理“man�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "设为 true 可在“command”键中指定一个程序来处理“trash”URLs。"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1357,12 +1351,10 @@ msgstr "HTTP 代理用户名"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"若为真，则对代理服务器的连接需要身份验证。用户名/密码组合由“/system/"
-"http_proxy/authentication_user”和“/system/http_proxy/"
-"authentication_password”定义。"
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "若为真，则对代理服务器的连接需要身份验证。用户名/密码组合由“/system/http_proxy/authentication_user”和“/system/http_proxy/authentication_password”定义。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1394,8 +1386,8 @@ msgstr "安全 HTTP 代理端口"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
 msgstr "选择代理配置模式。支持的值为“无”、“手动”、“自动”。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
@@ -1422,8 +1414,8 @@ msgstr "您使用的代理服务器的端口号定义在“/system/http_proxy/ho
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "您使用的代理服务器的端口号定义在“/system/proxy/ftp_host”中。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1442,12 +1434,9 @@ msgstr "您使用的代理服务器的端口号定义在“/system/proxy/socks_h
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"此键中定义的主机列表将不通过代理(如果有设定)而直接联接。其值可以是主机名、域"
-"名(支持通配符开头的形式如 *.foo.com)、IP 主机地址(既可 IPv4 亦可 IPv6)以及跟"
-"随网络掩码的网络地址(例如 192.168.0.0/24)。"
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "此键中定义的主机列表将不通过代理(如果有设定)而直接联接。其值可以是主机名、域名(支持通配符开头的形式如 *.foo.com)、IP 主机地址(既可 IPv4 亦可 IPv6)以及跟随网络掩码的网络地址(例如 192.168.0.0/24)。"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1470,6 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"用户所属的 Windows 网络工作组或域。为了让新工作组完全生效，用户可能需要注销并"
-"再次登录。"
+msgstr "用户所属的 Windows 网络工作组或域。为了让新工作组完全生效，用户可能需要注销并再次登录。"

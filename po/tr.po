@@ -1,39 +1,42 @@
-# Turkish translation of MateVFS.
-# Copyright (C) 2002, 2004, 2005, 2006 Free Software Foundation, Inc.
-# Sinan Imamoglu <sinan_imam@yahoo.com>, 2002.
-#
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Baris Cicek <baris@teamforce.name.tr>, 2004, 2005, 2006, 2008.
+# erkaN <erkaN@linux-sevenler.de>, 2003.
+# Görkem Çetin <gorkem@gelecek.com.tr>, 2001.
+#   <mauron@vmail.me>, 2012.
+# Ömer Fadıl USTA <omer_fad@hotmail.com>, 2001.
+# Sinan Imamoglu <sinan_imam@yahoo.com>, 2002.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-09-09 15:45+0300\n"
-"PO-Revision-Date: 2008-09-09 15:45+0300\n"
-"Last-Translator: Baris Cicek <baris@teamforce.name.tr>\n"
-"Language-Team: Turkish <mate-turk@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-03-17 19:22+0000\n"
+"Last-Translator: mauron <mauron@vmail.me>\n"
+"Language-Team: Turkish (http://www.transifex.com/projects/p/MATE/language/tr/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type:  text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=1; plural=0;\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
 msgstr "ISO 9660 Sistemi"
 
-# libmatevfs/mate-vfs-configuration.c:224
 #: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
 msgstr "%s:%u NUL karakterler içeriyor."
 
-# libmatevfs/mate-vfs-configuration.c:241
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
 msgstr "%s:%u metod adı içermiyor."
 
-# libmatevfs/mate-vfs-configuration.c:241
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
@@ -44,13 +47,11 @@ msgstr "%s:%u seçenek sonlandırıcısı içermiyor."
 msgid "%s:%u has unknown options %s."
 msgstr "%s:%u bilinmeyen seçeneklere sahip: %s"
 
-# libmatevfs/mate-vfs-configuration.c:270
 #: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
 msgid "%s:%u contains no module name."
 msgstr "%s:%u modül adı içermiyor."
 
-# libmatevfs/mate-vfs-configuration.c:323
 #: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
 msgid "Configuration file `%s' was not found: %s"
@@ -75,158 +76,175 @@ msgid "Auto-detected Volume"
 msgstr "Otomatik Tanınan Sistem"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr "Btrfs Linux Sistemi"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM Sürücüsü"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD Sayısal Ses"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Donanım Aygıtı Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr "eCryptfs Sistemi"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linux Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linux Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr "Ext4 Linux Sistemi"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Sistem Biçimi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Bellek Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS Ağ Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr "NILFS Linux Sistemi"
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linux Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linux Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Windows Paylaşılmış Sistem"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Geçici Sistem"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Gelişmiş DOS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linux Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS Sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS Sistemi"
 
-# libmatevfs/mate-vfs-result.c:141
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Bilinmeyen"
 
@@ -428,27 +446,22 @@ msgstr "%s Ayrılabilir Sistem"
 msgid "Volume"
 msgstr "Sistemi"
 
-# libmatevfs-pthread/mate-vfs-job.c:712
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "Bilinmeyen işlem türü %u"
 
-# libmatevfs-pthread/mate-vfs-job.c:1000
-# libmatevfs-pthread/mate-vfs-job.c:1145
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Açık GIOChannel için boru yaratılamıyor: %s"
 
-# libmatevfs-pthread/mate-vfs-job.c:1603
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Bilinmeyen iş türü %u"
 
-# libmatevfs-pthread/mate-vfs-job.c:1639
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "İşlem durduruldu"
 
@@ -483,268 +496,222 @@ msgstr "İşlem durduruldu"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Uygulamadan kalkmış fonksiyon. MIME veritabanına kullanıcı düzenlemesi artık "
-"desteklenmiyor."
+msgstr "Uygulamadan kalkmış fonksiyon. MIME veritabanına kullanıcı düzenlemesi artık desteklenmiyor."
 
-# libmatevfs/mate-vfs-parse-ls.c:654
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Ayrıştırılamadı: %s"
 
-# libmatevfs/mate-vfs-parse-ls.c:656
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Artık ayrıştırma hataları gözardı edilecek."
 
-# libmatevfs/mate-vfs-result.c:39
 #. MATE_VFS_OK
 #: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
 msgstr "Hata yok"
 
-# libmatevfs/mate-vfs-result.c:40
 #. MATE_VFS_ERROR_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:48
 msgid "File not found"
 msgstr "Dosya bulunamadı"
 
-# libmatevfs/mate-vfs-result.c:41
 #. MATE_VFS_ERROR_GENERIC
 #: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
 msgstr "Genel hata"
 
-# libmatevfs/mate-vfs-result.c:42
 #. MATE_VFS_ERROR_INTERNAL
 #: ../libmatevfs/mate-vfs-result.c:50
 msgid "Internal error"
 msgstr "Dahili hata"
 
-# libmatevfs/mate-vfs-result.c:43
 #. MATE_VFS_ERROR_BAD_PARAMETERS
 #: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
 msgstr "Geçersiz parametreler"
 
-# libmatevfs/mate-vfs-result.c:44
 #. MATE_VFS_ERROR_NOT_SUPPORTED
 #: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
 msgstr "Desteklenmeyen işlem"
 
-# libmatevfs/mate-vfs-result.c:45
 #. MATE_VFS_ERROR_IO
 #: ../libmatevfs/mate-vfs-result.c:53
 msgid "I/O error"
 msgstr "G/Ç hatası"
 
-# libmatevfs/mate-vfs-result.c:46
 #. MATE_VFS_ERROR_CORRUPTED_DATA
 #: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
 msgstr "Veri bozulmuş"
 
-# libmatevfs/mate-vfs-result.c:47
 #. MATE_VFS_ERROR_WRONG_FORMAT
 #: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
 msgstr "Biçim geçersiz"
 
-# libmatevfs/mate-vfs-result.c:48
 #. MATE_VFS_ERROR_BAD_FILE
 #: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
 msgstr "Yanlış dosya işleyicisi"
 
-# libmatevfs/mate-vfs-result.c:49
 #. MATE_VFS_ERROR_TOO_BIG
 #: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
 msgstr "Dosya çok büyük"
 
-# libmatevfs/mate-vfs-result.c:50
 #. MATE_VFS_ERROR_NO_SPACE
 #: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
 msgstr "Aygıtta boş alan kalmadı"
 
-# libmatevfs/mate-vfs-result.c:51
 #. MATE_VFS_ERROR_READ_ONLY
 #: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
 msgstr "Salt okunur dosya sistemi"
 
-# libmatevfs/mate-vfs-result.c:52
 #. MATE_VFS_ERROR_INVALID_URI
 #: ../libmatevfs/mate-vfs-result.c:60
 msgid "Invalid URI"
 msgstr "Geçersiz URI"
 
-# libmatevfs/mate-vfs-result.c:53
 #. MATE_VFS_ERROR_NOT_OPEN
 #: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
 msgstr "Dosya açık değil"
 
-# libmatevfs/mate-vfs-result.c:54
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
 #: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
 msgstr "Açma kipi geçersiz"
 
-# libmatevfs/mate-vfs-result.c:55
 #. MATE_VFS_ERROR_ACCESS_DENIED
 #: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
 msgstr "Erişim engellendi"
 
-# libmatevfs/mate-vfs-result.c:56
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
 #: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
 msgstr "Çok fazla dosya açık"
 
-# libmatevfs/mate-vfs-result.c:57
 #. MATE_VFS_ERROR_EOF
 #: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
 msgstr "Dosya sonu"
 
-# libmatevfs/mate-vfs-result.c:58
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
 msgstr "Dizin değil"
 
-# libmatevfs/mate-vfs-result.c:59
 #. MATE_VFS_ERROR_IN_PROGRESS
 #: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
 msgstr "İşlem sürüyor"
 
-# libmatevfs/mate-vfs-result.c:60
 #. MATE_VFS_ERROR_INTERRUPTED
 #: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
 msgstr "İşlem durduruldu"
 
-# libmatevfs/mate-vfs-result.c:61
 #. MATE_VFS_ERROR_FILE_EXISTS
 #: ../libmatevfs/mate-vfs-result.c:69
 msgid "File exists"
 msgstr "Dosya zaten var"
 
-# libmatevfs/mate-vfs-result.c:62
 #. MATE_VFS_ERROR_LOOP
 #: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
 msgstr "İç içe bağlantılarla karşılaşıldı"
 
-# libmatevfs/mate-vfs-result.c:63
 #. MATE_VFS_ERROR_NOT_PERMITTED
 #: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
 msgstr "İşleme izin verilmiyor"
 
-# libmatevfs/mate-vfs-result.c:64
 #. MATE_VFS_ERROR_IS_DIRECTORY
 #: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
 msgstr "Bir dizindir"
 
-# libmatevfs/mate-vfs-result.c:65
 #. MATE_VFS_ERROR_NO_MEMORY
 #: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
 msgstr "Yetersiz bellek"
 
-# libmatevfs/mate-vfs-result.c:66
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
 #: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
 msgstr "Makine bulunamadı"
 
-# libmatevfs/mate-vfs-result.c:67
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
 #: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
 msgstr "Makine adı geçersiz"
 
-# libmatevfs/mate-vfs-result.c:68
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
 #: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
 msgstr "Makinenin adresi yok"
 
-# libmatevfs/mate-vfs-result.c:69
 #. MATE_VFS_ERROR_LOGIN_FAILED
 #: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
 msgstr "Giriş başarısız"
 
-# libmatevfs/mate-vfs-result.c:70
 #. MATE_VFS_ERROR_CANCELLED
 #: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
 msgstr "İşlem iptal edildi"
 
-# libmatevfs/mate-vfs-result.c:71
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
 #: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
 msgstr "Dizin meşgul"
 
-# libmatevfs/mate-vfs-result.c:72
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
 #: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
 msgstr "Dizin boş değil"
 
-# libmatevfs/mate-vfs-result.c:73
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
 #: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
 msgstr "Çok fazla bağlantı"
 
-# libmatevfs/mate-vfs-result.c:74
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
 msgstr "Salt okunur dosya sistemi"
 
-# libmatevfs/mate-vfs-result.c:75
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
 #: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
 msgstr "Aynı dosya sistemi üzerinde değiller"
 
-# libmatevfs/mate-vfs-result.c:76
 #. MATE_VFS_ERROR_NAME_TOO_LONG
 #: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
 msgstr "Ad çok uzun"
 
-# libmatevfs/mate-vfs-result.c:77
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
 #: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
 msgstr "Servis mevcut değil"
 
-# libmatevfs/mate-vfs-result.c:78
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
 #: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
 msgstr "İstem hizmet verisinin yerine geçer"
 
-# libmatevfs/mate-vfs-result.c:39
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
 #: ../libmatevfs/mate-vfs-result.c:87
 msgid "Protocol error"
 msgstr "Protokol hatası"
 
-# libmatevfs/mate-vfs-parse-ls.c:654
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
 #: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
@@ -775,7 +742,6 @@ msgstr "Komut çalıştırılması sırasında hata oluştu"
 msgid "Timeout reached"
 msgstr "Zaman aşımı"
 
-# libmatevfs/mate-vfs-result.c:41
 #. MATE_VFS_ERROR_NAMESERVER
 #: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
@@ -791,7 +757,6 @@ msgstr "Kaynak kilitli"
 msgid "Function call deprecated"
 msgstr "Fonksiyon çağrısı artık kullanılmıyor"
 
-# libmatevfs/mate-vfs-result.c:43
 #. MATE_VFS_ERROR_INVALID_FILENAME
 #: ../libmatevfs/mate-vfs-result.c:97
 msgid "Invalid filename"
@@ -802,31 +767,26 @@ msgstr "Geçersiz dosya ismi"
 msgid "Not a symbolic link"
 msgstr "Sembolik bir bağ değil"
 
-# libmatevfs/mate-vfs-result.c:141
 #: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
 msgstr "Bilinmeyen hata"
 
-# libmatevfs/mate-vfs-utils.c:70
 #: ../libmatevfs/mate-vfs-utils.c:78
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u bayt"
 
-# libmatevfs/mate-vfs-utils.c:77
 #: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
 msgid "%.1f KB"
 msgstr "%.1f KB"
 
-# libmatevfs/mate-vfs-utils.c:81
 #: ../libmatevfs/mate-vfs-utils.c:88
 #, c-format
 msgid "%.1f MB"
 msgstr "%.1f MB"
 
-# libmatevfs/mate-vfs-utils.c:85
 #: ../libmatevfs/mate-vfs-utils.c:92
 #, c-format
 msgid "%.1f GB"
@@ -927,20 +887,19 @@ msgstr "Fotoğraf makinesi"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Kök Sistemi"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "Ses CD'si"
 
-# libmatevfs/mate-vfs-result.c:141
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Bilinmeyen sistem"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Ağ sunucusu"
 
@@ -962,9 +921,7 @@ msgstr "Bu sistem bağlanamadı. Sürücü içinde aygıt olmayabilir."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Disket sürücü bağlanamadı. Disket, bağlanmasını engelleyen bir biçime sahip "
-"olabilir."
+msgstr "Disket sürücü bağlanamadı. Disket, bağlanmasını engelleyen bir biçime sahip olabilir."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -972,17 +929,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Sistem bağlanamadı. Eğer bu bir şifrelenmiş sürücü ise, hatalı parola ya da "
-"anahtar kullandınız."
+msgstr "Sistem bağlanamadı. Eğer bu bir şifrelenmiş sürücü ise, hatalı parola ya da anahtar kullandınız."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Seçilen sistem bağlanamadı. Bu sistem muhtemelen bağlanamayacak bir biçimde."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Seçilen sistem bağlanamadı. Bu sistem muhtemelen bağlanamayacak bir biçimde."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -997,9 +951,7 @@ msgstr "Seçilen sistem bağlanamadı."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Seçilen sistemin bağlantısı kaldırılamadı. Bu sistem bir ya da daha fazla "
-"program tarafından kullanımda."
+msgstr "Seçilen sistemin bağlantısı kaldırılamadı. Bu sistem bir ya da daha fazla program tarafından kullanımda."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1050,12 +1002,10 @@ msgstr "Ağ"
 msgid "Home"
 msgstr "Başlangıç"
 
-# libmatevfs/mate-vfs-result.c:61
 #: ../modules/computer-method.c:579
 msgid "Filesystem"
 msgstr "Dosya sistemi"
 
-# modules/file-method.c:380
 #: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
@@ -1075,14 +1025,8 @@ msgstr "Uzaktaki bilgisayarın (%s) kimliği bilinmiyor."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Bu bilgisayara ilk defa giriş yaptığınızdan olur.\n"
-"\n"
-"Uzaktaki bilgisayardan gelen kimlik bilgisi %s. Eğer devam etmenin "
-"kesinlikle güvenli olacağından emin olmak istiyorsanız, sistem yöneticisine "
-"danışın. "
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Bu bilgisayara ilk defa giriş yaptığınızdan olur.\n\nUzaktaki bilgisayardan gelen kimlik bilgisi %s. Eğer devam etmenin kesinlikle güvenli olacağından emin olmak istiyorsanız, sistem yöneticisine danışın. "
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1113,9 +1057,7 @@ msgstr "HTTP vekil sunucunuz kullanıcı girişi yapmanızı gerektiriyor.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" adresine erişmek için kullanıcı girişi yapmalısınız.\n"
-"%s"
+msgstr "\"%s\" adresine erişmek için kullanıcı girişi yapmalısınız.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1128,8 +1070,7 @@ msgstr "Parolanız şifrelenmiş olarak gönderilecek."
 #: ../programs/authentication.c:163
 #, c-format
 msgid "You must log in to access %s domain %s\n"
-msgstr ""
-"%2$s alanındaki %1$s kaynağına erişmek için kullanıcı girişi yapmalısınız.\n"
+msgstr "%2$s alanındaki %1$s kaynağına erişmek için kullanıcı girişi yapmalısınız.\n"
 
 #: ../programs/authentication.c:165
 #, c-format
@@ -1152,12 +1093,9 @@ msgstr "Öntanımlı uçbirim için çalıştırma argümanı"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Görüntülemek için kullanılan uygulama, görüntülemek için içerik gerektirir. %"
-"s parametresi doyaların URI 'si ile, %c parametresi ise içeriğin IID'si ile "
-"değiştirilecek. "
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Görüntülemek için kullanılan uygulama, görüntülemek için içerik gerektirir. %s parametresi doyaların URI 'si ile, %c parametresi ise içeriğin IID'si ile değiştirilecek. "
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1257,89 +1195,67 @@ msgstr "\"trash\" URL'leri için işleyici"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"aim\" URL'lerini "
-"işletmesi için ayalalanır."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"aim\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"callto\" URL'lerini "
-"işletmesi için ayalalanır."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"callto\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"ghelp\" URL'lerini "
-"işletmesi için ayalalanır."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"ghelp\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" de belirtilen programın \"h323\" URL'lerini "
-"işletmek için ayarlanır."
+msgstr "Eğer seçiliyse, \"command\" de belirtilen programın \"h323\" URL'lerini işletmek için ayarlanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"http\" URL'lerini "
-"işletmesi için ayalalanır."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"http\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"https\" URL'lerini "
-"işletmesi için ayalalanır."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"https\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"info\" URL'lerini "
-"işletmesi için ayalalanır."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"info\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"mailto\" URL'lerini "
-"işletmesi için ayalalanır."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"mailto\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"man\" URL'lerini "
-"işletmesi için ayalalanır."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"man\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Eğer seçiliyse, \"command\" da belirtilen programın \"trash\" URL'lerini "
-"işletmesi için ayalalanır."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Eğer seçiliyse, \"command\" da belirtilen programın \"trash\" URL'lerini işletmesi için ayalalanır."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Eğer seçiliyse, bu URL'yi işletecek program uçbirimde çalışması gerekiyor "
-"demektir."
+msgstr "Eğer seçiliyse, bu URL'yi işletecek program uçbirimde çalışması gerekiyor demektir."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1385,9 +1301,7 @@ msgstr "Belirtilen komutun \"trash\" URL'lerini işlemesi"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"\"network:///\" konumunda görülmesi gereken DNS-SD alan adlarının virgül ile "
-"ayırılmış listesi."
+msgstr "\"network:///\" konumunda görülmesi gereken DNS-SD alan adlarının virgül ile ayırılmış listesi."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1399,9 +1313,7 @@ msgstr "Yerel DNS-SD servislerinin nasıl gösterileceği"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Geçerli değerler, \"merged\" (birleşik), \"separate\" (ayrık) ve \"disabled"
-"\" (kapalı)'dir."
+msgstr "Geçerli değerler, \"merged\" (birleşik), \"separate\" (ayrık) ve \"disabled\" (kapalı)'dir."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1442,12 +1354,10 @@ msgstr "HTTP vekil sunucu kullanıcı adı"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Eğer seçiliyse, vekil sunucusuna bağlantılar kimlik doğrulaması gerektirir. "
-"kullanıcı adı/parola ikilisi \"/system/http_proxy/authentication_user\" ve  "
-"\"/system/http_proxy/authentication_password\" ile tanımlanır."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Eğer seçiliyse, vekil sunucusuna bağlantılar kimlik doğrulaması gerektirir. kullanıcı adı/parola ikilisi \"/system/http_proxy/authentication_user\" ve  \"/system/http_proxy/authentication_password\" ile tanımlanır."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1479,11 +1389,9 @@ msgstr "Güvenli HTTP sunucu portu"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Vekil yapılandırma kipi seç. Geçerli değerler \"none\", \"manual\" ve \"auto"
-"\"dur."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Vekil yapılandırma kipi seç. Geçerli değerler \"none\", \"manual\" ve \"auto\"dur."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1505,45 +1413,33 @@ msgstr "Socks için kullanılacak vekilin makine adı."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"\"/system/http_proxy/host\" ile tanımlanmış vekil olarak kullanacağınız "
-"makinenin portu."
+msgstr "\"/system/http_proxy/host\" ile tanımlanmış vekil olarak kullanacağınız makinenin portu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"\"/system/proxy/ftp_host\" ile tanımlanmış vekil olarak kullanacağınız "
-"makinenin portu."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "\"/system/proxy/ftp_host\" ile tanımlanmış vekil olarak kullanacağınız makinenin portu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"\"/system/proxy/secure_host\" ile tanımlanmış vekil olarak kullanacağınız "
-"makinenin portu."
+msgstr "\"/system/proxy/secure_host\" ile tanımlanmış vekil olarak kullanacağınız makinenin portu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"\"/system/proxy/socks_host\" ile tanımlanmış vekil olarak kullanacağınız "
-"makinenin portu."
+msgstr "\"/system/proxy/socks_host\" ile tanımlanmış vekil olarak kullanacağınız makinenin portu."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Bu anahtar vekil (eğer aktifse) aracılığından daha çok, direk bağlanmış "
-"sunucuların listesini içerir. Değerler, sunucu adları, alanları (enbaşta "
-"maske kullanarak, *.foo.com), IP sunucu adresleri (hem IPv4 hem IPv6) ve ağ "
-"maskeli ağ adresleri (192.168.0.0/24 benzeri) olabilir."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Bu anahtar vekil (eğer aktifse) aracılığından daha çok, direk bağlanmış sunucuların listesini içerir. Değerler, sunucu adları, alanları (enbaşta maske kullanarak, *.foo.com), IP sunucu adresleri (hem IPv4 hem IPv6) ve ağ maskeli ağ adresleri (192.168.0.0/24 benzeri) olabilir."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1566,27 +1462,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Kullanıcının parçası olduğu Windows ağ çalışma grubu ya da etki alanı. Yeni "
-"çalışma grubunun tam olarak işlemesi için kullanıcının çıkış yapıp tekrar "
-"giriş yapması gerekebilir."
-
-# libmatevfs/mate-vfs-parse-ls.c:654
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "MateComponent başlatılamadı"
-
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Mate vfs başlatılamadı"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Standart İsimlendirici Üreticisi"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "dosya MonikerExtender'ı"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "genel Mate VFS ismi"
-
-# libmatevfs/mate-vfs-result.c:41
-#~ msgid "generic file moniker"
-#~ msgstr "genel dosya ismi"
+msgstr "Kullanıcının parçası olduğu Windows ağ çalışma grubu ya da etki alanı. Yeni çalışma grubunun tam olarak işlemesi için kullanıcının çıkış yapıp tekrar giriş yapması gerekebilir."

@@ -1,19 +1,22 @@
-# Përkthimi i mesazheve të mate-vfs në shqip
-# Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Laurent Dhima <laurenti@alblinux.net>, 2003, 2004, 2005, 2006, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs HEAD\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-07-16 15:27+0200\n"
-"PO-Revision-Date: 2008-03-20 11:47+0100\n"
-"Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
-"Language-Team: albanian <mate-albanian-perkthyesit@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -68,163 +71,178 @@ msgid "Auto-detected Volume"
 msgstr "Volum i auto-përcaktuar"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "Njësia CD-ROM"
 
-# (pofilter) unchanged: please translate
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD Digital Audio"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Volum Dispozitivi Hardware"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "Volum EncFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Volum Linux Ext2"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Volum Linux Ext3"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "Volum MSDOS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "Volum BSD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "Volum FUSE"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "Volum MacOS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "Volumi CDROM"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Volum Hsfs CDROM"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "Volum JFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Volum Windows NT"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Volum sistemi"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Volum memorje"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Volum Minix"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "Volum rrjeti NFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Volum Netware"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Volum Linux Reiser4"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "Volum Linux ReiserFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Volum Windows i përbashkët"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "Volum SuperMount"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "Volum DVD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Volum Solaris/BSD"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Volum Udfs Solaris"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Volum Pcfs Solaris"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Volum Sun SAM-QFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Volum i përkohshëm"
 
-# (pofilter) acronyms: acronyms should not be translated: DOS
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Volum Dos i përparuar"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Volum Windows VFAT"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Volum Xenix"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "Volum Linux XFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "Volum XIAFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "Volum CIFS"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Nuk njihet"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:356
 #: ../libmatevfs/mate-vfs-hal-mounts.c:582
 #, c-format
@@ -283,20 +301,16 @@ msgstr "DVD±R"
 msgid "DVD±RW"
 msgstr "DVD±RW"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:399
 #, c-format
 msgid "%s/%s Drive"
 msgstr "Drive %s/%s"
 
-# (pofilter) unchanged: please translate
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:401
 #, c-format
 msgid "%s Drive"
 msgstr "Drive %s"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-hal-mounts.c:406
 msgid "Floppy Drive"
 msgstr "Floppy Drive"
@@ -327,29 +341,24 @@ msgstr "Drive Zip"
 msgid "Jaz Drive"
 msgstr "Drive Jaz"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
 msgstr "Pen Drive"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
 msgstr "Luajtësi i muzikës %s %s"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:437
 #, c-format
 msgid "%s %s Digital Camera"
 msgstr "Kamër dixhitale %s %s"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-hal-mounts.c:467
 msgid "Drive"
 msgstr "Drive"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:472
 #, c-format
 msgid "External %s"
@@ -423,7 +432,6 @@ msgstr "Disk DVD+RW"
 msgid "Audio Disc"
 msgstr "Disk Audio"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-hal-mounts.c:580
 #, c-format
 msgid "%s Removable Volume"
@@ -433,22 +441,22 @@ msgstr "Volum i heqshëm %s"
 msgid "Volume"
 msgstr "Volum"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "Operacion i panjohur i llojit %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1025 ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "I pamundur krijimi i një pipe për të hapur GIOChannel: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Lloj i panjohur pune %u"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "Operacioni u ndërpre"
 
@@ -483,16 +491,14 @@ msgstr "Operacioni u ndërpre"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Funksion që nuk përdoret më.  Ndryshimet nga përdoruesi tek databaza MIME "
-"nuk suportohen më."
+msgstr "Funksion që nuk përdoret më.  Ndryshimet nga përdoruesi tek databaza MIME nuk suportohen më."
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:715
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "I pamundur analizimi: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:717
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Gabimet e tjera të analizimit do të injorohen."
 
@@ -760,7 +766,6 @@ msgstr "Lidhje jo simbolike"
 msgid "Unknown error"
 msgstr "Gabim i panjohur"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-utils.c:78
 #, c-format
 msgid "%u byte"
@@ -768,25 +773,21 @@ msgid_plural "%u bytes"
 msgstr[0] "%u byte"
 msgstr[1] "%u bytes"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
 msgid "%.1f KB"
 msgstr "%.1f KB"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-utils.c:88
 #, c-format
 msgid "%.1f MB"
 msgstr "%.1f MB"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-utils.c:92
 #, c-format
 msgid "%.1f GB"
 msgstr "%.1f GB"
 
-# (pofilter) startcaps: checks that the message starts with the correct capitalisation
 #: ../libmatevfs/mate-vfs-utils.c:1108
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:382
 msgid " (invalid Unicode)"
@@ -865,13 +866,11 @@ msgstr "CF"
 msgid "SD/MMC"
 msgstr "SD/MMC"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
 msgstr "Memory Stick"
 
-# (pofilter) unchanged: please translate
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
 msgstr "Smart Media"
@@ -884,19 +883,19 @@ msgstr "Kamer"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Volum root"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "CD Audio"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Volum i panjohur"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Server rrjeti"
 
@@ -905,26 +904,20 @@ msgstr "Server rrjeti"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"I pamundur montimi i dispozitivit disketë. Mesa duket mungon disketa në "
-"dispozitiv."
+msgstr "I pamundur montimi i dispozitivit disketë. Mesa duket mungon disketa në dispozitiv."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"I pamundur montimi i volumit. Mesa duket nuk ka asnjë lloj suporti në "
-"dispozitiv."
+msgstr "I pamundur montimi i volumit. Mesa duket nuk ka asnjë lloj suporti në dispozitiv."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"I pamundur montimi i disketës. Ka mundësi të jetë i një formati që nuk mund "
-"të montohet."
+msgstr "I pamundur montimi i disketës. Ka mundësi të jetë i një formati që nuk mund të montohet."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -932,18 +925,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"I pamundur montimi i volumit. Nëse keni të bëni me një drive të kriptuar, "
-"atëhere është përdorur kyç apo fjalëkalim i gabuar."
+msgstr "I pamundur montimi i volumit. Nëse keni të bëni me një drive të kriptuar, atëhere është përdorur kyç apo fjalëkalim i gabuar."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"I pamundur montimi i volumit të zgjedhur. Ka mundësi të jetë i një formati "
-"që nuk mund të montohet."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "I pamundur montimi i volumit të zgjedhur. Ka mundësi të jetë i një formati që nuk mund të montohet."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -958,9 +947,7 @@ msgstr "I pamundur montimi i volumit të zgjedhur."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"I pamundur zmontimi i volumit të zgjedhur. Volumi është duke u përdorur nga "
-"një apo më shumë programe."
+msgstr "I pamundur zmontimi i volumit të zgjedhur. Volumi është duke u përdorur nga një apo më shumë programe."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -975,13 +962,10 @@ msgstr "I pamundur leximi i të dhënave nga proçesi bir %d (%s)"
 msgid "Couldn't run mount process in a pty"
 msgstr "I pamundur ekzekutimi i proçesit të montimit në një pty"
 
-# (pofilter) doublewords: The word 'të' is repeated
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Gabim i papritur në select() gjatë leximit të të dhënave nga një proçes bir "
-"(%s)"
+msgstr "Gabim i papritur në select() gjatë leximit të të dhënave nga një proçes bir (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1037,14 +1021,8 @@ msgstr "Identiteti i kompjuterit remot (%s) është i panjohur."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Kjo ndodh kur lidheni për herë të parë në një kompjuter.\n"
-"\n"
-"Identiteti i dërguar nga kompjuteri remot është %s. Nëse dëshironi të jeni "
-"krejtësisht i sigurt që mund të vazhdoni, kontakto administratorin e "
-"sistemit."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Kjo ndodh kur lidheni për herë të parë në një kompjuter.\n\nIdentiteti i dërguar nga kompjuteri remot është %s. Nëse dëshironi të jeni krejtësisht i sigurt që mund të vazhdoni, kontakto administratorin e sistemit."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1063,9 +1041,7 @@ msgstr "Nuk u gjet një file i vlefshëm konfigurimi në %s\n"
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
-"Përdor të ndryshueshmen e ambientit %s për të specifikuar një pozicion "
-"tjetër.\n"
+msgstr "Përdor të ndryshueshmen e ambientit %s për të specifikuar një pozicion tjetër.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1077,9 +1053,7 @@ msgstr "Proxy juaj HTTP kërkon identifikimin.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Duhet të jeni identifikuar që të hyni tek \"%s\".\n"
-"%s"
+msgstr "Duhet të jeni identifikuar që të hyni tek \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1115,22 +1089,16 @@ msgstr "Argumenti exec për terminalin e prezgjedhur"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Programi që duhet përdorur për të shikuar files që kanë nevojë për një "
-"komponent që të shikohen. Parametri %s do të zevendësohet nga URl e file, "
-"parametri %c do të zevendësohet nga IID e komponentit."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Programi që duhet përdorur për të shikuar files që kanë nevojë për një komponent që të shikohen. Parametri %s do të zevendësohet nga URl e file, parametri %c do të zevendësohet nga IID e komponentit."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Programi terminal i prezgjedhur që duhet përdorur për programet që kërkojnë "
-"një terminal."
+msgstr "Programi terminal i prezgjedhur që duhet përdorur për programet që kërkojnë një terminal."
 
-# (pofilter) endpunc: checks whether punctuation at the end of the strings match
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr "Argumenti exec që duhet përdorur për terminalin e prezgjedhur"
@@ -1139,52 +1107,42 @@ msgstr "Argumenti exec që duhet përdorur për terminalin e prezgjedhur"
 msgid "Run the command in a terminal"
 msgstr "Ekzekuto komandën në një terminal"
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"aim\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"callto\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"ghelp\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"h323\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"http\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"http\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"info\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"mailto\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"man\", nëse aktive."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
 msgstr "Komanda e përdorur për të trajtuar URLtë \"trash\", nëse aktive."
@@ -1229,103 +1187,71 @@ msgstr "Trajtuesi i URLve \"man\""
 msgid "The handler for \"trash\" URLs"
 msgstr "Trajtuesi i URLve \"trash\""
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"aim\"."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"aim\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"callto\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"ghelp\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"h323\"."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"h323\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"http\"."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"http\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"https\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"info\"."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"info\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"mailto\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"man\"."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"man\"."
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë "
-"URLtë \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "E vërtetë nëse komanda e përcaktuar tek kyçi \"komanda\" duhet të trajtojë URLtë \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"E vërtetë nëse komanda e përdorur për të trajtuar këtë lloj URL duhet të "
-"zbatohet në një terminal."
+msgstr "E vërtetë nëse komanda e përdorur për të trajtuar këtë lloj URL duhet të zbatohet në një terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1367,14 +1293,11 @@ msgstr "Nëse komanda e caktuar duhet të trajtojë URLtë \"man\""
 msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "Nëse komanda e caktuar duhet të trajtojë URLtë \"trash\""
 
-# (pofilter) puncspacing: checks for bad spacing after punctuation
 #: ../schemas/system_dns_sd.schemas.in.h:1
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Lista e domain-eve DNS-SD, të ndarë me presje, që do të jenë të dukshëm tek "
-"pozicioni i rrjetit \"network:///\"."
+msgstr "Lista e domain-eve DNS-SD, të ndarë me presje, që do të jenë të dukshëm tek pozicioni i rrjetit \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1427,13 +1350,10 @@ msgstr "Përdoruesi për proxy HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Nëse e vërtetë, atëhere lidhjet me server-in proxy kanë nevojë për "
-"autentifikim. Kombinimi përdorues/fjalëkalim përcaktohet nga \"/system/"
-"http_proxy/authentication_user\" dhe \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Nëse e vërtetë, atëhere lidhjet me server-in proxy kanë nevojë për autentifikim. Kombinimi përdorues/fjalëkalim përcaktohet nga \"/system/http_proxy/authentication_user\" dhe \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1465,11 +1385,9 @@ msgstr "Porta e proxy të sigurt HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Zgjidh modalitetin e konfigurimit proxy. Vlerat e pranuara janë \"asnjë\", "
-"\"manualisht\", \"automatikisht\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Zgjidh modalitetin e konfigurimit proxy. Vlerat e pranuara janë \"asnjë\", \"manualisht\", \"automatikisht\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1491,47 +1409,33 @@ msgstr "Emri i makinës për kalimin tek proxy socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Porta e makinës e përcaktuar nga \"/system/http_proxy/host\" nga do të "
-"kalojë proxy juaj."
+msgstr "Porta e makinës e përcaktuar nga \"/system/http_proxy/host\" nga do të kalojë proxy juaj."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Porta e makinës e përcaktuar nga \"/system/proxy/ftp_host\" nga do të kalojë "
-"proxy juaj."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Porta e makinës e përcaktuar nga \"/system/proxy/ftp_host\" nga do të kalojë proxy juaj."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Porta e makinës e përcaktuar nga \"/system/proxy/secure_host\" nga do të "
-"kalojë proxy juaj."
+msgstr "Porta e makinës e përcaktuar nga \"/system/proxy/secure_host\" nga do të kalojë proxy juaj."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Porta e makinës e përcaktuar nga \"/system/proxy/socks_host\" nga do të "
-"kalojë proxy juaj."
+msgstr "Porta e makinës e përcaktuar nga \"/system/proxy/socks_host\" nga do të kalojë proxy juaj."
 
-# (pofilter) sentencecount: The number of sentences differ: 2 versus 3
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Ky kyç përmban një listë me hostet e lidhur direkt, pa përdorur proxy (nëse "
-"ai është aktiv). Vlerat mund të jenë hostnames, domains (duke përdorur si "
-"parashtesë një wildcard si p.sh. *.foo.com), adresat IP të host (IPv4 dhe "
-"IPv6) dhe adresat e rrjetit me një netmask (diçka të ngjashme me "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Ky kyç përmban një listë me hostet e lidhur direkt, pa përdorur proxy (nëse ai është aktiv). Vlerat mund të jenë hostnames, domains (duke përdorur si parashtesë një wildcard si p.sh. *.foo.com), adresat IP të host (IPv4 dhe IPv6) dhe adresat e rrjetit me një netmask (diçka të ngjashme me 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1543,8 +1447,7 @@ msgstr "Përdor proxy HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Emri i përdoruesit që duhet dhënë për autentifikim kur përdoret proxy HTTP."
+msgstr "Emri i përdoruesit që duhet dhënë për autentifikim kur përdoret proxy HTTP."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1555,7 +1458,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Grupi i punës i rrjetit Windows apo domain pestar i të cilit është "
-"përdoruesi. Në menyrë që grupi i ri i punës të njihet efektivisht "
-"përdoruesit do t'i duhet të shkëputet dhe të identifikohet përsëri."
+msgstr "Grupi i punës i rrjetit Windows apo domain pestar i të cilit është përdoruesi. Në menyrë që grupi i ri i punës të njihet efektivisht përdoruesit do t'i duhet të shkëputet dhe të identifikohet përsëri."

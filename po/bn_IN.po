@@ -1,26 +1,25 @@
-# translation of bn_IN.po to Bengali INDIA
-# Bengali India Translation of MATE-vfs
-# Copyright (C) 1999, 2000, 01, 02, 2006, 2008, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the MATE-vfs package.
-#
-# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mahay Alam Khan <makl10n@yahoo.com>, 2005.
-# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
 # Runa Bhattacharjee <runab@redhat.com>, 2008, 2010.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+# Sayamindu Dasgupta <unmadindu@Softhome.net>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: bn_IN\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-03-31 18:02+0000\n"
-"PO-Revision-Date: 2010-04-05 20:05+0530\n"
-"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
-"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: bn_IN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -31,13 +30,11 @@ msgstr "ISO 9660 ভলিউম"
 msgid "%s:%u contains NUL characters."
 msgstr "%s:%u'র মধ্যে NUL অক্ষর উপস্থিত।"
 
-# msgstr "%s:%dতে নঞ-অক্ষর আছে"
 #: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
 msgstr "%s:%u'র মধ্যে কোনো মেথডের নাম উপস্থিত নেই।"
 
-# msgstr "%s:%dতে নঞ-অক্ষর আছে"
 #: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
@@ -351,7 +348,6 @@ msgstr "Jaz ড্রাইভ"
 msgid "Pen Drive"
 msgstr "পেন ড্রাইভ"
 
-# the commonwords.po file says খেলোয়াড়, but in regard of music বাদক is more suitable - mak
 #: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
@@ -467,7 +463,6 @@ msgstr "অজানা ধরনের কর্ম %u"
 msgid "Operation stopped"
 msgstr "কর্ম বন্ধ করা হয়েছে"
 
-# পরিবর্ধন might be more apropriate, isn't it - mak
 #: ../libmatevfs/mate-vfs-mime-handlers.c:103
 #: ../libmatevfs/mate-vfs-mime-handlers.c:231
 #: ../libmatevfs/mate-vfs-mime-handlers.c:282
@@ -499,8 +494,7 @@ msgstr "কর্ম বন্ধ করা হয়েছে"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"অবচিত কর্ম।  MIME ডাটাবেসে ব্যবহারকারীদের দ্বারা পরিবর্তন বর্তমানে সমর্থিত নয়।"
+msgstr "অবচিত কর্ম।  MIME ডাটাবেসে ব্যবহারকারীদের দ্বারা পরিবর্তন বর্তমানে সমর্থিত নয়।"
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -934,17 +928,14 @@ msgstr "ফ্লপি ড্রাইভ মাউন্ট করতে ব�
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"ভলিউম মাউন্ট করতে ব্যর্থ। এনক্রিপ্ট করা ড্রাইভের ক্ষেত্রে সম্ভবত ভুল পাসওয়ার্ড অথবা কি "
-"প্রয়োগ করা হয়েছে।"
+msgstr "ভলিউম মাউন্ট করতে ব্যর্থ। এনক্রিপ্ট করা ড্রাইভের ক্ষেত্রে সম্ভবত ভুল পাসওয়ার্ড অথবা কি প্রয়োগ করা হয়েছে।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"নির্বাচিত ভলিউম মাউন্ট করতে ব্যর্থ। সম্ভবত ভলিউমের বিন্যাস মাউন্ট করার উপযুক্ত নয়।"
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "নির্বাচিত ভলিউম মাউন্ট করতে ব্যর্থ। সম্ভবত ভলিউমের বিন্যাস মাউন্ট করার উপযুক্ত নয়।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -959,9 +950,7 @@ msgstr "নির্বাচিত ভলিউম মাউন্ট করত
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"নির্বাচিত ভলিউম আন-মাউন্ট করতে ব্যর্থ। এক অথবা অধিক প্রোগ্রামের দ্বারা এই ভলিউমটি "
-"ব্যবহৃত হচ্ছে।"
+msgstr "নির্বাচিত ভলিউম আন-মাউন্ট করতে ব্যর্থ। এক অথবা অধিক প্রোগ্রামের দ্বারা এই ভলিউমটি ব্যবহৃত হচ্ছে।"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1035,13 +1024,8 @@ msgstr "দূরবর্তী কম্পিউটারের (%s) পর�
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"প্রথমবার কম্পিউটারে লগ-ইন করার সময় এই রকম হয়ে থাকে।\n"
-"\n"
-"দূরবর্তী কম্পিউটার দ্বারা প্রেরিত পরিচিতি হল %s। এগিয়ে চলার পূর্বে সম্পূর্ণরূপে নিশ্চিত "
-"হতে সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।"
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "প্রথমবার কম্পিউটারে লগ-ইন করার সময় এই রকম হয়ে থাকে।\n\nদূরবর্তী কম্পিউটার দ্বারা প্রেরিত পরিচিতি হল %s। এগিয়ে চলার পূর্বে সম্পূর্ণরূপে নিশ্চিত হতে সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।"
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1072,9 +1056,7 @@ msgstr "আপনার ব্যবহৃত HTTP Proxy'র ক্ষেত্�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\" ব্যবহারের জন্য লগ-ইন করা আবশ্যক।\n"
-"%s"
+msgstr "\"%s\" ব্যবহারের জন্য লগ-ইন করা আবশ্যক।\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1110,19 +1092,15 @@ msgstr "ডিফল্ট টার্মিন্যালের জন্য 
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"আবশ্যকরূপে কোনো কম্পোনেন্ট সহযোগে প্রদর্শনের উদ্দেশ্যে চিহ্নিত ফাইল প্রদর্শনের জন্য "
-"ব্যবহৃত অ্যাপ্লিকেশন। %s পরামিতির দ্বারা ফাইলের URI উল্লিখিত হবে ও পরামিতি %c "
-"দ্বারা কম্পোনেন্টের IID নির্দিষ্ট করা হবে।"
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "আবশ্যকরূপে কোনো কম্পোনেন্ট সহযোগে প্রদর্শনের উদ্দেশ্যে চিহ্নিত ফাইল প্রদর্শনের জন্য ব্যবহৃত অ্যাপ্লিকেশন। %s পরামিতির দ্বারা ফাইলের URI উল্লিখিত হবে ও পরামিতি %c দ্বারা কম্পোনেন্টের IID নির্দিষ্ট করা হবে।"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"আবশ্যকরূপে টার্মিন্যাল প্রয়োগকারী অ্যাপ্লিকেশনগুলির দ্বারা ব্যবহারযোগ্য ডিফল্ট টার্মিন্যাল।"
+msgstr "আবশ্যকরূপে টার্মিন্যাল প্রয়োগকারী অ্যাপ্লিকেশনগুলির দ্বারা ব্যবহারযোগ্য ডিফল্ট টার্মিন্যাল।"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1216,71 +1194,61 @@ msgstr "\"trash\" URL ব্যবস্থাপনার হ্যান্ড
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"aim\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+msgstr "\"command\" কি'র দ্বারা \"aim\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"callto\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "\"command\" কি'র দ্বারা \"callto\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"ghelp\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "\"command\" কি'র দ্বারা \"ghelp\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"h323\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+msgstr "\"command\" কি'র দ্বারা \"h323\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"http\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+msgstr "\"command\" কি'র দ্বারা \"http\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"https\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "\"command\" কি'র দ্বারা \"https\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"info\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+msgstr "\"command\" কি'র দ্বারা \"info\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"mailto\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "\"command\" কি'র দ্বারা \"mailto\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"man\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+msgstr "\"command\" কি'র দ্বারা \"man\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"\"command\" কি'র দ্বারা \"trash\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "\"command\" কি'র দ্বারা \"trash\" URL ব্যবস্থাপনা নির্ধারিত হলে মান true (সত্য)।"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
@@ -1324,7 +1292,6 @@ msgstr "উল্লিখিত কমান্ডের দ্বারা \"m
 msgid "Whether the specified command should handle \"man\" URLs"
 msgstr "উল্লিখিত কমান্ডের দ্বারা \"man\" URL ব্যবস্থাপনা করা হবে কিনা"
 
-# my guess it would be: উল্লেখিত কমান্ড \"trash\" ইউআরএল হ্যান্ডল করবে কিনা। - mak
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:42
 msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "উল্লিখিত কমান্ডের দ্বারা \"trash\" URL ব্যবস্থাপনা করা হবে কিনা"
@@ -1333,9 +1300,7 @@ msgstr "উল্লিখিত কমান্ডের দ্বারা \"t
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"\"network:///\" location'র মধ্যে প্রদর্শনযোগ্য DNS-SD'র তালিকা, কমা চিহ্ন দ্বারা "
-"বিভাজিত"
+msgstr "\"network:///\" location'র মধ্যে প্রদর্শনযোগ্য DNS-SD'র তালিকা, কমা চিহ্ন দ্বারা বিভাজিত"
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1359,8 +1324,7 @@ msgstr "স্বয়ংক্রিয় প্রক্সি কনফিগা�
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr ""
-"ইন্টারনেটের মাধ্যমে HTTP ব্যবহারের সময় প্রক্সি সংক্রান্ত বৈশিষ্ট্য সক্রিয় করা হবে"
+msgstr "ইন্টারনেটের মাধ্যমে HTTP ব্যবহারের সময় প্রক্সি সংক্রান্ত বৈশিষ্ট্য সক্রিয় করা হবে"
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
@@ -1389,19 +1353,15 @@ msgstr "HTTP প্রক্সি ব্যবহারকারীর না�
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"মান true (সত্য) হলে প্রক্সি সার্ভারের সাথে সংযোগের জন্য অনুমোদন আবশ্যক। ব্যবহারকারীর "
-"নাম/পাসওয়ার্ড জুটি \"/system/http_proxy/authentication_user\" ও \"/system/"
-"http_proxy/authentication_password\" দ্বারা ব্যাখ্যা করা হয়।"
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "মান true (সত্য) হলে প্রক্সি সার্ভারের সাথে সংযোগের জন্য অনুমোদন আবশ্যক। ব্যবহারকারীর নাম/পাসওয়ার্ড জুটি \"/system/http_proxy/authentication_user\" ও \"/system/http_proxy/authentication_password\" দ্বারা ব্যাখ্যা করা হয়।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
 msgstr "প্রক্সি-বিহীন হোস্ট"
 
-# C
-# :-) "C" for what - mak
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
 msgstr "HTTP প্রক্সির ক্ষেত্রে অনুমোদনের জন্য প্রযোজ্য পাসওয়ার্ড"
@@ -1428,11 +1388,9 @@ msgstr "নিরাপদ HTTP প্রক্সি পোর্ট"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"প্রক্সি কনফিগারেশন মোড নির্বাচন করুন। সমর্থিত মান হল \"none\", \"manual\", \"auto"
-"\"।"
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "প্রক্সি কনফিগারেশন মোড নির্বাচন করুন। সমর্থিত মান হল \"none\", \"manual\", \"auto\"।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1454,46 +1412,33 @@ msgstr "socks প্রক্সির জন্য ব্যবহারযো�
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/http_proxy/host\" দ্বারা "
-"ব্যাখ্যা করা হয়।"
+msgstr "প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/http_proxy/host\" দ্বারা ব্যাখ্যা করা হয়।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/ftp_host\" দ্বারা "
-"ব্যাখ্যা করা হয়।"
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/ftp_host\" দ্বারা ব্যাখ্যা করা হয়।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/secure_host\" দ্বারা "
-"ব্যাখ্যা করা হয়।"
+msgstr "প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/secure_host\" দ্বারা ব্যাখ্যা করা হয়।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/socks_host\" দ্বারা "
-"ব্যাখ্যা করা হয়।"
+msgstr "প্রক্সি করার উদ্দেশ্যে ব্যবহৃত মেশিনের পোর্ট \"/system/proxy/socks_host\" দ্বারা ব্যাখ্যা করা হয়।"
 
-# OMG, it's huge.......guess its correct. - mak
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"প্রক্সির (যদি সক্রিয়) পরিবর্তে সরাসরি সংযোগকারী হোস্টের তালিকা এই কি দ্বারা "
-"উল্লিখিত হয়েছে। হোস্ট-নেম, ডোমেইন (প্রারম্ভিক ওয়াইল্ডকার্ডসহ যেমন *.foo.com), IP "
-"হোস্ট ঠিকানা (IPv4 ও IPv6) ও নেটমাস্কসহ নেটওয়ার্ক ঠিকানার (যেমন 192.168.0.0/24) "
-"মান এই ক্ষেত্রে অন্তর্ভুক্ত করা যাবে।"
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "প্রক্সির (যদি সক্রিয়) পরিবর্তে সরাসরি সংযোগকারী হোস্টের তালিকা এই কি দ্বারা উল্লিখিত হয়েছে। হোস্ট-নেম, ডোমেইন (প্রারম্ভিক ওয়াইল্ডকার্ডসহ যেমন *.foo.com), IP হোস্ট ঠিকানা (IPv4 ও IPv6) ও নেটমাস্কসহ নেটওয়ার্ক ঠিকানার (যেমন 192.168.0.0/24) মান এই ক্ষেত্রে অন্তর্ভুক্ত করা যাবে।"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1516,38 +1461,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"ব্যবহারকারী যে Windows নেটওয়ার্কিং ওয়ার্কগ্রুপ অথবা ডোমেইনের অংশ। নতুন ওয়ার্কগ্রুপ "
-"সম্পূর্ণরূপে সক্রিয় করার জন্য ব্যবহারকারীকে সম্ভবত লগ-আউট করে পুনরায় লগ-ইন করতে হবে।"
-
-#~ msgid "Default media application"
-#~ msgstr "ডিফল্ট মিডিয়া অ্যাপ্লিকেশন"
-
-#~ msgid "Exec argument for default media application"
-#~ msgstr "ডিফল্ট মিডিয়া অ্যাপ্লিকেশনের জন্য exec আর্গুমেন্ট"
-
-#~ msgid "The default media application to use when media buttons are pressed."
-#~ msgstr "মিডিয়ার বাটনগুলি টেপা হলে ব্যবহারযোগ্য ডিফল্ট মিডিয়া অ্যাপ্লিকেশন।"
-
-#~ msgid "The exec argument to use for the default media application."
-#~ msgstr "ডিফল্ট মিডিয়া অ্যাপ্লিকেশনের জন্য ব্যবহারযোগ্য exec আর্গুমেন্ট।"
-
-#~ msgid "Handle about URLs"
-#~ msgstr "URL সংক্রান্ত হ্যান্ডেল"
-
-#~ msgid "Run program in terminal"
-#~ msgstr "টার্মিন্যালের মধ্যে প্রোগ্রাম চালানো হবে"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in \"command\" handle about URLs."
-#~ msgstr ""
-#~ "URL সংক্রান্ত \"command\" হ্যান্ডেলের জন্য প্রোগ্রাম চিহ্নিত করতে মান true "
-#~ "নির্ধারণ করুন"
-
-#~ msgid "True if the program to handle this URL should be run in a terminal."
-#~ msgstr ""
-#~ "এই ধরনের URL পরিচালনকারী প্রোগ্রামটি টার্মিন্যালের মধ্যে সঞ্চালনার জন্য মান True "
-#~ "ধার্য করুন।"
-
-#~ msgid "about URL handler"
-#~ msgstr "URL হ্যান্ডলার পরিচিতি"
+msgstr "ব্যবহারকারী যে Windows নেটওয়ার্কিং ওয়ার্কগ্রুপ অথবা ডোমেইনের অংশ। নতুন ওয়ার্কগ্রুপ সম্পূর্ণরূপে সক্রিয় করার জন্য ব্যবহারকারীকে সম্ভবত লগ-আউট করে পুনরায় লগ-ইন করতে হবে।"

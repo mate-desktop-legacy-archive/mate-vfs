@@ -1,26 +1,25 @@
-# translation of mate-vfs.HEAD.po to Español
-# Copyright (C) 2000,2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009.
+# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2002, 2003.
 # Manuel de Vega Barreiro <barreiro@arrakis.es>, 2000.
 # Mauricio Araya Polo <mauricio@eazel.com>, 2001.
-# Juan Manuel García Molina <juanma_gm@wanadoo.es>, 2002, 2003.
-# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003-2006.
-# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2009-09-25 13:59+0000\n"
-"PO-Revision-Date: 2009-09-28 21:51+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (Castilian) (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
-"First-Translator: Mauricio Araya Polo <mauricio@eazel.com>\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -75,7 +74,6 @@ msgid "Auto-detected Volume"
 msgstr "Volumen auto-detectado"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#| msgid "Ext2 Linux Volume"
 msgid "Btrfs Linux Volume"
 msgstr "Volumen Linux Btrfs"
 
@@ -97,7 +95,6 @@ msgid "EncFS Volume"
 msgstr "Volumen EncFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
-#| msgid "Memory Volume"
 msgid "eCryptfs Volume"
 msgstr "Volumen eCryptfs"
 
@@ -112,7 +109,6 @@ msgstr "Volumen Linux Ext3"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#| msgid "Ext2 Linux Volume"
 msgid "Ext4 Linux Volume"
 msgstr "Volumen Linux Ext4"
 
@@ -175,7 +171,6 @@ msgid "NFS Network Volume"
 msgstr "Volumen de red NFS"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
-#| msgid "XFS Linux Volume"
 msgid "NILFS Linux Volume"
 msgstr "Volumen Linux NILFS"
 
@@ -499,9 +494,7 @@ msgstr "La operación ha sido detenida"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Función obsoleta. Las modificaciones del usuario a la base de datos MIME no "
-"se soportan a partir de ahora."
+msgstr "Función obsoleta. Las modificaciones del usuario a la base de datos MIME no se soportan a partir de ahora."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -914,26 +907,20 @@ msgstr "Servidor de red"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Imposible montar la unidad de disquetes. Probablemente no hay un disquete en "
-"la unidad."
+msgstr "Imposible montar la unidad de disquetes. Probablemente no hay un disquete en la unidad."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Imposible montar el volumen. Probablemente no introdujo un soporte en el "
-"dispositivo."
+msgstr "Imposible montar el volumen. Probablemente no introdujo un soporte en el dispositivo."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Imposible montar la unidad de disquetes. El disquete probablemente está en "
-"un formato que no puede ser montado."
+msgstr "Imposible montar la unidad de disquetes. El disquete probablemente está en un formato que no puede ser montado."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -941,18 +928,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Imposible montar el volumen. Si esta es una unidad cifrada, entonces se usó "
-"una contraseña o clave incorrecta."
+msgstr "Imposible montar el volumen. Si esta es una unidad cifrada, entonces se usó una contraseña o clave incorrecta."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Imposible montar el volumen seleccionado. El volumen probablemente está en "
-"un formato que no puede ser montado."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Imposible montar el volumen seleccionado. El volumen probablemente está en un formato que no puede ser montado."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -967,9 +950,7 @@ msgstr "Imposible montar el volumen seleccionado."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Imposible desmontar el volumen seleccionado. El volumen probablemente lo "
-"está usando al menos un programa."
+msgstr "Imposible desmontar el volumen seleccionado. El volumen probablemente lo está usando al menos un programa."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1043,14 +1024,8 @@ msgstr "La identidad de la computadora remota (%s) es desconocida."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Esto ocurre cuando inicia sesión en una computadora por primera vez.\n"
-"\n"
-"La identidad enviada por la computadora remota es %s. Si quiere estar "
-"absolutamente seguro de que es seguro continuar, consulte con el "
-"administrador del sistema."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Esto ocurre cuando inicia sesión en una computadora por primera vez.\n\nLa identidad enviada por la computadora remota es %s. Si quiere estar absolutamente seguro de que es seguro continuar, consulte con el administrador del sistema."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1069,8 +1044,7 @@ msgstr "No se ha encontrado un archivo de configuración válido para %s\n"
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
-"Use la variable de entorno %s para especificar una ubicación diferente\n"
+msgstr "Use la variable de entorno %s para especificar una ubicación diferente\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1082,9 +1056,7 @@ msgstr "Su proxy HTTP requiere que inicie sesión.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Debe iniciar sesión para acceder a «%s».\n"
-"%s"
+msgstr "Debe iniciar sesión para acceder a «%s».\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1120,25 +1092,19 @@ msgstr "El argumento exec para la terminal predeterminada"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"La aplicación que se usará para ver archivos que requieren un componente "
-"para verlos. El parámetro %s podrá ser reemplazado por los URI del archivo, "
-"el parámetro %c será reemplazado por el IID del componente."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "La aplicación que se usará para ver archivos que requieren un componente para verlos. El parámetro %s podrá ser reemplazado por los URI del archivo, el parámetro %c será reemplazado por el IID del componente."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"La aplicación de terminal predeterminada para las aplicaciones que lo "
-"requieran."
+msgstr "La aplicación de terminal predeterminada para las aplicaciones que lo requieran."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
-msgstr ""
-"El argumento de exec a usar para la aplicación de terminal predeterminada."
+msgstr "El argumento de exec a usar para la aplicación de terminal predeterminada."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
@@ -1150,8 +1116,7 @@ msgstr "El comando usado para manipular los URL \"aim\", si están activados."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr ""
-"El comando usado para manipular los URL \"callto\", si están activados."
+msgstr "El comando usado para manipular los URL \"callto\", si están activados."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
@@ -1175,8 +1140,7 @@ msgstr "El comando usado para manipular los URL \"info\", si están activados."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr ""
-"El comando usado para manipular los URL \"mailto\", si están activados."
+msgstr "El comando usado para manipular los URL \"mailto\", si están activados."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
@@ -1230,88 +1194,67 @@ msgstr "El manipulador para los URL \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"aim\"."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"h323\"."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"h323\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"http\"."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"info\"."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"command\" (comando) "
-"debería manipular los URL \"man\"."
+msgstr "Activar si el programa especificado en la clave \"command\" (comando) debería manipular los URL \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Activar si el programa especificado en la clave \"commando\" (comando) "
-"debería manipular los URL \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Activar si el programa especificado en la clave \"commando\" (comando) debería manipular los URL \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Activar si el programa que manipula este URL debe ejecutarse en un terminal."
+msgstr "Activar si el programa que manipula este URL debe ejecutarse en un terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1357,9 +1300,7 @@ msgstr "Indica si el comando especificado debe manipular los URL \"trash\""
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Lista separada por comas de dominios DNS-SD que deberían ser visibles en el "
-"lugar \"network:///\"."
+msgstr "Lista separada por comas de dominios DNS-SD que deberían ser visibles en el lugar \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1371,9 +1312,7 @@ msgstr "Cómo mostrar el servicio DNS-SD local"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Los valores posibles son \"merged\" (mezclar), \"separate\" (separar) y "
-"\"disabled\" (desactivado)."
+msgstr "Los valores posibles son \"merged\" (mezclar), \"separate\" (separar) y \"disabled\" (desactivado)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1414,13 +1353,10 @@ msgstr "Usuario del proxy HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Si es «true» (verdadero), las conexiones al servidor proxy requieren "
-"autenticación. La combinación usuario/contraseña se define en \"/system/"
-"http_proxy/authentication_user\" y \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Si es «true» (verdadero), las conexiones al servidor proxy requieren autenticación. La combinación usuario/contraseña se define en \"/system/http_proxy/authentication_user\" y \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1452,11 +1388,9 @@ msgstr "Puerto del proxy HTTP seguro"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Seleccione el modo de configuración del proxy. Los valores soportados son "
-"\"none\" (ninguno), \"manual\" y \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Seleccione el modo de configuración del proxy. Los valores soportados son \"none\" (ninguno), \"manual\" y \"auto\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1478,46 +1412,33 @@ msgstr "El nombre de la máquina por la que se hace proxy socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"El puerto de la máquina definida por \"/system/HTTP_proxy/equipo\" que hace "
-"de proxy."
+msgstr "El puerto de la máquina definida por \"/system/HTTP_proxy/equipo\" que hace de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"El puerto de la máquina definida por \"/system/proxy/ftp_equipo\" que hace "
-"de proxy."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "El puerto de la máquina definida por \"/system/proxy/ftp_equipo\" que hace de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"El puerto de la máquina definida por \"/system/proxy/secure_equipo\" que "
-"hace de proxy."
+msgstr "El puerto de la máquina definida por \"/system/proxy/secure_equipo\" que hace de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"El puerto de la máquina definida por \"/system/proxy/socks_equipo\" que hace "
-"de proxy."
+msgstr "El puerto de la máquina definida por \"/system/proxy/socks_equipo\" que hace de proxy."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Esta clave contiene una lista de anfitriones con los que está conectado "
-"directamente, en vez de por medio del proxy (si está activo). Los valores "
-"pueden ser nombres de equipo, dominios (usando un comodín auxiliar como *."
-"foo.com), direcciones IP de anfitriones (tanto IPv4 como IPv6) y direcciones "
-"de red con una máscara (algo como 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Esta clave contiene una lista de anfitriones con los que está conectado directamente, en vez de por medio del proxy (si está activo). Los valores pueden ser nombres de equipo, dominios (usando un comodín auxiliar como *.foo.com), direcciones IP de anfitriones (tanto IPv4 como IPv6) y direcciones de red con una máscara (algo como 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1540,7 +1461,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"El grupo de trabajo de red de Windows o el dominio del que el usuario es "
-"parte. Para que un grupo grupo nuevo tenga efecto, el usuario puede "
-"necesitar cerrar la sesión y entrar de nuevo."
+msgstr "El grupo de trabajo de red de Windows o el dominio del que el usuario es parte. Para que un grupo grupo nuevo tenga efecto, el usuario puede necesitar cerrar la sesión y entrar de nuevo."

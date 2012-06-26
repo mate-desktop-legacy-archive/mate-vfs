@@ -1,19 +1,21 @@
-# Norwegian translation of mate-vfs (bokmål dialect).
-# Copyright (C) 1999-2003 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 1999-2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs 2.24.x\n"
-"Report-Msgid-Bugs-To:\n"
-"POT-Creation-Date: 2009-11-11 20:10+0100\n"
-"PO-Revision-Date: 2009-11-11 20:11+0100\n"
-"Last-Translator: Kjartan Maraas <kmaraas@broadpark.no>\n"
-"Language-Team: Norwegian Bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nb\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -488,9 +490,7 @@ msgstr "Stoppet operasjonen"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Utgått funksjonskall. Brukerendringer i MIME-databasen er ikke støttet "
-"lengre."
+msgstr "Utgått funksjonskall. Brukerendringer i MIME-databasen er ikke støttet lengre."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -903,9 +903,7 @@ msgstr "Nettverkstjener"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Kan ikke montere disketten. Det er mulig at det ikke står en diskett i "
-"stasjonen."
+msgstr "Kan ikke montere disketten. Det er mulig at det ikke står en diskett i stasjonen."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -918,9 +916,7 @@ msgstr "Kan ikke montere volumet. Muligvis ingen media i enheten."
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Kan ikke montere diskettstasjonen. Disketten er sannsynligvis i et format "
-"som ikke kan monteres."
+msgstr "Kan ikke montere diskettstasjonen. Disketten er sannsynligvis i et format som ikke kan monteres."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -928,18 +924,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Kan ikke montere volumet. Hvis dette er en kryptert stasjon ble feil passord "
-"eller nøkkel brukt."
+msgstr "Kan ikke montere volumet. Hvis dette er en kryptert stasjon ble feil passord eller nøkkel brukt."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Kan ikke montere valgt volum. Volumet er sannsynligvis i et format som ikke "
-"kan monteres."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Kan ikke montere valgt volum. Volumet er sannsynligvis i et format som ikke kan monteres."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -954,9 +946,7 @@ msgstr "Kan ikke montere valgt volum."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Kan ikke montere valgt volum. Volumet er sannsynligvis i bruk av ett eller "
-"flere programmer."
+msgstr "Kan ikke montere valgt volum. Volumet er sannsynligvis i bruk av ett eller flere programmer."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -1030,13 +1020,8 @@ msgstr "Identiteten for den eksterne datamaskinen (%s) er ukjent."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Dette skjer når du logger inn på en datamaskin første gang.\n"
-"\n"
-"Identiteten som sendes av den eksterne datamaskinen er %s. Hvid du vil være "
-"helt sikker på at det er trygt å fortsette kontakt systemadministrator."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Dette skjer når du logger inn på en datamaskin første gang.\n\nIdentiteten som sendes av den eksterne datamaskinen er %s. Hvid du vil være helt sikker på at det er trygt å fortsette kontakt systemadministrator."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1067,9 +1052,7 @@ msgstr "Din HTTP-proxy krever at du logger inn.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Du må logge inn for å aksessere «%s».\n"
-"%s"
+msgstr "Du må logge inn for å aksessere «%s».\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1105,20 +1088,15 @@ msgstr "Kjøringsargument for forvalgt terminal"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Applikasjon som skal brukes for å vise filer som krever en komponent for "
-"visning. Parameteren %s vil erstattes med filens URIer, parameteren %c vil "
-"erstattes med komponentens IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Applikasjon som skal brukes for å vise filer som krever en komponent for visning. Parameteren %s vil erstattes med filens URIer, parameteren %c vil erstattes med komponentens IID."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Forvalgt terminalprogram som skal brukes for programmer som krever en "
-"terminal."
+msgstr "Forvalgt terminalprogram som skal brukes for programmer som krever en terminal."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1212,79 +1190,67 @@ msgstr "Håndterer for «papirkurv»-URLer"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «aim»-URLer."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «aim»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «callto»-URLer."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «callto»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «ghelp»-URLer."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «ghelp»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «h323»-URLer."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «h323»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «http»-URLer."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «http»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «https»-URLer."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «https»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-" True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «info»-URLer."
+msgstr " True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «info»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-" True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «mailto»-"
-"URLer."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr " True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «mailto»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-" True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «man»-URLer."
+msgstr " True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «man»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «trash»-URLer."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "True hvis programmet oppgitt i «command»-nøkkelen skal håndtere «trash»-URLer."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"True hvis programmet for å håndtere denne type URL skal kjøres i en terminal."
+msgstr "True hvis programmet for å håndtere denne type URL skal kjøres i en terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1330,9 +1296,7 @@ msgstr "Om oppgitt kommando skal håndtere «trash»-URLer"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Kommaseparert liste med DNS-SD-domener som skal være synlige i lokasjonen "
-"«network:///»."
+msgstr "Kommaseparert liste med DNS-SD-domener som skal være synlige i lokasjonen «network:///»."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1385,12 +1349,10 @@ msgstr "Brukernavn for HTTP-proxy"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Hvis sann vil tilkoblinger til proxytjener kreve autentisering. Brukernavn/"
-"passord-kombinasjonen er definert i «/system/http_proxy/authentication_user» "
-"og «/system/http_proxy/authentication_password»."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Hvis sann vil tilkoblinger til proxytjener kreve autentisering. Brukernavn/passord-kombinasjonen er definert i «/system/http_proxy/authentication_user» og «/system/http_proxy/authentication_password»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1422,11 +1384,9 @@ msgstr "Port for HTTPS-proxy"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Velg konfigurasjonsmodus for proxy. Verdier som er støttet er «none», "
-"«manual», «auto»."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Velg konfigurasjonsmodus for proxy. Verdier som er støttet er «none», «manual», «auto»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1448,46 +1408,33 @@ msgstr "Maskinnavn for SOCKS-proxy."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port på maskinen som brukes som proxy og er definert i «/system/http_proxy/"
-"host»."
+msgstr "Port på maskinen som brukes som proxy og er definert i «/system/http_proxy/host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port på maskinen som brukes som proxy og er definert i «/system/proxy/"
-"ftp_host»."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port på maskinen som brukes som proxy og er definert i «/system/proxy/ftp_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port på maskinen som brukes som proxy og er definert i «/system/proxy/"
-"secure_host»."
+msgstr "Port på maskinen som brukes som proxy og er definert i «/system/proxy/secure_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port på maskinen som brukes som proxy og er definert i «/system/proxy/"
-"socks_host»."
+msgstr "Port på maskinen som brukes som proxy og er definert i «/system/proxy/socks_host»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Denne nøkkelen inneholder en liste med verter som har direkte forbindelse i "
-"stedet for å gå via proxy (hvis denne er aktiv). Verdiene kan være "
-"vertsnavn, domener (med jokertegn som *.domene.no), IP-adresse for verten "
-"(både IPv4 og IPv6) og nettverksadresser med en nettmaske (som "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Denne nøkkelen inneholder en liste med verter som har direkte forbindelse i stedet for å gå via proxy (hvis denne er aktiv). Verdiene kan være vertsnavn, domener (med jokertegn som *.domene.no), IP-adresse for verten (både IPv4 og IPv6) og nettverksadresser med en nettmaske (som 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1510,6 +1457,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Arbeidsgruppe eller domene brukeren er del av i Windows-nettverket. Brukeren "
-"må logge ut for at endringer skal tre i kraft."
+msgstr "Arbeidsgruppe eller domene brukeren er del av i Windows-nettverket. Brukeren må logge ut for at endringer skal tre i kraft."

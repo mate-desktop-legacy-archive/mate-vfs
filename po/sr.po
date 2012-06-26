@@ -1,27 +1,22 @@
-# Serbian translation of mate-vfs
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004, 2005, 2006, 2007.
-#
-# This file is distributed under the same license as the mate-vfs package.
-#
-# Maintainer: Душан Живојнов <calvin@verat.net>
-# Reviewed on 2004-02-03 by: Данило Шеган <dsegan@gmx.net>
-# Reviewed on 2005-07-08 by: Данило Шеган <dsegan@gmx.net>
-# Reviewed on 2005-09-22 by: Данило Шеган <danilo@prevod.org>
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2009-12-14 21:54+0000\n"
-"PO-Revision-Date: 2010-03-09 20:37+0100\n"
-"Last-Translator: Горан Ракић <grakic@devbase.net>\n"
-"Language-Team: Serbian (sr) <gnom@prevod.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3;    plural=n%10==1 && n%100!=11 ? 0 :    n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -75,9 +70,7 @@ msgstr "Мрежни AFS диск"
 msgid "Auto-detected Volume"
 msgstr "Самопрепозната партиција"
 
-# bug: does it differentiate between Hurd Ext2 and Linux Ext2?
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#| msgid "Ext2 Linux Volume"
 msgid "Btrfs Linux Volume"
 msgstr "Линуксова Btrfs партиција"
 
@@ -90,7 +83,6 @@ msgstr "ЦД уређај"
 msgid "CD Digital Audio"
 msgstr "Музички диск"
 
-# bug(slobo): хм, не бих рекао
 #: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Диск на хардверском уређају"
@@ -100,11 +92,9 @@ msgid "EncFS Volume"
 msgstr "EncFS партиција"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
-#| msgid "Memory Volume"
 msgid "eCryptfs Volume"
 msgstr "eCryptfs партиција"
 
-# bug: does it differentiate between Hurd Ext2 and Linux Ext2?
 #: ../libmatevfs/mate-vfs-filesystem-type.c:49
 #: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
@@ -114,10 +104,8 @@ msgstr "Линуксова Екст2 партиција"
 msgid "Ext3 Linux Volume"
 msgstr "Линуксова Екст3 партиција"
 
-# bug: does it differentiate between Hurd Ext2 and Linux Ext2?
 #: ../libmatevfs/mate-vfs-filesystem-type.c:52
 #: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#| msgid "Ext2 Linux Volume"
 msgid "Ext4 Linux Volume"
 msgstr "Линуксова Екст4 партиција"
 
@@ -141,7 +129,6 @@ msgstr "ФУСЕ партиција"
 msgid "MacOS Volume"
 msgstr "МекОС партиција"
 
-# ЦеДе диск, а не „Компактни диск диск“
 #: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "ЦД јединица"
@@ -181,7 +168,6 @@ msgid "NFS Network Volume"
 msgstr "Линуксова НФС партиција"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:73
-#| msgid "XFS Linux Volume"
 msgid "NILFS Linux Volume"
 msgstr "Линоксова NILFS партиција"
 
@@ -333,7 +319,6 @@ msgstr "Дискета"
 msgid "Compact Flash Drive"
 msgstr "Компактни-флеш диск (CF)"
 
-# Чаробни штапић? :)
 #: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
 msgstr "Меморијски штапић"
@@ -356,7 +341,6 @@ msgstr "Зип диск"
 msgid "Jaz Drive"
 msgstr "Џез диск"
 
-# :)
 #: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
 msgstr "Оловкасти диск"
@@ -507,8 +491,7 @@ msgstr "Радња је заустављена"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Превазиђена функција.  Измене корисника у МИМЕ бази више нису подржане."
+msgstr "Превазиђена функција.  Измене корисника у МИМЕ бази више нису подржане."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -564,7 +547,6 @@ msgstr "Подаци оштећени"
 msgid "Format not valid"
 msgstr "Облик није исправан"
 
-# bug: is file handle the same as file descriptor?
 #. MATE_VFS_ERROR_BAD_FILE
 #: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
@@ -885,7 +867,6 @@ msgstr "CF"
 msgid "SD/MMC"
 msgstr "SD/MMC"
 
-# Чаробни штапић? :)
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
 #: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
@@ -937,9 +918,7 @@ msgstr "Не могу да прикључим диск. Вероватно не�
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Не могу да прикључим дискету. Вероватно је дискета у запису који се не може "
-"читати."
+msgstr "Не могу да прикључим дискету. Вероватно је дискета у запису који се не може читати."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -947,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Не могу да прикључим диск. Ако је он шифрован, тада је била искоришћена "
-"погрешна лозинка или кључ."
+msgstr "Не могу да прикључим диск. Ако је он шифрован, тада је била искоришћена погрешна лозинка или кључ."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Не могу да прикључим изабрани диск. Вероватно је диск у запису који се не "
-"може читати."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Не могу да прикључим изабрани диск. Вероватно је диск у запису који се не може читати."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -973,9 +948,7 @@ msgstr "Не могу да прикључим изабрани диск."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Не могу да одспојим изабрани диск. Њега вероватно користи неки програм или "
-"програми."
+msgstr "Не могу да одспојим изабрани диск. Њега вероватно користи неки програм или програми."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -993,9 +966,7 @@ msgstr "Не могу да покренем процес прикључења у
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Неочекивана грешка у функцији select() при читању података у наследном "
-"процесу (%s)"
+msgstr "Неочекивана грешка у функцији select() при читању података у наследном процесу (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1051,14 +1022,8 @@ msgstr "Идентитет удаљеног рачунара (%s) није по�
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Ово се догађа када се по први пут пријавите на рачунар.\n"
-"\n"
-"Идентитет који је послао удаљени рачунар је %s. Уколико желите да будете "
-"потпуно сигурни да је безбедно да наставите, ступите у везу са "
-"администратором система."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ово се догађа када се по први пут пријавите на рачунар.\n\nИдентитет који је послао удаљени рачунар је %s. Уколико желите да будете потпуно сигурни да је безбедно да наставите, ступите у везу са администратором система."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1089,9 +1054,7 @@ msgstr "Ваш ХТТП посредник захтева пријаву.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Морате се пријавити како бисте приступили „%s“.\n"
-"%s"
+msgstr "Морате се пријавити како бисте приступили „%s“.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1119,7 +1082,6 @@ msgstr "Подразумевани програм за преглед делов
 msgid "Default terminal application"
 msgstr "Подразумевани терминалски програм"
 
-# bug: no slang, s/exec/execut.../?
 #: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
 msgstr "Аргумент извршавања за подразумевани терминал"
@@ -1128,22 +1090,16 @@ msgstr "Аргумент извршавања за подразумевани т
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Програм који се користи за прегледање датотека које захтевају компоненту за "
-"преглед. Параметар %s ће бити замењен адресом датотеке, а параметар %c ће "
-"бити замењен IID-ом компоненте."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Програм који се користи за прегледање датотека које захтевају компоненту за преглед. Параметар %s ће бити замењен адресом датотеке, а параметар %c ће бити замењен IID-ом компоненте."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Подразумевани терминалски програм који се користи за програме којима је "
-"неопходан терминал."
+msgstr "Подразумевани терминалски програм који се користи за програме којима је неопходан терминал."
 
-# bug: no slang, s/exec/execute.../?
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr "Аргумент извршавања за подразумевани терминалски програм."
@@ -1236,89 +1192,67 @@ msgstr "Руковаоц „trash“ адресама"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за „aim“ "
-"адресе."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „aim“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„callto“ адресе."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „callto“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„ghelp“ адресе."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „ghelp“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„h323“ адресе."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „h323“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„http“ адресе."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „http“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„https“ адресе."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „https“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„info“ адресе."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „info“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„mailto“ адресе."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „mailto“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за „man“ "
-"адресе."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „man“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-"„trash“ адресе."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Укључено ако наредба наведена у кључу „command“ треба да се користи за „trash“ адресе."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Укључено ако наредба која се користи за ове адресе треба да се покреће у "
-"терминалу."
+msgstr "Укључено ако наредба која се користи за ове адресе треба да се покреће у терминалу."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1364,9 +1298,7 @@ msgstr "Да ли наведена наредба треба да се кори�
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Запетом раздвојен списак DNS-SD домена који су доступни на путањи "
-"„network:///."
+msgstr "Запетом раздвојен списак DNS-SD домена који су доступни на путањи „network:///."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1378,9 +1310,7 @@ msgstr "Како да приказује локалну DNS-SD услугу"
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Допуштене вредности су „merged“ (спојено), „separate“ (раздвојено) и "
-"„disabled“ (искључено)."
+msgstr "Допуштене вредности су „merged“ (спојено), „separate“ (раздвојено) и „disabled“ (искључено)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1421,12 +1351,10 @@ msgstr "Корисник HTTP посредника"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Уколико је постављено, везе са посредничким сервером се идентификују. Пар "
-"корисник/лозинка се узима из „/system/http_proxy/authentication_user“ и „/"
-"system/http_proxy/authentication_password“."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Уколико је постављено, везе са посредничким сервером се идентификују. Пар корисник/лозинка се узима из „/system/http_proxy/authentication_user“ и „/system/http_proxy/authentication_password“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1458,11 +1386,9 @@ msgstr "Порт безбедног HTTP посредника"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Изаберите режим подешавања посредника. Допуштене вредности су „none“, "
-"„manual“ и „auto“."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Изаберите режим подешавања посредника. Допуштене вредности су „none“, „manual“ и „auto“."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1476,7 +1402,6 @@ msgstr "Име рачунара за веб (HTTP) посредовање."
 msgid "The machine name to proxy secure HTTP through."
 msgstr "Име рачунара за безбедно веб (HTTPS) посредовање."
 
-# bug: s/socks/SOCKS/
 #: ../schemas/system_http_proxy.schemas.in.h:22
 msgid "The machine name to proxy socks through."
 msgstr "Име рачунара за SOCKS посредовање."
@@ -1489,36 +1414,29 @@ msgstr "Порт рачунара датог у „/system/http_proxy/host“ к
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "Порт рачунара датог у „/system/proxy/ftp_proxy“ кроз који посредује."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Порт рачунара датог у „/system/proxy/secure_proxy“ кроз који посредује."
+msgstr "Порт рачунара датог у „/system/proxy/secure_proxy“ кроз који посредује."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Порт машине одређене помоћу „/system/proxy/socks_proxy“ која је посредник."
+msgstr "Порт машине одређене помоћу „/system/proxy/socks_proxy“ која је посредник."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Овај кључ садржи списак рачунара који су непосредно повезани, уместо путем "
-"посредника (уколико је у дејству). Ове вредности могу бити имена рачунара, "
-"домени (помоћу почетних навода као што је *.нешто.ију), ИП адресе рачунара "
-"(било ИП4 било ИП6) и адресе мрежа уз мрежну маску (нешто као што је "
-"192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Овај кључ садржи списак рачунара који су непосредно повезани, уместо путем посредника (уколико је у дејству). Ове вредности могу бити имена рачунара, домени (помоћу почетних навода као што је *.нешто.ију), ИП адресе рачунара (било ИП4 било ИП6) и адресе мрежа уз мрежну маску (нешто као што је 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1541,353 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Радна група или домен Windows мреже чији је корисник члан. Да би нова радна "
-"група узела маха корисник ће можда морати да се одјави и поново пријави."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "Не могу да покренем Бонобо"
-
-# Гномов Виртуелни Систем Датотека — ВСД? Или Гномово „опонашање система датотека“ — ОСД?
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Не могу да покренем Гномово опонашање система датотека"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Производња обичног надимка"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "датотека MonikerExtender"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "основни надимак Гномовог опонашавача система датотека"
-
-#~ msgid "generic file moniker"
-#~ msgstr "основни надимак датотеке"
-
-#~ msgid "Display SCSI drives"
-#~ msgstr "Прикажи SCSI уређаје"
-
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Прикажи оптичке SCSI уређаје"
-
-#~ msgid "Display drives with removable media"
-#~ msgstr "Прикажи уређаје са уклоњивим носачима"
-
-#~ msgid "Display external drives"
-#~ msgstr "Прикажи спољашње уређаје"
-
-#~ msgid "Display internal hard drives"
-#~ msgstr "Прикажи унутрашње тврде дискове"
-
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "Да ли да приказује оптичке SCSI уређаје чак и ако је /system/storage/"
-#~ "display_scsi_drives искључен."
-
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr "Да ли да приказује уређаје и прикључиве дискове са SCSI уређаја."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "Да ли да приказује уређаје и прикључиве дискове са уређаја са уклоњивим "
-#~ "носачима (нпр. уређаји где се носач може убацити и избацити)."
-
-# bug: hotpluggable is technobabble, second part of "eg." should be enough
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "Да ли да приказује уређаје и прикључиве дискове са спољашњих уређаја "
-#~ "(нпр. уређаји који се могу прикључити у току рада)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "Да ли да приказује уређаје и прикључиве дискове са унутрашњих тврдих "
-#~ "дискова (отпички не-SCSI дискови се увек приказују)."
-
-#~ msgid "The window workgroup the user is part of"
-#~ msgstr "Виндоуз радна група које је корисник члан"
-
-#~ msgid "Optical Disc"
-#~ msgstr "Оптички диск"
-
-# Чаробни штапић? :)
-#~ msgid "Memory Stick Media"
-#~ msgstr "Меморијски штапић (MS)"
-
-#~ msgid "Smart Media Media"
-#~ msgstr "Мудри носач (SM)"
-
-#~ msgid "Mac OS disk"
-#~ msgstr "Мекинтош диск"
-
-#~ msgid "Mac OS X disk"
-#~ msgstr "Мекинтош ОС-Икс диск"
-
-# Транскрипција на нивоу ;-)
-#~ msgid "Windows Disk"
-#~ msgstr "Виндуз диск"
-
-#~ msgid "Linux Disk"
-#~ msgstr "Линукс диск"
-
-#~ msgid "File could not be opened: %s"
-#~ msgstr "Датотека се не може отворити: %s"
-
-# bug: inconsistent wording with above "Bookmark saving failed" [eg. "Failed to save a bookmark" would be one way to solve it]
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "Неуспешно отварање датотеке „%s“: %s"
-
-#~ msgid "File is empty"
-#~ msgstr "Датотека је празна"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid ""
-#~ "desktop entries contain line '%s' which is not an entry, group, or comment"
-#~ msgstr ""
-#~ "„.desktop“ датотека садржи ред „%s“ који није унос, група ни примедба"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries file does not start with legal start group"
-#~ msgstr "„.desktop“ датотека не почиње са исправном почетном групом"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries contain line '%s' which is not UTF-8"
-#~ msgstr "„.desktop“ датотека садржи ред „%s“ који није УТФ-8"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries contain unknown encoding '%s'"
-#~ msgstr "„.desktop“ датотека користи непознато кодирање „%s“"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries do not have group '%s'"
-#~ msgstr "„.desktop“ датотека нема групу „%s“"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries do not have key '%s'"
-#~ msgstr "„.desktop“ датотека нема кључ „%s“"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid ""
-#~ "desktop entries contain key '%s' which has value that cannot be "
-#~ "interpreted."
-#~ msgstr ""
-#~ "„.desktop“ датотека садржи кључ „%s“ који има вредност која се не може "
-#~ "разумети."
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid ""
-#~ "desktop entries contain no translated value for key '%s' with locale '%s'."
-#~ msgstr ""
-#~ "„.desktop“ датотека не садржи превод вредности кључа „%s“ у локалитету „%"
-#~ "s“."
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries contain invalid escape sequence '%s'"
-#~ msgstr "„.desktop“ датотека садржи неисправан знак за истицање „%s“"
-
-# bug: "desktop entries" sucks pretty much (it could be "entries in .desktop file")
-#~ msgid "desktop entries contain escape character at end of line"
-#~ msgstr ""
-#~ "„.desktop“ датотека садржи неисправан знак за истицање на крају реда"
-
-#~ msgid "Value '%s' cannot be interpreted as a number."
-#~ msgstr "Вредност „%s“ се не може посматрати као број."
-
-#~ msgid "Value '%s' cannot be interpreted as a boolean."
-#~ msgstr "Вредност „%s“ се не може посматрати као истинитосна вредност."
-
-#~ msgid "Applications"
-#~ msgstr "Програми"
-
-#~ msgid "Cards"
-#~ msgstr "Карте"
-
-#~ msgid "Files"
-#~ msgstr "Датотеке"
-
-#~ msgid "Folders"
-#~ msgstr "Фасцикле"
-
-#~ msgid "Help"
-#~ msgstr "Помоћ"
-
-#~ msgid "Hosts"
-#~ msgstr "Рачунари"
-
-#~ msgid "Links"
-#~ msgstr "Везе"
-
-#~ msgid "Mail"
-#~ msgstr "Пошта"
-
-#~ msgid "Tools"
-#~ msgstr "Алати"
-
-#~ msgid "Windows"
-#~ msgstr "Прозори"
-
-# bug: Compact Disk Disk?
-#~ msgid "CD Disc"
-#~ msgstr "ЦД диск"
-
-# bug: inconsistent with other strings which use "...to handle \"h323\" URLs..."
-#~ msgid "The command used to handle HTTP URLs, if enabled."
-#~ msgstr "Наредба коришћена за баратање „http“ адресама, ако је укључено."
-
-# bug: inconsistent with other strings which use "...to handle \"h323\" URLs..."
-#~ msgid "The command used to handle HTTPS URLs, if enabled."
-#~ msgstr "Наредба коришћена за баратање „https“ адресама, ако је укључено."
-
-# bug: inconsistent with other strings; should be "The handler for \"http\" URLs"
-#~ msgid "The handler for HTTP URLs"
-#~ msgstr "Руковаоц „http“ адресама"
-
-# bug: inconsistent with other strings; should be "The handler for \"https\" URLs"
-#~ msgid "The handler for HTTPS URLs"
-#~ msgstr "Руковаоц „https“ адресама"
-
-# bug: inconsistent; should be "...should handle \"http\" URLs."
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTP "
-#~ "URLs."
-#~ msgstr ""
-#~ "Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-#~ "„http“ адресе."
-
-# bug: inconsistent; should be "...should handle \"https\" URLs."
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTPS "
-#~ "URLs."
-#~ msgstr ""
-#~ "Укључено ако наредба наведена у кључу „command“ треба да се користи за "
-#~ "„https“ адресе."
-
-# bug: inconsistent; should be "...should handle \"http\" URLs".
-#~ msgid "Whether the specified command should handle HTTP URLs"
-#~ msgstr "Да ли наведена наредба треба да се користи за „http“ адресе."
-
-# bug: inconsistent; should be "...should handle \"https\" URLs".
-#~ msgid "Whether the specified command should handle HTTPS URLs"
-#~ msgstr "Да ли наведена наредба треба да се користи за „https“ адресе."
-
-#~ msgid "H323 URL handler"
-#~ msgstr "Руковалац H323 адресама"
-
-#~ msgid "HTTP URL handler"
-#~ msgstr "Руковалац HTTP адресама"
-
-#~ msgid "HTTPS URL handler"
-#~ msgstr "Руковалац HTTPS адресама"
-
-#~ msgid "Handle callto URLs"
-#~ msgstr "Баратај callto адресама"
-
-#~ msgid "Handle ghelp URLs"
-#~ msgstr "Баратај ghelp адресама"
-
-#~ msgid "Handle info URLs"
-#~ msgstr "Баратај info адресама"
-
-#~ msgid "Handle mailto URLs"
-#~ msgstr "Баратај mailto адресама"
-
-#~ msgid "Handle man URLs"
-#~ msgstr "Баратај man адресама"
-
-#~ msgid "Handle trash URLs"
-#~ msgstr "Баратај trash адресама"
-
-#~ msgid "callto URL handler"
-#~ msgstr "Руковалац callto адресама"
-
-#~ msgid "ghelp URL handler"
-#~ msgstr "Руковалац ghelp адресама"
-
-#~ msgid "info URL handler"
-#~ msgstr "Руковалац info адресама"
-
-#~ msgid "mailto URL handler"
-#~ msgstr "Руковалац mailto адресама"
-
-#~ msgid "man URL handler"
-#~ msgstr "Руковалац man адресама"
-
-#~ msgid "trash URL handler"
-#~ msgstr "Руковалац trash адресама"
-
-#~ msgid "Bookmark saving failed (%s)"
-#~ msgstr "Неуспешно чување обележивача (%s)"
-
-#~ msgid "Could not get information for file '%s': %s"
-#~ msgstr "Не могу да сазнам податке о датотеци „%s“: %s"
-
-# bug: as above [inconsistent wording]
-#~ msgid ""
-#~ "Failed to load image '%s': reason not known, probably a corrupt image file"
-#~ msgstr ""
-#~ "Неуспешно учитавање слике „%s“: разлог непознат, вероватно оштећена "
-#~ "датотека слике"
-
-#~ msgid "How to handle http URLs"
-#~ msgstr "Како баратати http адресама"
-
-#~ msgid "How to handle https URLs"
-#~ msgstr "Како баратати https адресама"
-
-#~ msgid "Set to true to have a program specified in command handle https URLs"
-#~ msgstr ""
-#~ "Укључите ако желите да програм наведен у наредби барата https адресама"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/ghelp handle ghelp "
-#~ "URLs"
-#~ msgstr ""
-#~ "Укључите ако желите да програм наведен у programs/ghelp барата ghelp "
-#~ "адресама"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/info handle info URLs"
-#~ msgstr ""
-#~ "Укључите ако желите да програм наведен у programs/info барата info "
-#~ "адресама"
-
-#~ msgid ""
-#~ "Set to true to have a program specified in programs/man handle man URLs"
-#~ msgstr ""
-#~ "Укључите ако желите да програм наведен у programs/man барата man адресама"
-
-#~ msgid "URL handler for h323 uris"
-#~ msgstr "Руковаоц h323 адресама"
-
-#~ msgid "URL handler for http uris"
-#~ msgstr "Руковаоц http адресама"
-
-#~ msgid "URL handler for https uris"
-#~ msgstr "Руковаоц https адресама"
-
-#~ msgid "Hosts are not contacted via the proxy"
-#~ msgstr "Рачунарима се не приступа преко посредника"
-
-#~ msgid "The machine name to proxy http through."
-#~ msgstr "Име рачунара HTTP посредника."
-
-#~ msgid "Use proxy settings when accessing http"
-#~ msgstr "Користи подешавања посредника при приступу вебу"
-
-#~ msgid "http proxy password"
-#~ msgstr "Лозинка HTTP посредника"
-
-#~ msgid "http proxy username"
-#~ msgstr "Корисничко име HTTP посредника"
-
-# bug: plural-forms
-#~ msgid "1 byte"
-#~ msgstr "1 бајт"
+msgstr "Радна група или домен Windows мреже чији је корисник члан. Да би нова радна група узела маха корисник ће можда морати да се одјави и поново пријави."

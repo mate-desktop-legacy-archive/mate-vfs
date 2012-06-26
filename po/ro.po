@@ -1,22 +1,23 @@
-# Romanian translation for mate-vfs
-# Copyright (C) 2001 - 2009 Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009.
 # Marius Andreiana <mandreiana@yahoo.com>, 2001.
-# Mișu Moldovan <dumol@mate.ro>, 2003 - 2009.
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2010-05-13 04:01+0000\n"
-"PO-Revision-Date: 2009-11-16 02:03+0300\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
-"Language-Team: Mate Romanian Team <matero-list@lists.sourceforge.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:41+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
-"20)) ? 1 : 2);;\n"
+"Language: ro\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1))\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -491,9 +492,7 @@ msgstr "Operație oprită"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Funcție ieșită din uz. Modificările personalizate în baza de date MIME nu "
-"mai sunt suportate."
+msgstr "Funcție ieșită din uz. Modificările personalizate în baza de date MIME nu mai sunt suportate."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -907,26 +906,20 @@ msgstr "Server în rețea"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Nu s-a putut monta unitatea de dischetă. Probabil nu e nici o dischetă în "
-"unitate."
+msgstr "Nu s-a putut monta unitatea de dischetă. Probabil nu e nici o dischetă în unitate."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Nu s-a putut monta volumul. Probabil în dispozitiv nu este niciun mediu de "
-"stocare."
+msgstr "Nu s-a putut monta volumul. Probabil în dispozitiv nu este niciun mediu de stocare."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Nu s-a putut monta unitatea de dischetă. Probabil discheta este într-un "
-"format care nu poate fi montat."
+msgstr "Nu s-a putut monta unitatea de dischetă. Probabil discheta este într-un format care nu poate fi montat."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -934,18 +927,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Nu s-a putut monta volumul. În cazul în care este un volum criptat, probabil "
-"s-a folosit o parolă ori o cheie greșită."
+msgstr "Nu s-a putut monta volumul. În cazul în care este un volum criptat, probabil s-a folosit o parolă ori o cheie greșită."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Nu s-a putut monta volumul selectat. Probabil este într-un format care nu "
-"poate fi montat."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Nu s-a putut monta volumul selectat. Probabil este într-un format care nu poate fi montat."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -960,9 +949,7 @@ msgstr "Nu s-a putut monta volumul selectat."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Nu s-a putut monta volumul selectat. Probabil este într-un format care nu "
-"poate fi montat."
+msgstr "Nu s-a putut monta volumul selectat. Probabil este într-un format care nu poate fi montat."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -980,8 +967,7 @@ msgstr "Nu s-a putut executa procesul de montare într-un pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Eroare neașteptată în select() la citirea datelor de la procesul copil (%s)"
+msgstr "Eroare neașteptată în select() la citirea datelor de la procesul copil (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1037,13 +1023,8 @@ msgstr "Identitatea calculatorului la distanță (%s) nu este cunoscută."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Acest lucru se întâmplă la prima autentificare pe un server.\n"
-"\n"
-"Identitatea trimisă de calculatorul la distanță este %s. Dacă doriți să nu "
-"aveți nici un dubiu privind siguranța conexiunii, contactați administratorul."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Acest lucru se întâmplă la prima autentificare pe un server.\n\nIdentitatea trimisă de calculatorul la distanță este %s. Dacă doriți să nu aveți nici un dubiu privind siguranța conexiunii, contactați administratorul."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1074,9 +1055,7 @@ msgstr "Proxy-ul HTTP ales necesită autentificare.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Trebuie să vă autentificați pentru a accesa „%s”.\n"
-"%s"
+msgstr "Trebuie să vă autentificați pentru a accesa „%s”.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1112,20 +1091,15 @@ msgstr "Argument „exec” pentru terminalul implicit"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Aplicație de utilizat pentru vizualizarea fișierelor ce necesită o "
-"componentă de vizualizare. Parametrul %s va fi înlocuit cu URI-ul "
-"fișierului, iar parametrul %c va fi înlocuit cu componenta IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Aplicație de utilizat pentru vizualizarea fișierelor ce necesită o componentă de vizualizare. Parametrul %s va fi înlocuit cu URI-ul fișierului, iar parametrul %c va fi înlocuit cu componenta IID."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Aplicația terminal implicită de utilizat pentru programele ce necesită un "
-"terminal."
+msgstr "Aplicația terminal implicită de utilizat pentru programele ce necesită un terminal."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1219,88 +1193,67 @@ msgstr "Programul asociat adreselor „trash”"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„aim”."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „aim”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„callto”."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „callto”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„ghelp”."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „ghelp”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„h323”."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „h323”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„http”."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „http”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„https”."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „https”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„info”."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „info”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„mailto”."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „mailto”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„man”."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „man”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"La activare, comanda specificată în cheia „command” va fi asociată adreselor "
-"„trash”."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "La activare, comanda specificată în cheia „command” va fi asociată adreselor „trash”."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"La activare, comanda asociată acestui tip de URL va fi pornită în terminal."
+msgstr "La activare, comanda asociată acestui tip de URL va fi pornită în terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1346,9 +1299,7 @@ msgstr "Specifică dacă programul ales va fi asociat adreselor „trash”"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Listă separată prin virgule de domenii DNS-SD ce ar trebui să fie vizibile "
-"în locația „network:///”."
+msgstr "Listă separată prin virgule de domenii DNS-SD ce ar trebui să fie vizibile în locația „network:///”."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1401,12 +1352,10 @@ msgstr "Nume utilizator proxy HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"La activare, conectarea la serverul proxy necesită autentificare. Combinația "
-"nume_utilizator/parolă e definită de „/system/http_proxy/"
-"authentication_user” și „/system/http_proxy/authentication_password”."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "La activare, conectarea la serverul proxy necesită autentificare. Combinația nume_utilizator/parolă e definită de „/system/http_proxy/authentication_user” și „/system/http_proxy/authentication_password”."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1438,11 +1387,9 @@ msgstr "Port proxy HTTPS"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Selectați modul de configurare proxy. Valorile suportate sunt „none”, "
-"„manual” și „auto”."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Selectați modul de configurare proxy. Valorile suportate sunt „none”, „manual” și „auto”."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1468,8 +1415,8 @@ msgstr "Portul serverului proxy definit în „/system/http_proxy/host”."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "Portul serverului proxy definit în „/system/proxy/ftp_host”"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1488,13 +1435,9 @@ msgstr "Portul serverului proxy definit în „/system/proxy/socks_host”."
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Această cheie conține o listă a adreselor la care se preferă conectarea "
-"directă, nu prin proxy. Aceste adrese pot fi nume de servere, domenii (cu "
-"caractere „wildcard”, de ex. *.foo.com), adrese IP (atât IPv4, cât și IPv6) "
-"și adrese de rețea cu mască (de ex. 192.168.0.0/16)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Această cheie conține o listă a adreselor la care se preferă conectarea directă, nu prin proxy. Aceste adrese pot fi nume de servere, domenii (cu caractere „wildcard”, de ex. *.foo.com), adrese IP (atât IPv4, cât și IPv6) și adrese de rețea cu mască (de ex. 192.168.0.0/16)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1517,7 +1460,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Grupul sau domeniul Windows din care face parte utilizatorul. Pentru a intra "
-"în vigoare opțiunile unui nou workgroup, utilizatorul s-ar putea să "
-"trebuiască să iasă din sesiune și apoi să se autentifice din nou."
+msgstr "Grupul sau domeniul Windows din care face parte utilizatorul. Pentru a intra în vigoare opțiunile unui nou workgroup, utilizatorul s-ar putea să trebuiască să iasă din sesiune și apoi să se autentifice din nou."

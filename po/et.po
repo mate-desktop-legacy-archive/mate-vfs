@@ -1,1214 +1,1465 @@
-# Mate-VFS eesti keele tõlge.
-# Estonian translation of Mate-VFS.
-#
-# Copyright (C) 2002, 2003, 2005, 2006 Free Software Foundation, Inc.
-# Copyright (C) 2007, 2009 The MATE Project.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Ilmar Kerm <ikerm hot ee>, 2002.
-# Tõivo Leedjärv <toivo linux ee>, 2003.
+# Ivar Smolin <okul linux ee>, 2005-2007, 2009.
 # Kitt <peroona hot ee>, 2005.
 # Priit Laes <amd store20 com>, 2005, 2006.
-# Ivar Smolin <okul linux ee>, 2005-2007, 2009.
-#
+# Tõivo Leedjärv <toivo linux ee>, 2003.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs MASTER\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-"
-"vfs&component=general\n"
-"POT-Creation-Date: 2009-09-25 13:59+0000\n"
-"PO-Revision-Date: 2009-10-11 15:20+0300\n"
-"Last-Translator: Ivar Smolin <okul@linux.ee>\n"
-"Language-Team: Estonian <mate-et@linux.ee>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/projects/p/MATE/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
+#: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
 msgstr "ISO 9660 seade"
 
+#: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
 msgid "%s:%u contains NUL characters."
 msgstr "%s:%u sisaldab NUL sümboleid."
 
+#: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
 msgid "%s:%u contains no method name."
 msgstr "%s:%u ei sisalda meetodi nime."
 
+#: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
 msgid "%s:%u has no options endmarker."
 msgstr "%s:%u ei sisalda valikute lõputähist."
 
+#: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
 msgid "%s:%u has unknown options %s."
 msgstr "%s:%u sisaldab tundmatuid valikuid %s."
 
+#: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
 msgid "%s:%u contains no module name."
 msgstr "%s:%u ei sisalda mooduli nime."
 
+#: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
 msgid "Configuration file `%s' was not found: %s"
 msgstr "Seadistusfaili '%s' ei leitud: %s"
 
 #. stop parsing if we failed
+#: ../libmatevfs/mate-vfs-configuration.c:382
 #, c-format
 msgid "%s:%d aborted parsing."
 msgstr "%s:%d katkestas parsimise."
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
 msgstr "AFFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
 msgstr "AFS võrguseade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
 msgstr "Automaattuvastatud seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:42
 msgid "Btrfs Linux Volume"
 msgstr "Btrfs Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD Digital Audio"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Riistvaraline seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:48
 msgid "eCryptfs Volume"
 msgstr "eCryptfs seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
 msgid "Ext4 Linux Volume"
 msgstr "Ext4 Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Süsteemne seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Mäluseade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS võrguseade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
 msgid "NILFS Linux Volume"
 msgstr "NILFS Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Windowsi jagatud seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solaris/BSD seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "Sun SAM-QFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "Ajutine seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Enhanced DOS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linuxi seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS seade"
 
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Tundmatu"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:356
+#: ../libmatevfs/mate-vfs-hal-mounts.c:582
 #, c-format
 msgid "%s Volume"
 msgstr "%s seade"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:372
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:565
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:623
 msgid "CD-ROM"
 msgstr "CD-ROM"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:374
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:567
 msgid "CD-R"
 msgstr "CD-R"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:376
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:568
 msgid "CD-RW"
 msgstr "CD-RW"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:380
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:569
 msgid "DVD-ROM"
 msgstr "DVD-ROM"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:382
 msgid "DVD+R"
 msgstr "DVD+R"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:384
 msgid "DVD+RW"
 msgstr "DVD+RW"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:386
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:571
 msgid "DVD-R"
 msgstr "DVD-R"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:388
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:572
 msgid "DVD-RW"
 msgstr "DVD-RW"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:390
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
 msgid "DVD-RAM"
 msgstr "DVD-RAM"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:393
 msgid "DVD±R"
 msgstr "DVD±R"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:396
 msgid "DVD±RW"
 msgstr "DVD±RW"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:399
 #, c-format
 msgid "%s/%s Drive"
 msgstr "%s/%s ketas"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:401
 #, c-format
 msgid "%s Drive"
 msgstr "%s ketas"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:406
 msgid "Floppy Drive"
 msgstr "Flopiketas"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:409
 msgid "Compact Flash Drive"
 msgstr "Compact Flash kaart"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
 msgstr "Mälupulk"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:413
 msgid "Smart Media Drive"
 msgstr "Smart Media kaart"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:415
 msgid "SD/MMC Drive"
 msgstr "SD/MMC kaart"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:417
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:626
 msgid "Zip Drive"
 msgstr "Zip ketas"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:420
 msgid "Jaz Drive"
 msgstr "Jaz-seade"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
 msgstr "Pen-seade"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:429
 #, c-format
 msgid "%s %s Music Player"
 msgstr "%s %s muusikamängija"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:437
 #, c-format
 msgid "%s %s Digital Camera"
 msgstr "%s %s digikaamera"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:467
 msgid "Drive"
 msgstr "Ketas"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:472
 #, c-format
 msgid "External %s"
 msgstr "Väline %s"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:508
 msgid "CD-ROM Disc"
 msgstr "CD-ROM plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:513
 msgid "Blank CD-R Disc"
 msgstr "Tühi CD-R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:515
 msgid "CD-R Disc"
 msgstr "CD-R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:520
 msgid "Blank CD-RW Disc"
 msgstr "Tühi CD-RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:522
 msgid "CD-RW Disc"
 msgstr "CD-RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:526
 msgid "DVD-ROM Disc"
 msgstr "DVD-ROM plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:531
 msgid "Blank DVD-RAM Disc"
 msgstr "Tühi DVD-RAM plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:533
 msgid "DVD-RAM Disc"
 msgstr "DVD-RAM plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:538
 msgid "Blank DVD-R Disc"
 msgstr "Tühi DVD-R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:540
 msgid "DVD-R Disc"
 msgstr "DVD-R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:545
 msgid "Blank DVD-RW Disc"
 msgstr "Tühi DVD-RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:547
 msgid "DVD-RW Disc"
 msgstr "DVD-RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:553
 msgid "Blank DVD+R Disc"
 msgstr "Tühi DVD+R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:555
 msgid "DVD+R Disc"
 msgstr "DVD+R plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:560
 msgid "Blank DVD+RW Disc"
 msgstr "Tühi DVD+RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:562
 msgid "DVD+RW Disc"
 msgstr "DVD+RW plaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:569
 msgid "Audio Disc"
 msgstr "Audioplaat"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:580
 #, c-format
 msgid "%s Removable Volume"
 msgstr "%s eemaldatav seade"
 
+#: ../libmatevfs/mate-vfs-hal-mounts.c:591
 msgid "Volume"
 msgstr "Seade"
 
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "Tundmatu operatsioonitüüp: %u"
 
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "Avatud GIOChannel kanalile pole võimalik toru luua: %s"
 
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Tundmatu töö tüüp %u"
 
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "Operatsioon seisatud"
 
+#: ../libmatevfs/mate-vfs-mime-handlers.c:103
+#: ../libmatevfs/mate-vfs-mime-handlers.c:231
+#: ../libmatevfs/mate-vfs-mime-handlers.c:282
+#: ../libmatevfs/mate-vfs-mime-handlers.c:365
+#: ../libmatevfs/mate-vfs-mime-handlers.c:386
+#: ../libmatevfs/mate-vfs-mime-handlers.c:406
+#: ../libmatevfs/mate-vfs-mime-handlers.c:427
+#: ../libmatevfs/mate-vfs-mime-handlers.c:448
+#: ../libmatevfs/mate-vfs-mime-handlers.c:541
+#: ../libmatevfs/mate-vfs-mime-handlers.c:565
+#: ../libmatevfs/mate-vfs-mime-handlers.c:586
+#: ../libmatevfs/mate-vfs-mime-handlers.c:607
+#: ../libmatevfs/mate-vfs-mime-handlers.c:628
+#: ../libmatevfs/mate-vfs-mime-handlers.c:647
+#: ../libmatevfs/mate-vfs-mime-handlers.c:666
+#: ../libmatevfs/mate-vfs-mime-handlers.c:686
+#: ../libmatevfs/mate-vfs-mime-handlers.c:706
+#: ../libmatevfs/mate-vfs-mime-info.c:631
+#: ../libmatevfs/mate-vfs-mime-info.c:638
+#: ../libmatevfs/mate-vfs-mime-info.c:646
+#: ../libmatevfs/mate-vfs-mime-info.c:653
+#: ../libmatevfs/mate-vfs-mime-info.c:661
+#: ../libmatevfs/mate-vfs-mime-info.c:678
+#: ../libmatevfs/mate-vfs-mime-info.c:685
+#: ../libmatevfs/mate-vfs-mime-info.c:692
+#: ../libmatevfs/mate-vfs-mime-info.c:699
+#: ../libmatevfs/mate-vfs-mime-info.c:707
+#: ../libmatevfs/mate-vfs-mime-info.c:714
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Aegunud funktsioon.  Kasutajapoolne MIME andmebaasi muutmine pole enam "
-"toetatud."
+msgstr "Aegunud funktsioon.  Kasutajapoolne MIME andmebaasi muutmine pole enam toetatud."
 
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Analüüsimine pole võimalik: %s"
 
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Järgmisi töötlusvigu eiratakse."
 
 #. MATE_VFS_OK
+#: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
 msgstr "Vigu ei ole"
 
 #. MATE_VFS_ERROR_NOT_FOUND
+#: ../libmatevfs/mate-vfs-result.c:48
 msgid "File not found"
 msgstr "Faili ei leitud"
 
 #. MATE_VFS_ERROR_GENERIC
+#: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
 msgstr "Üldine viga"
 
 #. MATE_VFS_ERROR_INTERNAL
+#: ../libmatevfs/mate-vfs-result.c:50
 msgid "Internal error"
 msgstr "Sisemine viga"
 
 #. MATE_VFS_ERROR_BAD_PARAMETERS
+#: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
 msgstr "Vigased parameetrid"
 
 #. MATE_VFS_ERROR_NOT_SUPPORTED
+#: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
 msgstr "Toetamata operatsioon"
 
 #. MATE_VFS_ERROR_IO
+#: ../libmatevfs/mate-vfs-result.c:53
 msgid "I/O error"
 msgstr "S/V viga"
 
 #. MATE_VFS_ERROR_CORRUPTED_DATA
+#: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
 msgstr "Vigased andmed"
 
 #. MATE_VFS_ERROR_WRONG_FORMAT
+#: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
 msgstr "Vorming ei ole kehtiv"
 
 #. MATE_VFS_ERROR_BAD_FILE
+#: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
 msgstr "Vigane failisang"
 
 #. MATE_VFS_ERROR_TOO_BIG
+#: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
 msgstr "Fail on liiga suur"
 
 #. MATE_VFS_ERROR_NO_SPACE
+#: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
 msgstr "Seadmel pole vaba ruumi"
 
 #. MATE_VFS_ERROR_READ_ONLY
+#: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
 msgstr "Kirjutamiskaitsega failisüsteem"
 
 #. MATE_VFS_ERROR_INVALID_URI
+#: ../libmatevfs/mate-vfs-result.c:60
 msgid "Invalid URI"
 msgstr "Vigane URI"
 
 #. MATE_VFS_ERROR_NOT_OPEN
+#: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
 msgstr "Fail ei ole avatud"
 
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
+#: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
 msgstr "Avamismoodus ei ole kehtiv"
 
 #. MATE_VFS_ERROR_ACCESS_DENIED
+#: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
 msgstr "Juurdepääs keelatud"
 
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
+#: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
 msgstr "Liiga palju avatud faile"
 
 #. MATE_VFS_ERROR_EOF
+#: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
 msgstr "Faili lõpp"
 
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
+#: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
 msgstr "Ei ole kataloog"
 
 #. MATE_VFS_ERROR_IN_PROGRESS
+#: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
 msgstr "Operatsioon on töös"
 
 #. MATE_VFS_ERROR_INTERRUPTED
+#: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
 msgstr "Operatsioon katkestatud"
 
 #. MATE_VFS_ERROR_FILE_EXISTS
+#: ../libmatevfs/mate-vfs-result.c:69
 msgid "File exists"
 msgstr "Fail on juba olemas"
 
 #. MATE_VFS_ERROR_LOOP
+#: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
 msgstr "Avastati silmuse moodustavad viidad"
 
 #. MATE_VFS_ERROR_NOT_PERMITTED
+#: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
 msgstr "Operatsioon ei ole lubatud"
 
 #. MATE_VFS_ERROR_IS_DIRECTORY
+#: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
 msgstr "On kataloog"
 
 #. MATE_VFS_ERROR_NO_MEMORY
+#: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
 msgstr "Pole piisavalt mälu"
 
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
+#: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
 msgstr "Hosti ei leitud"
 
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
+#: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
 msgstr "Hosti nimi ei ole kehtiv"
 
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
+#: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
 msgstr "Hostil puudub aadress"
 
 #. MATE_VFS_ERROR_LOGIN_FAILED
+#: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
 msgstr "Tõrge sisselogimisel"
 
 #. MATE_VFS_ERROR_CANCELLED
+#: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
 msgstr "Operatsioon katkestatud"
 
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
+#: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
 msgstr "Kataloog on hõivatud"
 
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
+#: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
 msgstr "Kataloog ei ole tühi"
 
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
+#: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
 msgstr "Liiga palju viiteid"
 
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
+#: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
 msgstr "Kirjutamiskaitsega failisüsteem"
 
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
+#: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
 msgstr "Pole samas failisüsteemis"
 
 #. MATE_VFS_ERROR_NAME_TOO_LONG
+#: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
 msgstr "Nimi on liiga pikk"
 
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
+#: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
 msgstr "Teenus pole kättesaadav"
 
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
+#: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
 msgstr "Päring tühistab teenuse andmed"
 
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
+#: ../libmatevfs/mate-vfs-result.c:87
 msgid "Protocol error"
 msgstr "Protokolli viga"
 
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
+#: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
 msgstr "Peamist sirvijat ei leitud"
 
 #. MATE_VFS_ERROR_NO_DEFAULT
+#: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
 msgstr "Ühtegi vaikimisi toimingut pole seotud"
 
 #. MATE_VFS_ERROR_NO_HANDLER
+#: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
 msgstr "URLi skeemile puudub käsitleja"
 
 #. MATE_VFS_ERROR_PARSE
+#: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
 msgstr "Viga käsurea töötlemisel"
 
 #. MATE_VFS_ERROR_LAUNCH
+#: ../libmatevfs/mate-vfs-result.c:92
 msgid "Error launching command"
 msgstr "Viga käsu käivitamisel"
 
 #. MATE_VFS_ERROR_TIMEOUT
+#: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
 msgstr "Ajapiirang on ületatud"
 
 #. MATE_VFS_ERROR_NAMESERVER
+#: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
 msgstr "Nimeserveri viga"
 
 #. MATE_VFS_ERROR_LOCKED
+#: ../libmatevfs/mate-vfs-result.c:95
 msgid "The resource is locked"
 msgstr "Ressurss on lukus"
 
 #. MATE_VFS_ERROR_DEPRECATED_FUNCTION
+#: ../libmatevfs/mate-vfs-result.c:96
 msgid "Function call deprecated"
 msgstr "Funktsioonikutsung on aegunud"
 
 #. MATE_VFS_ERROR_INVALID_FILENAME
+#: ../libmatevfs/mate-vfs-result.c:97
 msgid "Invalid filename"
 msgstr "Vigased failinimi"
 
 #. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
+#: ../libmatevfs/mate-vfs-result.c:98
 msgid "Not a symbolic link"
 msgstr "Ei ole sümbolnimi"
 
+#: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
 msgstr "Tundmatu viga"
 
+#: ../libmatevfs/mate-vfs-utils.c:78
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u bait"
 msgstr[1] "%u baiti"
 
+#: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
 msgid "%.1f KB"
 msgstr "%.1f KB"
 
+#: ../libmatevfs/mate-vfs-utils.c:88
 #, c-format
 msgid "%.1f MB"
 msgstr "%.1f MB"
 
+#: ../libmatevfs/mate-vfs-utils.c:92
 #, c-format
 msgid "%.1f GB"
 msgstr "%.1f GB"
 
+#: ../libmatevfs/mate-vfs-utils.c:1108
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:382
 msgid " (invalid Unicode)"
 msgstr " (vigane Unicode)"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:620
 msgid "Floppy"
 msgstr "Flopiketas"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
 msgstr "CD-ROM/DVD-ROM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:574
 msgid "CD-ROM/DVD-RAM"
 msgstr "CD-ROM/DVD-RAM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:575
 msgid "CD-ROM/DVD-R"
 msgstr "CD-ROM/DVD-R"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
 msgid "CD-ROM/DVD-RW"
 msgstr "CD-ROM/DVD-RW"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
 msgid "CD-R/DVD-ROM"
 msgstr "CD-R/DVD-ROM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
 msgid "CD-R/DVD-RAM"
 msgstr "CD-R/DVD-RAM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
 msgid "CD-R/DVD-R"
 msgstr "CD-R/DVD-R"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
 msgid "CD-R/DVD-RW"
 msgstr "CD-R/DVD-RW"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
 msgid "CD-RW/DVD-ROM"
 msgstr "CD-RW/DVD-ROM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
 msgid "CD-RW/DVD-RAM"
 msgstr "CD-RW/DVD-RAM"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
 msgid "CD-RW/DVD-R"
 msgstr "CD-RW/DVD-R"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:584
 msgid "CD-RW/DVD-RW"
 msgstr "CD-RW/DVD-RW"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
 msgid "Disk"
 msgstr "Ketas"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:587
 msgid "USB Drive"
 msgstr "USB seade"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
 msgid "IEEE1394 Drive"
 msgstr "IEEE1394 seade"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
 msgstr "CF"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
 msgid "SD/MMC"
 msgstr "SD/MMC"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
 msgstr "Mälupulk"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
 msgstr "Tark meedia (Smart Media)"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
 msgid "Camera"
 msgstr "Kaamera"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:597
 msgid "DVD"
 msgstr "DVD"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Juurseade"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "Audio CD"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Tundmatu seade"
 
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Võrguserver"
 
 #. Handle floppy case
+#: ../libmatevfs/mate-vfs-volume-ops.c:184
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "Flopiketast pole võimalik ühendada. Tõenäoliselt pole ketast seadmes."
 
 #. All others
+#: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Seadet pole võimalik külge ühendada. Tõenäoliselt pole meediat seadmes."
+msgstr "Seadet pole võimalik külge ühendada. Tõenäoliselt pole meediat seadmes."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Flopiketast pole võimalik külge ühendada. Ketas on tõenäoliselt ühildamatus "
-"vormingus."
+msgstr "Flopiketast pole võimalik külge ühendada. Ketas on tõenäoliselt ühildamatus vormingus."
 
 #. Probably a wrong password
+#: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Seadet pole võimalik ühendada. Kui tegemist on krüptitud seadmega, siis "
-"kasutatakse ilmselt vale parooli või võtit."
+msgstr "Seadet pole võimalik ühendada. Kui tegemist on krüptitud seadmega, siis kasutatakse ilmselt vale parooli või võtit."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Valitud ketast pole võimalik külge ühendada. Ketas on tõenäoliselt "
-"vormingus, mida pole võimalik külge ühendada."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Valitud ketast pole võimalik külge ühendada. Ketas on tõenäoliselt vormingus, mida pole võimalik külge ühendada."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
 msgstr "Valitud flopiketast pole võimalik külge ühendada."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:208
 msgid "Unable to mount the selected volume."
 msgstr "Valitud ketast pole võimalik külge ühendada."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Valitud seadet pole võimalik külge ühendada. Seade on tõenäoliselt mõne "
-"programmi poolt kasutusel."
+msgstr "Valitud seadet pole võimalik külge ühendada. Seade on tõenäoliselt mõne programmi poolt kasutusel."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
 msgstr "Ühendust valitud kettaga pole võimalik katkestada."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:377
 #, c-format
 msgid "Failed to read data from child process %d (%s)"
 msgstr "Tõrge lapsprotsessilt %d andmete lugemisel (%s)"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:421
 msgid "Couldn't run mount process in a pty"
 msgstr "Ühendamisprotsessi pole võimalik pseudoterminalil käivitada"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Ootamatu viga select() funktsioonis andmete lugemisel lapsprotsessilt (%s)"
+msgstr "Ootamatu viga select() funktsioonis andmete lugemisel lapsprotsessilt (%s)"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr "Ühendamisprotsessile pole võimalik parooli saata."
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:559
 #, c-format
 msgid "Unexpected error in waitpid() (%s)"
 msgstr "Ootamatu viga waitpid() funktsioonis (%s)"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:669
+#: ../libmatevfs/mate-vfs-volume-ops.c:755
 msgid "Failed to start command"
 msgstr "Tõrge käsu käivitamisel"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:742
 msgid "Unable to eject media"
 msgstr "Meediat pole võimalik väljastada"
 
+#: ../libmatevfs/mate-vfs-volume-ops.c:983
 msgid "Unable to unmount connected server"
 msgstr "Ühendust serveriga pole võimalik katkestada"
 
+#: ../modules/computer-method.c:543
 msgid "Network"
 msgstr "Võrk"
 
+#: ../modules/computer-method.c:561
 msgid "Home"
 msgstr "Kodu"
 
+#: ../modules/computer-method.c:579
 msgid "Filesystem"
 msgstr "Failisüsteem"
 
+#: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
 msgstr "Tundmatu MateVFSSeekPosition %d"
 
+#: ../modules/network-method.c:1399
 msgid "Windows Network"
 msgstr "Windows'i võrk"
 
+#: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
 msgstr "Võrguarvuti (%s) identiteet on tundmatu."
 
+#: ../modules/sftp-method.c:1425
 #, c-format
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"See juhtub kui sa logid arvutisse esimest korda.\n"
-"\n"
-"Kaugarvuti saadetud identiteet on %s. Kui tahad turvalises jätkamises "
-"täiesti kindel olla, siis võta ühendust süsteemihalduriga."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "See juhtub kui sa logid arvutisse esimest korda.\n\nKaugarvuti saadetud identiteet on %s. Kui tahad turvalises jätkamises täiesti kindel olla, siis võta ühendust süsteemihalduriga."
 
+#: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
 msgstr "Logi siiski sisse"
 
+#: ../modules/sftp-method.c:1434
 msgid "Cancel Login"
 msgstr "Loobu sisselogimisest"
 
 #. FIXME: we probably shouldn't use printf to output the message
+#: ../modules/test-method.c:587
 #, c-format
 msgid "Didn't find a valid settings file at %s\n"
 msgstr "Asukohast %s ei leitud ühtegi korrektset sätete faili\n"
 
+#: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
 msgstr "Teistsuguse asukoha määramiseks kasuta keskkonnamuutujat %s.\n"
 
+#: ../programs/authentication.c:106
 #, c-format
 msgid "Your HTTP Proxy requires you to log in.\n"
 msgstr "Sinu HTTP-proxy vajab sisselogimist.\n"
 
+#: ../programs/authentication.c:107
 #, c-format
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Sa pead sisse logima, et \"%s\"-ile ligi pääseda.\n"
-"%s"
+msgstr "Sa pead sisse logima, et \"%s\"-ile ligi pääseda.\n%s"
 
+#: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
 msgstr "Sinu parool edastatakse krüpteerimata."
 
+#: ../programs/authentication.c:111
 msgid "Your password will be transmitted encrypted."
 msgstr "Sinu parool edastatakse krüptitult."
 
+#: ../programs/authentication.c:163
 #, c-format
 msgid "You must log in to access %s domain %s\n"
 msgstr "Sa pead sisse logima, et ligi pääseda %s-ile domeenis %s\n"
 
+#: ../programs/authentication.c:165
 #, c-format
 msgid "You must log in to access %s\n"
 msgstr "Sa pead sisse logima, et ligi pääseda %s-ile\n"
 
+#: ../schemas/desktop_default_applications.schemas.in.h:1
 msgid "Default component viewer application"
 msgstr "Vaikimisi komponentide vaatamise rakendus"
 
+#: ../schemas/desktop_default_applications.schemas.in.h:2
 msgid "Default terminal application"
 msgstr "Vaikimisi terminalirakendus"
 
+#: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
 msgstr "Vaikimisi terminalikäivitusargument"
 
+#: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Rakendus, mida kasutada failide puhul, mille vaatamiseks on vaja kasutada "
-"komponenti. Parameeter %s asendatakse faili URI'ga, parameeter %c komponendi "
-"IID'ga."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Rakendus, mida kasutada failide puhul, mille vaatamiseks on vaja kasutada komponenti. Parameeter %s asendatakse faili URI'ga, parameeter %c komponendi IID'ga."
 
+#: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Vaikimisi terminalirakendus kasutamiseks terminali vajavate rakenduste jaoks."
+msgstr "Vaikimisi terminalirakendus kasutamiseks terminali vajavate rakenduste jaoks."
 
+#: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr "Vaikimisi terminalirakenduse käivitusargument."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
 msgstr "Käivita käsk terminalis"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
 msgstr "Käsk \"aim\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
 msgstr "Käsk \"callto\" URLide  käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
 msgstr "Käsk \"ghelp\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
 msgstr "Käsk \"h323\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
 msgstr "Käsk \"http\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
 msgstr "Käsk \"https\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
 msgstr "Käsk \"info\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
 msgstr "Käsk \"mailto\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
 msgstr "Käsk \"man\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
 msgstr "Käsk \"trash\" URLide käsitlemiseks, kui lubatud."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
 msgstr "\"aim\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:13
 msgid "The handler for \"callto\" URLs"
 msgstr "\"callto\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:14
 msgid "The handler for \"ghelp\" URLs"
 msgstr "\"ghelp\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:15
 msgid "The handler for \"h323\" URLs"
 msgstr "\"h323\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:16
 msgid "The handler for \"http\" URLs"
 msgstr "\"http\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:17
 msgid "The handler for \"https\" URLs"
 msgstr "\"https\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:18
 msgid "The handler for \"info\" URLs"
 msgstr "\"info\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:19
 msgid "The handler for \"mailto\" URLs"
 msgstr "\"mailto\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:20
 msgid "The handler for \"man\" URLs"
 msgstr "\"man\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:21
 msgid "The handler for \"trash\" URLs"
 msgstr "\"trash\" URLi käsitleja"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"aim\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"callto\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"ghelp\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"h323\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"http\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"https\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"info\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"mailto\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"man\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "Tõene, kui \"käsk\" võtmes määratud käsk käsitleb \"trash\" URLe."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Tõene, kui käsku, mis määratud seda tüüpi URLide käsitlemiseks, tuleks "
-"käivitada terminalis ."
+msgstr "Tõene, kui käsku, mis määratud seda tüüpi URLide käsitlemiseks, tuleks käivitada terminalis ."
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"aim\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:34
 msgid "Whether the specified command should handle \"callto\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"callto\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:35
 msgid "Whether the specified command should handle \"ghelp\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"ghelp\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:36
 msgid "Whether the specified command should handle \"h323\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"h323\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:37
 msgid "Whether the specified command should handle \"http\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"http\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:38
 msgid "Whether the specified command should handle \"https\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"https\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:39
 msgid "Whether the specified command should handle \"info\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"info\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:40
 msgid "Whether the specified command should handle \"mailto\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"mailto\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:41
 msgid "Whether the specified command should handle \"man\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"man\" URLe"
 
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:42
 msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "Kas määratud käsk peaks käsitlema \"trash\" URLe"
 
+#: ../schemas/system_dns_sd.schemas.in.h:1
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Komadega eraldatud rida DNS-SD domeenidest, mis peaksid olema nähtavad "
-"võrgukohas \"network:///\"."
+msgstr "Komadega eraldatud rida DNS-SD domeenidest, mis peaksid olema nähtavad võrgukohas \"network:///\"."
 
+#: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
 msgstr "Lisadomeenid DNS-SD teenuste otsimiseks"
 
+#: ../schemas/system_dns_sd.schemas.in.h:3
 msgid "How to display local DNS-SD service"
 msgstr "Kuidas kuvada kohalikku DNS-SD teenust"
 
+#: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Võimalikud väärtused on \"kokkupandud\", \"eraldatud\" ja \"keelatud\"."
+msgstr "Võimalikud väärtused on \"kokkupandud\", \"eraldatud\" ja \"keelatud\"."
 
+#: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
 msgstr "Proksiserveri ühenduste autentimine"
 
+#: ../schemas/system_http_proxy.schemas.in.h:2
 msgid "Automatic proxy configuration URL"
 msgstr "Automaatne proksi seadistamise URL"
 
+#: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
 msgstr "Lubab proksi seaded, kui HTTP-le pääsetakse ligi Interneti kaudu."
 
+#: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
 msgstr "FTP proksiserveri aadress"
 
+#: ../schemas/system_http_proxy.schemas.in.h:5
 msgid "FTP proxy port"
 msgstr "FTP proksi port"
 
+#: ../schemas/system_http_proxy.schemas.in.h:6
 msgid "HTTP proxy host name"
 msgstr "HTTP proksiserveri aadress"
 
+#: ../schemas/system_http_proxy.schemas.in.h:7
 msgid "HTTP proxy password"
 msgstr "HTTP proksi salasõna"
 
+#: ../schemas/system_http_proxy.schemas.in.h:8
 msgid "HTTP proxy port"
 msgstr "HTTP proksi port"
 
+#: ../schemas/system_http_proxy.schemas.in.h:9
 msgid "HTTP proxy username"
 msgstr "HTTP proksi kasutajanimi"
 
+#: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Kui tõene, siis ühendused proxy-serverisse vajavad autentimist. Kasutajanimi/"
-"salasõna on defineeritud võtmetega \"/system/http_proxy/authentication_user"
-"\" ja \"/system/http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Kui tõene, siis ühendused proxy-serverisse vajavad autentimist. Kasutajanimi/salasõna on defineeritud võtmetega \"/system/http_proxy/authentication_user\" ja \"/system/http_proxy/authentication_password\"."
 
+#: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
 msgstr "Proksi kasutamiskeeluga serverid"
 
+#: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
 msgstr "Parool, mida HTTP proxile autentimiseks saata."
 
+#: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
 msgstr "Proksi seadistusrežiim"
 
+#: ../schemas/system_http_proxy.schemas.in.h:14
 msgid "SOCKS proxy host name"
 msgstr "SOCKS proksiserveri aadress"
 
+#: ../schemas/system_http_proxy.schemas.in.h:15
 msgid "SOCKS proxy port"
 msgstr "SOCKS proksi port"
 
+#: ../schemas/system_http_proxy.schemas.in.h:16
 msgid "Secure HTTP proxy host name"
 msgstr "Turvalise HTTP proksiserveri aadress"
 
+#: ../schemas/system_http_proxy.schemas.in.h:17
 msgid "Secure HTTP proxy port"
 msgstr "Turvalise HTTP proksi port"
 
+#: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Vali proksi konfiguratsiooni mood. Toetatud väärtused on \"pole\", \"käsitsi"
-"\", \"automaatne\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Vali proksi konfiguratsiooni mood. Toetatud väärtused on \"pole\", \"käsitsi\", \"automaatne\"."
 
+#: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
 msgstr "FTP proxi masina nimi"
 
+#: ../schemas/system_http_proxy.schemas.in.h:20
 msgid "The machine name to proxy HTTP through."
 msgstr "HTTP proxi masina nimi"
 
+#: ../schemas/system_http_proxy.schemas.in.h:21
 msgid "The machine name to proxy secure HTTP through."
 msgstr "Turvalise HTTP proxi masina nimi"
 
+#: ../schemas/system_http_proxy.schemas.in.h:22
 msgid "The machine name to proxy socks through."
 msgstr "Socks proxi masina nimi"
 
+#: ../schemas/system_http_proxy.schemas.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Port, defineeritud \"/system/http_proxy/host\" poolt, mille kaudu proxyt "
-"kasutatakse."
+msgstr "Port, defineeritud \"/system/http_proxy/host\" poolt, mille kaudu proxyt kasutatakse."
 
+#: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Port, defineeritud \"/system/proxy/ftp_host\" poolt, mille kaudu proxyt "
-"kasutatakse."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Port, defineeritud \"/system/proxy/ftp_host\" poolt, mille kaudu proxyt kasutatakse."
 
+#: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Port, defineeritud \"/system/proxy/secure_host\" poolt, mille kaudu proxyt "
-"kasutatakse."
+msgstr "Port, defineeritud \"/system/proxy/secure_host\" poolt, mille kaudu proxyt kasutatakse."
 
+#: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Port, defineeritud \"/system/proxy/socks_host\" poolt, mille kaudu proxyt "
-"kasutatakse."
+msgstr "Port, defineeritud \"/system/proxy/socks_host\" poolt, mille kaudu proxyt kasutatakse."
 
+#: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"See võti sisaldab nimekirja hostidest kuhu ühendutakse otse, ilma et "
-"kasutataks proxyt (isegi kui see on aktiivne). Väärtused võivad olla "
-"hostinimed, domeenid (kasutades vormi *.foo.com), IP-aadressid (nii IPv6 kui "
-"IPv6) ja võrguaadressid koos võrgumaskiga (näiteks 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "See võti sisaldab nimekirja hostidest kuhu ühendutakse otse, ilma et kasutataks proxyt (isegi kui see on aktiivne). Väärtused võivad olla hostinimed, domeenid (kasutades vormi *.foo.com), IP-aadressid (nii IPv6 kui IPv6) ja võrguaadressid koos võrgumaskiga (näiteks 192.168.0.0/24)."
 
+#: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
 msgstr "URL, mis tagab proxi seadistuste väärtused."
 
+#: ../schemas/system_http_proxy.schemas.in.h:29
 msgid "Use HTTP proxy"
 msgstr "HTTP proksi kasutamine"
 
+#: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr "Kasutajanimi mida saadetakse autentimiseks HTTP proxile."
 
+#: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
 msgstr "SMB töögrupp"
 
+#: ../schemas/system_smb.schemas.in.h:2
 msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Windows'i võrgunduse töögrupi või domeeni nimi, kuhu see kasutaja kuulub. "
-"Selleks et kasutaja saaks täielikult ära kasutada uue töögrupi privileege, "
-"peaks ta kõigepealt välja ja seejärel uuesti sisse logima."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "MateComponent'd pole võimalik lähtestada"
-
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "Mate vfs'i pole võimalik lähtestada"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Tavaline Moniker'i factory"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "fail MonikerExtender"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "üldine Mate VFS moniker"
-
-#~ msgid "generic file moniker"
-#~ msgstr "üldine file moniker"
-
-#~ msgid "Display SCSI drives"
-#~ msgstr "Näita SCSI kettaid"
-
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Näita SCSI optilisi kettaid"
-
-#~ msgid "Display drives with removable media"
-#~ msgstr "Näita kettaid eemaldatavate andmekandjatega"
-
-#~ msgid "Display external drives"
-#~ msgstr "Näita väliseid kettaid"
-
-#~ msgid "Display internal hard drives"
-#~ msgstr "Näita sisemisi kõvakettaid"
-
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "Kas näidata SCSI optilisi kettaid isegi kui /system/storage/"
-#~ "display_scsi_drives on VÄÄR."
-
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr "Kas näidata kettaid ja külgehaagitavaid seadeid SCSI ketastelt."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "Kas näidata kettaid ja külgehaagitavaid seadeid eemaldatavate "
-#~ "andmekandjatega (näiteks kettaid kuhu andmekandjaid saab sisestada ja "
-#~ "eemaldada)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "Kas näidata kettaid ja külgehaagitavaid seadeid välistelt kõvaketastelt "
-#~ "(näiteks kettaid mida saab jooksvalt külge ühendada - mille sisestamist "
-#~ "ja eemaldadamist saab teostada jooksva süsteemiga)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "Kas näidata kettaid ja külgehaagitavaid seadeid sisemistelt kõvaketastelt "
-#~ "(mitte-SCSI optilisi kettaid näidatakse alati)."
+msgstr "Windows'i võrgunduse töögrupi või domeeni nimi, kuhu see kasutaja kuulub. Selleks et kasutaja saaks täielikult ära kasutada uue töögrupi privileege, peaks ta kõigepealt välja ja seejärel uuesti sisse logima."

@@ -1,1404 +1,1460 @@
-# translation of mate-vfs.HEAD.az.po to Azerbaijani Turkish
-# Copyright (C) 2001,2003, 2004 Free Software Foundation, Inc.
-# Vasif Ismailoglu MD <azerb_linux@hotmail.com>, 2001 .
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Mətin Əmirov <metin@karegen.com>, 2003, 2004.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD.az\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-02-10 12:25+0100\n"
-"PO-Revision-Date: 2004-02-22 19:52+0200\n"
-"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
-"Language-Team: Azerbaijani Turkish <translation-team-az@lists.sourceforge."
-"net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: az\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
-#: daemon/mate-vfs-daemon.c:596
-msgid "Could not initialize MateComponent"
-msgstr "MateComponent başladıla bilmədi"
-
-#: daemon/mate-vfs-daemon.c:603
-msgid "Could not initialize mate vfs"
-msgstr "Mate vfs başladıla bilmədi"
-
-#: libmatevfs/mate-vfs-cdrom.c:235
+#: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
 msgstr "ISO 9660 Həcmi"
 
-#: libmatevfs/mate-vfs-configuration.c:227
+#: ../libmatevfs/mate-vfs-configuration.c:225
 #, c-format
-msgid "%s:%d contains NUL characters."
-msgstr "%s:%d NUL hərflərini daxil edir."
+msgid "%s:%u contains NUL characters."
+msgstr ""
 
-#: libmatevfs/mate-vfs-configuration.c:244
+#: ../libmatevfs/mate-vfs-configuration.c:242
 #, c-format
-msgid "%s:%d contains no method name."
-msgstr "%s:%d yöntəm adını daxil etmir."
+msgid "%s:%u contains no method name."
+msgstr ""
 
-#: libmatevfs/mate-vfs-configuration.c:284
+#: ../libmatevfs/mate-vfs-configuration.c:282
 #, c-format
-msgid "%s:%d has no options endmarker."
-msgstr "%s:%d seçimlərə malik deyil"
+msgid "%s:%u has no options endmarker."
+msgstr ""
 
-#: libmatevfs/mate-vfs-configuration.c:295
+#: ../libmatevfs/mate-vfs-configuration.c:293
 #, c-format
-msgid "%s:%d has unknown options %s."
-msgstr "%s:%d namə'lum seçimlərə malikdir %s."
+msgid "%s:%u has unknown options %s."
+msgstr ""
 
-#: libmatevfs/mate-vfs-configuration.c:314
+#: ../libmatevfs/mate-vfs-configuration.c:312
 #, c-format
-msgid "%s:%d contains no module name."
-msgstr "%s:%d modul adını daxil etmir."
+msgid "%s:%u contains no module name."
+msgstr ""
 
-#: libmatevfs/mate-vfs-configuration.c:368
+#: ../libmatevfs/mate-vfs-configuration.c:363
 #, c-format
 msgid "Configuration file `%s' was not found: %s"
 msgstr "Quraşdırma faylı `%s' tapıla bilmədi: %s"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:37
+#. stop parsing if we failed
+#: ../libmatevfs/mate-vfs-configuration.c:382
+#, c-format
+msgid "%s:%d aborted parsing."
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:39
 msgid "AFFS Volume"
 msgstr "AFFS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:38
+#: ../libmatevfs/mate-vfs-filesystem-type.c:40
 msgid "AFS Network Volume"
 msgstr "AFS Şəbəkə Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:39
+#: ../libmatevfs/mate-vfs-filesystem-type.c:41
 msgid "Auto-detected Volume"
 msgstr "Avtomatik təsbit edilmiş Həcm"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:40
-#: libmatevfs/mate-vfs-filesystem-type.c:42
+#: ../libmatevfs/mate-vfs-filesystem-type.c:42
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM Sürücüsü"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:41
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD Dijital Audio"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "Texniki Tə'minat Avadanlığı Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:44
-#: libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
+msgid "EncFS Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 Linuks Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 Linuks Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:47
-#: libmatevfs/mate-vfs-filesystem-type.c:57
-#: libmatevfs/mate-vfs-filesystem-type.c:58
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:48
-#: libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
+msgid "BSD Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+msgid "FUSE Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:50
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:51
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:53
-#: libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "Windows NT Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:54
-#: libmatevfs/mate-vfs-filesystem-type.c:62
-#: libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "Sistem Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "Yaddaş Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "Minix Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:59
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS Şəbəkə Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:61
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "Netware Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:64
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+msgid "Reiser4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS Linuks Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "Paylaşılmış Windows Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "SuperMount Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "Solraris/BSD Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:69
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs Solaris Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:70
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs Solaris Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:71
-#, fuzzy
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
-msgstr "AFFS Həcmi"
+msgstr ""
 
-#: libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+msgid "Temporary Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "Genişlədilmiş DOS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "Windows VFAT Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "Xenix Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS Linuks Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS Həcmi"
 
-#: libmatevfs/mate-vfs-filesystem-type.c:104
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
+msgid "CIFS Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "Namə'lum"
 
-#: libmatevfs/mate-vfs-job.c:734
-#, fuzzy, c-format
-msgid "Unknown operation type %u"
-msgstr "Namə'lum op növü %u"
+#: ../libmatevfs/mate-vfs-hal-mounts.c:356
+#: ../libmatevfs/mate-vfs-hal-mounts.c:582
+#, c-format
+msgid "%s Volume"
+msgstr ""
 
-#: libmatevfs/mate-vfs-job.c:1024 libmatevfs/mate-vfs-job.c:1169
+#: ../libmatevfs/mate-vfs-hal-mounts.c:372
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:565
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:623
+msgid "CD-ROM"
+msgstr "CD-ROM"
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:374
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:567
+msgid "CD-R"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:376
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:568
+msgid "CD-RW"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:380
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:569
+msgid "DVD-ROM"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:382
+msgid "DVD+R"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:384
+msgid "DVD+RW"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:386
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:571
+msgid "DVD-R"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:388
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:572
+msgid "DVD-RW"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:390
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:570
+msgid "DVD-RAM"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:393
+msgid "DVD±R"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:396
+msgid "DVD±RW"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:399
+#, c-format
+msgid "%s/%s Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:401
+#, c-format
+msgid "%s Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:406
+msgid "Floppy Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:409
+msgid "Compact Flash Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:411
+msgid "Memory Stick Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:413
+msgid "Smart Media Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:415
+msgid "SD/MMC Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:417
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:594
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:626
+msgid "Zip Drive"
+msgstr "Zip Sürücüsü"
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:420
+msgid "Jaz Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:423
+msgid "Pen Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:429
+#, c-format
+msgid "%s %s Music Player"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:437
+#, c-format
+msgid "%s %s Digital Camera"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:467
+msgid "Drive"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:472
+#, c-format
+msgid "External %s"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:508
+msgid "CD-ROM Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:513
+msgid "Blank CD-R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:515
+msgid "CD-R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:520
+msgid "Blank CD-RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:522
+msgid "CD-RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:526
+msgid "DVD-ROM Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:531
+msgid "Blank DVD-RAM Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:533
+msgid "DVD-RAM Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:538
+msgid "Blank DVD-R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:540
+msgid "DVD-R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:545
+msgid "Blank DVD-RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:547
+msgid "DVD-RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:553
+msgid "Blank DVD+R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:555
+msgid "DVD+R Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:560
+msgid "Blank DVD+RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:562
+msgid "DVD+RW Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:569
+msgid "Audio Disc"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:580
+#, c-format
+msgid "%s Removable Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-hal-mounts.c:591
+msgid "Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-job.c:733
+#, c-format
+msgid "Unknown operation type %u"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "GIOChannel açmaq üçün boru yaradıla bilmir: %s"
 
-#: libmatevfs/mate-vfs-job.c:1687
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "Namə'lum vəzifə növü %u"
 
-#: libmatevfs/mate-vfs-job.c:1720
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "Əməliyyat dayandırıldı"
 
-#: libmatevfs/mate-vfs-mime-handlers.c:101
-#: libmatevfs/mate-vfs-mime-handlers.c:255
-#: libmatevfs/mate-vfs-mime-handlers.c:306
-#: libmatevfs/mate-vfs-mime-handlers.c:600
-#: libmatevfs/mate-vfs-mime-handlers.c:619
-#: libmatevfs/mate-vfs-mime-handlers.c:637
-#: libmatevfs/mate-vfs-mime-handlers.c:656
-#: libmatevfs/mate-vfs-mime-handlers.c:675
-#: libmatevfs/mate-vfs-mime-handlers.c:816
-#: libmatevfs/mate-vfs-mime-handlers.c:838
-#: libmatevfs/mate-vfs-mime-handlers.c:857
-#: libmatevfs/mate-vfs-mime-handlers.c:876
-#: libmatevfs/mate-vfs-mime-handlers.c:929
-#: libmatevfs/mate-vfs-mime-handlers.c:946
-#: libmatevfs/mate-vfs-mime-handlers.c:963
-#: libmatevfs/mate-vfs-mime-handlers.c:981
-#: libmatevfs/mate-vfs-mime-handlers.c:999
-#: libmatevfs/mate-vfs-mime-info.c:643 libmatevfs/mate-vfs-mime-info.c:650
-#: libmatevfs/mate-vfs-mime-info.c:658 libmatevfs/mate-vfs-mime-info.c:665
-#: libmatevfs/mate-vfs-mime-info.c:673 libmatevfs/mate-vfs-mime-info.c:690
-#: libmatevfs/mate-vfs-mime-info.c:697 libmatevfs/mate-vfs-mime-info.c:704
-#: libmatevfs/mate-vfs-mime-info.c:711 libmatevfs/mate-vfs-mime-info.c:719
-#: libmatevfs/mate-vfs-mime-info.c:726
+#: ../libmatevfs/mate-vfs-mime-handlers.c:103
+#: ../libmatevfs/mate-vfs-mime-handlers.c:231
+#: ../libmatevfs/mate-vfs-mime-handlers.c:282
+#: ../libmatevfs/mate-vfs-mime-handlers.c:365
+#: ../libmatevfs/mate-vfs-mime-handlers.c:386
+#: ../libmatevfs/mate-vfs-mime-handlers.c:406
+#: ../libmatevfs/mate-vfs-mime-handlers.c:427
+#: ../libmatevfs/mate-vfs-mime-handlers.c:448
+#: ../libmatevfs/mate-vfs-mime-handlers.c:541
+#: ../libmatevfs/mate-vfs-mime-handlers.c:565
+#: ../libmatevfs/mate-vfs-mime-handlers.c:586
+#: ../libmatevfs/mate-vfs-mime-handlers.c:607
+#: ../libmatevfs/mate-vfs-mime-handlers.c:628
+#: ../libmatevfs/mate-vfs-mime-handlers.c:647
+#: ../libmatevfs/mate-vfs-mime-handlers.c:666
+#: ../libmatevfs/mate-vfs-mime-handlers.c:686
+#: ../libmatevfs/mate-vfs-mime-handlers.c:706
+#: ../libmatevfs/mate-vfs-mime-info.c:631
+#: ../libmatevfs/mate-vfs-mime-info.c:638
+#: ../libmatevfs/mate-vfs-mime-info.c:646
+#: ../libmatevfs/mate-vfs-mime-info.c:653
+#: ../libmatevfs/mate-vfs-mime-info.c:661
+#: ../libmatevfs/mate-vfs-mime-info.c:678
+#: ../libmatevfs/mate-vfs-mime-info.c:685
+#: ../libmatevfs/mate-vfs-mime-info.c:692
+#: ../libmatevfs/mate-vfs-mime-info.c:699
+#: ../libmatevfs/mate-vfs-mime-info.c:707
+#: ../libmatevfs/mate-vfs-mime-info.c:714
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
 msgstr ""
 
-#: libmatevfs/mate-vfs-parse-ls.c:666
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "Oxuna bilmədi: %s"
 
-#: libmatevfs/mate-vfs-parse-ls.c:668
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "Növbəti oxuma xətaları diqqətə alınmayacaqdır."
 
 #. MATE_VFS_OK
-#: libmatevfs/mate-vfs-result.c:38
+#: ../libmatevfs/mate-vfs-result.c:47
 msgid "No error"
 msgstr "Xətasız"
 
 #. MATE_VFS_ERROR_NOT_FOUND
-#: libmatevfs/mate-vfs-result.c:39
+#: ../libmatevfs/mate-vfs-result.c:48
 msgid "File not found"
 msgstr "Fayl tapıla bilmədi"
 
 #. MATE_VFS_ERROR_GENERIC
-#: libmatevfs/mate-vfs-result.c:40
+#: ../libmatevfs/mate-vfs-result.c:49
 msgid "Generic error"
 msgstr "Ümumi xəta"
 
 #. MATE_VFS_ERROR_INTERNAL
-#: libmatevfs/mate-vfs-result.c:41
+#: ../libmatevfs/mate-vfs-result.c:50
 msgid "Internal error"
 msgstr "Daxili xəta"
 
 #. MATE_VFS_ERROR_BAD_PARAMETERS
-#: libmatevfs/mate-vfs-result.c:42
+#: ../libmatevfs/mate-vfs-result.c:51
 msgid "Invalid parameters"
 msgstr "Hökmsüz parametrlər"
 
 #. MATE_VFS_ERROR_NOT_SUPPORTED
-#: libmatevfs/mate-vfs-result.c:43
+#: ../libmatevfs/mate-vfs-result.c:52
 msgid "Unsupported operation"
 msgstr "Dəstəklənməyən əməliyyat"
 
 #. MATE_VFS_ERROR_IO
-#: libmatevfs/mate-vfs-result.c:44
+#: ../libmatevfs/mate-vfs-result.c:53
 msgid "I/O error"
 msgstr "I/O xətası"
 
 #. MATE_VFS_ERROR_CORRUPTED_DATA
-#: libmatevfs/mate-vfs-result.c:45
+#: ../libmatevfs/mate-vfs-result.c:54
 msgid "Data corrupted"
 msgstr "Mə'lumat xəsərlidir"
 
 #. MATE_VFS_ERROR_WRONG_FORMAT
-#: libmatevfs/mate-vfs-result.c:46
+#: ../libmatevfs/mate-vfs-result.c:55
 msgid "Format not valid"
 msgstr "Format hökmsüzdür"
 
 #. MATE_VFS_ERROR_BAD_FILE
-#: libmatevfs/mate-vfs-result.c:47
+#: ../libmatevfs/mate-vfs-result.c:56
 msgid "Bad file handle"
 msgstr "Xəsərli fayl idarəsi"
 
 #. MATE_VFS_ERROR_TOO_BIG
-#: libmatevfs/mate-vfs-result.c:48
+#: ../libmatevfs/mate-vfs-result.c:57
 msgid "File too big"
 msgstr "Fayl çox böyükdür"
 
 #. MATE_VFS_ERROR_NO_SPACE
-#: libmatevfs/mate-vfs-result.c:49
+#: ../libmatevfs/mate-vfs-result.c:58
 msgid "No space left on device"
 msgstr "Avadanlıqda yer yoxdur"
 
 #. MATE_VFS_ERROR_READ_ONLY
-#: libmatevfs/mate-vfs-result.c:50
+#: ../libmatevfs/mate-vfs-result.c:59
 msgid "Read-only file system"
 msgstr "Sırf oxuna bilən fayl sistemi"
 
 #. MATE_VFS_ERROR_INVALID_URI
-#: libmatevfs/mate-vfs-result.c:51
+#: ../libmatevfs/mate-vfs-result.c:60
 msgid "Invalid URI"
 msgstr "Hökmsüz URI"
 
 #. MATE_VFS_ERROR_NOT_OPEN
-#: libmatevfs/mate-vfs-result.c:52
+#: ../libmatevfs/mate-vfs-result.c:61
 msgid "File not open"
 msgstr "Fayl açıq deyil"
 
 #. MATE_VFS_ERROR_INVALID_OPEN_MODE
-#: libmatevfs/mate-vfs-result.c:53
+#: ../libmatevfs/mate-vfs-result.c:62
 msgid "Open mode not valid"
 msgstr "Açma modu hökmlü deyil"
 
 #. MATE_VFS_ERROR_ACCESS_DENIED
-#: libmatevfs/mate-vfs-result.c:54
+#: ../libmatevfs/mate-vfs-result.c:63
 msgid "Access denied"
 msgstr "İcazə rədd edildi"
 
 #. MATE_VFS_ERROR_TOO_MANY_OPEN_FILES
-#: libmatevfs/mate-vfs-result.c:55
+#: ../libmatevfs/mate-vfs-result.c:64
 msgid "Too many open files"
 msgstr "Həddindən çox açıq fayl"
 
 #. MATE_VFS_ERROR_EOF
-#: libmatevfs/mate-vfs-result.c:56
+#: ../libmatevfs/mate-vfs-result.c:65
 msgid "End of file"
 msgstr "Faylın sonu"
 
 #. MATE_VFS_ERROR_NOT_A_DIRECTORY
-#: libmatevfs/mate-vfs-result.c:57
+#: ../libmatevfs/mate-vfs-result.c:66
 msgid "Not a directory"
 msgstr "Qovluq deyil"
 
 #. MATE_VFS_ERROR_IN_PROGRESS
-#: libmatevfs/mate-vfs-result.c:58
+#: ../libmatevfs/mate-vfs-result.c:67
 msgid "Operation in progress"
 msgstr "Əməliyyat fəaliyyətdədir"
 
 #. MATE_VFS_ERROR_INTERRUPTED
-#: libmatevfs/mate-vfs-result.c:59
+#: ../libmatevfs/mate-vfs-result.c:68
 msgid "Operation interrupted"
 msgstr "Əməliyyat dayandırıldı"
 
 #. MATE_VFS_ERROR_FILE_EXISTS
-#: libmatevfs/mate-vfs-result.c:60
+#: ../libmatevfs/mate-vfs-result.c:69
 msgid "File exists"
 msgstr "Fayl mövcuddur"
 
 #. MATE_VFS_ERROR_LOOP
-#: libmatevfs/mate-vfs-result.c:61
+#: ../libmatevfs/mate-vfs-result.c:70
 msgid "Looping links encountered"
 msgstr "Döngəli bağlar tapıldı"
 
 #. MATE_VFS_ERROR_NOT_PERMITTED
-#: libmatevfs/mate-vfs-result.c:62
+#: ../libmatevfs/mate-vfs-result.c:71
 msgid "Operation not permitted"
 msgstr "Əməliyyata icazə verilmir"
 
 #. MATE_VFS_ERROR_IS_DIRECTORY
-#: libmatevfs/mate-vfs-result.c:63
+#: ../libmatevfs/mate-vfs-result.c:72
 msgid "Is a directory"
 msgstr "Qovluqdur"
 
 #. MATE_VFS_ERROR_NO_MEMORY
-#: libmatevfs/mate-vfs-result.c:64
+#: ../libmatevfs/mate-vfs-result.c:73
 msgid "Not enough memory"
 msgstr "Kifayət qədər yaddaş yoxdur"
 
 #. MATE_VFS_ERROR_HOST_NOT_FOUND
-#: libmatevfs/mate-vfs-result.c:65
+#: ../libmatevfs/mate-vfs-result.c:74
 msgid "Host not found"
 msgstr "Qovşaq tapıla bilmədi"
 
 #. MATE_VFS_ERROR_INVALID_HOST_NAME
-#: libmatevfs/mate-vfs-result.c:66
+#: ../libmatevfs/mate-vfs-result.c:75
 msgid "Host name not valid"
 msgstr "Hökmsüz qovşaq adı"
 
 #. MATE_VFS_ERROR_HOST_HAS_NO_ADDRESS
-#: libmatevfs/mate-vfs-result.c:67
+#: ../libmatevfs/mate-vfs-result.c:76
 msgid "Host has no address"
 msgstr "Qovşağın ünvanı yoxdur"
 
 #. MATE_VFS_ERROR_LOGIN_FAILED
-#: libmatevfs/mate-vfs-result.c:68
+#: ../libmatevfs/mate-vfs-result.c:77
 msgid "Login failed"
 msgstr "Giriş bacarılmadı "
 
 #. MATE_VFS_ERROR_CANCELLED
-#: libmatevfs/mate-vfs-result.c:69
+#: ../libmatevfs/mate-vfs-result.c:78
 msgid "Operation cancelled"
 msgstr "Əməliyyat ləğv edildi"
 
 #. MATE_VFS_ERROR_DIRECTORY_BUSY
-#: libmatevfs/mate-vfs-result.c:70
+#: ../libmatevfs/mate-vfs-result.c:79
 msgid "Directory busy"
 msgstr "Qovluq məşğuldur"
 
 #. MATE_VFS_ERROR_DIRECTORY_NOT_EMPTY
-#: libmatevfs/mate-vfs-result.c:71
+#: ../libmatevfs/mate-vfs-result.c:80
 msgid "Directory not empty"
 msgstr "Qovluq boş deyil"
 
 #. MATE_VFS_ERROR_TOO_MANY_LINKS
-#: libmatevfs/mate-vfs-result.c:72
+#: ../libmatevfs/mate-vfs-result.c:81
 msgid "Too many links"
 msgstr "Çox bağ var"
 
 #. MATE_VFS_ERROR_READ_ONLY_FILE_SYSTEM
-#: libmatevfs/mate-vfs-result.c:73
+#: ../libmatevfs/mate-vfs-result.c:82
 msgid "Read only file system"
 msgstr "Yalnız oxuna bilən fayl sistemi"
 
 #. MATE_VFS_ERROR_NOT_SAME_FILE_SYSTEM
-#: libmatevfs/mate-vfs-result.c:74
+#: ../libmatevfs/mate-vfs-result.c:83
 msgid "Not on the same file system"
 msgstr "Eyni fayl sistemində deyil"
 
 #. MATE_VFS_ERROR_NAME_TOO_LONG
-#: libmatevfs/mate-vfs-result.c:75
+#: ../libmatevfs/mate-vfs-result.c:84
 msgid "Name too long"
 msgstr "Ad çox uzundur"
 
 #. MATE_VFS_ERROR_SERVICE_NOT_AVAILABLE
-#: libmatevfs/mate-vfs-result.c:76
+#: ../libmatevfs/mate-vfs-result.c:85
 msgid "Service not available"
 msgstr "Xidmət mövcud deyil"
 
 #. MATE_VFS_ERROR_SERVICE_OBSOLETE
-#: libmatevfs/mate-vfs-result.c:77
+#: ../libmatevfs/mate-vfs-result.c:86
 msgid "Request obsoletes service's data"
 msgstr "Dəqiq xidmət datasını istə"
 
 #. MATE_VFS_ERROR_PROTOCOL_ERROR
-#: libmatevfs/mate-vfs-result.c:78
+#: ../libmatevfs/mate-vfs-result.c:87
 msgid "Protocol error"
 msgstr "Protokol xətası"
 
 #. MATE_VFS_ERROR_NO_MASTER_BROWSER
-#: libmatevfs/mate-vfs-result.c:79
+#: ../libmatevfs/mate-vfs-result.c:88
 msgid "Could not find master browser"
 msgstr "Əsas səyyah tapıla bilmədi"
 
 #. MATE_VFS_ERROR_NO_DEFAULT
-#: libmatevfs/mate-vfs-result.c:80
+#: ../libmatevfs/mate-vfs-result.c:89
 msgid "No default action associated"
 msgstr "Əsas gedişat əlaqələndirilməyib"
 
 #. MATE_VFS_ERROR_NO_HANDLER
-#: libmatevfs/mate-vfs-result.c:81
+#: ../libmatevfs/mate-vfs-result.c:90
 msgid "No handler for URL scheme"
 msgstr "URL sxemi üçün idarəçi yoxdur"
 
 #. MATE_VFS_ERROR_PARSE
-#: libmatevfs/mate-vfs-result.c:82
+#: ../libmatevfs/mate-vfs-result.c:91
 msgid "Error parsing command line"
 msgstr "Əmr sətri təhlil edilərkən xəta"
 
 #. MATE_VFS_ERROR_LAUNCH
-#: libmatevfs/mate-vfs-result.c:83
+#: ../libmatevfs/mate-vfs-result.c:92
 msgid "Error launching command"
 msgstr "Əmri yerinə gətirmə xətası"
 
 #. MATE_VFS_ERROR_TIMEOUT
-#: libmatevfs/mate-vfs-result.c:84 libmatevfs/mate-vfs-result.c:86
+#: ../libmatevfs/mate-vfs-result.c:93
 msgid "Timeout reached"
 msgstr ""
 
 #. MATE_VFS_ERROR_NAMESERVER
-#: libmatevfs/mate-vfs-result.c:85
-#, fuzzy
+#: ../libmatevfs/mate-vfs-result.c:94
 msgid "Nameserver error"
-msgstr "Ümumi xəta"
+msgstr ""
 
 #. MATE_VFS_ERROR_LOCKED
-#: libmatevfs/mate-vfs-result.c:87
+#: ../libmatevfs/mate-vfs-result.c:95
 msgid "The resource is locked"
 msgstr ""
 
 #. MATE_VFS_ERROR_DEPRECATED_FUNCTION
-#: libmatevfs/mate-vfs-result.c:88
+#: ../libmatevfs/mate-vfs-result.c:96
 msgid "Function call deprecated"
 msgstr ""
 
-#: libmatevfs/mate-vfs-result.c:203
+#. MATE_VFS_ERROR_INVALID_FILENAME
+#: ../libmatevfs/mate-vfs-result.c:97
+msgid "Invalid filename"
+msgstr ""
+
+#. MATE_VFS_ERROR_NOT_A_SYMBOLIC_LINK
+#: ../libmatevfs/mate-vfs-result.c:98
+msgid "Not a symbolic link"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-result.c:225
 msgid "Unknown error"
 msgstr "Namə'lum xəta"
 
-#: libmatevfs/mate-vfs-utils.c:85
+#: ../libmatevfs/mate-vfs-utils.c:78
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] "%u bayt"
-msgstr[1] "%u bayt"
+msgstr[0] ""
 
-#: libmatevfs/mate-vfs-utils.c:91
+#: ../libmatevfs/mate-vfs-utils.c:84
 #, c-format
 msgid "%.1f KB"
 msgstr "%.1f K"
 
-#: libmatevfs/mate-vfs-utils.c:95
+#: ../libmatevfs/mate-vfs-utils.c:88
 #, c-format
 msgid "%.1f MB"
 msgstr "%.1f MB"
 
-#: libmatevfs/mate-vfs-utils.c:99
+#: ../libmatevfs/mate-vfs-utils.c:92
 #, c-format
 msgid "%.1f GB"
 msgstr "%.1f GB"
 
-#: libmatevfs/mate-vfs-utils.c:1131
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:369
+#: ../libmatevfs/mate-vfs-utils.c:1108
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:382
 msgid " (invalid Unicode)"
 msgstr "(hökmsüz Yunikod)"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:551
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:607
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:564
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:620
 msgid "Floppy"
 msgstr "Disket"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:552
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:610
-msgid "CD-ROM"
-msgstr "CD-ROM"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:554
-#, fuzzy
-msgid "CD-R"
-msgstr "CD-ROM"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:555
-#, fuzzy
-msgid "CD-RW"
-msgstr "CD-ROM"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:556
-#, fuzzy
-msgid "DVD-ROM"
-msgstr "CD-ROM"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:557
-#, fuzzy
-msgid "DVD-RAM"
-msgstr "CD-ROM Sürücüsü"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:558
-msgid "DVD-R"
-msgstr ""
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:559
-msgid "DVD-RW"
-msgstr ""
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:560
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:573
 msgid "CD-ROM/DVD-ROM"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:561
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:574
 msgid "CD-ROM/DVD-RAM"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:562
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:575
 msgid "CD-ROM/DVD-R"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:563
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:576
 msgid "CD-ROM/DVD-RW"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:564
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:577
 msgid "CD-R/DVD-ROM"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:565
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:578
 msgid "CD-R/DVD-RAM"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:566
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:579
 msgid "CD-R/DVD-R"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:567
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:580
 msgid "CD-R/DVD-RW"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:568
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:581
 msgid "CD-RW/DVD-ROM"
-msgstr "CD-ROM"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:569
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:582
 msgid "CD-RW/DVD-RAM"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:570
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:583
 msgid "CD-RW/DVD-R"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:571
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:584
 msgid "CD-RW/DVD-RW"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:573
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:586
 msgid "Disk"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:574
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:587
 msgid "USB Drive"
-msgstr "Zip Sürücüsü"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:575
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:588
 msgid "IEEE1394 Drive"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:576
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:589
 msgid "CF"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:577
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:590
 msgid "SD/MMC"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:578
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:582
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:591
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:595
 msgid "Memory Stick"
 msgstr "Yaddaş Çubuğu"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:579
-#, fuzzy
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:592
 msgid "Smart Media"
-msgstr "Yaddaş Çubuğu"
+msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:581
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:613
-msgid "Zip Drive"
-msgstr "Zip Sürücüsü"
-
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:583
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:596
 msgid "Camera"
 msgstr "Kamera"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:584
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:597
 msgid "DVD"
 msgstr ""
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:807
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "Kök Həcmi"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:888
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "Audio CD"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:921
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "Namə'lum həcm"
 
-#: libmatevfs/mate-vfs-volume-monitor-daemon.c:1109
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "Şəbəkə vericisi"
 
 #. Handle floppy case
-#: libmatevfs/mate-vfs-volume-ops.c:113
+#: ../libmatevfs/mate-vfs-volume-ops.c:184
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "Disket sürücüsü bağlana bilmədi. Deyəsən sürücüdə disket yoxdur."
 
 #. All others
-#: libmatevfs/mate-vfs-volume-ops.c:117
+#: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr "Sürücü bağlana bilmədi. Deyəsən sürücüdə mediya yoxdur."
 
-#: libmatevfs/mate-vfs-volume-ops.c:123
+#: ../libmatevfs/mate-vfs-volume-ops.c:194
+#, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Disket sürücüsü bağlana bilmədi. Deyəsən sürücüdəki disketin şəkilləndirməsi "
-"bağlanmaq üçün uyğun deyil."
+msgstr "Disket sürücüsü bağlana bilmədi. Deyəsən sürücüdəki disketin şəkilləndirməsi bağlanmaq üçün uyğun deyil."
 
-#: libmatevfs/mate-vfs-volume-ops.c:126
+#. Probably a wrong password
+#: ../libmatevfs/mate-vfs-volume-ops.c:198
+#, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
+"Unable to mount the volume. If this is an encrypted drive, then the wrong "
+"password or key was used."
 msgstr ""
-"Seçili sürücü bağlana bilmədi. Deyəsən sürücünün şəkilləndirməsi bağlamaq "
-"üçün uyğun deyil."
 
-#: libmatevfs/mate-vfs-volume-ops.c:131
+#: ../libmatevfs/mate-vfs-volume-ops.c:201
+#, c-format
+msgid ""
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Seçili sürücü bağlana bilmədi. Deyəsən sürücünün şəkilləndirməsi bağlamaq üçün uyğun deyil."
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
 msgstr "Seçili floppi sürücüsü bağlana bilmədi."
 
-#: libmatevfs/mate-vfs-volume-ops.c:133
+#: ../libmatevfs/mate-vfs-volume-ops.c:208
 msgid "Unable to mount the selected volume."
 msgstr "Seçili sürücü bağlana bilmədi."
 
-#: libmatevfs/mate-vfs-volume-ops.c:145
+#: ../libmatevfs/mate-vfs-volume-ops.c:221
+#, c-format
+msgid ""
+"Unable to unmount the selected volume. The volume is in use by one or more "
+"programs."
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
 msgstr "Seçili sürücü ayırıla bilmədi."
 
-#: libmatevfs/mate-vfs-volume-ops.c:257
-#: libmatevfs/mate-vfs-volume-ops.c:313
+#: ../libmatevfs/mate-vfs-volume-ops.c:377
+#, c-format
+msgid "Failed to read data from child process %d (%s)"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:421
+msgid "Couldn't run mount process in a pty"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:466
+#, c-format
+msgid "Unexpected error in select() reading data from a child process (%s)"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
+msgid "Couldn't send password to mount process."
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:559
+#, c-format
+msgid "Unexpected error in waitpid() (%s)"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-volume-ops.c:669
+#: ../libmatevfs/mate-vfs-volume-ops.c:755
 msgid "Failed to start command"
 msgstr "Əmr başladıla bilmədi"
 
-#: libmatevfs/mate-vfs-volume-ops.c:301
+#: ../libmatevfs/mate-vfs-volume-ops.c:742
 msgid "Unable to eject media"
 msgstr "Mediya çıxardıla bilmədi"
 
-#: libmatevfs/mate-vfs-volume-ops.c:499
+#: ../libmatevfs/mate-vfs-volume-ops.c:983
 msgid "Unable to unmount connected server"
 msgstr "Bağlı verici ayırıla bilmədi"
 
-#: modules/computer-method.c:545
+#: ../modules/computer-method.c:543
 msgid "Network"
 msgstr "Şəbəkə"
 
-#: modules/computer-method.c:563
+#: ../modules/computer-method.c:561
 msgid "Home"
 msgstr "Ev"
 
-#: modules/computer-method.c:581
+#: ../modules/computer-method.c:579
 msgid "Filesystem"
 msgstr "Fayl sistemi"
 
-#: modules/file-method.c:413
+#: ../modules/file-method.c:497
 #, c-format
 msgid "Unknown MateVFSSeekPosition %d"
 msgstr "Namə'lum MateVFSSeekPosition %d"
 
-#: modules/network-method.c:1396
+#: ../modules/network-method.c:1399
 msgid "Windows Network"
 msgstr "Windows Şəbəkəsi"
 
-#: modules/sftp-method.c:1338
+#: ../modules/sftp-method.c:1424
 #, c-format
 msgid "The identity of the remote computer (%s) is unknown."
 msgstr ""
 
-#: modules/sftp-method.c:1339
+#: ../modules/sftp-method.c:1425
 #, c-format
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
 msgstr ""
 
-#: modules/sftp-method.c:1347
+#: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
 msgstr ""
 
-#: modules/sftp-method.c:1348
+#: ../modules/sftp-method.c:1434
 msgid "Cancel Login"
 msgstr ""
 
 #. FIXME: we probably shouldn't use printf to output the message
-#: modules/test-method.c:590
+#: ../modules/test-method.c:587
 #, c-format
 msgid "Didn't find a valid settings file at %s\n"
 msgstr "%s ünvanında hökmlü qurğu faylı tapıla bilmədi\n"
 
-#: modules/test-method.c:592
+#: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
 msgstr "Başqa mövqe tə'yin etmək üçün %s mühit dəyişənini işlədin.\n"
 
-#: monikers/MATE_VFS_Moniker_std.server.in.in.h:1
-msgid "Standard Moniker factory"
-msgstr "Sıravi Moniker e'malatxanası"
+#: ../programs/authentication.c:106
+#, c-format
+msgid "Your HTTP Proxy requires you to log in.\n"
+msgstr ""
 
-#: monikers/MATE_VFS_Moniker_std.server.in.in.h:2
-msgid "file MonikerExtender"
-msgstr "fayl MonikerGenişlədicisi"
+#: ../programs/authentication.c:107
+#, c-format
+msgid ""
+"You must log in to access \"%s\".\n"
+"%s"
+msgstr ""
 
-#: monikers/MATE_VFS_Moniker_std.server.in.in.h:3
-msgid "generic Mate VFS moniker"
-msgstr "adi Mate VFS monikeri"
+#: ../programs/authentication.c:110
+msgid "Your password will be transmitted unencrypted."
+msgstr ""
 
-#: monikers/MATE_VFS_Moniker_std.server.in.in.h:4
-msgid "generic file moniker"
-msgstr "adi fayl monikeri"
+#: ../programs/authentication.c:111
+msgid "Your password will be transmitted encrypted."
+msgstr ""
 
-#: schemas/desktop_default_applications.schemas.in.h:1
+#: ../programs/authentication.c:163
+#, c-format
+msgid "You must log in to access %s domain %s\n"
+msgstr ""
+
+#: ../programs/authentication.c:165
+#, c-format
+msgid "You must log in to access %s\n"
+msgstr ""
+
+#: ../schemas/desktop_default_applications.schemas.in.h:1
 msgid "Default component viewer application"
 msgstr "Ön qurğulu tərkib hissəsi nümayiş proqramı"
 
-#: schemas/desktop_default_applications.schemas.in.h:2
+#: ../schemas/desktop_default_applications.schemas.in.h:2
 msgid "Default terminal application"
 msgstr "Ön qurğulu terminal proqramı"
 
-#: schemas/desktop_default_applications.schemas.in.h:3
+#: ../schemas/desktop_default_applications.schemas.in.h:3
 msgid "Exec argument for default terminal"
 msgstr "Ön qurğulu terminal üçün icra ediləcək əmr"
 
-#: schemas/desktop_default_applications.schemas.in.h:5
+#: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file's URIs, the parameter %c will be replaced by the component IID."
 
-#: schemas/desktop_default_applications.schemas.in.h:6
+#: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
 msgstr "Terminala məcbur olan proqramlar üçün işlədiləcək ön qurğulu terminal."
 
-#: schemas/desktop_default_applications.schemas.in.h:7
+#: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
 msgstr "Ön qurğulu terminal gedişatı üçün icra ediləcək əmr."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:1
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
-msgstr "Proqramı terminalda işə sal"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:2
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:3
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:4
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:5
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr "True if the program to handle this URL should be run in a terminal."
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:6
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr "True if the program to handle this URL should be run in a terminal."
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:7
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr "True if the program to handle this URL should be run in a terminal."
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:8
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:9
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:10
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:11
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
 msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:12
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
-msgstr "man URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:13
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:13
 msgid "The handler for \"callto\" URLs"
-msgstr "callto URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:14
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:14
 msgid "The handler for \"ghelp\" URLs"
-msgstr "ghelp URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:15
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:15
 msgid "The handler for \"h323\" URLs"
-msgstr "H323 URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:16
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:16
 msgid "The handler for \"http\" URLs"
-msgstr "ghelp URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:17
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:17
 msgid "The handler for \"https\" URLs"
-msgstr "ghelp URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:18
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:18
 msgid "The handler for \"info\" URLs"
-msgstr "info URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:19
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:19
 msgid "The handler for \"mailto\" URLs"
-msgstr "mailto URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:20
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:20
 msgid "The handler for \"man\" URLs"
-msgstr "man URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:21
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:21
 msgid "The handler for \"trash\" URLs"
-msgstr "trash URL-lərini aç"
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:22
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle man URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:23
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle callto URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:24
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle ghelp URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:25
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle H323 URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:26
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle ghelp URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:27
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle ghelp URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:28
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle info URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:29
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle mailto URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:30
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle man URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:31
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr ""
-"Set to true to have a program specified in \"command\" handle trash URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:32
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr "True if the program to handle this URL should be run in a terminal."
+msgstr ""
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:33
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle man URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:34
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:34
 msgid "Whether the specified command should handle \"callto\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle callto URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:35
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:35
 msgid "Whether the specified command should handle \"ghelp\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle ghelp URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:36
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:36
 msgid "Whether the specified command should handle \"h323\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle H323 URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:37
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:37
 msgid "Whether the specified command should handle \"http\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle ghelp URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:38
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:38
 msgid "Whether the specified command should handle \"https\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle trash URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:39
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:39
 msgid "Whether the specified command should handle \"info\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle info URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:40
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:40
 msgid "Whether the specified command should handle \"mailto\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle mailto URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:41
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:41
 msgid "Whether the specified command should handle \"man\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle man URLs."
 
-#: schemas/desktop_mate_url_handlers.schemas.in.h:42
-#, fuzzy
+#: ../schemas/desktop_mate_url_handlers.schemas.in.h:42
 msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr ""
-"Set to true to have a program specified in \"command\" handle trash URLs."
 
-#: schemas/system_dns_sd.schemas.in.h:1
+#: ../schemas/system_dns_sd.schemas.in.h:1
 msgid ""
-"Comma separated list of dns-sd domains that should be visible in the network "
-"location."
+"Comma separated list of DNS-SD domains that should be visible in the "
+"\"network:///\" location."
 msgstr ""
 
-#: schemas/system_dns_sd.schemas.in.h:2
-msgid "Extra domains to look for dns-sd services in"
+#: ../schemas/system_dns_sd.schemas.in.h:2
+msgid "Extra domains to look for DNS-SD services in"
 msgstr ""
 
-#: schemas/system_dns_sd.schemas.in.h:3
+#: ../schemas/system_dns_sd.schemas.in.h:3
 msgid "How to display local DNS-SD service"
 msgstr ""
 
-#: schemas/system_dns_sd.schemas.in.h:4
+#: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
 msgstr ""
 
-#: schemas/system_http_proxy.schemas.in.h:1
+#: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
 msgstr "Vəkil vericisi bağlantılarını tanıt"
 
-#: schemas/system_http_proxy.schemas.in.h:2
+#: ../schemas/system_http_proxy.schemas.in.h:2
 msgid "Automatic proxy configuration URL"
 msgstr "Avtomatik vəkil quraşdırma URL-si"
 
-#: schemas/system_http_proxy.schemas.in.h:3
+#: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
 msgstr "Enables the proxy settings when accessing HTTP over the Internet."
 
-#: schemas/system_http_proxy.schemas.in.h:4
+#: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
 msgstr "FTP vəkil qovşaq adı"
 
-#: schemas/system_http_proxy.schemas.in.h:5
+#: ../schemas/system_http_proxy.schemas.in.h:5
 msgid "FTP proxy port"
 msgstr "FTP vəkil qapısı"
 
-#: schemas/system_http_proxy.schemas.in.h:6
+#: ../schemas/system_http_proxy.schemas.in.h:6
 msgid "HTTP proxy host name"
 msgstr "HTTP vəkil qovşaq adı"
 
-#: schemas/system_http_proxy.schemas.in.h:7
+#: ../schemas/system_http_proxy.schemas.in.h:7
 msgid "HTTP proxy password"
 msgstr "HTTP vəkil şifrəsi"
 
-#: schemas/system_http_proxy.schemas.in.h:8
+#: ../schemas/system_http_proxy.schemas.in.h:8
 msgid "HTTP proxy port"
 msgstr "HTTP vəkil qapısı"
 
-#: schemas/system_http_proxy.schemas.in.h:9
+#: ../schemas/system_http_proxy.schemas.in.h:9
 msgid "HTTP proxy username"
 msgstr "HTTP vəkil istifadəçi adı"
 
-#: schemas/system_http_proxy.schemas.in.h:10
-#, fuzzy
+#: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
 msgstr ""
-"If true, then connections to the proxy server require authentication. The "
-"username/password combo defined by \"/system/http_proxy/authentication_user"
-"\" and \"/system/http_proxy/authentication_password\"."
 
-#: schemas/system_http_proxy.schemas.in.h:11
+#: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
 msgstr "Vəkil olmayan qovşaqlar"
 
-#: schemas/system_http_proxy.schemas.in.h:12
+#: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
 msgstr "HTTP vəkilləndirməsində göndəriləcək şifrə."
 
-#: schemas/system_http_proxy.schemas.in.h:13
+#: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
 msgstr "Vəkil quraşdırma modu"
 
-#: schemas/system_http_proxy.schemas.in.h:14
+#: ../schemas/system_http_proxy.schemas.in.h:14
 msgid "SOCKS proxy host name"
 msgstr "SOCKS vəkil qovşaq adı"
 
-#: schemas/system_http_proxy.schemas.in.h:15
+#: ../schemas/system_http_proxy.schemas.in.h:15
 msgid "SOCKS proxy port"
 msgstr "SOCKS vəkil qapısı"
 
-#: schemas/system_http_proxy.schemas.in.h:16
+#: ../schemas/system_http_proxy.schemas.in.h:16
 msgid "Secure HTTP proxy host name"
 msgstr "E'tibarlı HTTP vəkil qovşaq adı"
 
-#: schemas/system_http_proxy.schemas.in.h:17
+#: ../schemas/system_http_proxy.schemas.in.h:17
 msgid "Secure HTTP proxy port"
 msgstr "E'tibarlı HTTP vəkil qovşaq qapısı"
 
-#: schemas/system_http_proxy.schemas.in.h:18
+#: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Vəkil quraşdırma modu. Dəstəklənən qiymətlər: \"none\", \"manual\", \"auto\"."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Vəkil quraşdırma modu. Dəstəklənən qiymətlər: \"none\", \"manual\", \"auto\"."
 
-#: schemas/system_http_proxy.schemas.in.h:19
+#: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
 msgstr "FTP üçün vəkilin sistem adı."
 
-#: schemas/system_http_proxy.schemas.in.h:20
+#: ../schemas/system_http_proxy.schemas.in.h:20
 msgid "The machine name to proxy HTTP through."
 msgstr "HTTP üçün vəkilin sistem adı."
 
-#: schemas/system_http_proxy.schemas.in.h:21
+#: ../schemas/system_http_proxy.schemas.in.h:21
 msgid "The machine name to proxy secure HTTP through."
 msgstr "E'tibarlı HTTP üçün vəkilin sistem adı."
 
-#: schemas/system_http_proxy.schemas.in.h:22
+#: ../schemas/system_http_proxy.schemas.in.h:22
 msgid "The machine name to proxy socks through."
 msgstr "Socks üçün vəkilin sistem adı."
 
-#: schemas/system_http_proxy.schemas.in.h:23
+#: ../schemas/system_http_proxy.schemas.in.h:23
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"The port on the machine defined by \"/system/http_proxy/host\" that you "
-"proxy through."
+msgstr "The port on the machine defined by \"/system/http_proxy/host\" that you proxy through."
 
-#: schemas/system_http_proxy.schemas.in.h:24
+#: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy through."
 
-#: schemas/system_http_proxy.schemas.in.h:25
+#: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"The port on the machine defined by \"/system/proxy/secure_host\" that you "
-"proxy through."
+msgstr "The port on the machine defined by \"/system/proxy/secure_host\" that you proxy through."
 
-#: schemas/system_http_proxy.schemas.in.h:26
+#: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"The port on the machine defined by \"/system/proxy/socks_host\" that you "
-"proxy through."
+msgstr "The port on the machine defined by \"/system/proxy/socks_host\" that you proxy through."
 
-#: schemas/system_http_proxy.schemas.in.h:27
+#: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"This key contains a list of hosts which are connected to directly, rather "
-"than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 
-#: schemas/system_http_proxy.schemas.in.h:28
+#: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
 msgstr "Vəkil qurğu qiymətlərini verən URL"
 
-#: schemas/system_http_proxy.schemas.in.h:29
+#: ../schemas/system_http_proxy.schemas.in.h:29
 msgid "Use HTTP proxy"
 msgstr "HTTP vəkili işlət"
 
-#: schemas/system_http_proxy.schemas.in.h:30
+#: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
 msgstr "HTTP vəkilləndirməsində göndəriləcək istifadəçi adı."
 
-#: schemas/system_smb.schemas.in.h:1
+#: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
 msgstr "SMB iş qrupu"
 
-#: schemas/system_smb.schemas.in.h:2
-msgid "The window workgroup the user is part of"
-msgstr "İstifadəçinin üzvü olduğu windows iş qrupu"
-
-#, fuzzy
-#~ msgid "CD-ROM Disc"
-#~ msgstr "CD-ROM Sürücüsü"
-
-#, fuzzy
-#~ msgid "CD-R Disc"
-#~ msgstr "CD-ROM Sürücüsü"
-
-#, fuzzy
-#~ msgid "CD-RW Disc"
-#~ msgstr "CD-ROM Sürücüsü"
-
-#, fuzzy
-#~ msgid "DVD-ROM Disc"
-#~ msgstr "CD-ROM Sürücüsü"
-
-#, fuzzy
-#~ msgid "Audio Disc"
-#~ msgstr "Audio CD"
-
-#, fuzzy
-#~ msgid "Memory Stick Media"
-#~ msgstr "Yaddaş Çubuğu"
-
-#, fuzzy
-#~ msgid "Floppy Disk"
-#~ msgstr "Disket"
-
-#, fuzzy
-#~ msgid "Windows Disk"
-#~ msgstr "Pəncərələr"
-
-#, fuzzy
-#~ msgid "File could not be opened: %s"
-#~ msgstr "Oxuna bilmədi: %s"
-
-#, fuzzy
-#~ msgid "File is empty"
-#~ msgstr "Fayl mövcuddur"
-
-#~ msgid "Applications"
-#~ msgstr "Proqramlar"
-
-#~ msgid "Cards"
-#~ msgstr "Kartlar"
-
-#~ msgid "Files"
-#~ msgstr "Fayllar"
-
-#~ msgid "Folders"
-#~ msgstr "Qovluqlar"
-
-#~ msgid "Help"
-#~ msgstr "Yardım"
-
-#~ msgid "Hosts"
-#~ msgstr "Qovşaqlar"
-
-#~ msgid "Links"
-#~ msgstr "Körpülər"
-
-#~ msgid "Mail"
-#~ msgstr "Poçt"
-
-#~ msgid "Tools"
-#~ msgstr "Vasitələr"
-
-#~ msgid "Windows"
-#~ msgstr "Pəncərələr"
-
-#, fuzzy
-#~ msgid "The handler for HTTP URLs"
-#~ msgstr "HTTP URL-lərini aç"
-
-#, fuzzy
-#~ msgid "The handler for HTTPS URLs"
-#~ msgstr "HTTPS URL-lərini aç"
-
-#, fuzzy
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTP "
-#~ "URLs."
-#~ msgstr ""
-#~ "Set to true to have a program specified in \"command\" handle HTTP URLs."
-
-#, fuzzy
-#~ msgid ""
-#~ "True if the command specified in the \"command\" key should handle HTTPS "
-#~ "URLs."
-#~ msgstr ""
-#~ "Set to true to have a program specified in \"command\" handle HTTPS URLs."
-
-#, fuzzy
-#~ msgid "Whether the specified command should handle HTTP URLs"
-#~ msgstr ""
-#~ "Set to true to have a program specified in \"command\" handle HTTP URLs."
-
-#, fuzzy
-#~ msgid "Whether the specified command should handle HTTPS URLs"
-#~ msgstr ""
-#~ "Set to true to have a program specified in \"command\" handle HTTPS URLs."
-
-#~ msgid "H323 URL handler"
-#~ msgstr "H323 URL-lərinə baxan proqram"
-
-#~ msgid "HTTP URL handler"
-#~ msgstr "HTTP URL-lərinə baxan proqram"
-
-#~ msgid "HTTPS URL handler"
-#~ msgstr "HTTPS URL-lərinə baxan proqram"
-
-#, fuzzy
-#~ msgid "aim URL handler"
-#~ msgstr "man URL-lərinə baxan proqram"
-
-#~ msgid "callto URL handler"
-#~ msgstr "callto URL-lərinə baxan proqram"
-
-#~ msgid "ghelp URL handler"
-#~ msgstr "ghelp URL-lərinə baxan proqram"
-
-#~ msgid "info URL handler"
-#~ msgstr "info URL-lərinə baxan proqram"
-
-#~ msgid "mailto URL handler"
-#~ msgstr "mailto URL-lərinə baxan proqram"
-
-#~ msgid "man URL handler"
-#~ msgstr "man URL-lərinə baxan proqram"
-
-#~ msgid "trash URL handler"
-#~ msgstr "trash URL-lərinə baxan proqram"
+#: ../schemas/system_smb.schemas.in.h:2
+msgid ""
+"The Windows networking workgroup or domain that the user is part of. In "
+"order for a new workgroup to fully take effect the user may need to log out "
+"and log back in."
+msgstr ""

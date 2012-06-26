@@ -1,25 +1,22 @@
-# translation of ru.po to Russian
-# translation of mate-vfs.pot to Russian
-# Copyright (C) 2000-2002, 2004, 2005, 2006, 2010 Free Software Foundation, Inc.
-#
-# Valek Filippov <frob@df.ru>, 2000-2002.
-# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Leonid Kanter <leon@asplinux.ru>, 2004, 2005, 2006, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: ru\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-26 17:43+0200\n"
-"PO-Revision-Date: 2010-02-26 17:43+0200\n"
-"Last-Translator: Leonid Kanter <leon@asplinux.ru>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/MATE/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\\n\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -494,9 +491,7 @@ msgstr "Действие остановлено"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Устаревшая функция. Пользовательские изменения базы данных MIME больше не "
-"поддерживаются."
+msgstr "Устаревшая функция. Пользовательские изменения базы данных MIME больше не поддерживаются."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -910,24 +905,20 @@ msgstr "Сетевой сервер"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"Невозможно подсоединить дискету. Возможно, дискета отсутствует в дисководе."
+msgstr "Невозможно подсоединить дискету. Возможно, дискета отсутствует в дисководе."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"Невозможно подсоединить том. Возможно, носитель отсутствует в устройстве."
+msgstr "Невозможно подсоединить том. Возможно, носитель отсутствует в устройстве."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"Невозможно подсоединить дискету. Возможно, дискета в формате, который не "
-"может быть подсоединен."
+msgstr "Невозможно подсоединить дискету. Возможно, дискета в формате, который не может быть подсоединен."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -935,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"Невозможно подключить том. Если это зашифрованное устройство, возможно "
-"введен неверный пароль или использован неверный ключ."
+msgstr "Невозможно подключить том. Если это зашифрованное устройство, возможно введен неверный пароль или использован неверный ключ."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"Невозможно подсоединить выбранный том. Возможно, том в формате, который не "
-"может быть подсоединён."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "Невозможно подсоединить выбранный том. Возможно, том в формате, который не может быть подсоединён."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -961,9 +948,7 @@ msgstr "Невозможно подсоединить выбранный том.
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"Невозможно подсоединить выбранный том. Возможно, том используется одной или "
-"более программой."
+msgstr "Невозможно подсоединить выбранный том. Возможно, том используется одной или более программой."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -981,8 +966,7 @@ msgstr "Невозможно запустить процесс монтиров�
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Непредвиденная ошибка в select() при чтении данных из дочернего процесса (%s)"
+msgstr "Непредвиденная ошибка в select() при чтении данных из дочернего процесса (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1038,14 +1022,8 @@ msgstr "Идентификационная информация удалённо
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Это происходит, когда вход в сеанс на компьютере осуществляется впервые.\n"
-"\n"
-"Удалённый компьютер прислал идентификационную информацию %s. Чтобы "
-"убедиться, что продолжение соединения будет полностью безопасна, свяжитесь с "
-"ситемным администратором."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Это происходит, когда вход в сеанс на компьютере осуществляется впервые.\n\nУдалённый компьютер прислал идентификационную информацию %s. Чтобы убедиться, что продолжение соединения будет полностью безопасна, свяжитесь с ситемным администратором."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1076,9 +1054,7 @@ msgstr "Ваш HTTP Proxy требует регистрации.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Вы должны зарегистрироваться для доступа к \"%s\".\n"
-"%s"
+msgstr "Вы должны зарегистрироваться для доступа к \"%s\".\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1114,20 +1090,15 @@ msgstr "Аргумент exec для терминала по умолчанию"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Приложение, используемое для просмотра файлов, требующих компонента для "
-"просмотра. Параметр %s будет заменён адресом (URI) файла, параметр %c - "
-"идентификатором (IID) компонента."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Приложение, используемое для просмотра файлов, требующих компонента для просмотра. Параметр %s будет заменён адресом (URI) файла, параметр %c - идентификатором (IID) компонента."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"Приложение терминала, используемое по умолчанию приложениями, нуждающимися в "
-"терминале."
+msgstr "Приложение терминала, используемое по умолчанию приложениями, нуждающимися в терминале."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
@@ -1139,54 +1110,43 @@ msgstr "Запускать программу в терминале"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:2
 msgid "The command used to handle \"aim\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"aim\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"aim\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:3
 msgid "The command used to handle \"callto\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"callto\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"callto\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:4
 msgid "The command used to handle \"ghelp\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"ghelp\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"ghelp\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:5
 msgid "The command used to handle \"h323\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа h323, если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа h323, если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:6
 msgid "The command used to handle \"http\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"http\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"http\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:7
 msgid "The command used to handle \"https\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки ссылок URL типа \"https\", если ключ "
-"установлен"
+msgstr "Команда, используемая для обработки ссылок URL типа \"https\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:8
 msgid "The command used to handle \"info\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"info\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"info\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:9
 msgid "The command used to handle \"mailto\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"mailto\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"mailto\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:10
 msgid "The command used to handle \"man\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"man\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"man\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:11
 msgid "The command used to handle \"trash\" URLs, if enabled."
-msgstr ""
-"Команда, используемая для обработки URL типа \"trash\", если ключ установлен"
+msgstr "Команда, используемая для обработки URL типа \"trash\", если ключ установлен"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:12
 msgid "The handler for \"aim\" URLs"
@@ -1232,89 +1192,67 @@ msgstr "Обработчик URL типа \"trash\""
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"aim\"."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"aim\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"callto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"callto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"ghelp\"."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"ghelp\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа h323."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа h323."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"http\"."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"http\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"https\"."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"https\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"info\"."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"info\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"mailto\"."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"mailto\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"man\"."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"man\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Если этот ключ установлен, то программа, определённая в ключе \"command\", "
-"будет обрабатывать ссылки (URL) типа \"trash\"."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Если этот ключ установлен, то программа, определённая в ключе \"command\", будет обрабатывать ссылки (URL) типа \"trash\"."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Если этот ключ установлен, то программа,определённая для обработки ссылки "
-"(URL), будет запускаться в терминале."
+msgstr "Если этот ключ установлен, то программа,определённая для обработки ссылки (URL), будет запускаться в терминале."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1360,14 +1298,11 @@ msgstr "Будет ли указанная команда обрабатыват
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Разделённый запятыми список доменов типа DNS-SD, которые должны быть видимы "
-"по адресу \"network:///\"."
+msgstr "Разделённый запятыми список доменов типа DNS-SD, которые должны быть видимы по адресу \"network:///\"."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
-msgstr ""
-"Дополнительные домены, в которых осуществлять поиск сервисов типа DNS-SD"
+msgstr "Дополнительные домены, в которых осуществлять поиск сервисов типа DNS-SD"
 
 #: ../schemas/system_dns_sd.schemas.in.h:3
 msgid "How to display local DNS-SD service"
@@ -1375,9 +1310,7 @@ msgstr "Как отображать локальный сервис типа DNS
 
 #: ../schemas/system_dns_sd.schemas.in.h:4
 msgid "Possible values are \"merged\", \"separate\" and \"disabled\"."
-msgstr ""
-"Возможные значения \"merged\" (\"совместные\"), \"separate\" (\"раздельные"
-"\") и \"disabled\" (\"отключено\")."
+msgstr "Возможные значения \"merged\" (\"совместные\"), \"separate\" (\"раздельные\") и \"disabled\" (\"отключено\")."
 
 #: ../schemas/system_http_proxy.schemas.in.h:1
 msgid "Authenticate proxy server connections"
@@ -1418,13 +1351,10 @@ msgstr "Имя пользователя прокси-сервера для пр�
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Если этот ключ установлен, то соединения с прокси-сервером требуют "
-"авторизации. Пара значений имя_пользователя/пароль определяется ключами \"/"
-"system/http_proxy/authentication_user\" и \"/system/http_proxy/"
-"authentication_password\"."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Если этот ключ установлен, то соединения с прокси-сервером требуют авторизации. Пара значений имя_пользователя/пароль определяется ключами \"/system/http_proxy/authentication_user\" и \"/system/http_proxy/authentication_password\"."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1456,11 +1386,9 @@ msgstr "Порт прокси-сервера для защищённого пр�
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Режим конфигурации сервиса прокси. Возможные значения \"none\" (\"отсутствует"
-"\"), \"manual\" (\"ручной\"), \"auto\" (\"автоматический\")."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Режим конфигурации сервиса прокси. Возможные значения \"none\" (\"отсутствует\"), \"manual\" (\"ручной\"), \"auto\" (\"автоматический\")."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1482,52 +1410,37 @@ msgstr "Имя машины прокси-сервера для протокол�
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"Порт на машине, определённой ключом \"/system/http_proxy/host\" для сервиса "
-"прокси."
+msgstr "Порт на машине, определённой ключом \"/system/http_proxy/host\" для сервиса прокси."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"Порт на машине, определённой ключом \"/system/proxy/ftp_host\" для сервиса "
-"прокси."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "Порт на машине, определённой ключом \"/system/proxy/ftp_host\" для сервиса прокси."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"Порт на машине, определённой ключом \"/system/proxy/secure_host\" для "
-"сервиса прокси."
+msgstr "Порт на машине, определённой ключом \"/system/proxy/secure_host\" для сервиса прокси."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"Порт на машине, определённой ключом \"/system/proxy/socks_host\" для сервиса "
-"прокси."
+msgstr "Порт на машине, определённой ключом \"/system/proxy/socks_host\" для сервиса прокси."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Этот ключ содержит список узлов, соединение с которыми осуществляется "
-"напрямую, минуя прокси-сервер (если последний используется). Значения могут "
-"быть именами узлов, доменами (с использованием расширителей типа *.foo.com), "
-"адресами узлов протокола IP (в вариантах IPv4 и IPv6) и сетевыми адресами с "
-"использованием маски (наподобие 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Этот ключ содержит список узлов, соединение с которыми осуществляется напрямую, минуя прокси-сервер (если последний используется). Значения могут быть именами узлов, доменами (с использованием расширителей типа *.foo.com), адресами узлов протокола IP (в вариантах IPv4 и IPv6) и сетевыми адресами с использованием маски (наподобие 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
-msgstr ""
-"Ссылка (URL), предоставляющая значения для автоматической конфигурации "
-"прокси-серверов."
+msgstr "Ссылка (URL), предоставляющая значения для автоматической конфигурации прокси-серверов."
 
 #: ../schemas/system_http_proxy.schemas.in.h:29
 msgid "Use HTTP proxy"
@@ -1535,9 +1448,7 @@ msgstr "Использовать прокси-сервер для протоко
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Имя пользователя для использования при авторизации на прокси-сервере для "
-"протокола HTTP."
+msgstr "Имя пользователя для использования при авторизации на прокси-сервере для протокола HTTP."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1548,7 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"Рабочая группа или домен Windows, к которым относится пользователь. Чтобы "
-"изменение рабочей группы вступило в силу, возможно потребуется повторная "
-"регистрация в системе."
+msgstr "Рабочая группа или домен Windows, к которым относится пользователь. Чтобы изменение рабочей группы вступило в силу, возможно потребуется повторная регистрация в системе."

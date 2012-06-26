@@ -1,22 +1,25 @@
-# mate-vfs translation to Catalan.
-# Copyright (C) 2000, 2001, 2002, 2003, 2005, 2006 The Free Software Foundation, Inc.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Gil Forcada <gilforcada@guifi.net>, 2009.
+# Jordi Mallach <jordi@sindominio.net>, 2002, 2004, 2005.
 # Softcatalà <info@softcatala.org>, 2000, 2001.
-# Jordi Mallach <jordi@sindominio.net>, 2002-2006.
-# Xavier Conde Rueda <xavi.conde@gmail.com>, 2006
-# Gil Forcada <gilforcada@guifi.net>, 2009
-#
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2006.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs 2.11.92\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-29 20:37+0200\n"
-"PO-Revision-Date: 2010-03-29 20:57+0200\n"
-"Last-Translator: Gil Forcada <gilforcada@guifi.net>\n"
-"Language-Team: Catalan <tradmate@softcatala.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -319,7 +322,6 @@ msgstr "Unitat de disquet"
 msgid "Compact Flash Drive"
 msgstr "Unitat Compact Flash"
 
-# No tradueixo Memory Stick pq crec que és el producte concret, no una "memòria portàtil"
 #: ../libmatevfs/mate-vfs-hal-mounts.c:411
 msgid "Memory Stick Drive"
 msgstr "Unitat Memory Stick"
@@ -342,7 +344,6 @@ msgstr "Unitat Zip"
 msgid "Jaz Drive"
 msgstr "Unitat Jaz"
 
-# "pen drive" -> "llapis de memòria" (termcat) /josep
 #: ../libmatevfs/mate-vfs-hal-mounts.c:423
 msgid "Pen Drive"
 msgstr "Unitat de memòria portàtil"
@@ -493,9 +494,7 @@ msgstr "Operació aturada"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"La funció està desaconsellada. Ja no es permeten les modificacions d'usuari "
-"a la base de dades MIME."
+msgstr "La funció està desaconsellada. Ja no es permeten les modificacions d'usuari a la base de dades MIME."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -908,25 +907,20 @@ msgstr "Servidor de xarxa"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"No s'ha pogut muntar la disquetera. Segurament no hi ha cap disquet a la "
-"unitat."
+msgstr "No s'ha pogut muntar la disquetera. Segurament no hi ha cap disquet a la unitat."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
 #, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
-msgstr ""
-"No s'ha pogut muntar el volum. Segurament no hi ha cap medi al dispositiu."
+msgstr "No s'ha pogut muntar el volum. Segurament no hi ha cap medi al dispositiu."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"No s'ha pogut muntar la disquetera. El disquet probablement és en un format "
-"que no es pot muntar."
+msgstr "No s'ha pogut muntar la disquetera. El disquet probablement és en un format que no es pot muntar."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -934,18 +928,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"No s'ha pogut muntar el volum. Si és una unitat xifrada, potser s'ha fet "
-"servir una contrasenya o clau incorrectes."
+msgstr "No s'ha pogut muntar el volum. Si és una unitat xifrada, potser s'ha fet servir una contrasenya o clau incorrectes."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"No s'ha pogut muntar el volum seleccionat. El volum probablement és en un "
-"format que no es pot muntar."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "No s'ha pogut muntar el volum seleccionat. El volum probablement és en un format que no es pot muntar."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -960,9 +950,7 @@ msgstr "No s'ha pogut muntar el volum seleccionat."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"No s'ha pogut muntar el volum seleccionat. Hi ha un o més programes que "
-"l'utilitzen."
+msgstr "No s'ha pogut muntar el volum seleccionat. Hi ha un o més programes que l'utilitzen."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -980,9 +968,7 @@ msgstr "No s'ha pogut executar el procés de muntatge en un pty"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"S'ha produït un error inesperat a select() durant la lectura de dades d'un "
-"procés fill (%s)"
+msgstr "S'ha produït un error inesperat a select() durant la lectura de dades d'un procés fill (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1038,14 +1024,8 @@ msgstr "No es coneix la identitat de l'ordinador remot (%s)."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Això passa quan entreu en un ordinador per primera vegada.\n"
-"\n"
-"La identitat enviada per l'ordinador remot és %s. Si voleu estar "
-"completament segur que és prudent continuar, contacteu amb l'administrador "
-"del sistema."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Això passa quan entreu en un ordinador per primera vegada.\n\nLa identitat enviada per l'ordinador remot és %s. Si voleu estar completament segur que és prudent continuar, contacteu amb l'administrador del sistema."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1064,9 +1044,7 @@ msgstr "No s'ha trobat un fitxer de configuració vàlid a %s\n"
 #: ../modules/test-method.c:589
 #, c-format
 msgid "Use the %s environment variable to specify a different location.\n"
-msgstr ""
-"Utilitzeu la variable d'entorn %s per a especificar una localització "
-"diferent.\n"
+msgstr "Utilitzeu la variable d'entorn %s per a especificar una localització diferent.\n"
 
 #: ../programs/authentication.c:106
 #, c-format
@@ -1078,9 +1056,7 @@ msgstr "El vostre servidor intermediari d'HTTP requereix que hi entreu.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Heu d'entrar primer per a poder accedir a «%s».\n"
-"%s"
+msgstr "Heu d'entrar primer per a poder accedir a «%s».\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1116,25 +1092,19 @@ msgstr "Argument d'execució per al terminal predeterminat"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"L'aplicació a usar per a visualitzar fitxers que requereixen un component "
-"per a poder ser visualitzats. Es reemplaçarà el paràmetre %s amb l'URI del "
-"fitxer, i es reemplaçarà el paràmetre %c amb l'IID del component."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "L'aplicació a usar per a visualitzar fitxers que requereixen un component per a poder ser visualitzats. Es reemplaçarà el paràmetre %s amb l'URI del fitxer, i es reemplaçarà el paràmetre %c amb l'IID del component."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
 "The default terminal application to use for applications that require a "
 "terminal."
-msgstr ""
-"L'aplicació de terminal a usar per defecte per a aplicacions que requereixin "
-"un terminal."
+msgstr "L'aplicació de terminal a usar per defecte per a aplicacions que requereixin un terminal."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
 msgid "The exec argument to use for the default terminal application."
-msgstr ""
-"L'argument d'execució a usar per a l'aplicació de terminal predeterminada."
+msgstr "L'argument d'execució a usar per a l'aplicació de terminal predeterminada."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:1
 msgid "Run the command in a terminal"
@@ -1224,89 +1194,67 @@ msgstr "El gestor per a els URL «trash»"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «aim»."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «aim»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «callto»."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «callto»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «ghelp»."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «ghelp»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «h323»."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «h323»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «http»."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «http»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «https»."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «https»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «info»."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «info»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «mailto»."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «mailto»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «man»."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «man»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Vertader si el programa especificat en la clau «command» hauria de gestionar "
-"els URL «trash»."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Vertader si el programa especificat en la clau «command» hauria de gestionar els URL «trash»."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Vertader si el programa per a gestionar aquest URL hauria d'executar-se en "
-"un terminal."
+msgstr "Vertader si el programa per a gestionar aquest URL hauria d'executar-se en un terminal."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1352,9 +1300,7 @@ msgstr "Si l'ordre especificada hauria de gestionar els URL «trash»"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"Llista separada per comes de dominis DNS-SD que haurien de ser visibles a la "
-"ubicació «network:///»."
+msgstr "Llista separada per comes de dominis DNS-SD que haurien de ser visibles a la ubicació «network:///»."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1378,9 +1324,7 @@ msgstr "URL de configuració automàtica del servidor intermediari"
 
 #: ../schemas/system_http_proxy.schemas.in.h:3
 msgid "Enables the proxy settings when accessing HTTP over the Internet."
-msgstr ""
-"Habilita els paràmetres del servidor intermediari quan s'accedeix a HTTP per "
-"Internet."
+msgstr "Habilita els paràmetres del servidor intermediari quan s'accedeix a HTTP per Internet."
 
 #: ../schemas/system_http_proxy.schemas.in.h:4
 msgid "FTP proxy host name"
@@ -1409,13 +1353,10 @@ msgstr "Nom d'usuari del servidor intermediari d'HTTP"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Si és vertader, les connexions al servidor intermediari requereixen "
-"autenticació. La combinació usuari/contrasenya és definida per «/system/"
-"http_proxy/authentication_user» i «/system/http_proxy/"
-"authentication_password»."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Si és vertader, les connexions al servidor intermediari requereixen autenticació. La combinació usuari/contrasenya és definida per «/system/http_proxy/authentication_user» i «/system/http_proxy/authentication_password»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1423,9 +1364,7 @@ msgstr "Ordinadors sense servidor intermediari"
 
 #: ../schemas/system_http_proxy.schemas.in.h:12
 msgid "Password to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Contrasenya a passar com autenticació quan es fa servir el servidor "
-"intermediari d'HTTP."
+msgstr "Contrasenya a passar com autenticació quan es fa servir el servidor intermediari d'HTTP."
 
 #: ../schemas/system_http_proxy.schemas.in.h:13
 msgid "Proxy configuration mode"
@@ -1449,11 +1388,9 @@ msgstr "Port del servidor intermediari d'HTTP segur"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Selecciona el mode de configuració del servidor intermediari. Els valors "
-"disponibles són «none» (cap), «manual», «auto»."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Selecciona el mode de configuració del servidor intermediari. Els valors disponibles són «none» (cap), «manual», «auto»."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1475,46 +1412,33 @@ msgstr "El nom del servidor que fa de servidor intermediari de socks."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"El port a l'ordinador definit per «/system/http_proxy/host» pel que escolta "
-"el servidor intermediari."
+msgstr "El port a l'ordinador definit per «/system/http_proxy/host» pel que escolta el servidor intermediari."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
-msgstr ""
-"El port a l'ordinador definit per «/system/proxy/ftp_host» pel que escolta el "
-"servidor intermediari."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
+msgstr "El port a l'ordinador definit per «/system/proxy/ftp_host» pel que escolta el servidor intermediari."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"El port a l'ordinador definit per «/system/proxy/secure_host» pel que escolta "
-"el servidor intermediari."
+msgstr "El port a l'ordinador definit per «/system/proxy/secure_host» pel que escolta el servidor intermediari."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"El port a l'ordinador definit per «/system/proxy/socks_host» pel que escolta "
-"el servidor intermediari."
+msgstr "El port a l'ordinador definit per «/system/proxy/socks_host» pel que escolta el servidor intermediari."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Aquesta clau conté una llista d'ordinadors als que s'està connectat "
-"directament, i no a través d'un servidor intermediari (si és actiu). Els "
-"valors poden ser noms d'ordinador, dominis (usant un comodí inicial, com *."
-"foo.com), adreces IP d'ordinadors (tant IPv4 com IPv6) i adreces de xarxa "
-"amb una màscara de xarxa (alguna cosa com 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Aquesta clau conté una llista d'ordinadors als que s'està connectat directament, i no a través d'un servidor intermediari (si és actiu). Els valors poden ser noms d'ordinador, dominis (usant un comodí inicial, com *.foo.com), adreces IP d'ordinadors (tant IPv4 com IPv6) i adreces de xarxa amb una màscara de xarxa (alguna cosa com 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1526,9 +1450,7 @@ msgstr "Utilitza un servidor intermediari d'HTTP"
 
 #: ../schemas/system_http_proxy.schemas.in.h:30
 msgid "User name to pass as authentication when doing HTTP proxying."
-msgstr ""
-"Nom d'usuari a passar com autenticació quan es fa servir el servidor "
-"intermediari d'HTTP."
+msgstr "Nom d'usuari a passar com autenticació quan es fa servir el servidor intermediari d'HTTP."
 
 #: ../schemas/system_smb.schemas.in.h:1
 msgid "SMB workgroup"
@@ -1539,1352 +1461,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"El grup de treball o domini de la xarxa de Windows al qual pertany l'usuari. "
-"Per a que un grup de treball nou tingui efecte, és possible que l'usuari "
-"necessite sortir i tornar a entrar."
-
-#~ msgid "Could not initialize MateComponent"
-#~ msgstr "No s'ha pogut inicialitzar MateComponent"
-
-#~ msgid "Could not initialize mate vfs"
-#~ msgstr "No s'ha pogut inicialitzar mate vfs"
-
-#~ msgid "Standard Moniker factory"
-#~ msgstr "Factoria de Moniker estàndard"
-
-#~ msgid "file MonikerExtender"
-#~ msgstr "fitxer MonikerExtender"
-
-#~ msgid "generic Mate VFS moniker"
-#~ msgstr "Moniker de Mate VGS genèric"
-
-#~ msgid "generic file moniker"
-#~ msgstr "Moniker de fitxer genèric"
-
-#~ msgid "Display SCSI drives"
-#~ msgstr "Mostra les unitats SCSI"
-
-#~ msgid "Display SCSI optical drives"
-#~ msgstr "Mostra les unitats òptiques SCSI"
-
-#~ msgid "Display drives with removable media"
-#~ msgstr "Mostra les unitats amb medis extraïbles"
-
-#~ msgid "Display external drives"
-#~ msgstr "Mostra les unitats externes"
-
-#~ msgid "Display internal hard drives"
-#~ msgstr "Mostra els discs durs interns"
-
-#~ msgid ""
-#~ "Whether to display SCSI optical drives even if /system/storage/"
-#~ "display_scsi_drives is set to FALSE."
-#~ msgstr ""
-#~ "Si s'hauria de mostrar les unitats òptiques SCSI encara que /system/"
-#~ "storage/display_scsi_drives siga FALS."
-
-#~ msgid "Whether to display drives and mountable volumes from SCSI drives."
-#~ msgstr ""
-#~ "Si s'hauria de mostrar les unitats i volums muntables de les unitats SCSI."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from drives with "
-#~ "removable media (e.g. drives where media can be inserted and removed)."
-#~ msgstr ""
-#~ "Si s'hauria de mostrar unitats i volums muntables de les unitats amb "
-#~ "medis extraïbles (p. ex. unitats on els medis es poden inserir i "
-#~ "extraure)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from external drives (e."
-#~ "g. drives that are hotpluggable; e.g. drives that can be attached and "
-#~ "detached while the system is running)."
-#~ msgstr ""
-#~ "Si s'hauria de mostrar les unitats i els volums muntables de unitats "
-#~ "externes (p. ex. unitats «hotplug», és a dir, unitats que es poden afegir "
-#~ "i extreure mentres s'executa el sistema)."
-
-#~ msgid ""
-#~ "Whether to display drives and mountable volumes from internal hard drives "
-#~ "(non-SCSI optical drives are always shown)."
-#~ msgstr ""
-#~ "Si s'hauria de mostrar les unitats i volums muntables de discs durs "
-#~ "interns (les unitats òptiques no SCSI sempre es mostren)."
-
-#~ msgid "The window workgroup the user is part of"
-#~ msgstr "El grup de treball de Windows del qual és part l'usuari"
-
-#~ msgid "Optical Disc"
-#~ msgstr "Disc òptic"
-
-#~ msgid "Memory Stick Media"
-#~ msgstr "Medi de llàpis de memòria"
-
-#~ msgid "Smart Media Media"
-#~ msgstr "Medi Smart Media"
-
-#~ msgid "Mac OS disk"
-#~ msgstr "Disc de Mac OS"
-
-#~ msgid "Mac OS X disk"
-#~ msgstr "Disc de Mac OS X"
-
-#~ msgid "Windows Disk"
-#~ msgstr "Disc de Windows"
-
-#~ msgid "Linux Disk"
-#~ msgstr "Disc de Linux"
-
-#~ msgid "File could not be opened: %s"
-#~ msgstr "No s'ha pogut obrir el fitxer: %s"
-
-#~ msgid "Failed to open file '%s': %s"
-#~ msgstr "No s'ha pogut obrir el fitxer «%s»: %s"
-
-#~ msgid "File is empty"
-#~ msgstr "El fitxer és buit"
-
-#~ msgid ""
-#~ "desktop entries contain line '%s' which is not an entry, group, or comment"
-#~ msgstr ""
-#~ "les entrades desktop contenen la línia «%s» que no és una entrada, grup o "
-#~ "comentari"
-
-#~ msgid "desktop entries file does not start with legal start group"
-#~ msgstr "el fitxer d'entrades desktop no comença amb un grup d'inici legal"
-
-#~ msgid "desktop entries contain line '%s' which is not UTF-8"
-#~ msgstr "les entrades desktop contenen la línia «%s» que no és UTF-8"
-
-#~ msgid "desktop entries contain unknown encoding '%s'"
-#~ msgstr "les entrades desktop contenen la codificació desconeguda «%s»"
-
-#~ msgid "desktop entries do not have group '%s'"
-#~ msgstr "les entrades desktop no tenen grup «%s»"
-
-#~ msgid "desktop entries do not have key '%s'"
-#~ msgstr "les entrades desktop no tenen la clau «%s»"
-
-#~ msgid ""
-#~ "desktop entries contain key '%s' which has value that cannot be "
-#~ "interpreted."
-#~ msgstr ""
-#~ "les entrades desktop contenen la clau «%s» amb un valor que no es pot "
-#~ "interpretar."
-
-#~ msgid ""
-#~ "desktop entries contain no translated value for key '%s' with locale '%s'."
-#~ msgstr ""
-#~ "les entrades desktop no contenen cap valor traduir per a la clau «%s» per "
-#~ "al locale «%s»."
-
-#~ msgid "desktop entries contain invalid escape sequence '%s'"
-#~ msgstr "les entrades desktop contenen la seqüència d'escapada «%s» invàlida"
-
-#~ msgid "desktop entries contain escape character at end of line"
-#~ msgstr ""
-#~ "les entrades desktop contenen caràcters d'escapada al final de la línia"
-
-#~ msgid "Value '%s' cannot be interpreted as a number."
-#~ msgstr "El valor «%s» no es pot interpretar com un nombre."
-
-#~ msgid "Value '%s' cannot be interpreted as a boolean."
-#~ msgstr "El valor «%s» no es pot interpretar com un booleà."
-
-#~ msgid "Applications"
-#~ msgstr "Aplicacions"
-
-#~ msgid "Cards"
-#~ msgstr "Targetes"
-
-#~ msgid "Files"
-#~ msgstr "Fitxers"
-
-#~ msgid "Folders"
-#~ msgstr "Carpetes"
-
-#~ msgid "Help"
-#~ msgstr "Ajuda"
-
-#~ msgid "Hosts"
-#~ msgstr "Ordinadors"
-
-#~ msgid "Links"
-#~ msgstr "Enllaços"
-
-#~ msgid "Mail"
-#~ msgstr "Correu"
-
-#~ msgid "Tools"
-#~ msgstr "Eines"
-
-#~ msgid "Windows"
-#~ msgstr "Finestres"
-
-#~ msgid "H323 URL handler"
-#~ msgstr "Gestor d'URL H323"
-
-#~ msgid "HTTP URL handler"
-#~ msgstr "Gestor d'URL HTTP"
-
-#~ msgid "HTTPS URL handler"
-#~ msgstr "Gestor d'URL HTTPS"
-
-#~ msgid "callto URL handler"
-#~ msgstr "Gestor d'URL callto"
-
-#~ msgid "ghelp URL handler"
-#~ msgstr "Gestor d'URL ghelp"
-
-#~ msgid "info URL handler"
-#~ msgstr "Gestor d'URL info"
-
-#~ msgid "mailto URL handler"
-#~ msgstr "Gestor d'URL mailto"
-
-#~ msgid "man URL handler"
-#~ msgstr "Gestor d'URL man"
-
-#~ msgid "trash URL handler"
-#~ msgstr "Gestor d'URL trash"
-
-#~ msgid "3D Studio image"
-#~ msgstr "imatge 3D Studio"
-
-#~ msgid "AIFC audio"
-#~ msgstr "àudio AIFC"
-
-#~ msgid "AIFF audio"
-#~ msgstr "àudio AIFF"
-
-#~ msgid "ANIM animation"
-#~ msgstr "animació ANIM"
-
-#~ msgid "AVI video"
-#~ msgstr "vídeo AVI"
-
-#~ msgid "AbiWord document"
-#~ msgstr "document AbiWord"
-
-#~ msgid "Adobe FrameMaker font"
-#~ msgstr "font Adobe FrameMaker"
-
-#~ msgid "Adobe font metrics"
-#~ msgstr "mètrica de font Adobe"
-
-#~ msgid "Andrew Toolkit inset"
-#~ msgstr "sagnia Andrew Toolkit"
-
-#~ msgid "ApplixWare Graphics image"
-#~ msgstr "imatge ApplixWare Graphics"
-
-#~ msgid "Applixware Words document"
-#~ msgstr "document Applixware Words"
-
-#~ msgid "Applixware spreadsheet"
-#~ msgstr "full de càlcul Applixware"
-
-#~ msgid "AutoCAD image"
-#~ msgstr "imatge AutoCAD"
-
-#~ msgid "BCPIO document"
-#~ msgstr "document BCPIO"
-
-#~ msgid "BDF font"
-#~ msgstr "font BDF"
-
-#~ msgid "C shell script"
-#~ msgstr "seqüència d'intèrpret d'ordres C"
-
-#~ msgid "C source code"
-#~ msgstr "codi font C"
-
-#~ msgid "C source code header"
-#~ msgstr "capçalera de codi font C"
-
-#~ msgid "C++ source code"
-#~ msgstr "codi font C++"
-
-#~ msgid "CGI program"
-#~ msgstr "programa CGI"
-
-#~ msgid "CGM image"
-#~ msgstr "imatge CGM"
-
-#~ msgid "CMU raster image"
-#~ msgstr "imatge CMU raster"
-
-#~ msgid "CPIO archive"
-#~ msgstr "arxiu CPIO"
-
-#~ msgid "CPIO archive (gzip-compressed)"
-#~ msgstr "arxiu CPIO (comprimit amb gzip)"
-
-#~ msgid "DCL script"
-#~ msgstr "Seqüència DCL"
-
-#~ msgid "DOS font"
-#~ msgstr "font DOS"
-
-#~ msgid "DOS/Windows program"
-#~ msgstr "programa DOS/Windows"
-
-#~ msgid "DSSSL document"
-#~ msgstr "document DSSSL"
-
-#~ msgid "DXF vector graphic"
-#~ msgstr "gràfic vectorial DXF"
-
-#~ msgid "Debian package"
-#~ msgstr "paquet Debian"
-
-#~ msgid "Dia diagram"
-#~ msgstr "diagrama Dia"
-
-#~ msgid "Emacs Lisp source code"
-#~ msgstr "codi font Emacs Lisp"
-
-#~ msgid "Enlightenment theme"
-#~ msgstr "tema Enlightenment"
-
-#~ msgid "FLC animation"
-#~ msgstr "animació FLC"
-
-#~ msgid "FLI animation"
-#~ msgstr "animació FLI"
-
-#~ msgid "FastTracker II audio"
-#~ msgstr "àudio FastTracker II"
-
-#~ msgid "Fortran source code"
-#~ msgstr "codi font Fortran"
-
-#~ msgid "FrameMaker interchange document"
-#~ msgstr "document d'intercanvi FrameMaker"
-
-#~ msgid "G3 fax image"
-#~ msgstr "imatge fax G3"
-
-#~ msgid "GIF image"
-#~ msgstr "imatge GIF"
-
-#~ msgid "GIMP document"
-#~ msgstr "document GIMP"
-
-#~ msgid "GMC link"
-#~ msgstr "enllaç GMC"
-
-#~ msgid "MATE application details"
-#~ msgstr "Detalls de l'aplicació MATE"
-
-#~ msgid "GNU Oleo Spreadsheet"
-#~ msgstr "full de càlcul GNU Oleo"
-
-#~ msgid "GNU mail message"
-#~ msgstr "missatge de correu GNU"
-
-#~ msgid "Glade project"
-#~ msgstr "projecte Glade"
-
-#~ msgid "GnuCash Workbook"
-#~ msgstr "llibre de treball GnuCash"
-
-#~ msgid "Gnumeric spreadsheet"
-#~ msgstr "full de càlcul Gnumeric"
-
-#~ msgid "HDF document"
-#~ msgstr "document HDF"
-
-#~ msgid "HTML page"
-#~ msgstr "pàgina HTML"
-
-#~ msgid "IDL document"
-#~ msgstr "document IDL"
-
-#~ msgid "IEF image"
-#~ msgstr "imatge IEF"
-
-#~ msgid "IFF image"
-#~ msgstr "imatge IFF"
-
-#~ msgid "ILBM image"
-#~ msgstr "imatge ILBM"
-
-#~ msgid "ISI video"
-#~ msgstr "vídeo ISI"
-
-#~ msgid "Impulse Tracker audio"
-#~ msgstr "àudio Impulse Tracker"
-
-#~ msgid "JBuilder Project"
-#~ msgstr "projecte JBuilder"
-
-#~ msgid "JPEG image"
-#~ msgstr "imatge JPEG"
-
-#~ msgid "Java byte code"
-#~ msgstr "codi de bytes Java"
-
-#~ msgid "Java source code"
-#~ msgstr "codi font Java"
-
-#~ msgid "KDE application details"
-#~ msgstr "Detalls de l'aplicació KDE"
-
-#~ msgid "KIllustrator document"
-#~ msgstr "document KIllustrator"
-
-#~ msgid "KPresenter presentation"
-#~ msgstr "presentació KPresenter"
-
-#~ msgid "KSpread spreadsheet"
-#~ msgstr "full de càlcul KSpread"
-
-#~ msgid "KWord document"
-#~ msgstr "document KWord"
-
-#~ msgid "Korn shell script"
-#~ msgstr "seqüència d'intèrpret d'ordres Korn"
-
-#~ msgid "LHA archive"
-#~ msgstr "arxiu LHA"
-
-#~ msgid "LHARC archive"
-#~ msgstr "arxiu LHARC"
-
-#~ msgid "LIBGRX font"
-#~ msgstr "font LIBGRX"
-
-#~ msgid "LightWave object"
-#~ msgstr "objecte LightWave"
-
-#~ msgid "LightWave scene"
-#~ msgstr "escena LightWave"
-
-#~ msgid "Linux PSF console font"
-#~ msgstr "font de consola Linux PSF"
-
-#~ msgid "Lotus 1-2-3 spreadsheet"
-#~ msgstr "full de càlcul Lotus 1-2-3"
-
-#~ msgid "M3 audio URL"
-#~ msgstr "URL d'àudio M3"
-
-#~ msgid "MIDI audio"
-#~ msgstr "àudio MIDI"
-
-#~ msgid "MOD audio"
-#~ msgstr "àudio MOD"
-
-#~ msgid "MP3 audio"
-#~ msgstr "àudio MP3"
-
-#~ msgid "MP3 audio playlist"
-#~ msgstr "selecció de peces d'àudio MP3"
-
-#~ msgid "MPEG video"
-#~ msgstr "vídeo MPEG"
-
-#~ msgid "MS ASF video"
-#~ msgstr "vídeo MS ASF"
-
-#~ msgid "MS video"
-#~ msgstr "vídeo MS"
-
-#~ msgid "Macintosh AppleDouble-encoded file"
-#~ msgstr "fitxer codificat Macintosh AppleDouble"
-
-#~ msgid "Macintosh BinHex-encoded file"
-#~ msgstr "fitxer codificat Macintosh BinHex"
-
-#~ msgid "Macintosh StuffIt archive"
-#~ msgstr "arxiu Macintosh StuffIt"
-
-#~ msgid "Macromedia Flash file"
-#~ msgstr "fitxer Macromedia Flash"
-
-#~ msgid "MathML document"
-#~ msgstr "document MathML"
-
-#~ msgid "Microsoft Excel spreadsheet"
-#~ msgstr "full de càlcul Microsoft Excel"
-
-#~ msgid "Microsoft PowerPoint document"
-#~ msgstr "document Microsoft PowerPoint"
-
-#~ msgid "Microsoft Word document"
-#~ msgstr "document Microsoft Word"
-
-#~ msgid "Microsoft video"
-#~ msgstr "vídeo Microsoft"
-
-#~ msgid "Caja link"
-#~ msgstr "enllaç Caja"
-
-#~ msgid "ODA document"
-#~ msgstr "document ODA"
-
-#~ msgid "PBM image"
-#~ msgstr "imatge PBM"
-
-#~ msgid "PCF font"
-#~ msgstr "font PCF"
-
-#~ msgid "PDF document"
-#~ msgstr "document PDF"
-
-#~ msgid "PEF program"
-#~ msgstr "programa PEF"
-
-#~ msgid "PGM image"
-#~ msgstr "imatge PGM"
-
-#~ msgid "PGN chess game"
-#~ msgstr "joc d'escacs PGN"
-
-#~ msgid "PGP keys"
-#~ msgstr "claus PGP"
-
-#~ msgid "PGP message"
-#~ msgstr "missatge PGP"
-
-#~ msgid "PGP signature"
-#~ msgstr "signatura PGP"
-
-#~ msgid "PGP-encrypted file"
-#~ msgstr "fitxer codificat PGP"
-
-#~ msgid "PHP script"
-#~ msgstr "seqüència PHP"
-
-#~ msgid "PN RealAudio document"
-#~ msgstr "document PN RealAudio"
-
-#~ msgid "PNG image"
-#~ msgstr "imatge PNG"
-
-#~ msgid "PNM image"
-#~ msgstr "imatge PNM"
-
-#~ msgid "PPM image"
-#~ msgstr "imatge PPM"
-
-#~ msgid "Palm OS database"
-#~ msgstr "base de dades Palm OS"
-
-#~ msgid "Perl script"
-#~ msgstr "Seqüència Perl"
-
-#~ msgid "Photoshop document"
-#~ msgstr "document Photoshop"
-
-#~ msgid "PostScript Type 1 font"
-#~ msgstr "font PostScript Tipus 1"
-
-#~ msgid "PostScript document"
-#~ msgstr "document PostScript"
-
-#~ msgid "Python source code"
-#~ msgstr "codi font Python"
-
-#~ msgid "QuickTime movie"
-#~ msgstr "pel·lícula QuickTime"
-
-#~ msgid "Quicken document"
-#~ msgstr "document Quicken"
-
-#~ msgid "Quicken for Windows document"
-#~ msgstr "Quicken per a document Windows"
-
-#~ msgid "RAR archive"
-#~ msgstr "arxiu RAR"
-
-#~ msgid "README document"
-#~ msgstr "document README"
-
-#~ msgid "RGB image"
-#~ msgstr "imatge RGB"
-
-#~ msgid "RIFF audio"
-#~ msgstr "àudio RIFF"
-
-#~ msgid "RPM package"
-#~ msgstr "paquet RPM"
-
-#~ msgid "RealAudio/Video document"
-#~ msgstr "document RealAudio/Video"
-
-#~ msgid "RealVideo video"
-#~ msgstr "vídeo RealVideo"
-
-#~ msgid "S/MIME file"
-#~ msgstr "Fitxer S/MIME"
-
-#~ msgid "S/MIME signature"
-#~ msgstr "signatura S/MIME"
-
-#~ msgid "SGI video"
-#~ msgstr "vídeo SGI"
-
-#~ msgid "SGML document"
-#~ msgstr "document SGML"
-
-#~ msgid "SMIL script"
-#~ msgstr "seqüència SMIL"
-
-#~ msgid "SQL code"
-#~ msgstr "codi SQL"
-
-#~ msgid "SV4 CPIO archive"
-#~ msgstr "arxiu SV4 CPIO"
-
-#~ msgid "SV4 CPIP archive (with CRC)"
-#~ msgstr "arxiu SV4 CPIP (amb CRC)"
-
-#~ msgid "SVG art"
-#~ msgstr "art SVG"
-
-#~ msgid "Scream Tracker 3 audio"
-#~ msgstr "àudio Scream Tracker 3"
-
-#~ msgid "Scream Tracker audio"
-#~ msgstr "àudio Scream Tracker"
-
-#~ msgid "Scream Tracker instrument"
-#~ msgstr "instrument Scream Tracker"
-
-#~ msgid "Setext document"
-#~ msgstr "document Setext"
-
-#~ msgid "Speech document"
-#~ msgstr "document Speech"
-
-#~ msgid "Speedo font"
-#~ msgstr "font Speedo"
-
-#~ msgid "Spreadsheet Interchange document"
-#~ msgstr "document SpreadSheet Interchange"
-
-#~ msgid "Stampede package"
-#~ msgstr "paquet Stampede"
-
-#~ msgid "StarOffice Writer document"
-#~ msgstr "document StarOffice Writer"
-
-#~ msgid "StarOffice presentation"
-#~ msgstr "presentació StarOffice"
-
-#~ msgid "StarOffice spreadsheet"
-#~ msgstr "full de càlcul StarOffice"
-
-#~ msgid "Sun mu-law audio"
-#~ msgstr "àudio Sun µ-law"
-
-#~ msgid "SunOS News font"
-#~ msgstr "font SunOS News"
-
-#~ msgid "TIFF image"
-#~ msgstr "imatge TIFF"
-
-#~ msgid "TarGA image"
-#~ msgstr "imatge TarGA"
-
-#~ msgid "Tcl script"
-#~ msgstr "seqüència Tcl"
-
-#~ msgid "TeX document"
-#~ msgstr "document TeX"
-
-#~ msgid "TeX dvi document"
-#~ msgstr "document TeX dvi"
-
-#~ msgid "TeX font"
-#~ msgstr "font TeX"
-
-#~ msgid "TeX font metrics"
-#~ msgstr "mètrica de font TeX"
-
-#~ msgid "TeXInfo document"
-#~ msgstr "document TeXInfo"
-
-#~ msgid "ToutDoux document"
-#~ msgstr "document ToutDoux"
-
-#~ msgid "TrueType font"
-#~ msgstr "font TrueType"
-
-#~ msgid "USENET news message"
-#~ msgstr "missatge USENET"
-
-#~ msgid "Unidata netCDF document"
-#~ msgstr "document netCDF Unidata"
-
-#~ msgid "V font"
-#~ msgstr "font V"
-
-#~ msgid "VOC audio"
-#~ msgstr "àudio VOC"
-
-#~ msgid "VRML document"
-#~ msgstr "document VRML"
-
-#~ msgid "Vivo video"
-#~ msgstr "vídeo Vivo"
-
-#~ msgid "WAIS source code"
-#~ msgstr "codi font WAIS"
-
-#~ msgid "Wavelet video"
-#~ msgstr "vídeo Wavelet"
-
-#~ msgid "Windows bitmap image"
-#~ msgstr "imatge de mapa de bits Windows"
-
-#~ msgid "Windows metafile graphics"
-#~ msgstr "gràfics de metafitxer Windows"
-
-#~ msgid "WordPerfect document"
-#~ msgstr "document WordPerfect"
-
-#~ msgid "X bitmap image"
-#~ msgstr "imatge de mapa de bits X"
-
-#~ msgid "X window image"
-#~ msgstr "imatge X Window"
-
-#~ msgid "XML document"
-#~ msgstr "document XML"
-
-#~ msgid "XPM image"
-#~ msgstr "imatge XPM"
-
-#~ msgid "Xbase database"
-#~ msgstr "base de dades Xbase"
-
-#~ msgid "active server page"
-#~ msgstr "pàgina del servidor actiu"
-
-#~ msgid "address card"
-#~ msgstr "targeta d'adreces"
-
-#~ msgid "ar archive"
-#~ msgstr "arxiu ar"
-
-#~ msgid "arj archive"
-#~ msgstr "arxiu arj"
-
-#~ msgid "authors list"
-#~ msgstr "llistat d'autors"
-
-#~ msgid "backup file"
-#~ msgstr "còpia de seguretat"
-
-#~ msgid "basic audio"
-#~ msgstr "àudio bàsic"
-
-#~ msgid "bibliography record"
-#~ msgstr "registre bibliogràfic"
-
-#~ msgid "binary program"
-#~ msgstr "programa binari"
-
-#~ msgid "block device"
-#~ msgstr "dispositiu de bloqueig"
-
-#~ msgid "bzip-compressed file"
-#~ msgstr "fitxer comprimit amb bzip"
-
-#~ msgid "calendar file"
-#~ msgstr "fitxer calendari"
-
-#~ msgid "calendar or event document"
-#~ msgstr "document calendari o esdeveniment"
-
-#~ msgid "character device"
-#~ msgstr "dispositiu de caràcters"
-
-#~ msgid "comma-separated text document"
-#~ msgstr "document separat per comes"
-
-#~ msgid "compound document"
-#~ msgstr "document compost"
-
-#~ msgid "compress-compressed file"
-#~ msgstr "fitxer comprimit amb compress"
-
-#~ msgid "compressed GIMP document"
-#~ msgstr "document comprimit amb GIMP"
-
-#~ msgid "directory information file"
-#~ msgstr "fitxer d'informació del directori"
-
-#~ msgid "document type definition"
-#~ msgstr "definició del tipus de document"
-
-#~ msgid "email message"
-#~ msgstr "missatge de correu electrònic"
-
-#~ msgid "encrypted message"
-#~ msgstr "missatge encriptat"
-
-#~ msgid "enriched text document"
-#~ msgstr "document de text enriquit"
-
-#~ msgid "gtar archive"
-#~ msgstr "arxiu gtar"
-
-#~ msgid "gzip-compressed file"
-#~ msgstr "fitxer comprimit amb gzip"
-
-#~ msgid "help page"
-#~ msgstr "pàgina d'ajuda"
-
-#~ msgid "mail delivery report"
-#~ msgstr "informe del lliurament del correu"
-
-#~ msgid "mail disposition report"
-#~ msgstr "informe de la clasificació del correu"
-
-#~ msgid "mail system report"
-#~ msgstr "informe de sistema de correu"
-
-#~ msgid "makefile"
-#~ msgstr "makefile"
-
-#~ msgid "manual page"
-#~ msgstr "pàgina manual"
-
-#~ msgid "manual page (compressed)"
-#~ msgstr "pàgina manual (comprimida)"
-
-#~ msgid "message digest"
-#~ msgstr "resum del missatge"
-
-#~ msgid "message in several formats"
-#~ msgstr "missatge en diferents formats"
-
-#~ msgid "multi-part message"
-#~ msgstr "missatge multipart"
-
-#~ msgid "named pipe"
-#~ msgstr "conducte designat"
-
-#~ msgid "object code"
-#~ msgstr "codi objecte"
-
-#~ msgid "ogg audio"
-#~ msgstr "àudio ogg"
-
-#~ msgid "partial email message"
-#~ msgstr "missatge de correu parcial"
-
-#~ msgid "plain text document"
-#~ msgstr "document de text"
-
-#~ msgid "profiler results"
-#~ msgstr "resultats del perfilador"
-
-#~ msgid "reference to remote file"
-#~ msgstr "refèrencia al fitxer remot"
-
-#~ msgid "rejected patch file"
-#~ msgstr "fitxer pedaç rebutjat"
-
-#~ msgid "rich text document"
-#~ msgstr "document de text enriquit"
-
-#~ msgid "search results"
-#~ msgstr "resultats de la cerca"
-
-#~ msgid "shared library"
-#~ msgstr "biblioteca compartida"
-
-#~ msgid "shell archive"
-#~ msgstr "arxiu d'intèrpret d'ordres"
-
-#~ msgid "shell script"
-#~ msgstr "Seqüència de l''intèrpret d'ordres"
-
-#~ msgid "signed message"
-#~ msgstr "missatge signat"
-
-#~ msgid "socket"
-#~ msgstr "sòcol"
-
-#~ msgid "software author credits"
-#~ msgstr "crèdits d'autoria del programari"
-
-#~ msgid "software installation instructions"
-#~ msgstr "instruccions d'instal·lació del programari"
-
-#~ msgid "software license terms"
-#~ msgstr "condicions de la llicència del programari"
-
-#~ msgid "source code patch"
-#~ msgstr "pedaç de codi font"
-
-#~ msgid "style sheet"
-#~ msgstr "full d'estil"
-
-#~ msgid "tab-separated text document"
-#~ msgstr "document de text separat per tabulació"
-
-#~ msgid "tar archive"
-#~ msgstr "arxiu tar"
-
-#~ msgid "tar archive (bzip2-compressed)"
-#~ msgstr "arxiu tar (comprimit amb bzip2)"
-
-#~ msgid "tar archive (gzip-compressed)"
-#~ msgstr "arxiu tar (comprimit amb gzip)"
-
-#~ msgid "theme"
-#~ msgstr "tema"
-
-#~ msgid "troff document"
-#~ msgstr "document troff"
-
-#~ msgid "troff me input document"
-#~ msgstr "document d'entrada troff me"
-
-#~ msgid "troff mm input document"
-#~ msgstr "document d'entrada troff mm"
-
-#~ msgid "troff ms input document"
-#~ msgstr "document d'entrada troff ms"
-
-#~ msgid "unknown type"
-#~ msgstr "tipus desconegut"
-
-#~ msgid "ustar archive"
-#~ msgstr "arxiu ustar"
-
-#~ msgid "wave audio"
-#~ msgstr "àudio wave"
-
-#~ msgid "web folder"
-#~ msgstr "carpeta web"
-
-#~ msgid "xfig vector graphic"
-#~ msgstr "gràfic vectorial xfig"
-
-#~ msgid "zoo archive"
-#~ msgstr "arxiu zoo"
-
-#~ msgid "MATE VFS already initialized."
-#~ msgstr "MATE VFS ja està inicialitzat."
-
-#~ msgid "%s to retrieve"
-#~ msgstr "%s per recuperar"
-
-#~ msgid "Closing connection to %s"
-#~ msgstr "S'està tancant la connexió a %s"
-
-#~ msgid "%s of %s read"
-#~ msgstr "%s de %s llegit"
-
-#~ msgid "%s read"
-#~ msgstr "%s llegit"
-
-#~ msgid "Dying."
-#~ msgstr "S'està morint."
-
-#~ msgid "Error reading: %s"
-#~ msgstr "Error en llegir: %s"
-
-#~ msgid "Error writing: %s"
-#~ msgstr "Error en escriure: %s"
-
-#~ msgid "Cannot write: %s"
-#~ msgstr "No es pot escriure: %s"
-
-#~ msgid "Cannot create temporary file name `%s'"
-#~ msgstr "No es pot crear el fitxer temporal de nom `%s'"
-
-#~ msgid "Cannot create socket: %s"
-#~ msgstr "No es pot crear l'enllaç: %s"
-
-#~ msgid "Cannot bind `%s': %s"
-#~ msgstr "No es pot vincular `%s': %s"
-
-#~ msgid "Cannot listen on `%s': %s"
-#~ msgstr "No es pot atendre a `%s': %s"
-
-#~ msgid "Cannot accept connections on `%s': %s"
-#~ msgstr "No es poden acceptar connexions en `%s': %s"
-
-#~ msgid "Cannot resolve initial reference to RootPOA."
-#~ msgstr "No es pot resoldre la referència inicial al RootPOA."
-
-#~ msgid "Cannot activate POA manager."
-#~ msgstr "No es pot activar el gestor POA."
-
-#~ msgid "Usage: %s <ior> [<ior_fd>]\n"
-#~ msgstr "Utilització: %s <ior> [<ior_fd>]\n"
-
-#~ msgid "Cannot open file descriptor %d."
-#~ msgstr "No es pot obrir el descriptor de fitxers %d."
-
-#~ msgid "Notify interface for `%s' not found."
-#~ msgstr "No s'ha trobat la interfície de notificació per a `%s'."
-
-#~ msgid "Cannot setup Request object."
-#~ msgstr "No es pot configurar l'objecte demanat."
-
-#~ msgid "Cannot extract IOR."
-#~ msgstr "No es pot extreure l'IOR."
-
-#~ msgid "Got weird string from the slave process: `%s'"
-#~ msgstr "S'ha obtingut una cadena estranya del procés esclau: `%s' "
-
-#~ msgid "Cannot get object for `%s'"
-#~ msgstr "No es pot obtenir l'objecte per a `%s'"
-
-#~ msgid "Cannot kill MATE::VFS::Slave::Notify -- exception %s"
-#~ msgstr "No es pot matar MATE::VFS::Esclau::Notifica -- excepció %s"
-
-#~ msgid "Cannot connect socket `%s': %s"
-#~ msgstr "No es pot connectar l'enllaç `%s': %s"
-
-#~ msgid "Cannot initialize MATE::VFS:Slave::Notify"
-#~ msgstr "No es pot inicialitzar MATE::VFS:Esclau::Notifica"
-
-#~ msgid "Cannot reset MATE::VFS::Slave %s -- exception %s"
-#~ msgstr "No es pot reinicialitzar MATE::VFS::Esclau %s -- excepció %s"
-
-#~ msgid "Cannot reset MATE::VFS::Slave (IOR unknown) -- exception %s"
-#~ msgstr ""
-#~ "No es pot reinicialitzar MATE::VFS::Esclau (IOR unknown) -- excepció %s"
-
-#~ msgid "Cannot kill MATE::VFS::Slave %s -- exception %s"
-#~ msgstr "No es pot matar MATE::VFS::Esclau %s -- excepció %s"
-
-#~ msgid "Cannot kill MATE::VFS::Slave (IOR unknown) -- exception %s"
-#~ msgstr "No es pot matar MATE::VFS::Esclau (IOR unknown) -- excepció %s"
-
-#~ msgid "Back"
-#~ msgstr "Enrere"
-
-#~ msgid "Go to the previously visited directory"
-#~ msgstr "Vés al directori visitat anteriorment"
-
-#~ msgid "Up"
-#~ msgstr "Amunt"
-
-#~ msgid "Go to the parent directory"
-#~ msgstr "Vés al directori pare"
-
-#~ msgid "Forward"
-#~ msgstr "Endavant"
-
-#~ msgid "Go to the next visited directory"
-#~ msgstr "Vés al directori visitat següent"
-
-#~ msgid "Rescan"
-#~ msgstr "Torna a explorar"
-
-#~ msgid "Rescan the current directory"
-#~ msgstr "Torna a explorar el directori actual"
-
-#~ msgid "Go to the home directory"
-#~ msgstr "Vés al directori arrel"
-
-#~ msgid "Size"
-#~ msgstr "Mida"
-
-#~ msgid "Date"
-#~ msgstr "Data"
-
-#~ msgid "Enter name:"
-#~ msgstr "Introduïu el nom:"
-
-#~ msgid "Show:"
-#~ msgstr "Mostra:"
-
-#~ msgid "Show dotfiles"
-#~ msgstr "Mostra els fiters de plantilla"
-
-#~ msgid "Edit Applications List"
-#~ msgstr "Edita la llista d'aplicacions"
-
-#~ msgid "Select applications to appear in menu for MIME type \"%s\""
-#~ msgstr ""
-#~ "Seleccioneu les aplicacions que han d'aparèixer al menú per al tipus de "
-#~ "MIME \"%s\""
-
-#~ msgid "Add Application..."
-#~ msgstr "Afegeix una aplicació..."
-
-#~ msgid "Edit Application..."
-#~ msgstr "Edita una aplicació..."
-
-#~ msgid "Edit Components List"
-#~ msgstr "Edita la llista de components"
-
-#~ msgid "Select views to appear in menu for MIME type \"%s\""
-#~ msgstr ""
-#~ "Seleccioneu les vistes que han d'aparèixer al menú per al tipus de MIME "
-#~ "\"%s\""
-
-#~ msgid ""
-#~ "The MIME type entered contained upper case characters. Upper case "
-#~ "characters were changed to lower case for you."
-#~ msgstr ""
-#~ "El tipus de MIME introduït contenia caràcters en majúscules; aquests "
-#~ "caràcters s'han canviat a minúscules per a la vostra comoditat."
-
-#~ msgid "Add New MIME Type"
-#~ msgstr "Afegeix un tipus nou de MIME"
-
-#~ msgid "Add MIME Type"
-#~ msgstr "Afegeix un tipus de MIME"
-
-#~ msgid "New MIME type (e.g. image/x-thumper):"
-#~ msgstr "Tipus nou de MIME (p.ex. image/x-thumper):"
-
-#~ msgid "Description (e.g. Thumper image):"
-#~ msgstr "Descripció (p.ex. imatge Thumper):"
-
-#~ msgid "File Extensions "
-#~ msgstr "Extensions de fitxer "
-
-#~ msgid "Add..."
-#~ msgstr "Afegeix..."
-
-#~ msgid "    Remove    "
-#~ msgstr "    Elimina    "
-
-#~ msgid "Add New Extension"
-#~ msgstr "Afegeix una nova extensió"
-
-#~ msgid ""
-#~ "Type in the extensions for this mime-type (without dot).\n"
-#~ "You can enter several extensions seperated by a space,\n"
-#~ "for example: html htm"
-#~ msgstr ""
-#~ "Escriviu les extensions per a aquest tipus de MIME (sense el punt).\n"
-#~ "Podeu introduir diverses extensions separant-les amb un espai,\n"
-#~ "per exemple: html htm"
-
-#~ msgid "Extension:"
-#~ msgstr "Extensió:"
-
-#~ msgid "You must enter a name."
-#~ msgstr "Heu d'introduir un nom."
-
-#~ msgid "You must enter a command."
-#~ msgstr "Heu d'introduir una ordre."
-
-#~ msgid ""
-#~ "\"%s\" does not exist or is not executable.\n"
-#~ "Check your spelling and make sure you have\n"
-#~ "the right permissions to execute this file."
-#~ msgstr ""
-#~ "\"%s\" no existeix o no és un executable.\n"
-#~ "Comproveu que ho heu escrit correctament i que teniu\n"
-#~ "els permisos necessaris per executar aquest fitxer."
-
-#~ msgid ""
-#~ "The command \"%s\" cannot be found.\n"
-#~ "You must use a command that can work from any command line."
-#~ msgstr ""
-#~ "No es pot trobar l'ordre \"%s\".\n"
-#~ "Heu d'utilitzar una ordre que funcioni des de qualsevol línia d'ordres."
-
-#~ msgid "Bad Application Name"
-#~ msgstr "Nom incorrecte de l'aplicació"
-
-#~ msgid "Bad Application Command"
-#~ msgstr "Ordre incorrecta de l'aplicació"
-
-#~ msgid "Edit Application"
-#~ msgstr "Edita una aplicació"
-
-#~ msgid "Application Name:"
-#~ msgstr "Nom de l'aplicació:"
-
-#~ msgid "Application Command:"
-#~ msgstr "Ordre de l'aplicació:"
-
-#~ msgid "Open Behavior"
-#~ msgstr "Obre el comportament"
-
-#~ msgid "Can open multiple files"
-#~ msgstr "Es poden obrir diversos fitxers"
-
-#~ msgid "Can open from URI"
-#~ msgstr "Es pot obrir des de l'URI"
-
-#~ msgid "MIME Type"
-#~ msgstr "Tipus de MIME"
-
-#~ msgid "Change File Extensions"
-#~ msgstr "Canvia les extensions de fitxer"
-
-#~ msgid "Default Action:"
-#~ msgstr "Acció per defecte:"
-
-#~ msgid "Use Viewer"
-#~ msgstr "Utilitza el visualitzador"
-
-#~ msgid "Open With Application"
-#~ msgstr "Obre amb l'aplicació"
-
-#~ msgid "Edit List"
-#~ msgstr "Edita la llista"
-
-#~ msgid "Add New MIME Type..."
-#~ msgstr "Afegeix un nou tipus de MIME..."
-
-#~ msgid "Delete This MIME Type"
-#~ msgstr "Suprimeix aquest tipus de MIME"
-
-#~ msgid "Revert to System Defaults"
-#~ msgstr "Torna als valors per defecte del sistema"
-
-#~ msgid "None"
-#~ msgstr "Cap"
-
-#~ msgid ""
-#~ "Reverting to system settings will lose any changes\n"
-#~ "you have ever made to File Types and Programs.\n"
-#~ "Revert anyway?"
-#~ msgstr ""
-#~ "Si torneu als paràmetres del sistema perdreu qualsevol canvi\n"
-#~ "que mai hagueu fet als tipus de fitxer i als programes.\n"
-#~ "Voleu tornar-hi igualment?"
-
-#~ msgid "none"
-#~ msgstr "cap"
-
-#~ msgid "View as %s"
-#~ msgstr "Visualitza com a %s"
-
-#~ msgid "Description"
-#~ msgstr "Descripció"
-
-#~ msgid "Default Action"
-#~ msgstr "Acció per defecte"
-
-#~ msgid "Can't find an hbox, using a normal file selection"
-#~ msgstr ""
-#~ "No es pot trobar cap hbox, s'està utilitzant una selecció de fitxer normal"
-
-#~ msgid "Preview"
-#~ msgstr "Previsualitza"
-
-#~ msgid "Select an icon"
-#~ msgstr "Seleccioneu una icona"
-
-#~ msgid "Unknown sort rule %d"
-#~ msgstr "Regla d'ordenació desconeguda %d"
-
-#~ msgid "Error writing to the wakeup MateVFSJob channel."
-#~ msgstr "Error en escriure en el canal d'avís MateVFSJob"
-
-#~ msgid ""
-#~ "Add a new Mime Type\n"
-#~ "For example:  image/tiff; text/x-scheme"
-#~ msgstr ""
-#~ "Afegiu un nou tipus de MIME\n"
-#~ "Per exemple:  image/tiff; text/x-scheme"
-
-#~ msgid "Mime Type:"
-#~ msgstr "Tipus de MIME:"
-
-#~ msgid "Type in a description for this mime-type."
-#~ msgstr "Escriviu una desripció per a aquest tipus de MIME."
-
-#~ msgid "Description:"
-#~ msgstr "Descripció:"
-
-#~ msgid "New Application"
-#~ msgstr "Nova aplicació"
-
-#~ msgid "Action"
-#~ msgstr "Acció"
-
-#~ msgid "HTTP server returned an invalid PROPFIND response"
-#~ msgstr "El servidor HTTP ha retornat una resposta PROPFIND no vàlida"
-
-#~ msgid "ftpfs: Invalid host name."
-#~ msgstr "ftpfs: Nom de servidor no vàlid."
-
-#~ msgid "ftpfs: Invalid host address."
-#~ msgstr "ftpfs: Adreça de servidor no vàlida."
-
-#~ msgid "ftpfs: making connection to %s"
-#~ msgstr "ftpfs: connectant-se a %s"
-
-#~ msgid "ftpfs: connection interrupted by user"
-#~ msgstr "ftpfs: connexió interrompuda per l'usuari"
-
-#~ msgid "ftpfs: connection to server failed: %s"
-#~ msgstr "ftpfs: connexió al servidor fallida: %s"
-
-#~ msgid "Waiting to retry... %d (Control-C to cancel)"
-#~ msgstr ""
-#~ "S'està esperant per reintentar-ho... %d (Control-C per cancel·lar-ho)"
-
-#~ msgid " FTP: Password required for "
-#~ msgstr " FTP: Contrasenya requerida per "
-
-#~ msgid "ftpfs: sending login name"
-#~ msgstr "ftpfs: s'està enviant el nom d'entrada"
-
-#~ msgid "ftpfs: sending user password"
-#~ msgstr "ftpfs: s'està enviant la contrasenya de l'usuari"
-
-#~ msgid "ftpfs: logged in"
-#~ msgstr "ftpfs: connectat"
-
-#~ msgid "ftpfs: Login incorrect for user %s "
-#~ msgstr "ftpfs: Entrada incorrecta per a l'usuari %s "
-
-#~ msgid "ftpfs: aborting transfer."
-#~ msgstr "ftpfs: s'està avortant la transferència."
-
-#~ msgid "ftpfs: abort error: %s"
-#~ msgstr "ftpfs: error en avortar: %s"
-
-#~ msgid "ftpfs: abort failed"
-#~ msgstr "ftpfs: avortament fallit"
-
-#~ msgid "ftpfs: could not setup passive mode"
-#~ msgstr "ftpfs: no s'ha pogut configurar el mode passiu"
-
-#~ msgid "ftpfs: storing file %d (%d)"
-#~ msgstr "ftpfs: s'està emmagatzemant el fitxer %d (%d)"
-
-#~ msgid "ftpfs: CWD failed."
-#~ msgstr "ftpfs: CWD fallit."
-
-#~ msgid "ftpfs: couldn't resolve symlink"
-#~ msgstr "ftpfs: No s'ha pogut resoldre l'enllaç simbòlic"
-
-#~ msgid "Resolving symlink..."
-#~ msgstr "S'està resolent l'enllaç simbòlic..."
-
-#~ msgid "ftpfs: Reading FTP directory %s... (don't use UNIX ls options)"
-#~ msgstr ""
-#~ "ftpfs: S'està llegint el directori FTP %s... (no utilitzeu les opcions ls "
-#~ "de UNIX)"
-
-#~ msgid "ftpfs: Reading FTP directory %s..."
-#~ msgstr "ftpfs: S'està llegint el directori FTP %s..."
-
-#~ msgid "ftpfs: reading FTP directory interrupted by user"
-#~ msgstr "ftpfs: lectura del directori FTP interrompuda per l'usuari"
-
-#~ msgid "ftpfs: got listing"
-#~ msgstr "ftpfs: llistat rebut"
-
-#~ msgid "ftpfs: failed; nowhere to fallback to"
-#~ msgstr "ftpfs: fallit; enlloc per anar"
-
-#~ msgid "Starting linear transfer..."
-#~ msgstr "S'està iniciant transferència lineal..."
-
-#~ msgid "Preparing reget..."
-#~ msgstr "S'està preparant la recuperació..."
+msgstr "El grup de treball o domini de la xarxa de Windows al qual pertany l'usuari. Per a que un grup de treball nou tingui efecte, és possible que l'usuari necessite sortir i tornar a entrar."

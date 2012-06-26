@@ -1,25 +1,24 @@
-# translation of mate-vfs.HEAD.ta.po to Tamil
-# translation of ta.po to Tamil
-# Tamil translation of mate-vfs.
-# Copyright (C) 2003 mate-vfs's copyright holder
-# This file is distributed under the same license as the mate-vfs package.
-# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2003.
-# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2001, 2002, 2003.
 # Felix <ifelix@redhat.com>, 2006.
-#
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD.ta\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-04-24 03:37+0100\n"
-"PO-Revision-Date: 2007-07-12 15:21+0530\n"
-"Last-Translator: Dr.T.Vasudevan <agnihot3@gmail.com>\n"
-"Language-Team: Tamil <ta@li.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:40+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.9.1\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -74,157 +73,175 @@ msgid "Auto-detected Volume"
 msgstr "தானாக-கண்டறியப்பட்ட நிறை"
 
 #: ../libmatevfs/mate-vfs-filesystem-type.c:42
-#: ../libmatevfs/mate-vfs-filesystem-type.c:44
+msgid "Btrfs Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:45
 msgid "CD-ROM Drive"
 msgstr "CD-ROM இயக்கி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:43
+#: ../libmatevfs/mate-vfs-filesystem-type.c:44
 msgid "CD Digital Audio"
 msgstr "CD டிஜிட்டல் ஆடியோ"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:45
+#: ../libmatevfs/mate-vfs-filesystem-type.c:46
 msgid "Hardware Device Volume"
 msgstr "வன்பொருள் சாதனம்"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:46
+#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 msgid "EncFS Volume"
 msgstr "EncFS தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:47
 #: ../libmatevfs/mate-vfs-filesystem-type.c:48
+msgid "eCryptfs Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:50
 msgid "Ext2 Linux Volume"
 msgstr "Ext2 லினக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:49
+#: ../libmatevfs/mate-vfs-filesystem-type.c:51
 msgid "Ext3 Linux Volume"
 msgstr "Ext3 லினக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:50
-#: ../libmatevfs/mate-vfs-filesystem-type.c:64
-#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:53
+msgid "Ext4 Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:69
 msgid "MSDOS Volume"
 msgstr "MSDOS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:51
-#: ../libmatevfs/mate-vfs-filesystem-type.c:60
+#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:64
 msgid "BSD Volume"
 msgstr "BSD தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:52
+#: ../libmatevfs/mate-vfs-filesystem-type.c:56
 msgid "FUSE Volume"
 msgstr "FUSE தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:53
-#: ../libmatevfs/mate-vfs-filesystem-type.c:54
+#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:58
 msgid "MacOS Volume"
 msgstr "MacOS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:55
+#: ../libmatevfs/mate-vfs-filesystem-type.c:59
 msgid "CDROM Volume"
 msgstr "CDROM பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:56
+#: ../libmatevfs/mate-vfs-filesystem-type.c:60
 msgid "Hsfs CDROM Volume"
 msgstr "Hsfs CDROM பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:57
+#: ../libmatevfs/mate-vfs-filesystem-type.c:61
 msgid "JFS Volume"
 msgstr "JFS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:58
-#: ../libmatevfs/mate-vfs-filesystem-type.c:67
+#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:72
 msgid "Windows NT Volume"
 msgstr "விண்டோஸ் என்டி பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:59
-#: ../libmatevfs/mate-vfs-filesystem-type.c:61
-#: ../libmatevfs/mate-vfs-filesystem-type.c:69
-#: ../libmatevfs/mate-vfs-filesystem-type.c:70
-#: ../libmatevfs/mate-vfs-filesystem-type.c:71
+#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:65
+#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:77
 msgid "System Volume"
 msgstr "கணினி பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:62
+#: ../libmatevfs/mate-vfs-filesystem-type.c:66
 msgid "Memory Volume"
 msgstr "நினைவிடம் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:63
+#: ../libmatevfs/mate-vfs-filesystem-type.c:67
 msgid "Minix Volume"
 msgstr "மினிக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:66
+#: ../libmatevfs/mate-vfs-filesystem-type.c:70
 msgid "NFS Network Volume"
 msgstr "NFS வலைப்பின்னல் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:68
+#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+msgid "NILFS Linux Volume"
+msgstr ""
+
+#: ../libmatevfs/mate-vfs-filesystem-type.c:74
 msgid "Netware Volume"
 msgstr "நெட்வேர் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:72
+#: ../libmatevfs/mate-vfs-filesystem-type.c:78
 msgid "Reiser4 Linux Volume"
 msgstr "Reiser4 லினக்ஸ் தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:73
+#: ../libmatevfs/mate-vfs-filesystem-type.c:79
 msgid "ReiserFS Linux Volume"
 msgstr "ReiserFS லினக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:74
+#: ../libmatevfs/mate-vfs-filesystem-type.c:80
 msgid "Windows Shared Volume"
 msgstr "விண்டோஸ் பகிர்ந்தளிக்கப்பட்ட பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:75
+#: ../libmatevfs/mate-vfs-filesystem-type.c:81
 msgid "SuperMount Volume"
 msgstr "சிறப்பு ஏற்றி பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:76
+#: ../libmatevfs/mate-vfs-filesystem-type.c:82
 msgid "DVD Volume"
 msgstr "DVD பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:77
+#: ../libmatevfs/mate-vfs-filesystem-type.c:83
 msgid "Solaris/BSD Volume"
 msgstr "சோலாரிஸ்/BSD பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:78
+#: ../libmatevfs/mate-vfs-filesystem-type.c:84
 msgid "Udfs Solaris Volume"
 msgstr "Udfs சோலாரிஸ் பகிர்வு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:79
+#: ../libmatevfs/mate-vfs-filesystem-type.c:85
 msgid "Pcfs Solaris Volume"
 msgstr "Pcfs சோலாரிஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:80
+#: ../libmatevfs/mate-vfs-filesystem-type.c:86
 msgid "Sun SAM-QFS Volume"
 msgstr "சன் SAM-QFS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:81
+#: ../libmatevfs/mate-vfs-filesystem-type.c:87
 msgid "Temporary Volume"
 msgstr "தற்காலிக தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:82
+#: ../libmatevfs/mate-vfs-filesystem-type.c:88
 msgid "Enhanced DOS Volume"
 msgstr "மேம்படுத்தப்பட்ட DOS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:83
+#: ../libmatevfs/mate-vfs-filesystem-type.c:89
 msgid "Windows VFAT Volume"
 msgstr "விண்டோஸ் VFAT பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:84
+#: ../libmatevfs/mate-vfs-filesystem-type.c:90
 msgid "Xenix Volume"
 msgstr "ஜெனிக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:85
+#: ../libmatevfs/mate-vfs-filesystem-type.c:91
 msgid "XFS Linux Volume"
 msgstr "XFS லினக்ஸ் பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:86
+#: ../libmatevfs/mate-vfs-filesystem-type.c:92
 msgid "XIAFS Volume"
 msgstr "XIAFS பிரிவு"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:87
+#: ../libmatevfs/mate-vfs-filesystem-type.c:93
 msgid "CIFS Volume"
 msgstr "CIFS தொகுதி"
 
-#: ../libmatevfs/mate-vfs-filesystem-type.c:115
+#: ../libmatevfs/mate-vfs-filesystem-type.c:121
 msgid "Unknown"
 msgstr "தெரியாத"
 
@@ -426,23 +443,22 @@ msgstr "%s அகற்றத்தக்க தொகுதி"
 msgid "Volume"
 msgstr "தொகுதி"
 
-#: ../libmatevfs/mate-vfs-job.c:734
+#: ../libmatevfs/mate-vfs-job.c:733
 #, c-format
 msgid "Unknown operation type %u"
 msgstr "தெரியாத %u செயல் வகை"
 
-#: ../libmatevfs/mate-vfs-job.c:1025
-#: ../libmatevfs/mate-vfs-job.c:1176
+#: ../libmatevfs/mate-vfs-job.c:1024 ../libmatevfs/mate-vfs-job.c:1175
 #, c-format
 msgid "Cannot create pipe for open GIOChannel: %s"
 msgstr "திறந்திருக்கும் GIOChannelக்கு குழாய் படைக்க முடியவில்லை: %s"
 
-#: ../libmatevfs/mate-vfs-job.c:1692
+#: ../libmatevfs/mate-vfs-job.c:1691
 #, c-format
 msgid "Unknown job kind %u"
 msgstr "தெரியாத %u பணி வகை"
 
-#: ../libmatevfs/mate-vfs-job.c:1725
+#: ../libmatevfs/mate-vfs-job.c:1724
 msgid "Operation stopped"
 msgstr "செயல் நிறுத்தப்பட்டுள்ளது"
 
@@ -474,15 +490,17 @@ msgstr "செயல் நிறுத்தப்பட்டுள்ளத�
 #: ../libmatevfs/mate-vfs-mime-info.c:699
 #: ../libmatevfs/mate-vfs-mime-info.c:707
 #: ../libmatevfs/mate-vfs-mime-info.c:714
-msgid "Deprecated function.  User modifications to the MIME database are no longer supported."
+msgid ""
+"Deprecated function.  User modifications to the MIME database are no longer "
+"supported."
 msgstr "மதிப்பற்ற செயல். மைம் தரவுத்தளத்தில் பயனீட்டாளர் மாற்றம் செய்வதற்கு ஆதரவு இல்லை"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:720
+#: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
 msgid "Could not parse: %s"
 msgstr "அலகிடமுடியவில்லை: %s"
 
-#: ../libmatevfs/mate-vfs-parse-ls.c:722
+#: ../libmatevfs/mate-vfs-parse-ls.c:715
 msgid "More parsing errors will be ignored."
 msgstr "எஞ்சிய பகுப்பு பிழைகள் தவிர்க்கப்படும்"
 
@@ -867,43 +885,55 @@ msgstr "கேமரா"
 msgid "DVD"
 msgstr "DVD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:846
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:849
 msgid "Root Volume"
 msgstr "மூல பிரிவு"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:927
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:930
 msgid "Audio CD"
 msgstr "ஆடியோ CD"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:960
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:963
 msgid "Unknown volume"
 msgstr "தெரியாத பிரிவு"
 
-#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1172
+#: ../libmatevfs/mate-vfs-volume-monitor-daemon.c:1175
 msgid "Network server"
 msgstr "வலைப்பின்னல் சேவகன்"
 
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
+#, c-format
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
 msgstr "நெகிழ்வட்டு இயக்கியை ஏற்ற முடியவில்லை. ஒருவேலை நெகிழ்வட்டு இல்லாமல் இருக்கலாம்"
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
+#, c-format
 msgid "Unable to mount the volume. There is probably no media in the device."
 msgstr "பிரிவை ஏற்ற முடியவில்லை.காரணம் சாதனத்தில் ஊடகம் இல்லாமல் இருக்கலாம்"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:194
-msgid "Unable to mount the floppy drive. The floppy is probably in a format that cannot be mounted."
+#, c-format
+msgid ""
+"Unable to mount the floppy drive. The floppy is probably in a format that "
+"cannot be mounted."
 msgstr "நெகிழ்வட்டு இயக்கியை ஏற்ற முடியவில்லை. நெகிழ்வட்டு ஏற்ற முடியாத நிலையில் உள்ளது"
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
-msgid "Unable to mount the volume. If this is an encrypted drive, then the wrong password or key was used."
+#, c-format
+msgid ""
+"Unable to mount the volume. If this is an encrypted drive, then the wrong "
+"password or key was used."
 msgstr "தொகுதியை ஏற்ற முடியவில்லை. இது குறிமுறை செய்யப்பட்ட இயக்கி என்றால், பின் தவறான கடவுச்சொல் அல்லது விசை பயன்படுத்தப்பட்டிருக்கும்."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
-msgid "Unable to mount the selected volume. The volume is probably in a format that cannot be mounted."
+#, c-format
+msgid ""
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
 msgstr "தேர்வு செய்யப்பட்ட பிரிவை ஏற்ற முடியவில்லை. சாதனம் ஏற்ற முடியாத நிலையில் உள்ளது"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
@@ -915,7 +945,10 @@ msgid "Unable to mount the selected volume."
 msgstr "தேர்வு செய்யப்பட்ட பிரிவை ஏற்ற முடியவில்லை"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:221
-msgid "Unable to unmount the selected volume. The volume is in use by one or more programs."
+#, c-format
+msgid ""
+"Unable to unmount the selected volume. The volume is in use by one or more "
+"programs."
 msgstr "தேர்வு செய்யப்பட்ட தொகுதியை ஏற்ற முடியவில்லை. தொகுதி ஒன்று அல்லது மேற்பட்ட நிரல்களால் பயன்படுத்தப்படுகிறது."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
@@ -937,6 +970,7 @@ msgid "Unexpected error in select() reading data from a child process (%s)"
 msgstr "select()ல் சேய் செயல்பாட்டிலிருந்து தரவுகளை படிக்கும் போது பிழை (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
+#, c-format
 msgid "Couldn't send password to mount process."
 msgstr "கடவுச்சொல்லை ஏற்றும் பணிக்கு அனுப்ப முடியாது"
 
@@ -990,10 +1024,7 @@ msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
 "The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
-msgstr ""
-"இது முதல்முதலாக கணினிக்குள் நுழையும் போது ஏற்படும்\n"
-"\n"
-"தொலை கணினி %s க்கு அடைளாளம் அனுப்பப்படும். தொடர்வது பாதுகாப்பானது என நீங்கள் நினைத்தால் கணினி மேலாளரை அணுகவும்."
+msgstr "இது முதல்முதலாக கணினிக்குள் நுழையும் போது ஏற்படும்\n\nதொலை கணினி %s க்கு அடைளாளம் அனுப்பப்படும். தொடர்வது பாதுகாப்பானது என நீங்கள் நினைத்தால் கணினி மேலாளரை அணுகவும்."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1024,9 +1055,7 @@ msgstr "உங்கள் HTTP பதிலாள் உங்கள் உள�
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\"ஐ அணுக உள்அனுமதி பெறவும்.\n"
-"%s"
+msgstr "\"%s\"ஐ அணுக உள்அனுமதி பெறவும்.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1060,11 +1089,16 @@ msgstr "இயல்பான முனையத்திற்கான Exec �
 
 #: ../schemas/desktop_default_applications.schemas.in.h:5
 #, no-c-format
-msgid "The application to use for viewing files that require a component to view them. The parameter %s will be replaced by the file's URIs, the parameter %c will be replaced by the component IID."
+msgid ""
+"The application to use for viewing files that require a component to view "
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
 msgstr "கோப்புகளை பார்க்க தேவைப்படும் பயன்பாடுகளுக்கு பொருள்கள் தேவை. அளவுரு %s அதன் URI யால் மாற்றப்படும், அளவுரு %c அதன் பொருள் அடையாளத்தால் மாற்றப்படும்"
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
-msgid "The default terminal application to use for applications that require a terminal."
+msgid ""
+"The default terminal application to use for applications that require a "
+"terminal."
 msgstr "முனையத்திறகு தேவைப்படும் இயல்பான முனைய பயன்பாடு "
 
 #: ../schemas/desktop_default_applications.schemas.in.h:7
@@ -1156,47 +1190,69 @@ msgid "The handler for \"trash\" URLs"
 msgstr "\"trash\" கையாள்வதற்கான URL"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:22
-msgid "True if the command specified in the \"command\" key should handle \"aim\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"aim\" "
+"URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"aim\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
-msgid "True if the command specified in the \"command\" key should handle \"callto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"aim\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
-msgid "True if the command specified in the \"command\" key should handle \"ghelp\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"ghelp\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
-msgid "True if the command specified in the \"command\" key should handle \"h323\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"h323\" "
+"URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"h323\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
-msgid "True if the command specified in the \"command\" key should handle \"http\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"http\" "
+"URLs."
 msgstr "\"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"http\" URL ஐ கையாளுமெனில்,உண்மை."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
-msgid "True if the command specified in the \"command\" key should handle \"https\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"ghelp\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
-msgid "True if the command specified in the \"command\" key should handle \"info\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"info\" "
+"URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"info\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
-msgid "True if the command specified in the \"command\" key should handle \"mailto\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"mailto\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
-msgid "True if the command specified in the \"command\" key should handle \"man\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"man\" "
+"URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"man\" URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
-msgid "True if the command specified in the \"command\" key should handle \"trash\" URLs."
+msgid ""
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "உண்மை, \"command\" விசையில் குறிக்கப்பட்ட கட்டளை \"trash\"  URL ஐ கையாளுமெனில்."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
-msgid "True if the command used to handle this type of URL should be run in a terminal."
+msgid ""
+"True if the command used to handle this type of URL should be run in a "
+"terminal."
 msgstr "இந்த வகை URL ஐ முனையத்தில் இயக்க முடியுமெனில் உண்மை"
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
@@ -1240,7 +1296,9 @@ msgid "Whether the specified command should handle \"trash\" URLs"
 msgstr "குறிப்பிட்ட கட்டளை \"trash\" URL ஐ கையாளுமா"
 
 #: ../schemas/system_dns_sd.schemas.in.h:1
-msgid "Comma separated list of DNS-SD domains that should be visible in the \"network:///\" location."
+msgid ""
+"Comma separated list of DNS-SD domains that should be visible in the "
+"\"network:///\" location."
 msgstr "DNS-SD களங்களின் கால்புள்ளியால் பிரிக்கப்பட்ட பட்டியல் \"network:///\" இடத்தில் தெரிய வேண்டும்."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
@@ -1292,7 +1350,11 @@ msgid "HTTP proxy username"
 msgstr "HTTP ப்ராக்ஸி பயனீட்டாளர் பெயர்"
 
 #: ../schemas/system_http_proxy.schemas.in.h:10
-msgid "If true, then connections to the proxy server require authentication. The username/password combo is defined by \"/system/http_proxy/authentication_user\" and \"/system/http_proxy/authentication_password\"."
+msgid ""
+"If true, then connections to the proxy server require authentication. The "
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
 msgstr "உண்மையெனில் பதிலாள் சேவையகத்தை இணைக்க அங்கீகாரம் தேவை.  \"/system/http_proxy/authentication_user\" and \"/system/http_proxy/authentication_password\"ஆல்பயனர்பெயர்/கடவுச்சொல் சேர்க்கை பெட்டியில் குறிப்பிடப்பட்டிருக்கும்."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
@@ -1324,7 +1386,9 @@ msgid "Secure HTTP proxy port"
 msgstr "பாதுகாப்பான HTTP ப்ராக்ஸி வழி"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
-msgid "Select the proxy configuration mode. Supported values are \"none\", \"manual\", \"auto\"."
+msgid ""
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
 msgstr "ப்ராக்ஸி அமைப்பு வழியை தேர்வு செய்யவும். \"none\", \"manual\", \"auto\" மதிப்புகளுக்கு ஆதரவு உண்டு"
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
@@ -1344,23 +1408,35 @@ msgid "The machine name to proxy socks through."
 msgstr "socks வழியாக ப்ராக்ஸிக்கான கணினி பெயர்"
 
 #: ../schemas/system_http_proxy.schemas.in.h:23
-msgid "The port on the machine defined by \"/system/http_proxy/host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/http_proxy/host\" that you "
+"proxy through."
 msgstr "\"/system/http_proxy/host\" இனால் குறிப்பிடப்பட்ட வழியை ப்ராக்ஸி பயன்படுத்துகிறது"
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
-msgid "The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "\"/system/proxy/ftp_host\" இனால் குறிப்பிடப்பட்ட வழியை ப்ராக்ஸி பயன்படுத்துகிறது"
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
-msgid "The port on the machine defined by \"/system/proxy/secure_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/secure_host\" that you "
+"proxy through."
 msgstr "\"/system/proxy/secure_host\" இனால் குறிப்பிடப்பட்ட வழியை ப்ராக்ஸி பயன்படுத்துகிறது"
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
-msgid "The port on the machine defined by \"/system/proxy/socks_host\" that you proxy through."
+msgid ""
+"The port on the machine defined by \"/system/proxy/socks_host\" that you "
+"proxy through."
 msgstr "\"/system/proxy/socks_host\" இனால் குறிப்பிடப்பட்ட வழியை ப்ராக்ஸி பயன்படுத்துகிறது"
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
-msgid "This key contains a list of hosts which are connected to directly, rather than via the proxy (if it is active). The values can be hostnames, domains (using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgid ""
+"This key contains a list of hosts which are connected to directly, rather "
+"than via the proxy (if it is active). The values can be hostnames, domains "
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
 msgstr "இந்த பட்டியல் ப்ராக்ஸியை(செயலிலிருந்தும்) நேரடியாக பயன்படுத்தாத கணினியின் பட்டியலை காட்டுகிறது. இதில் புரவலன் பெயர், டொமைன்(குழுக்குறிகளை பயன்படுத்தும் உம் *.foo.com) புரவலன் IP முகவரி (both IPv4 மற்றும்IPv6) மற்றும் வலைப்பின்னல் முகவரியுடன் வலைமூடியும் இருக்கும் (உதாரணம் 192.168.0.0/24)"
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
@@ -1380,6 +1456,8 @@ msgid "SMB workgroup"
 msgstr "SMB பணிகுழு"
 
 #: ../schemas/system_smb.schemas.in.h:2
-msgid "The Windows networking workgroup or domain that the user is part of. In order for a new workgroup to fully take effect the user may need to log out and log back in."
+msgid ""
+"The Windows networking workgroup or domain that the user is part of. In "
+"order for a new workgroup to fully take effect the user may need to log out "
+"and log back in."
 msgstr "பயனர் விண்டோஸ் பிணைய பணி குழு அல்லது களத்தின் பகுதியாக உள்ளார். புதிய பணிக்குழு முழுவதும் பணி செய்ய பயனர் வெளியேற வேண்டும் அல்லது மீண்டும் உள் அனுமதி பெற வேண்டும்."
-

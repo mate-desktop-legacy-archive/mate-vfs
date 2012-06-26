@@ -1,28 +1,28 @@
-# translation of mate-vfs.HEAD.hu.po to Hungarian
-# Hungarian translation of mate-vfs.
-# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-vfs package.
-#
-# Szabolcs Ban <shooby@mate.hu>, 2000, 2001.
-# Emese Kovacs <emese@mate.hu>, 2001.
-# Gergely Nagy <greg@mate.hu>, 2001.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Andras Timar <timar@mate.hu>, 2001, 2002, 2003.
-# Laszlo Dvornik <dvornik@mate.hu>, 2004.
-# Gabor Kelemen <kelemeng@mate.hu>, 2004, 2005, 2006, 2007, 2008.
+# Emese Kovacs <emese@mate.hu>, 2001.
 # Gabor Kelemen <kelemeng at mate dot hu>, 2010.
+# Gabor Kelemen <kelemeng@mate.hu>, 2004, 2005, 2006, 2007, 2008.
+# Gergely Nagy <greg@mate.hu>, 2001.
+# Laszlo Dvornik <dvornik@mate.hu>, 2004.
+# Szabolcs Ban <shooby@mate.hu>, 2000, 2001.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs.HEAD.hu\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-25 21:53+0100\n"
-"PO-Revision-Date: 2010-02-25 21:53+0100\n"
-"Last-Translator: Gabor Kelemen <kelemeng at mate dot hu>\n"
-"Language-Team: Hungarian <mate at fsf dot hu>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:43+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
-"X-Generator: KBabel 1.11.4\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -497,9 +497,7 @@ msgstr "A művelet leállítva"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"Elavult funkció. A MIME-adatbázis felhasználói módosítása többé már nem "
-"támogatott."
+msgstr "Elavult funkció. A MIME-adatbázis felhasználói módosítása többé már nem támogatott."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -910,10 +908,9 @@ msgstr "Hálózati kiszolgáló"
 #. Handle floppy case
 #: ../libmatevfs/mate-vfs-volume-ops.c:184
 #, c-format
-msgid "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"A hajlékonylemezes meghajtó nem csatolható. Valószínűleg nincs "
-"hajlékonylemez a meghajtóban."
+msgid ""
+"Unable to mount the floppy drive. There is probably no floppy in the drive."
+msgstr "A hajlékonylemezes meghajtó nem csatolható. Valószínűleg nincs hajlékonylemez a meghajtóban."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -926,9 +923,7 @@ msgstr "A kötet nem csatolható. Valószínűleg nincs adathordozó a meghajtó
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"A hajlékonylemezes meghajtó nem csatolható. Valószínűleg a hajlékonylemez "
-"olyan formátumú, amit nem lehet csatolni."
+msgstr "A hajlékonylemezes meghajtó nem csatolható. Valószínűleg a hajlékonylemez olyan formátumú, amit nem lehet csatolni."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -936,18 +931,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"A kötet nem csatolható. Ha ez egy titkosított kötet, akkor hibás jelszó vagy "
-"kulcs került felhasználásra."
+msgstr "A kötet nem csatolható. Ha ez egy titkosított kötet, akkor hibás jelszó vagy kulcs került felhasználásra."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"A kiválasztott kötet nem csatolható. Valószínűleg a kötet olyan formátumú, "
-"amit nem lehet csatolni."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "A kiválasztott kötet nem csatolható. Valószínűleg a kötet olyan formátumú, amit nem lehet csatolni."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -980,9 +971,7 @@ msgstr "A csatoló folyamat nem futtatható pszeudoterminálon."
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"Váratlan hiba történt, miközben a select() adatokat próbált olvasni egy "
-"gyermekfolyamatból (%s)"
+msgstr "Váratlan hiba történt, miközben a select() adatokat próbált olvasni egy gyermekfolyamatból (%s)"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1038,13 +1027,8 @@ msgstr "A távoli számítógép (%s) azonosítója ismeretlen."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"Ez akkor lehetséges, ha első alkalommal jelentkezik be egy számítógépre.\n"
-"\n"
-"A távoli számítógép által küldött azonosító %s. Ha teljesen biztos akar "
-"lenni, hogy ez biztonságos, lépjen kapcsolatba a rendszergazdával."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "Ez akkor lehetséges, ha első alkalommal jelentkezik be egy számítógépre.\n\nA távoli számítógép által küldött azonosító %s. Ha teljesen biztos akar lenni, hogy ez biztonságos, lépjen kapcsolatba a rendszergazdával."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1075,9 +1059,7 @@ msgstr "A HTTP proxy megköveteli a bejelentkezést.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"Be kell jelentkeznie a következő eléréséhez: „%s”.\n"
-"%s"
+msgstr "Be kell jelentkeznie a következő eléréséhez: „%s”.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1113,12 +1095,9 @@ msgstr "Az alapértelmezett terminál exec paramétere"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"Az azon fájlok megtekintésére használt alkalmazás, amelyek megtekintéséhez "
-"egy összetevő szükséges. A %s paraméter a fájl URI címére, a %c az összetevő "
-"IID-jére lesz cserélve."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "Az azon fájlok megtekintésére használt alkalmazás, amelyek megtekintéséhez egy összetevő szükséges. A %s paraméter a fájl URI címére, a %c az összetevő IID-jére lesz cserélve."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1218,89 +1197,67 @@ msgstr "„trash” URL címek kezelője"
 msgid ""
 "True if the command specified in the \"command\" key should handle \"aim\" "
 "URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az "
-"„aim” URL címeket."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „aim” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„callto” URL címeket."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „callto” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„ghelp” URL címeket."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „ghelp” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
 msgid ""
 "True if the command specified in the \"command\" key should handle \"h323\" "
 "URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„h323” URL címeket."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „h323” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:26
 msgid ""
 "True if the command specified in the \"command\" key should handle \"http\" "
 "URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„http” URL címeket."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „http” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„https” URL címeket."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „https” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
 msgid ""
 "True if the command specified in the \"command\" key should handle \"info\" "
 "URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az "
-"„info” URL címeket."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli az „info” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„mailto” URL címeket."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „mailto” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
 msgid ""
 "True if the command specified in the \"command\" key should handle \"man\" "
 "URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„man” URL címeket."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „man” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a "
-"„trash” URL címeket."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancs kezeli a „trash” URL címeket."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
 msgid ""
 "True if the command used to handle this type of URL should be run in a "
 "terminal."
-msgstr ""
-"Ha igazra van állítva, a „command” kulcsban beállított parancsnak "
-"terminálban kell futnia."
+msgstr "Ha igazra van állítva, a „command” kulcsban beállított parancsnak terminálban kell futnia."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:33
 msgid "Whether the specified command should handle \"aim\" URLs"
@@ -1346,9 +1303,7 @@ msgstr "A megadott parancs kezelje-e a „trash” URL címeket"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"A „network:///” helyen látható DNS-SD tartományok vesszővel elválasztott "
-"listája."
+msgstr "A „network:///” helyen látható DNS-SD tartományok vesszővel elválasztott listája."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1401,13 +1356,10 @@ msgstr "HTTP proxy felhasználónév"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"Ha be van kapcsolva, akkor a proxy kiszolgálóhoz történő kapcsolódásokhoz "
-"hitelesítés szükséges. A felhasználónév/jelszó párost a „/system/http_proxy/"
-"authentication_user” és a „/system/http_proxy/authentication_password” adja "
-"meg."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "Ha be van kapcsolva, akkor a proxy kiszolgálóhoz történő kapcsolódásokhoz hitelesítés szükséges. A felhasználónév/jelszó párost a „/system/http_proxy/authentication_user” és a „/system/http_proxy/authentication_password” adja meg."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1439,11 +1391,9 @@ msgstr "Biztonságos HTTP proxy port"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"Válassza ki a proxybeállítás módját. Támogatott értékek: „none”, „manual”, "
-"„auto”."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "Válassza ki a proxybeállítás módját. Támogatott értékek: „none”, „manual”, „auto”."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1469,8 +1419,8 @@ msgstr "A „/system/http_proxy/host” kulcsban proxyként megadott gép portja
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "A „/system/proxy/ftp_host” kulcsban proxyként megadott gép portja."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
@@ -1489,14 +1439,9 @@ msgstr "A „/system/proxy/socks_host” kulcsban proxyként megadott gép portj
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"Ez a kulcs azon kiszolgálók listáját tartalmazza, amelyekhez közvetlenül "
-"kapcsolódik, proxy használata nélkül (ha az aktív). Az értékek lehetnek "
-"kiszolgálónevek, tartományok (kezdő helyettesítő karakterek használhatóak, "
-"pl. *.akarmi.hu), IP kiszolgálócímek (IPv4 és IPv6 egyaránt) és hálózati "
-"címek hálózati maszkkal (pl. 192.168.0.0/24)."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "Ez a kulcs azon kiszolgálók listáját tartalmazza, amelyekhez közvetlenül kapcsolódik, proxy használata nélkül (ha az aktív). Az értékek lehetnek kiszolgálónevek, tartományok (kezdő helyettesítő karakterek használhatóak, pl. *.akarmi.hu), IP kiszolgálócímek (IPv4 és IPv6 egyaránt) és hálózati címek hálózati maszkkal (pl. 192.168.0.0/24)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1519,8 +1464,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"A Windows hálózati munkacsoport vagy tartomány, amelynek a felhasználó "
-"része. Egy új munkacsoport teljes életbe lépéséhez a felhasználónak lehet, "
-"hogy ki-, majd újra be kell jelentkeznie."
-
+msgstr "A Windows hálózati munkacsoport vagy tartomány, amelynek a felhasználó része. Egy új munkacsoport teljes életbe lépéséhez a felhasználónak lehet, hogy ki-, majd újra be kell jelentkeznie."

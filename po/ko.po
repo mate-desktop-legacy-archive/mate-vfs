@@ -1,21 +1,24 @@
-# mate-vfs ko.po
-# This file is distributed under the same license as the mate-vfs package.
-#
-# Young-Ho Cha <ganadist@dacome.co.kr>, 2000.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Changwoo Ryu <cwryu@debian.org>, 2002, 2004, 2007.
 # Changwoo Ryu <cwryu@debian.org>, 2002-2007, 2009, 2010.
-#
+# Young-Ho Cha <ganadist@dacome.co.kr>, 2000.
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-vfs\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=mate-vfs&component=general\n"
-"POT-Creation-Date: 2010-02-17 01:47+0900\n"
-"PO-Revision-Date: 2010-02-17 01:50+0900\n"
-"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
-"Language-Team: MATE Korea <mate-kr@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
+"POT-Creation-Date: 2012-02-17 17:38+0100\n"
+"PO-Revision-Date: 2012-02-17 16:42+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../libmatevfs/mate-vfs-cdrom.c:237
 msgid "ISO 9660 Volume"
@@ -490,9 +493,7 @@ msgstr "작동 중지"
 msgid ""
 "Deprecated function.  User modifications to the MIME database are no longer "
 "supported."
-msgstr ""
-"지원하지 않는 함수.  사용자가 MIME 데이터베이스를 수정하는 건 더 이상 지원하"
-"지 않습니다."
+msgstr "지원하지 않는 함수.  사용자가 MIME 데이터베이스를 수정하는 건 더 이상 지원하지 않습니다."
 
 #: ../libmatevfs/mate-vfs-parse-ls.c:713
 #, c-format
@@ -904,8 +905,7 @@ msgstr "네트워크 서버"
 #, c-format
 msgid ""
 "Unable to mount the floppy drive. There is probably no floppy in the drive."
-msgstr ""
-"플로피 드라이브를 마운트할 수 없습니다. 드라이브에 플로피가 없을 것입니다."
+msgstr "플로피 드라이브를 마운트할 수 없습니다. 드라이브에 플로피가 없을 것입니다."
 
 #. All others
 #: ../libmatevfs/mate-vfs-volume-ops.c:188
@@ -918,9 +918,7 @@ msgstr "해당 볼륨을 마운트할 수 없습니다. 해당 장치에 미디�
 msgid ""
 "Unable to mount the floppy drive. The floppy is probably in a format that "
 "cannot be mounted."
-msgstr ""
-"플로피 드라이브를 마운트할 수 없습니다. 플로피가 마운트할 수 없는 형식일 것입"
-"니다."
+msgstr "플로피 드라이브를 마운트할 수 없습니다. 플로피가 마운트할 수 없는 형식일 것입니다."
 
 #. Probably a wrong password
 #: ../libmatevfs/mate-vfs-volume-ops.c:198
@@ -928,18 +926,14 @@ msgstr ""
 msgid ""
 "Unable to mount the volume. If this is an encrypted drive, then the wrong "
 "password or key was used."
-msgstr ""
-"볼륨을 마운트할 수 없습니다. 암호화된 드라이브인 경우, 잘못된 열쇠글이나 키"
-"를 사용한 경우입니다."
+msgstr "볼륨을 마운트할 수 없습니다. 암호화된 드라이브인 경우, 잘못된 열쇠글이나 키를 사용한 경우입니다."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:201
 #, c-format
 msgid ""
-"Unable to mount the selected volume. The volume is probably in a format that "
-"cannot be mounted."
-msgstr ""
-"선택한 볼륨을 마운트할 수 없습니다. 해당 볼륨이 마운트할 수 없는 형식일 것입"
-"니다."
+"Unable to mount the selected volume. The volume is probably in a format that"
+" cannot be mounted."
+msgstr "선택한 볼륨을 마운트할 수 없습니다. 해당 볼륨이 마운트할 수 없는 형식일 것입니다."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:206
 msgid "Unable to mount the selected floppy drive."
@@ -954,9 +948,7 @@ msgstr "선택한 볼륨을 마운트할 수 없습니다."
 msgid ""
 "Unable to unmount the selected volume. The volume is in use by one or more "
 "programs."
-msgstr ""
-"선택한 볼륨을 마운트 해제할 수 없습니다. 다른 프로세스가 해당 볼륨을 사용중입"
-"니다."
+msgstr "선택한 볼륨을 마운트 해제할 수 없습니다. 다른 프로세스가 해당 볼륨을 사용중입니다."
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:224
 msgid "Unable to unmount the selected volume."
@@ -974,9 +966,7 @@ msgstr "PTY에서 마운트 프로세스를 실행할 수 없습니다"
 #: ../libmatevfs/mate-vfs-volume-ops.c:466
 #, c-format
 msgid "Unexpected error in select() reading data from a child process (%s)"
-msgstr ""
-"하위 프로세스에서 (%s) 데이터를 읽는 데 select()에서 예상치 못한 오류가 발생"
-"했습니다"
+msgstr "하위 프로세스에서 (%s) 데이터를 읽는 데 select()에서 예상치 못한 오류가 발생했습니다"
 
 #: ../libmatevfs/mate-vfs-volume-ops.c:520
 #, c-format
@@ -1032,13 +1022,8 @@ msgstr "원격 컴퓨터(%s)의 신원을 알 수 없습니다."
 msgid ""
 "This happens when you log in to a computer the first time.\n"
 "\n"
-"The identity sent by the remote computer is %s. If you want to be absolutely "
-"sure it is safe to continue, contact the system administrator."
-msgstr ""
-"이 현상은 첫 번째로 컴퓨터에 로그인할 때 발생합니다.\n"
-"\n"
-"원격 컴퓨터가 보낸 신원은 %s입니다. 계속해도 안전한지 철저하게 확인하려면, 시"
-"스템 관리자에게 물어보십시오."
+"The identity sent by the remote computer is %s. If you want to be absolutely sure it is safe to continue, contact the system administrator."
+msgstr "이 현상은 첫 번째로 컴퓨터에 로그인할 때 발생합니다.\n\n원격 컴퓨터가 보낸 신원은 %s입니다. 계속해도 안전한지 철저하게 확인하려면, 시스템 관리자에게 물어보십시오."
 
 #: ../modules/sftp-method.c:1433
 msgid "Log In Anyway"
@@ -1069,9 +1054,7 @@ msgstr "사용하고 있는 HTTP 프록시는 로그인을 해야 합니다.\n"
 msgid ""
 "You must log in to access \"%s\".\n"
 "%s"
-msgstr ""
-"\"%s\"에 접근하려면 로그인해야 합니다.\n"
-"%s"
+msgstr "\"%s\"에 접근하려면 로그인해야 합니다.\n%s"
 
 #: ../programs/authentication.c:110
 msgid "Your password will be transmitted unencrypted."
@@ -1107,11 +1090,9 @@ msgstr "기본 터미널을 실행할 때 줄 인자"
 #, no-c-format
 msgid ""
 "The application to use for viewing files that require a component to view "
-"them. The parameter %s will be replaced by the file's URIs, the parameter %c "
-"will be replaced by the component IID."
-msgstr ""
-"볼려면 컴포넌트가 필요한 파일을 볼 때 사용할 프로그램. 인자 %s은(는) 파일의 "
-"URI이고, 인자 %c은(는) 컴포넌트 IID입니다."
+"them. The parameter %s will be replaced by the file's URIs, the parameter %c"
+" will be replaced by the component IID."
+msgstr "볼려면 컴포넌트가 필요한 파일을 볼 때 사용할 프로그램. 인자 %s은(는) 파일의 URI이고, 인자 %c은(는) 컴포넌트 IID입니다."
 
 #: ../schemas/desktop_default_applications.schemas.in.h:6
 msgid ""
@@ -1215,14 +1196,14 @@ msgstr "참이면 \"command\" 키에 지정한 명령어로 \"aim\" URL을 처�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:23
 msgid ""
-"True if the command specified in the \"command\" key should handle \"callto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"callto\" URLs."
 msgstr "참이면 \"command\" 키에 지정한 명령어로 \"callto\" URL을 처리합니다."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:24
 msgid ""
-"True if the command specified in the \"command\" key should handle \"ghelp\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"ghelp\""
+" URLs."
 msgstr "참이면 \"command\" 키에 지정한 명령어로 \"ghelp\" URL을 처리합니다."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:25
@@ -1239,8 +1220,8 @@ msgstr "참이면 \"command\" 키에 지정한 명령어로 \"http\" URL을 처�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:27
 msgid ""
-"True if the command specified in the \"command\" key should handle \"https\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"https\""
+" URLs."
 msgstr "참이면 \"command\" 키에 지정한 명령어로 \"https\" URL을 처리합니다."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:28
@@ -1251,8 +1232,8 @@ msgstr "참이면 \"command\" 키에 지정한 명령어로 \"info\" URL을 처�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:29
 msgid ""
-"True if the command specified in the \"command\" key should handle \"mailto"
-"\" URLs."
+"True if the command specified in the \"command\" key should handle "
+"\"mailto\" URLs."
 msgstr "참이면 \"command\" 키에 지정한 명령어로 \"mailto\" URL을 처리합니다."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:30
@@ -1263,8 +1244,8 @@ msgstr "참이면 \"command\" 키에 지정한 명령어로 \"man\" URL을 처�
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:31
 msgid ""
-"True if the command specified in the \"command\" key should handle \"trash\" "
-"URLs."
+"True if the command specified in the \"command\" key should handle \"trash\""
+" URLs."
 msgstr "참이면 \"command\" 키에 지정한 명령어로 \"trash\" URL을 처리합니다."
 
 #: ../schemas/desktop_mate_url_handlers.schemas.in.h:32
@@ -1317,8 +1298,7 @@ msgstr "지정한 명령어로 \"trash\" URL을 처리할 지 여부"
 msgid ""
 "Comma separated list of DNS-SD domains that should be visible in the "
 "\"network:///\" location."
-msgstr ""
-"\"network:///\" 위치에서 보여야 하는 DNS-SD 도메인들의 쉼표로 구분한 목록."
+msgstr "\"network:///\" 위치에서 보여야 하는 DNS-SD 도메인들의 쉼표로 구분한 목록."
 
 #: ../schemas/system_dns_sd.schemas.in.h:2
 msgid "Extra domains to look for DNS-SD services in"
@@ -1371,12 +1351,10 @@ msgstr "HTTP 프록시 사용자 이름"
 #: ../schemas/system_http_proxy.schemas.in.h:10
 msgid ""
 "If true, then connections to the proxy server require authentication. The "
-"username/password combo is defined by \"/system/http_proxy/"
-"authentication_user\" and \"/system/http_proxy/authentication_password\"."
-msgstr ""
-"참이면, 프록시 서버에 연결하는 데 인증이 필요합니다. 사용자 이름과 암호는 \"/"
-"system/http_proxy/authentication_user\" 및 \"/system/http_proxy/"
-"authentication_password\"에서 지정합니다."
+"username/password combo is defined by "
+"\"/system/http_proxy/authentication_user\" and "
+"\"/system/http_proxy/authentication_password\"."
+msgstr "참이면, 프록시 서버에 연결하는 데 인증이 필요합니다. 사용자 이름과 암호는 \"/system/http_proxy/authentication_user\" 및 \"/system/http_proxy/authentication_password\"에서 지정합니다."
 
 #: ../schemas/system_http_proxy.schemas.in.h:11
 msgid "Non-proxy hosts"
@@ -1408,11 +1386,9 @@ msgstr "보안 HTTP 프록시 포트"
 
 #: ../schemas/system_http_proxy.schemas.in.h:18
 msgid ""
-"Select the proxy configuration mode. Supported values are \"none\", \"manual"
-"\", \"auto\"."
-msgstr ""
-"프록시 설정 모드를 선택합니다. 지원하는 값은 \"none\", \"manual\", \"auto\"입"
-"니다."
+"Select the proxy configuration mode. Supported values are \"none\", "
+"\"manual\", \"auto\"."
+msgstr "프록시 설정 모드를 선택합니다. 지원하는 값은 \"none\", \"manual\", \"auto\"입니다."
 
 #: ../schemas/system_http_proxy.schemas.in.h:19
 msgid "The machine name to proxy FTP through."
@@ -1434,40 +1410,33 @@ msgstr "SOCKS 프록시로 쓸 기계의 이름."
 msgid ""
 "The port on the machine defined by \"/system/http_proxy/host\" that you "
 "proxy through."
-msgstr ""
-"프록시에 사용할 포트 (\"/system/http_proxy/host\"에서 지정한 기계에서)."
+msgstr "프록시에 사용할 포트 (\"/system/http_proxy/host\"에서 지정한 기계에서)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:24
 msgid ""
-"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy "
-"through."
+"The port on the machine defined by \"/system/proxy/ftp_host\" that you proxy"
+" through."
 msgstr "프록시에 사용할 포트 (\"/system/proxy/ftp_host\"에서 지정한 기계에서)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:25
 msgid ""
 "The port on the machine defined by \"/system/proxy/secure_host\" that you "
 "proxy through."
-msgstr ""
-"프록시에 사용할 포트 (\"/system/proxy/secure_host\"에서 지정한 기계에서)."
+msgstr "프록시에 사용할 포트 (\"/system/proxy/secure_host\"에서 지정한 기계에서)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:26
 msgid ""
 "The port on the machine defined by \"/system/proxy/socks_host\" that you "
 "proxy through."
-msgstr ""
-"프록시에 사용할 포트 (\"/system/proxy/socks_host\"에서 지정한 기계에서)."
+msgstr "프록시에 사용할 포트 (\"/system/proxy/socks_host\"에서 지정한 기계에서)."
 
 #: ../schemas/system_http_proxy.schemas.in.h:27
 msgid ""
 "This key contains a list of hosts which are connected to directly, rather "
 "than via the proxy (if it is active). The values can be hostnames, domains "
-"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and "
-"IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
-msgstr ""
-"이 키에는 (프록시가 사용 가능할 경우에도) 프록시를 통하지 않고 직접 연결할 호"
-"스트의 목록이 들어갑니다. 각 값들은 호스트 이름, 도메인 이름(*.foo.com과 같"
-"은 와일드 카드 사용), IP 호스트 주소(IPv4와 IPv6 모두 가능), 네트마스크를 사"
-"용한 네트워크 주소(192.168.0.0/24와 같이)를 쓸 수 있습니다."
+"(using an initial wildcard like *.foo.com), IP host addresses (both IPv4 and"
+" IPv6) and network addresses with a netmask (something like 192.168.0.0/24)."
+msgstr "이 키에는 (프록시가 사용 가능할 경우에도) 프록시를 통하지 않고 직접 연결할 호스트의 목록이 들어갑니다. 각 값들은 호스트 이름, 도메인 이름(*.foo.com과 같은 와일드 카드 사용), IP 호스트 주소(IPv4와 IPv6 모두 가능), 네트마스크를 사용한 네트워크 주소(192.168.0.0/24와 같이)를 쓸 수 있습니다."
 
 #: ../schemas/system_http_proxy.schemas.in.h:28
 msgid "URL that provides proxy configuration values."
@@ -1490,6 +1459,4 @@ msgid ""
 "The Windows networking workgroup or domain that the user is part of. In "
 "order for a new workgroup to fully take effect the user may need to log out "
 "and log back in."
-msgstr ""
-"사용자가 속해 있는 윈도우 네트워크 워크그룹 혹은 도메인. 새 워크그룹이 완전"
-"히 동작하려면 사용자가 로그아웃했다가 다시 로그인해야 할 수도 있습니다."
+msgstr "사용자가 속해 있는 윈도우 네트워크 워크그룹 혹은 도메인. 새 워크그룹이 완전히 동작하려면 사용자가 로그아웃했다가 다시 로그인해야 할 수도 있습니다."
